@@ -1,33 +1,33 @@
 <!doctype html>
-<html lang="ja" data-page-mode="archive" data-briefs-json="../data/briefs.json" data-base-href="../">
+<html lang="ja" data-page-mode="tickers" data-briefs-json="../data/briefs.json" data-base-href="../">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Market Morning Brief - Archive</title>
+    <title>Market Morning Brief - Tickers</title>
     <link rel="stylesheet" href="../assets/style.css" />
   </head>
   <body>
     <div class="wrap">
       <header>
-        <h1>Market Morning Brief（アーカイブ）</h1>
-        <div class="meta">日別ページの一覧（過去ログを検索できます）</div>
+        <h1>Market Morning Brief（銘柄ログ）</h1>
+        <div class="meta">過去ブリーフに登場した銘柄コードの頻度を一覧できます。</div>
         <nav>
           <a href="../index.html">最新</a>
+          <a href="../archive/index.html">アーカイブ</a>
           <a href="../search.html">検索</a>
-          <a href="../stocks/index.html">銘柄</a>
           <a href="../tags/index.html">タグ</a>
         </nav>
       </header>
 
       <main>
         <section>
-          <h2>一覧</h2>
+          <h2>銘柄</h2>
           <div class="controls">
-            <input class="js-search" type="search" placeholder="キーワード / 銘柄コード / タグ（例: 9983, 円安, 決算）" />
+            <input class="js-search" type="search" placeholder="銘柄コード（例: 9983） / キーワード" />
             <div class="muted js-count"></div>
           </div>
           <div class="muted js-error"></div>
-          <div class="js-brief-list" style="margin-top:12px"></div>
+          <div class="js-ticker-list" style="margin-top:12px"></div>
         </section>
       </main>
 

@@ -5,6 +5,9 @@
   --muted:#a9b7c7;
   --accent:#6ee7ff;
   --link:#7dd3fc;
+  --good:#86efac;
+  --warn:#fbbf24;
+  --bad:#fb7185;
   --border:rgba(255,255,255,.08);
 }
 *{box-sizing:border-box}
@@ -35,6 +38,7 @@ nav a{
   background:rgba(255,255,255,.03);
   font-size:13px;
 }
+.muted{color:var(--muted)}
 main{margin-top:18px; display:grid; gap:14px}
 section{
   padding:16px 18px;
@@ -50,6 +54,106 @@ section h2{
 }
 ul{margin:8px 0 0; padding-left:1.2em}
 li{margin:6px 0}
+.controls{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-top:8px;
+}
+input[type="search"]{
+  width:min(520px,100%);
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.03);
+  color:var(--text);
+  outline:none;
+}
+input[type="search"]::placeholder{color:rgba(169,183,199,.7)}
+.empty{
+  color:var(--muted);
+  padding:12px 0 6px;
+}
+.card{
+  padding:14px 14px 12px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.02);
+  border-radius:14px;
+}
+.row{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  align-items:center;
+}
+.date{
+  font-variant-numeric: tabular-nums;
+  color:var(--muted);
+  font-size:13px;
+}
+.go{
+  padding:6px 10px;
+  border:1px solid var(--border);
+  border-radius:999px;
+  background:rgba(255,255,255,.03);
+  font-size:13px;
+}
+.headline{
+  margin-top:8px;
+  font-size:14px;
+}
+.meta-line{
+  margin-top:6px;
+  color:var(--muted);
+  font-size:13px;
+}
+.badges{
+  margin-top:10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.badge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:4px 10px;
+  border-radius:999px;
+  background:rgba(110,231,255,.08);
+  border:1px solid rgba(110,231,255,.18);
+  color:rgba(203,244,255,.95);
+  font-size:12px;
+}
+.tickers{
+  margin-top:10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.ticker{
+  padding:4px 10px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.03);
+  font-size:12px;
+}
+ul.mini{
+  margin:8px 0 0;
+  color:rgba(231,238,247,.92);
+}
+.ticker-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:10px;
+  margin-bottom:12px;
+}
+.ticker-code{
+  font-size:22px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing:.4px;
+}
 footer{
   margin-top:18px;
   color:var(--muted);
@@ -61,4 +165,3 @@ code{
   padding:2px 6px;
   border-radius:8px;
 }
-
