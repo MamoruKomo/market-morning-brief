@@ -1,0 +1,346 @@
+(function () {
+  function $(selector) {
+    return document.querySelector(selector);
+  }
+
+  function escapeHtml(text) {
+    return String(text)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  async function loadJson(path) {
+    const res = await fetch(path, { cache: "no-store" });
+    if (!res.ok) throw new Error(`Failed to load ${path}`);
+    return res.json();
+  }
+
+  function asArray(value) {
+    return Array.isArray(value) ? value : [];
+  }
+
+  function fmtNum(value, opts) {
+    const n = Number(value);
+    if (!Number.isFinite(n)) return "—";
+    return new Intl.NumberFormat("ja-JP", opts || { maximumFractionDigits: 2 }).format(n);
+  }
+
+  function fmtPct(value) {
+    const n = Number(value);
+    if (!Number.isFinite(n)) return "—";
+    const sign = n > 0 ? "+" : "";
+    return `${sign}${fmtNum(n, { maximumFractionDigits: 2 })}%`;
+  }
+
+  function deltaClass(delta, deltaPct) {
+    const d = Number.isFinite(Number(deltaPct)) ? Number(deltaPct) : Number(delta);
+    if (!Number.isFinite(d) || d === 0) return "flat";
+    return d > 0 ? "up" : "down";
+  }
+
+  function renderChipLinks(values, hrefFn) {
+    const list = asArray(values)
+      .map((v) => String(v || "").trim())
+      .filter(Boolean);
+    if (list.length === 0) return `<div class="empty">—</div>`;
+    return `<div class="chips">${list
+      .slice(0, 20)
+      .map((v) => `<a class="chip" href="${escapeHtml(hrefFn(v))}">${escapeHtml(v)}</a>`)
+      .join("")}</div>`;
+  }
+
+  function renderBadges(tags) {
+    const list = asArray(tags)
+      .map((t) => String(t || "").trim())
+      .filter(Boolean);
+    if (list.length === 0) return "";
+    return `<div class="badges">${list
+      .slice(0, 12)
+      .map((t) => `<span class="badge">${escapeHtml(t)}</span>`)
+      .join("")}</div>`;
+  }
+
+  function renderKpiTile(tile) {
+    const label = escapeHtml(tile.label || "");
+    const valueCore = tile.value === "—" ? "—" : fmtNum(tile.value, tile.formatOpts);
+    const value = tile.valueSuffix && valueCore !== "—" ? `${valueCore}${escapeHtml(tile.valueSuffix)}` : valueCore;
+    const deltaCore =
+      tile.deltaText != null
+        ? String(tile.deltaText)
+        : tile.deltaPct != null
+          ? fmtPct(tile.deltaPct)
+          : tile.delta != null
+            ? fmtNum(tile.delta)
+            : "—";
+    const delta =
+      tile.deltaSuffix && deltaCore !== "—" ? `${deltaCore}${escapeHtml(tile.deltaSuffix)}` : deltaCore;
+    const cls = deltaClass(tile.delta, tile.deltaPct);
+    const sub = tile.sub ? `<div class="kpi-sub">${escapeHtml(tile.sub)}</div>` : "";
+    const href = tile.href ? escapeHtml(tile.href) : "";
+
+    const inner = `<div class="kpi-label">${label}</div>
+<div class="kpi-value">${value}</div>
+<div class="kpi-delta ${cls}">${delta}</div>
+${sub}`;
+
+    if (href) {
+      return `<a class="kpi" href="${href}" target="_blank" rel="noreferrer">${inner}</a>`;
+    }
+    return `<div class="kpi">${inner}</div>`;
+  }
+
+  function buildKpisFromMarketOverview(mo) {
+    const nikkei = mo?.nikkei || {};
+    const topix = mo?.topix || {};
+    const spx = mo?.sp500 || mo?.spx || {};
+    const dow = mo?.dow || {};
+    const nasdaq = mo?.nasdaq || {};
+    const us10y = mo?.us10y || {};
+    const usdJpy = mo?.usd_jpy || mo?.usdjpy || {};
+    const wti = mo?.wti || {};
+    const fut = mo?.nikkei_futures || mo?.nikkei225_futures || {};
+    const gap = mo?.futures_gap || {};
+
+    const tiles = [
+      {
+        label: "日経平均",
+        value: nikkei.value,
+        deltaPct: nikkei.change_pct,
+        sub: nikkei.asof || "",
+      },
+      {
+        label: "TOPIX",
+        value: topix.value,
+        deltaPct: topix.change_pct,
+        sub: topix.asof || "",
+      },
+      {
+        label: "米ドル/円",
+        value: usdJpy.value,
+        delta: usdJpy.change,
+        deltaPct: usdJpy.change_pct,
+        formatOpts: { maximumFractionDigits: 2 },
+        sub: usdJpy.asof || "",
+      },
+      {
+        label: "米10年",
+        value: us10y.value,
+        delta: us10y.change,
+        deltaPct: us10y.change_pct,
+        formatOpts: { maximumFractionDigits: 3 },
+        valueSuffix: "%",
+        sub: us10y.asof || "",
+      },
+      {
+        label: "WTI",
+        value: wti.value,
+        deltaPct: wti.change_pct,
+        formatOpts: { maximumFractionDigits: 2 },
+        sub: wti.asof || "",
+      },
+      {
+        label: "日経225先物",
+        value: fut.value,
+        deltaPct: fut.change_pct,
+        sub: fut.asof || "",
+      },
+      {
+        label: "先物ギャップ",
+        value: gap.value,
+        delta: gap.value,
+        formatOpts: { maximumFractionDigits: 0 },
+        valueSuffix: "pts",
+        sub: gap.asof || "",
+      },
+      {
+        label: "S&P500",
+        value: spx.value,
+        deltaPct: spx.change_pct,
+        sub: spx.asof || "",
+      },
+      {
+        label: "NYダウ",
+        value: dow.value,
+        deltaPct: dow.change_pct,
+        sub: dow.asof || "",
+      },
+      {
+        label: "Nasdaq",
+        value: nasdaq.value,
+        deltaPct: nasdaq.change_pct,
+        sub: nasdaq.asof || "",
+      },
+    ];
+
+    return tiles;
+  }
+
+  function renderTodayBrief(container, latest) {
+    if (!latest) {
+      container.innerHTML = `<div class="empty">まだブリーフがありません。</div>`;
+      return;
+    }
+    const date = escapeHtml(latest.date || "");
+    const headline = escapeHtml(latest.headline || "");
+    const url = escapeHtml(latest.url || "");
+    const synthesis = escapeHtml(latest.synthesis || "");
+
+    const bullets = asArray(latest.summary_bullets)
+      .map((t) => String(t || "").trim())
+      .filter(Boolean);
+    const bulletHtml =
+      bullets.length > 0
+        ? `<ul class="mini">${bullets.slice(0, 8).map((t) => `<li>${escapeHtml(t)}</li>`).join("")}</ul>`
+        : `<div class="empty">サマリーがありません。</div>`;
+
+    const tickers = renderChipLinks(latest.tickers, (code) => `stocks/ticker.html?code=${encodeURIComponent(code)}`);
+    const tags = renderChipLinks(latest.tags, (tag) => `tags/tag.html?tag=${encodeURIComponent(tag)}`);
+
+    container.innerHTML = `<div class="row">
+  <div class="headline">${date} — ${headline || "<span class=\"muted\">(headline未設定)</span>"}</div>
+  <a class="go" href="${url}">本文</a>
+</div>
+${synthesis ? `<div class="synthesis">${synthesis}</div>` : ""}
+${bulletHtml}
+<div class="subhead">注目銘柄</div>
+${tickers}
+<div class="subhead">テーマ</div>
+${tags}`;
+  }
+
+  function renderRecentBriefs(container, briefs) {
+    const list = asArray(briefs);
+    if (list.length === 0) {
+      container.innerHTML = `<div class="empty">—</div>`;
+      return;
+    }
+    container.innerHTML = `<div class="mini-list">${list
+      .slice(0, 10)
+      .map((b) => {
+        const date = escapeHtml(b.date || "");
+        const headline = escapeHtml(b.headline || "");
+        const url = escapeHtml(b.url || "");
+        return `<a class="mini-row" href="${url}">
+  <div class="mini-date">${date}</div>
+  <div class="mini-text">${headline}</div>
+</a>`;
+      })
+      .join("")}</div>`;
+  }
+
+  function renderTagTrends(container, briefs) {
+    const counts = new Map();
+    for (const b of briefs) {
+      for (const t of asArray(b.tags)) {
+        const key = String(t || "").trim();
+        if (!key) continue;
+        counts.set(key, (counts.get(key) || 0) + 1);
+      }
+    }
+    const top = Array.from(counts.entries())
+      .map(([tag, count]) => ({ tag, count }))
+      .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag))
+      .slice(0, 20);
+    if (top.length === 0) {
+      container.innerHTML = `<div class="empty">—</div>`;
+      return;
+    }
+    container.innerHTML = `<div class="chips">${top
+      .map(
+        (t) =>
+          `<a class="chip chip-muted" href="tags/tag.html?tag=${encodeURIComponent(t.tag)}">${escapeHtml(
+            t.tag,
+          )}<span class="chip-count">${t.count}</span></a>`,
+      )
+      .join("")}</div>`;
+  }
+
+  function renderTdnetMini(container, json) {
+    const items = Array.isArray(json?.items) ? json.items : [];
+    if (items.length === 0) {
+      container.innerHTML = `<div class="empty">データなし（GitHub Actionsが更新します）</div>`;
+      return;
+    }
+    const list = items
+      .slice()
+      .sort((a, b) => String(b.datetime_jst || "").localeCompare(String(a.datetime_jst || "")))
+      .slice(0, 8);
+    container.innerHTML = `<div class="mini-list">${list
+      .map((it) => {
+        const dt = escapeHtml(String(it.datetime_jst || "").slice(0, 16).replace("T", " "));
+        const code = escapeHtml(String(it.code || ""));
+        const company = escapeHtml(String(it.company || ""));
+        const title = escapeHtml(String(it.title_ja || it.title_en || it.title || ""));
+        const pdf = escapeHtml(String(it.pdf_url || ""));
+        const points = asArray(it.points_ja).filter(Boolean).slice(0, 2);
+        const pointsHtml =
+          points.length > 0
+            ? `<ul class="points compact">${points.map((p) => `<li>${escapeHtml(p)}</li>`).join("")}</ul>`
+            : "";
+        return `<div class="mini-card">
+  <div class="row">
+    <div class="date">${dt}</div>
+    ${pdf ? `<a class="go" href="${pdf}" target="_blank" rel="noreferrer">PDF</a>` : ""}
+  </div>
+  <div class="tdnet-title">${code ? `<span class="code-pill">${code}</span> ` : ""}${company ? `${company} — ` : ""}${title}</div>
+  ${pointsHtml}
+  ${renderBadges(it.tags || [])}
+</div>`;
+      })
+      .join("")}</div>`;
+  }
+
+  async function main() {
+    const kpi = $(".js-kpi");
+    const today = $(".js-today");
+    const recent = $(".js-recent");
+    const trends = $(".js-tag-trends");
+    const tdnetMini = $(".js-tdnet-mini");
+    const statsBrief = $(".js-stats-brief");
+    const statsTdnet = $(".js-stats-tdnet");
+
+    let briefs = [];
+    try {
+      const briefJson = await loadJson("data/briefs.json");
+      briefs = Array.isArray(briefJson) ? briefJson : Array.isArray(briefJson.briefs) ? briefJson.briefs : [];
+      briefs = briefs.slice().sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+    } catch (e) {
+      // ignore
+    }
+
+    const latest = briefs[0] || null;
+
+    if (statsBrief) {
+      statsBrief.textContent = latest?.date ? `最新ブリーフ: ${latest.date}` : "最新ブリーフ: —";
+    }
+
+    if (today) renderTodayBrief(today, latest);
+    if (recent) renderRecentBriefs(recent, briefs);
+    if (trends) renderTagTrends(trends, briefs);
+
+    if (kpi) {
+      const mo = latest?.market_overview || {};
+      const tiles = buildKpisFromMarketOverview(mo);
+      const html = tiles.map((t) => renderKpiTile(t)).join("");
+      kpi.innerHTML = html || `<div class="empty">—</div>`;
+    }
+
+    try {
+      const tdnetJson = await loadJson("data/tdnet.json");
+      if (statsTdnet) {
+        statsTdnet.textContent = tdnetJson?.last_checked_jst ? `適時開示更新: ${tdnetJson.last_checked_jst}` : "適時開示更新: —";
+      }
+      if (tdnetMini) renderTdnetMini(tdnetMini, tdnetJson);
+    } catch (e) {
+      if (statsTdnet) statsTdnet.textContent = "適時開示更新: —";
+      if (tdnetMini) tdnetMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", () => {
+    void main();
+  });
+})();

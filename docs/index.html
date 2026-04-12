@@ -11,6 +11,12 @@
       <header>
         <h1>Market Morning Brief（日本株・寄り前）</h1>
         <div class="meta">毎朝8:30（JST）にSlackへ「サマリー + 本文リンク」を配信します。</div>
+        <form class="gsearch" action="search.html" method="get">
+          <input class="js-gsearch" type="search" name="q" placeholder="材料 / 銘柄コード / タグで検索（例: 9983, 円安, 決算）" />
+        </form>
+        <div class="meta-line">
+          <span class="js-stats-brief">最新ブリーフ: —</span> · <span class="js-stats-tdnet">適時開示更新: —</span>
+        </div>
         <nav>
           <a href="index.html" aria-current="page">最新</a>
           <a href="archive/index.html">アーカイブ</a>
@@ -22,86 +28,64 @@
       </header>
 
       <main>
-        <article>
-          <div class="row" style="align-items:flex-end; gap:12px">
-            <h2 style="margin:0">2026-04-13（月）寄り前ブリーフ（デモ）</h2>
-            <a class="go" href="archive/2026-04-13.html">本文（アーカイブ）</a>
-          </div>
-          <p class="meta" style="margin-top:8px">
-            前日（4/10）はファストリ上方修正と地政学リスク後退期待で日経平均が大幅高。ただしTOPIXは横ばいで業種間の差が大きい。
-            週末の米株はまちまち、ドル円159円台・米金利高止まりのため、寄り付きは先物ギャップとセクター回転を優先して確認。
-          </p>
+        <div class="dash-grid">
+          <section class="span-2">
+            <h2>マーケット概況（最新ブリーフから）</h2>
+            <div class="kpi-bar js-kpi"></div>
+            <div class="meta-line">※数値は毎朝のブリーフ作成時点のスナップショットです。</div>
+          </section>
 
-          <section>
-            <h3>前日（4/10 金）引け</h3>
-            <ul>
-              <li>日経平均：56,924.11（+1.84%）</li>
-              <li>TOPIX：3,739.85（-0.04%）</li>
-              <li>ファストリ（9983）が業績予想上方修正で急騰、日経平均を押し上げ（寄与650円超）。</li>
-            </ul>
+          <section class="span-2">
+            <h2>今日の寄り前ブリーフ</h2>
+            <div class="js-today"></div>
           </section>
 
           <section>
-            <h3>業種（東証33、4/10）</h3>
-            <ul>
-              <li>上昇率上位：非鉄金属（+4.83%）/ ガラス・土石（+1.65%）/ 小売（+1.61%）</li>
-              <li>下落率上位：鉱業（-2.04%）/ 卸売（-1.75%）/ 情報・通信（-1.67%）</li>
-            </ul>
+            <h2>適時開示（新着）</h2>
+            <div class="js-tdnet-mini"></div>
+            <div class="controls" style="margin-top:12px">
+              <a class="go" href="tdnet/index.html">ログへ</a>
+            </div>
           </section>
 
           <section>
-            <h3>オーバーナイト（米4/10引け〜週末）</h3>
-            <ul>
-              <li>米株（4/10）：S&amp;P500 6,816.89（-0.11%）/ ダウ 47,916.57（-0.56%）/ ナスダック 22,902.89（+0.35%）</li>
-              <li>米10年：4.317% / WTI：96.57（-1.33%）/ ドル円：159.30（週末クローズ）</li>
-              <li>日経225先物：57,472.5（現物比 +548）</li>
-            </ul>
+            <h2>人気テーマ（過去ログ）</h2>
+            <div class="js-tag-trends"></div>
+            <div class="controls" style="margin-top:12px">
+              <a class="go" href="tags/index.html">タグ一覧</a>
+            </div>
           </section>
 
-          <section>
-            <h3>寄り前チェック（デイトレ向け）</h3>
-            <ul>
-              <li>先物ギャップ（大）→寄り直後は指数寄与銘柄（9983など）とセクター上位（非鉄/小売/電気機器）の強弱を優先。</li>
-              <li>ドル円（159円台）と米金利（4.3%台）→輸出/グロースの方向感に影響。</li>
-              <li>PTS（夜間）と適時開示（TDnet）で、寄り前の主役（出来高）を特定。</li>
-            </ul>
+          <section class="span-2">
+            <h2>最近のブリーフ</h2>
+            <div class="js-recent"></div>
+            <div class="controls" style="margin-top:12px">
+              <a class="go" href="archive/index.html">アーカイブへ</a>
+            </div>
           </section>
 
-          <section>
-            <h3>Sources</h3>
+          <section class="span-2">
+            <h2>クイックリンク（外部）</h2>
             <ul>
-              <li><a href="https://www.traders.co.jp/market_jp/index" target="_blank" rel="noreferrer">トレーダーズ・ウェブ（国内指数/東証業種別）</a></li>
-              <li><a href="https://www.nippon.com/en/news/yjj2026041000699/nikkei-average-briefly-hits-57-000-on-rosy-hopes-over-middle-east.html" target="_blank" rel="noreferrer">Nippon.com（時事）</a></li>
-              <li><a href="https://wtop.com/business-finance/2026/04/wall-street-holds-near-records-after-inflation-data-u-s-china-tariffs-and-iran-conflict/" target="_blank" rel="noreferrer">WTOP（AP）</a></li>
-              <li><a href="https://www.investing.com/indices/japan-225-futures" target="_blank" rel="noreferrer">Investing.com（日経225先物）</a></li>
-              <li><a href="https://www.investing.com/currencies/usd-jpy" target="_blank" rel="noreferrer">Investing.com（ドル円）</a></li>
-              <li><a href="https://ca.investing.com/rates-bonds/u.s.-10-year-bond-yield" target="_blank" rel="noreferrer">Investing.com（米10年）</a></li>
-              <li><a href="https://www.investing.com/commodities/crude-oil" target="_blank" rel="noreferrer">Investing.com（WTI）</a></li>
-              <li><a href="https://whtc.com/2026/04/09/japan-wholesale-inflation-jumps-boj-vows-vigilance-to-stagflation-risk/" target="_blank" rel="noreferrer">Reuters（企業物価/日銀）</a></li>
+              <li>
+                PTSナイト値上がりランキング（株探/Kabutan）：
+                <a href="https://en.kabutan.com/jp/trends/pts_night_price_increase?capitalization=1" target="_blank" rel="noreferrer">en.kabutan.com</a>
+              </li>
+              <li>
+                PTSナイト出来高ランキング（株探/Kabutan）：
+                <a href="https://en.kabutan.com/jp/trends/pts_night_volume_ranking?capitalization=1" target="_blank" rel="noreferrer">en.kabutan.com</a>
+              </li>
+              <li>
+                適時開示（TDnet 公式）：
+                <a href="https://www.release.tdnet.info/inbs/I_main_00.html" target="_blank" rel="noreferrer">release.tdnet.info</a>
+              </li>
             </ul>
           </section>
-        </article>
-
-        <section>
-          <h2>クイックリンク（外部）</h2>
-          <ul>
-            <li>
-              PTSナイト値上がりランキング（株探/Kabutan）：
-              <a href="https://en.kabutan.com/jp/trends/pts_night_price_increase?capitalization=1" target="_blank" rel="noreferrer">en.kabutan.com</a>
-            </li>
-            <li>
-              PTSナイト出来高ランキング（株探/Kabutan）：
-              <a href="https://en.kabutan.com/jp/trends/pts_night_volume_ranking?capitalization=1" target="_blank" rel="noreferrer">en.kabutan.com</a>
-            </li>
-            <li>
-              適時開示（TDnet 公式）：
-              <a href="https://www.release.tdnet.info/inbs/I_main_00.html" target="_blank" rel="noreferrer">release.tdnet.info</a>
-            </li>
-          </ul>
-        </section>
+        </div>
       </main>
 
       <footer>Generated by automation.</footer>
     </div>
+    <script src="assets/home.js"></script>
   </body>
 </html>

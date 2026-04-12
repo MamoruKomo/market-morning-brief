@@ -298,6 +298,9 @@ ${entries
       const list = $(".js-brief-list");
       const input = $(".js-search");
       const info = $(".js-count");
+      const params = new URLSearchParams(location.search);
+      const preset = params.get("q");
+      if (input && preset) input.value = preset;
       const render = () => {
         const q = input?.value || "";
         renderBriefList(list, briefs, { baseHref, query: q });
@@ -313,6 +316,9 @@ ${entries
       const list = $(".js-brief-list");
       const input = $(".js-search");
       const info = $(".js-count");
+      const params = new URLSearchParams(location.search);
+      const preset = params.get("q");
+      if (input && preset) input.value = preset;
       const render = () => {
         const q = input?.value || "";
         renderBriefList(list, briefs, { baseHref, query: q, limit: 200 });
@@ -329,6 +335,9 @@ ${entries
       const list = $(".js-ticker-list");
       const input = $(".js-search");
       const info = $(".js-count");
+      const params = new URLSearchParams(location.search);
+      const preset = params.get("q");
+      if (input && preset) input.value = preset;
       const render = () => {
         const q = input?.value || "";
         renderTickerIndex(list, tickerMap, baseHref, q);
@@ -345,6 +354,9 @@ ${entries
       const list = $(".js-tag-list");
       const input = $(".js-search");
       const info = $(".js-count");
+      const params = new URLSearchParams(location.search);
+      const preset = params.get("q");
+      if (input && preset) input.value = preset;
       const render = () => {
         const q = input?.value || "";
         renderTagIndex(list, tagMap, baseHref, q);
