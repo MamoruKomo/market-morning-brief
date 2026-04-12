@@ -10,7 +10,9 @@
     <div class="wrap">
       <header>
         <h1>適時開示（アラートログ）</h1>
-        <div class="meta">新着の適時開示を蓄積し、検索できます。<span class="js-last-checked"></span></div>
+        <div class="meta">
+          新着の適時開示を蓄積し、日本語の要点つきで一覧・検索できます。<span class="js-last-checked"></span>
+        </div>
         <nav>
           <a href="../index.html">最新</a>
           <a href="../archive/index.html">アーカイブ</a>
@@ -25,10 +27,18 @@
           <h2>適時開示</h2>
           <div class="controls">
             <input class="js-search" type="search" placeholder="銘柄コード / 会社名 / キーワード（例: 7545, 自己株, 増資）" />
+            <label class="toggle">
+              <input class="js-toggle-en" type="checkbox" />
+              原文（英）も表示
+            </label>
             <div class="muted js-count"></div>
           </div>
+          <div class="filters js-filters" aria-label="filters"></div>
           <div class="muted js-error"></div>
           <div class="js-tdnet-list" style="margin-top:12px"></div>
+          <div class="controls" style="margin-top:12px">
+            <button class="go js-more" type="button" style="display:none">もっと見る</button>
+          </div>
         </section>
 
         <section>
@@ -51,4 +61,3 @@
     <script src="../assets/tdnet.js"></script>
   </body>
 </html>
-
