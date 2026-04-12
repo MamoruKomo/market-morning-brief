@@ -21,6 +21,37 @@ body{
 a{color:var(--link); text-decoration:none}
 a:hover{text-decoration:underline}
 .wrap{max-width:980px; margin:0 auto; padding:24px 16px 56px}
+@media (min-width: 920px){
+  .wrap{
+    max-width:1180px;
+    display:grid;
+    grid-template-columns: 280px 1fr;
+    grid-template-areas:
+      "sidebar main"
+      "sidebar footer";
+    gap:18px;
+    align-items:start;
+  }
+  header{
+    grid-area: sidebar;
+    position: sticky;
+    top: 24px;
+    max-height: calc(100vh - 48px);
+    overflow:auto;
+  }
+  main{grid-area: main; margin-top:0}
+  footer{grid-area: footer; margin-top:0}
+  nav{
+    flex-direction:column;
+    align-items:stretch;
+    gap:8px;
+  }
+  nav a{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+  }
+}
 header{
   padding:18px 18px 14px;
   border:1px solid var(--border);
