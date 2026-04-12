@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-12T23:32:35+09:00",
+  "last_checked_jst": "2026-04-13T01:34:03+09:00",
   "items": [
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501982.pdf",
@@ -12,14 +12,16 @@
         "TOB",
         "遅延"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501982.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501982.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "[delayed]Notice concerning Results of the Tender Offer for Company Shares, Change in the Status of Major Shareholders and Other Affiliated Companies",
       "title_ja": "（遅延）公開買付（TOB）の結果 for Company Shares, 主要株主の異動 and その他の関係会社に関するお知らせ",
       "points_ja": [
         "TOB（価格/期間/目的）を確認",
         "開示遅延（追補の有無）に注意"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501982.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501982.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410502015.pdf",
@@ -30,13 +32,15 @@
       "tags": [
         "決算"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410502015.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410502015.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice of Partial Excerpt from FY 2025 Financial Report of Chinese Consolidated Subsidiary, GRINM Semiconductor Material Co., Ltd.（Gritek）",
       "title_ja": "Partial Excerpt from FY 2025 財務報告 of Chinese Consolidated Subsidiary, GRINM Semiconductor Material Co., Ltd.（Gritek）のお知らせ",
       "points_ja": [
         "決算関連（決算短信/説明資料）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410502015.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410502015.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501827.pdf",
@@ -45,13 +49,15 @@
       "title": "Notice of Conversion of Class A Preferred Shares into Common Shares",
       "datetime_jst": "2026-04-10T18:00:00+09:00",
       "tags": [],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501827.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501827.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice of Conversion of Class A Preferred Shares into Common Shares",
       "title_ja": "Conversion of Class A Preferred Shares into Common Sharesのお知らせ",
       "points_ja": [
         "株式数の変化（転換/希薄化）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501827.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501827.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501985.pdf",
@@ -62,14 +68,16 @@
       "tags": [
         "決算"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501985.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501985.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice Concerning the Impact on Consolidated Financial Results from a Request for Termination of a Distribution Agreement",
       "title_ja": "the Impact on 連結決算 from a Request for Termination of a Distribution Agreementに関するお知らせ",
       "points_ja": [
         "決算関連（決算短信/説明資料）を確認",
         "業績への影響（定量/定性）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501985.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501985.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501971.pdf",
@@ -81,14 +89,16 @@
         "人事",
         "訂正"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501971.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501971.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "（Correction）Notice Regarding Determination of Director Candidates",
       "title_ja": "（訂正）Determination of Director Candidatesに関するお知らせ",
       "points_ja": [
         "役員人事/体制変更の内容を確認",
         "訂正開示（差分）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501971.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501971.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501247.pdf",
@@ -99,13 +109,15 @@
       "tags": [
         "自己株処分"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501247.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501247.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Announcement of Disposal of Treasury Shares as Restricted Stock for Transfer to Employees of the Company",
       "title_ja": "自己株式処分 as Restricted Stock for Transfer to Employees of the Companyの発表",
       "points_ja": [
         "自己株式の処分（需給/希薄化）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501247.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501247.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501965.pdf",
@@ -114,13 +126,15 @@
       "title": "Notice Regarding Update of Analyst Report by Shared Research",
       "datetime_jst": "2026-04-10T17:00:00+09:00",
       "tags": [],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501965.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501965.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice Regarding Update of Analyst Report by Shared Research",
       "title_ja": "Update of Analyst Report by Shared Researchに関するお知らせ",
       "points_ja": [
         "PDFで重要点（数字/条件）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501965.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501965.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501927.pdf",
@@ -131,13 +145,15 @@
       "tags": [
         "決算"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501927.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501927.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Financial Results for the Three Months Ended February 28, 2026 [Japanese GAAP]",
       "title_ja": "決算 for the Three Months Ended February 28, 2026 [Japanese GAAP]",
       "points_ja": [
         "決算関連（決算短信/説明資料）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501927.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501927.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501888.pdf",
@@ -148,13 +164,15 @@
       "tags": [
         "M&A"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501888.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501888.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice Concerning the Acquisition of Shares of NISHIKAWA KEISOKU Co., Ltd. (Securities Code: 7500) Constituting Act of Buying up",
       "title_ja": "the Acquisition of Shares of NISHIKAWA KEISOKU Co., Ltd. (Securities Code: 7500) Constituting Act of Buying upに関するお知らせ",
       "points_ja": [
         "M&A/子会社化など（スキーム/条件）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501888.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501888.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501854.pdf",
@@ -165,13 +183,15 @@
       "tags": [
         "SO"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501854.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501854.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice Concerning Issuance of Stock Options (Subscription Rights to Shares) to Employees",
       "title_ja": "Issuance of Stock Options (Subscription Rights to Shares) to Employeesに関するお知らせ",
       "points_ja": [
         "ストックオプション（希薄化/条件）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501854.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501854.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
@@ -182,13 +202,15 @@
       "tags": [
         "人事"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501852.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice of Personnel Change",
       "title_ja": "Personnel Changeのお知らせ",
       "points_ja": [
         "役員人事/体制変更の内容を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501852.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
@@ -199,13 +221,15 @@
       "tags": [
         "自己株"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501847.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice Concerning Results and Completion of Repurchase of Own Shares",
       "title_ja": "Results and Completion of Repurchase of Own Sharesに関するお知らせ",
       "points_ja": [
         "自己株式（取得/消却/方針）の条件を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501847.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501721.pdf",
@@ -216,13 +240,15 @@
       "tags": [
         "TOB"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501721.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501721.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice of Update on Progress Toward Implementation of Tender Offer for Shares of Makino Milling Machine Co., Ltd. (Securities Code: 6135) by MM",
       "title_ja": "Update on Progress Toward Implementation of 公開買付（TOB） for Shares of Makino Milling Machine Co., Ltd. (Securities Code: 6135) by MMのお知らせ",
       "points_ja": [
         "TOB（価格/期間/目的）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501721.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501721.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501337.pdf",
@@ -233,13 +259,15 @@
       "tags": [
         "借入"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501337.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501337.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice Concerning Borrowing of Funds",
       "title_ja": "Borrowing of Fundsに関するお知らせ",
       "points_ja": [
         "借入/資金調達（条件/返済）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501337.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501337.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501355.pdf",
@@ -250,13 +278,15 @@
       "tags": [
         "自己株処分"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501355.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260410501355.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice of Disposal of Treasury Shares as Restricted Stock Compensation",
       "title_ja": "自己株式処分 as Restricted Stock Compensationのお知らせ",
       "points_ja": [
         "自己株式の処分（需給/希薄化）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501355.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260410501355.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501226.pdf",
@@ -265,13 +295,15 @@
       "title": "Notice Concerning Acquisition of Fixed Assets",
       "datetime_jst": "2026-04-10T16:01:00+09:00",
       "tags": [],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501226.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260409501226.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice Concerning Acquisition of Fixed Assets",
       "title_ja": "Acquisition of Fixed Assetsに関するお知らせ",
       "points_ja": [
         "PDFで重要点（数字/条件）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501226.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260409501226.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501166.pdf",
@@ -282,13 +314,15 @@
       "tags": [
         "増資/売出"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501166.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260409501166.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice Regarding Issuance of New Shares and Secondary Offering of Shares",
       "title_ja": "Issuance of New Shares and Secondary Offering of Sharesに関するお知らせ",
       "points_ja": [
         "増資/売出（希薄化・需給インパクト）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501166.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260409501166.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260409500810.pdf",
@@ -299,13 +333,15 @@
       "tags": [
         "増資/売出"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260409500810.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260409500810.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice Regarding Secondary Offering of Shares of Consolidated Subsidiary to Satisfy the Continued Listing Criteria",
       "title_ja": "Secondary Offering of Shares of Consolidated Subsidiary to Satisfy the Continued Listing Criteriaに関するお知らせ",
       "points_ja": [
         "増資/売出（希薄化・需給インパクト）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260409500810.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260409500810.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599610.pdf",
@@ -317,14 +353,16 @@
         "業績修正",
         "配当"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599610.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260407599610.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Notice of Revisions to Consolidated Financial Forecasts and Dividend Forecast for the Fiscal Year Ending August 31, 2026",
       "title_ja": "修正 to Consolidated Financial Forecasts and 配当予想 for the Fiscal Year Ending August 31, 2026のお知らせ",
       "points_ja": [
         "業績予想/ガイダンスの修正（上方/下方・理由）を確認",
         "配当予想/方針（増配/減配/無配）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599610.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260407599610.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
@@ -335,13 +373,15 @@
       "tags": [
         "決算"
       ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
+      "pdf_url": "https://release.tdnet.info/inbs/140120260407599607.pdf",
       "source_url": "https://en.kabutan.com/jp/disclosures",
       "title_en": "Financial Results for the Six Months Ended February 28, 2026",
       "title_ja": "決算 for the Six Months Ended February 28, 2026",
       "points_ja": [
         "決算関連（決算短信/説明資料）を確認"
-      ]
+      ],
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260407599607.pdf"
     }
   ]
 }

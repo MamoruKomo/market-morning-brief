@@ -316,7 +316,7 @@ ${tags}`;
         const code = escapeHtml(String(it.code || ""));
         const company = escapeHtml(String(it.company || ""));
         const title = escapeHtml(String(it.title_ja || it.title_en || it.title || ""));
-        const pdf = escapeHtml(String(it.pdf_url || ""));
+        const pdf = escapeHtml(String(it.pdf_url_ja || it.pdf_url || ""));
         const points = asArray(it.points_ja).filter(Boolean).slice(0, 2);
         const pointsHtml =
           points.length > 0
@@ -335,12 +335,157 @@ ${tags}`;
       .join("")}</div>`;
   }
 
+  function groupWatchSnapshots(snapshots) {
+    const map = new Map();
+    for (const snap of asArray(snapshots)) {
+      const dt = String(snap?.datetime_jst || "").trim();
+      const phase = String(snap?.phase || "").trim();
+      if (!dt || !phase) continue;
+      const date = dt.slice(0, 10);
+      const key = `${date}:${phase}`;
+      const existing = map.get(key);
+      if (!existing || String(existing.datetime_jst || "") < dt) map.set(key, snap);
+    }
+    return map;
+  }
+
+  function mapWatchItems(snapshot) {
+    const m = new Map();
+    const items = Array.isArray(snapshot?.items) ? snapshot.items : [];
+    for (const it of items) {
+      const code = String(it?.code || "").trim();
+      if (!code) continue;
+      m.set(code, it);
+    }
+    return m;
+  }
+
+  function computeChange(price, prevClose) {
+    const p = Number(price);
+    const prev = Number(prevClose);
+    if (!Number.isFinite(p) || !Number.isFinite(prev) || prev === 0) return null;
+    return { delta: p - prev, pct: ((p - prev) / prev) * 100 };
+  }
+
+  function renderDeltaPill(change) {
+    if (!change) return `<span class="delta flat">—</span>`;
+    const cls = change.delta === 0 ? "flat" : change.delta > 0 ? "up" : "down";
+    const sign = change.delta > 0 ? "+" : "";
+    return `<span class="delta ${cls}">${sign}${fmtNum(change.delta, { maximumFractionDigits: 0 })} (${fmtPct(
+      change.pct,
+    )})</span>`;
+  }
+
+  function renderPctPill(pct) {
+    const n = Number(pct);
+    if (!Number.isFinite(n) || n === 0) return `<span class="delta flat">0.00%</span>`;
+    const cls = n > 0 ? "up" : "down";
+    return `<span class="delta ${cls}">${fmtPct(n)}</span>`;
+  }
+
+  function renderWatchlistMini(container, cfg, snapshots) {
+    const groups = asArray(cfg?.groups);
+    const snaps = asArray(snapshots);
+    if (!groups.length) {
+      container.innerHTML = `<div class="empty">watchlist.json が未設定です。</div>`;
+      return;
+    }
+    if (!snaps.length) {
+      container.innerHTML = `<div class="empty">まだスナップショットがありません（GitHub Actionsが更新）</div>`;
+      return;
+    }
+
+    const dates = Array.from(
+      new Set(snaps.map((s) => String(s?.datetime_jst || "").slice(0, 10)).filter(Boolean)),
+    ).sort((a, b) => b.localeCompare(a));
+    const date = dates[0];
+    const by = groupWatchSnapshots(snaps);
+    const openSnap = by.get(`${date}:open`);
+    const closeSnap = by.get(`${date}:close`);
+    const openMap = mapWatchItems(openSnap);
+    const closeMap = mapWatchItems(closeSnap);
+
+    const stamp = closeSnap?.datetime_jst || openSnap?.datetime_jst || "";
+
+    const head = `<div class="meta-line">${escapeHtml(date)}（${escapeHtml(
+      stamp ? stamp.slice(11, 16) : "—",
+    )} JST）</div>`;
+
+    const sections = groups
+      .map((g) => {
+        const sector = escapeHtml(g.sector || "—");
+        const tickers = asArray(g.tickers);
+        const sectorPcts = [];
+        const rows = tickers
+          .slice(0, 8)
+          .map((t) => {
+            const code = String(t?.code || "").trim();
+            if (!code) return "";
+            const openItem = openMap.get(code);
+            const closeItem = closeMap.get(code);
+            const base = closeItem || openItem || {};
+            const name = String(base.name || t.name || "").trim();
+
+            const prev = base.prev_close;
+            const last = closeItem?.close ?? openItem?.open ?? base.close ?? base.open;
+            const vol = closeItem?.volume ?? openItem?.volume ?? base.volume;
+
+            const ch = computeChange(last, prev);
+            if (ch && Number.isFinite(Number(ch.pct))) sectorPcts.push(Number(ch.pct));
+            const cls = ch ? deltaClass(ch.delta, ch.pct) : "flat";
+            const rowClass = cls === "up" ? "is-up" : cls === "down" ? "is-down" : "";
+            const lastHtml = Number.isFinite(Number(last)) ? fmtNum(last, { maximumFractionDigits: 0 }) : "—";
+            const lastHtmlColored =
+              cls === "up"
+                ? `<span class="price up">${lastHtml}</span>`
+                : cls === "down"
+                  ? `<span class="price down">${lastHtml}</span>`
+                  : lastHtml;
+            const volHtml = Number.isFinite(Number(vol)) ? fmtNum(vol, { maximumFractionDigits: 0 }) : "—";
+            const url = `https://kabutan.jp/stock/?code=${encodeURIComponent(code)}`;
+
+            return `<div class="watch-mini-row${rowClass ? ` ${rowClass}` : ""}">
+  <a class="watch-mini-code" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(code)}</a>
+  <div class="watch-mini-name">${escapeHtml(name)}</div>
+  <div class="watch-mini-last">${lastHtmlColored}</div>
+  <div class="watch-mini-delta">${renderDeltaPill(ch)}</div>
+  <div class="watch-mini-vol">${volHtml}</div>
+</div>`;
+          })
+          .filter(Boolean)
+          .join("");
+        if (!rows) return "";
+
+        const avgPct = sectorPcts.length ? sectorPcts.reduce((a, b) => a + b, 0) / sectorPcts.length : null;
+        const sectorPill = avgPct == null ? `<span class="delta flat">—</span>` : renderPctPill(avgPct);
+
+        return `<div class="watch-mini">
+  <div class="watch-mini-head"><span>${sector}</span>${sectorPill}</div>
+  <div class="watch-mini-grid">
+    <div class="watch-mini-row watch-mini-header">
+      <div class="watch-mini-code">コード</div>
+      <div class="watch-mini-name">銘柄</div>
+      <div class="watch-mini-last">値</div>
+      <div class="watch-mini-delta">前日比</div>
+      <div class="watch-mini-vol">出来高</div>
+    </div>
+    ${rows}
+  </div>
+</div>`;
+      })
+      .filter(Boolean)
+      .join("");
+
+    container.innerHTML = head + (sections || `<div class="empty">—</div>`);
+  }
+
   async function main() {
     const kpi = $(".js-kpi");
     const today = $(".js-today");
     const recent = $(".js-recent");
     const trends = $(".js-tag-trends");
     const tdnetMini = $(".js-tdnet-mini");
+    const watchMini = $(".js-watchlist-mini");
     const statsBrief = $(".js-stats-brief");
     const statsTdnet = $(".js-stats-tdnet");
 
@@ -385,6 +530,17 @@ ${tags}`;
     } catch (e) {
       if (statsTdnet) statsTdnet.textContent = "適時開示更新: —";
       if (tdnetMini) tdnetMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
+    }
+
+    if (watchMini) {
+      try {
+        const wlCfg = await loadJson("data/watchlist.json");
+        const wlSnap = await loadJson("data/watchlist_snapshots.json");
+        const snaps = Array.isArray(wlSnap.snapshots) ? wlSnap.snapshots : [];
+        renderWatchlistMini(watchMini, wlCfg, snaps);
+      } catch (e) {
+        watchMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
+      }
     }
   }
 

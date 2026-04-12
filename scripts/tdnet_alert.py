@@ -251,7 +251,8 @@ class Disclosure:
     points_ja: list[str]
     datetime_jst: str
     tags: list[str]
-    pdf_url: str
+    pdf_url_ja: str
+    pdf_url_en: str
     source_url: str
 
 
@@ -325,6 +326,10 @@ def parse_disclosures(html: str) -> list[Disclosure]:
             continue
         seen.add(href)
 
+        pdf_en = href
+        pdf_id = href.split("/")[-1].split("?")[0]
+        pdf_ja = f"https://release.tdnet.info/inbs/{pdf_id}"
+
         headline = clean_headline(raw_text)
         m_code = CODE_RE.match(headline)
         if not m_code:
@@ -350,7 +355,8 @@ def parse_disclosures(html: str) -> list[Disclosure]:
                 points_ja=points_ja,
                 datetime_jst=dt_jst,
                 tags=tags,
-                pdf_url=href,
+                pdf_url_ja=pdf_ja,
+                pdf_url_en=pdf_en,
                 source_url=KABUTAN_DISCLOSURES_URL,
             )
         )
@@ -385,7 +391,9 @@ def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
         "points_ja": d.points_ja,
         "datetime_jst": d.datetime_jst,
         "tags": d.tags,
-        "pdf_url": d.pdf_url,
+        "pdf_url": d.pdf_url_ja,
+        "pdf_url_ja": d.pdf_url_ja,
+        "pdf_url_en": d.pdf_url_en,
         "source_url": d.source_url,
     }
 
@@ -454,6 +462,37 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         item["company"] = company
         changed = True
 
+    # Prefer Japanese TDnet PDF, keep Kabutan PDF as EN fallback.
+    pdf_url = normalize_spaces(item.get("pdf_url") or "")
+    pdf_url_ja = normalize_spaces(item.get("pdf_url_ja") or "")
+    pdf_url_en = normalize_spaces(item.get("pdf_url_en") or "")
+
+    if not pdf_url_en and pdf_url and "tdnet-pdf.kabutan.jp" in pdf_url:
+        pdf_url_en = pdf_url
+        item["pdf_url_en"] = pdf_url_en
+        changed = True
+
+    if not pdf_url_ja:
+        base = ""
+        if pdf_url and "release.tdnet.info/inbs/" in pdf_url:
+            base = pdf_url.split("/")[-1].split("?")[0]
+        elif pdf_url_en:
+            base = pdf_url_en.split("/")[-1].split("?")[0]
+        elif pdf_url:
+            base = pdf_url.split("/")[-1].split("?")[0]
+        if base.endswith(".pdf"):
+            pdf_url_ja = f"https://release.tdnet.info/inbs/{base}"
+            item["pdf_url_ja"] = pdf_url_ja
+            changed = True
+    else:
+        if normalize_spaces(item.get("pdf_url_ja") or "") != pdf_url_ja:
+            item["pdf_url_ja"] = pdf_url_ja
+            changed = True
+
+    if pdf_url_ja and normalize_spaces(item.get("pdf_url") or "") != pdf_url_ja:
+        item["pdf_url"] = pdf_url_ja
+        changed = True
+
     return changed
 
 
@@ -467,7 +506,7 @@ def build_message(new_items: list[Disclosure], pages_base_url: str) -> str:
         dt = f"{d.datetime_jst} " if d.datetime_jst else ""
         company = f"{d.company} " if d.company else ""
         title = d.title_ja or d.title_en
-        lines.append(f"・{dt}{d.code} {company}{title}{tag}（PDF: {d.pdf_url}）")
+        lines.append(f"・{dt}{d.code} {company}{title}{tag}（PDF: {d.pdf_url_ja}）")
     if len(new_items) > 10:
         lines.append(f"・他{len(new_items) - 10}件（続きはログ参照）")
     return "\n".join(lines)

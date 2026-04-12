@@ -1,0 +1,79 @@
+name: Watchlist snapshots
+
+on:
+  schedule:
+    # 09:30 JST (00:30 UTC) - market open snapshot
+    - cron: "30 0 * * 1-5"
+    # 16:00 JST (07:00 UTC) - after close snapshot
+    - cron: "0 7 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      phase:
+        description: "open or close"
+        required: true
+        default: "open"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watchlist-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Determine phase
+        id: phase
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "phase=${{ inputs.phase }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "30 0 * * 1-5" ]; then
+            echo "phase=open" >> "$GITHUB_OUTPUT"
+          else
+            echo "phase=close" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create snapshot
+        id: snap
+        run: |
+          python3 scripts/watchlist_snapshot.py --phase "${{ steps.phase.outputs.phase }}"
+
+      - name: Commit watchlist snapshots (if updates)
+        if: steps.snap.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/watchlist_snapshots.json
+          git diff --cached --quiet || git commit -m "Watchlist snapshot (${{ steps.snap.outputs.phase }})"
+          git push
+
+      - name: Post to Slack (if webhook configured)
+        if: steps.snap.outputs.should_notify == 'true'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          WATCHLIST_SLACK_MESSAGE: ${{ steps.snap.outputs.message }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.request
+          url = os.environ.get("SLACK_WEBHOOK_URL","").strip()
+          msg = os.environ.get("WATCHLIST_SLACK_MESSAGE","")
+          if not url or not msg:
+            raise SystemExit(0)
+          data = json.dumps({"text": msg}, ensure_ascii=False).encode("utf-8")
+          req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+          with urllib.request.urlopen(req, timeout=20) as res:
+            res.read()
+          PY

@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "updated_at": "2026-04-13T02:18:34+09:00",
+  "snapshots": [
+    {
+      "datetime_jst": "2026-04-10T02:18:34+09:00",
+      "phase": "close",
+      "items": [
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "name_en": "",
+          "sector": "半導体",
+          "prev_close": 42190.0,
+          "volume": 4086200,
+          "source_url": "https://kabutan.jp/stock/?code=8035",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/8035/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "close": 44040.0
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "name_en": "",
+          "sector": "半導体",
+          "prev_close": 24800.0,
+          "volume": 10849800,
+          "source_url": "https://kabutan.jp/stock/?code=6857",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/6857/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "close": 24990.0
+        },
+        {
+          "code": "6920",
+          "name": "レーザーテック",
+          "name_en": "",
+          "sector": "半導体",
+          "prev_close": 38700.0,
+          "volume": 6074300,
+          "source_url": "https://kabutan.jp/stock/?code=6920",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/6920/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "close": 41580.0
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ",
+          "name_en": "",
+          "sector": "自動車",
+          "prev_close": 3331.0,
+          "volume": 16930900,
+          "source_url": "https://kabutan.jp/stock/?code=7203",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/7203/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "close": 3319.0
+        },
+        {
+          "code": "7267",
+          "name": "ホンダ",
+          "name_en": "",
+          "sector": "自動車",
+          "prev_close": 1276.0,
+          "volume": 15644900,
+          "source_url": "https://kabutan.jp/stock/?code=7267",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/7267/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "close": 1269.5
+        },
+        {
+          "code": "9983",
+          "name": "ファストリ",
+          "name_en": "",
+          "sector": "小売",
+          "prev_close": 67450.0,
+          "volume": 3284100,
+          "source_url": "https://kabutan.jp/stock/?code=9983",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/9983/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "close": 75540.0
+        },
+        {
+          "code": "8306",
+          "name": "三菱UFJ",
+          "name_en": "",
+          "sector": "銀行",
+          "prev_close": 2842.5,
+          "volume": 33552100,
+          "source_url": "https://kabutan.jp/stock/?code=8306",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/8306/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "close": 2842.0
+        },
+        {
+          "code": "8316",
+          "name": "三井住友FG",
+          "name_en": "",
+          "sector": "銀行",
+          "prev_close": 5552.0,
+          "volume": 9342000,
+          "source_url": "https://kabutan.jp/stock/?code=8316",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/8316/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "close": 5536.0
+        }
+      ]
+    },
+    {
+      "datetime_jst": "2026-04-10T02:18:28+09:00",
+      "phase": "open",
+      "items": [
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "name_en": "",
+          "sector": "半導体",
+          "prev_close": 42190.0,
+          "volume": 4086200,
+          "source_url": "https://kabutan.jp/stock/?code=8035",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/8035/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "open": 42840.0
+        },
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "name_en": "",
+          "sector": "半導体",
+          "prev_close": 24800.0,
+          "volume": 10849800,
+          "source_url": "https://kabutan.jp/stock/?code=6857",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/6857/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "open": 25300.0
+        },
+        {
+          "code": "6920",
+          "name": "レーザーテック",
+          "name_en": "",
+          "sector": "半導体",
+          "prev_close": 38700.0,
+          "volume": 6074300,
+          "source_url": "https://kabutan.jp/stock/?code=6920",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/6920/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "open": 39100.0
+        },
+        {
+          "code": "7203",
+          "name": "トヨタ",
+          "name_en": "",
+          "sector": "自動車",
+          "prev_close": 3331.0,
+          "volume": 16930900,
+          "source_url": "https://kabutan.jp/stock/?code=7203",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/7203/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "open": 3345.0
+        },
+        {
+          "code": "7267",
+          "name": "ホンダ",
+          "name_en": "",
+          "sector": "自動車",
+          "prev_close": 1276.0,
+          "volume": 15644900,
+          "source_url": "https://kabutan.jp/stock/?code=7267",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/7267/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "open": 1271.0
+        },
+        {
+          "code": "9983",
+          "name": "ファストリ",
+          "name_en": "",
+          "sector": "小売",
+          "prev_close": 67450.0,
+          "volume": 3284100,
+          "source_url": "https://kabutan.jp/stock/?code=9983",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/9983/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "open": 71950.0
+        },
+        {
+          "code": "8306",
+          "name": "三菱UFJ",
+          "name_en": "",
+          "sector": "銀行",
+          "prev_close": 2842.5,
+          "volume": 33552100,
+          "source_url": "https://kabutan.jp/stock/?code=8306",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/8306/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "open": 2851.0
+        },
+        {
+          "code": "8316",
+          "name": "三井住友FG",
+          "name_en": "",
+          "sector": "銀行",
+          "prev_close": 5552.0,
+          "volume": 9342000,
+          "source_url": "https://kabutan.jp/stock/?code=8316",
+          "kabutan_url": "https://en.kabutan.com/jp/stocks/8316/",
+          "asof_date": "2026-04-10",
+          "asof_datetime_jst": "2026-04-10T15:30:00+09:00",
+          "open": 5552.0
+        }
+      ]
+    }
+  ]
+}
