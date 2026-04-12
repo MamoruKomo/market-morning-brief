@@ -344,7 +344,7 @@ def main() -> int:
                     f.write(f"{marker}\n")
     else:
         # For local run.
-        print(json.dumps({"has_updates": has_updates, "new_count": len(new_items)}, ensure_ascii=False))
+        print(json.dumps({"has_changes": has_changes, "new_count": len(new_items)}, ensure_ascii=False))
         if message:
             print(message)
 
