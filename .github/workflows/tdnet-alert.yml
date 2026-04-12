@@ -1,0 +1,60 @@
+name: TDnet disclosure alerts
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tdnet-alert
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Poll Kabutan/TDnet disclosures
+        id: poll
+        run: |
+          python3 scripts/tdnet_alert.py
+
+      - name: Commit tdnet.json (if updates)
+        if: steps.poll.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/tdnet.json
+          git diff --cached --quiet || git commit -m "TDnet alerts update"
+          git push
+
+      - name: Post to Slack (if webhook configured)
+        if: steps.poll.outputs.should_notify == 'true'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          TDNET_SLACK_MESSAGE: ${{ steps.poll.outputs.message }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.request
+          url = os.environ.get("SLACK_WEBHOOK_URL","").strip()
+          msg = os.environ.get("TDNET_SLACK_MESSAGE","")
+          if not url or not msg:
+            raise SystemExit(0)
+          data = json.dumps({"text": msg}, ensure_ascii=False).encode("utf-8")
+          req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+          with urllib.request.urlopen(req, timeout=20) as res:
+            res.read()
+          PY
