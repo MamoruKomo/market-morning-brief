@@ -1,7 +1,24 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-13T01:34:03+09:00",
+  "last_checked_jst": "2026-04-13T08:49:07+09:00",
   "items": [
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502163.pdf",
+      "code": "4565",
+      "company": "",
+      "title": "Nxera Pharma Co., Ltd. Nxera Pharma’s Partner Neurocrine Biosciences Doses First Patient in Phase 2 Trial of NBI-1117570 for Adults with Schizophrenia",
+      "title_en": "Nxera Pharma Co., Ltd. Nxera Pharma’s Partner Neurocrine Biosciences Doses First Patient in Phase 2 Trial of NBI-1117570 for Adults with Schizophrenia",
+      "title_ja": "Nxera Pharma Co., Ltd. Nxera Pharma’s Partner Neurocrine Biosciences Doses First Patient in Phase 2 Trial of NBI-1117570 for Adults with Schizophrenia",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T08:30:00+09:00",
+      "tags": [],
+      "pdf_url": "https://release.tdnet.info/inbs/140120260412502163.pdf",
+      "pdf_url_ja": "https://release.tdnet.info/inbs/140120260412502163.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502163.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501982.pdf",
       "code": "8934",
