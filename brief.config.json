@@ -1,0 +1,7 @@
+{
+  "timezone": "Asia/Tokyo",
+  "site_title": "Market Morning Brief (Japan Stocks)",
+  "slack_channel_id": "C0ASFHVU94L",
+  "pages_base_url": "https://<github-username>.github.io/<repo>/"
+}
+
