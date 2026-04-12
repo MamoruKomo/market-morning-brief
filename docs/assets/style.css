@@ -50,6 +50,13 @@ a:hover{text-decoration:underline}
     display:flex;
     justify-content:space-between;
     width:100%;
+    padding:10px 12px;
+    border-radius:12px;
+  }
+  nav a:hover{
+    border-color:rgba(110,231,255,.25);
+    background:rgba(255,255,255,.05);
+    text-decoration:none;
   }
 }
 header{
@@ -68,6 +75,12 @@ nav a{
   border-radius:999px;
   background:rgba(255,255,255,.03);
   font-size:13px;
+}
+nav a[data-active],
+nav a[aria-current="page"]{
+  border-color:rgba(110,231,255,.35);
+  background:rgba(110,231,255,.10);
+  color:rgba(231,238,247,.98);
 }
 .muted{color:var(--muted)}
 main{margin-top:18px; display:grid; gap:14px}
