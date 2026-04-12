@@ -1,6 +1,241 @@
 {
   "version": 1,
-  "last_checked_jst": null,
-  "items": []
+  "last_checked_jst": "2026-04-12T22:55:45+09:00",
+  "items": [
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501982.pdf",
+      "code": "8934",
+      "company": "",
+      "title": "Sun Frontier Fudousan Co.,Ltd. [delayed]Notice concerning Results of the Tender Offer for Company Shares, Change in the Status of Major Shareholders and Other Affiliated Companies",
+      "datetime_jst": "2026-04-10T19:00:00+09:00",
+      "tags": [
+        "TOB",
+        "遅延"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501982.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410502015.pdf",
+      "code": "3445",
+      "company": "",
+      "title": "RS Technologies Co.,Ltd. Notice of Partial Excerpt from FY 2025 Financial Report of Chinese Consolidated Subsidiary, GRINM Semiconductor Material Co., Ltd.（Gritek）",
+      "datetime_jst": "2026-04-10T18:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410502015.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501827.pdf",
+      "code": "6330",
+      "company": "",
+      "title": "TOYO ENGINEERING CORPORATION Notice of Conversion of Class A Preferred Shares into Common Shares",
+      "datetime_jst": "2026-04-10T18:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501827.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501985.pdf",
+      "code": "167A",
+      "company": "",
+      "title": "Ryoyo Ryosan Holdings,Inc. Notice Concerning the Impact on Consolidated Financial Results from a Request for Termination of a Distribution Agreement",
+      "datetime_jst": "2026-04-10T17:40:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501985.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501971.pdf",
+      "code": "4343",
+      "company": "",
+      "title": "AEON Fantasy Co.,LTD. （Correction）Notice Regarding Determination of Director Candidates",
+      "datetime_jst": "2026-04-10T17:30:00+09:00",
+      "tags": [
+        "人事",
+        "訂正"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501971.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501247.pdf",
+      "code": "7609",
+      "company": "",
+      "title": "Daitron Co.,Ltd. Announcement of Disposal of Treasury Shares as Restricted Stock for Transfer to Employees of the Company",
+      "datetime_jst": "2026-04-10T17:30:00+09:00",
+      "tags": [
+        "自己株処分"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501247.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501965.pdf",
+      "code": "3657",
+      "company": "",
+      "title": "Pole To Win Holdings, Inc. Notice Regarding Update of Analyst Report by Shared Research",
+      "datetime_jst": "2026-04-10T17:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501965.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501927.pdf",
+      "code": "3454",
+      "company": "",
+      "title": "First Brothers Co., Ltd. Consolidated Financial Results for the Three Months Ended February 28, 2026 [Japanese GAAP]",
+      "datetime_jst": "2026-04-10T17:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501927.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501888.pdf",
+      "code": "1968",
+      "company": "",
+      "title": "TAIHEI DENGYO KAISHA,LTD. Notice Concerning the Acquisition of Shares of NISHIKAWA KEISOKU Co., Ltd. (Securities Code: 7500) Constituting Act of Buying up",
+      "datetime_jst": "2026-04-10T17:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501888.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501854.pdf",
+      "code": "7545",
+      "company": "",
+      "title": "NISHIMATSUYA CHAIN Co., Ltd. Notice Concerning Issuance of Stock Options (Subscription Rights to Shares) to Employees",
+      "datetime_jst": "2026-04-10T17:00:00+09:00",
+      "tags": [
+        "SO"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501854.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
+      "code": "7545",
+      "company": "",
+      "title": "NISHIMATSUYA CHAIN Co., Ltd. Notice of Personnel Change",
+      "datetime_jst": "2026-04-10T17:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
+      "code": "7545",
+      "company": "",
+      "title": "NISHIMATSUYA CHAIN Co., Ltd. Notice Concerning Results and Completion of Repurchase of Own Shares",
+      "datetime_jst": "2026-04-10T17:00:00+09:00",
+      "tags": [
+        "自己株"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501721.pdf",
+      "code": "6135",
+      "company": "",
+      "title": "Makino Milling Machine Co.,Ltd. Notice of Update on Progress Toward Implementation of Tender Offer for Shares of Makino Milling Machine Co., Ltd. (Securities Code: 6135) by MM",
+      "datetime_jst": "2026-04-10T17:00:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501721.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501337.pdf",
+      "code": "3279",
+      "company": "",
+      "title": "Activia Properties Inc. Notice Concerning Borrowing of Funds",
+      "datetime_jst": "2026-04-10T17:00:00+09:00",
+      "tags": [
+        "借入"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501337.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501355.pdf",
+      "code": "4634",
+      "company": "",
+      "title": "artience Co., Ltd. Notice of Disposal of Treasury Shares as Restricted Stock Compensation",
+      "datetime_jst": "2026-04-10T16:30:00+09:00",
+      "tags": [
+        "自己株処分"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501355.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501226.pdf",
+      "code": "4784",
+      "company": "",
+      "title": "GMO internet, Inc. Notice Concerning Acquisition of Fixed Assets",
+      "datetime_jst": "2026-04-10T16:01:00+09:00",
+      "tags": [],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501226.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501166.pdf",
+      "code": "4784",
+      "company": "",
+      "title": "GMO internet, Inc. Notice Regarding Issuance of New Shares and Secondary Offering of Shares",
+      "datetime_jst": "2026-04-10T16:01:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501166.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260409500810.pdf",
+      "code": "9449",
+      "company": "",
+      "title": "GMO internet group, Inc. Notice Regarding Secondary Offering of Shares of Consolidated Subsidiary to Satisfy the Continued Listing Criteria",
+      "datetime_jst": "2026-04-10T16:01:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260409500810.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599610.pdf",
+      "code": "9270",
+      "company": "",
+      "title": "Valuence Holdings Inc. Notice of Revisions to Consolidated Financial Forecasts and Dividend Forecast for the Fiscal Year Ending August 31, 2026",
+      "datetime_jst": "2026-04-10T16:00:00+09:00",
+      "tags": [
+        "業績修正",
+        "配当"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599610.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
+      "code": "9270",
+      "company": "",
+      "title": "Valuence Holdings Inc. Consolidated Financial Results for the Six Months Ended February 28, 2026",
+      "datetime_jst": "2026-04-10T16:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    }
+  ]
 }
-

@@ -5,6 +5,7 @@ import argparse
 import json
 import os
 import re
+import ssl
 import urllib.request
 from dataclasses import dataclass
 from datetime import datetime
@@ -13,6 +14,10 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
+try:
+    import certifi  # type: ignore
+except Exception:  # pragma: no cover
+    certifi = None
 
 KABUTAN_DISCLOSURES_URL = "https://en.kabutan.com/jp/disclosures"
 JST = ZoneInfo("Asia/Tokyo")
@@ -163,7 +168,16 @@ def fetch_html(url: str) -> str:
             "Accept-Language": "en-US,en;q=0.9,ja;q=0.8",
         },
     )
-    with urllib.request.urlopen(req, timeout=30) as res:
+    context = None
+    if certifi is not None:
+        try:
+            context = ssl.create_default_context(cafile=certifi.where())
+        except Exception:
+            context = None
+    if context is None:
+        context = ssl.create_default_context()
+
+    with urllib.request.urlopen(req, timeout=30, context=context) as res:
         return res.read().decode("utf-8", errors="replace")
 
 
