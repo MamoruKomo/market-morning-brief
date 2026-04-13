@@ -2,13 +2,13 @@
 from __future__ import annotations
 
 import argparse
-import csv
 import dataclasses
 import datetime as dt
 import html
 import json
 import os
 import re
+import ssl
 import subprocess
 import sys
 import urllib.parse
@@ -16,6 +16,11 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
+
+try:
+    import certifi  # type: ignore
+except Exception:
+    certifi = None
 
 JST = ZoneInfo("Asia/Tokyo")
 
@@ -25,7 +30,6 @@ TRADERS_COMMODITY_URL = "https://www.traders.co.jp/market_fo/commodity"
 INVESTING_NK_FUTURES_URL = "https://www.investing.com/indices/japan-225-futures"
 NIKKEI_INDEX_PROFILE_URL = "https://indexes.nikkei.co.jp/en/nkave/index/profile"
 
-STOOQ_DAILY_CSV = "https://stooq.com/q/d/l/?s={symbol}&i=d"
 STOOQ_QUOTE_URL = "https://stooq.com/q/?s={symbol}"
 
 
@@ -52,13 +56,22 @@ def fetch_text(url: str, timeout: int = 25) -> str:
         "Accept-Language": "ja,en;q=0.8",
     }
     req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=timeout) as res:
+    context = None
+    if certifi is not None:
+        try:
+            context = ssl.create_default_context(cafile=certifi.where())
+        except Exception:
+            context = None
+    if context is None:
+        context = ssl.create_default_context()
+
+    with urllib.request.urlopen(req, timeout=timeout, context=context) as res:
         data = res.read()
-    # Let Python detect encoding from headers when possible; fallback to utf-8.
-    try:
-        charset = res.headers.get_content_charset()  # type: ignore[attr-defined]
-    except Exception:
-        charset = None
+        # Let Python detect encoding from headers when possible; fallback to utf-8.
+        try:
+            charset = res.headers.get_content_charset()  # type: ignore[attr-defined]
+        except Exception:
+            charset = None
     enc = charset or "utf-8"
     return data.decode(enc, errors="replace")
 
@@ -125,25 +138,54 @@ class QuoteTwoDay:
         return self.close - self.prev_close
 
 
-def fetch_stooq_two_day(symbol: str) -> QuoteTwoDay | None:
-    url = STOOQ_DAILY_CSV.format(symbol=urllib.parse.quote(symbol))
-    text = fetch_text(url, timeout=25)
-    reader = csv.DictReader(text.splitlines())
-    rows = [r for r in reader if r.get("Date") and r.get("Close")]
-    if len(rows) < 2:
-        return None
-    last = rows[-1]
-    prev = rows[-2]
+def parse_stooq_day_month(day_month: str, now: dt.date) -> str:
+    # Stooq displays like "10 Apr" without year.
     try:
-        return QuoteTwoDay(
-            symbol=symbol,
-            date=str(last["Date"]),
-            close=float(str(last["Close"]).replace(",", "")),
-            prev_date=str(prev["Date"]),
-            prev_close=float(str(prev["Close"]).replace(",", "")),
-        )
+        d = dt.datetime.strptime(f"{day_month} {now.year}", "%d %b %Y").date()
+        # If parsed date is too far in the future, assume it's last year (year crossover around Jan).
+        if d > now + dt.timedelta(days=3):
+            d = dt.datetime.strptime(f"{day_month} {now.year - 1}", "%d %b %Y").date()
+        return d.isoformat()
     except Exception:
+        return now.isoformat()
+
+
+def fetch_stooq_two_day(symbol: str) -> QuoteTwoDay | None:
+    # Stooq daily CSV now often requires an API key; parse quote page instead.
+    url = STOOQ_QUOTE_URL.format(symbol=urllib.parse.quote(symbol))
+    text = fetch_text(url, timeout=25)
+    plain = strip_tags(text).replace("−", "-")
+    # Example: "10 Apr, 23:00 6816.89 -7.77 (-0.11%)"
+    m = re.search(
+        r"(\d{1,2}\s+[A-Za-z]{3}),\s*(\d{1,2}:\d{2})\s+([0-9][0-9,]*\.?[0-9]*)\s+([-+]?[0-9][0-9,]*\.?[0-9]*)\s*\(([-+]?[0-9][0-9,]*\.?[0-9]*)%\)",
+        plain,
+    )
+    if not m:
         return None
+    day_month = m.group(1)
+    close = parse_float(m.group(3))
+    change = parse_float(m.group(4))
+    pct = parse_percent(m.group(5))
+    if close is None:
+        return None
+
+    prev_close = None
+    if change is not None:
+        prev_close = close - change
+    elif pct is not None:
+        denom = 1.0 + pct / 100.0
+        if abs(denom) > 1e-9:
+            prev_close = close / denom
+    if prev_close is None:
+        return None
+
+    date_iso = parse_stooq_day_month(day_month, dt.datetime.now(JST).date())
+    prev_date = ""
+    try:
+        prev_date = (dt.date.fromisoformat(date_iso) - dt.timedelta(days=1)).isoformat()
+    except Exception:
+        prev_date = ""
+    return QuoteTwoDay(symbol=symbol, date=date_iso, close=close, prev_date=prev_date, prev_close=prev_close)
 
 
 @dataclasses.dataclass(frozen=True)
