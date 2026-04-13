@@ -38,6 +38,8 @@ DEFAULT_HEADERS = {
     "Accept-Language": "ja,en;q=0.8",
 }
 
+URL_RE = re.compile(r"https?://[^\s<>()（）]+")
+
 
 def load_json(path: Path, default: Any) -> Any:
     try:
@@ -575,10 +577,23 @@ def render_html(
     title = f"Market Morning Brief - {date_iso}"
     source_list = render_sources_list(sources)
 
+    def esc_with_links(text: str) -> str:
+        s = str(text or "")
+        out: list[str] = []
+        last = 0
+        for m in URL_RE.finditer(s):
+            out.append(html.escape(s[last : m.start()]))
+            url = s[m.start() : m.end()]
+            esc = html.escape(url)
+            out.append(f'<a href="{esc}" target="_blank" rel="noreferrer">{esc}</a>')
+            last = m.end()
+        out.append(html.escape(s[last:]))
+        return "".join(out)
+
     def li_lines(lines: list[str]) -> str:
         out = []
         for line in lines:
-            out.append(f"<li>{html.escape(line)}</li>")
+            out.append(f"<li>{esc_with_links(line)}</li>")
         return "<ul>\n" + "\n".join(out) + "\n</ul>"
 
     rendered_sections = []
@@ -614,10 +629,10 @@ def render_html(
 
       <main>
         <article>
-          <p class="meta" style="margin-top:0">{html.escape(synthesis)}</p>
+          <p class="meta" style="margin-top:0">{esc_with_links(synthesis)}</p>
           <section>
             <h2>ヘッドライン</h2>
-            <ul><li>{html.escape(headline)}</li></ul>
+            <ul><li>{esc_with_links(headline)}</li></ul>
           </section>
           {"".join(rendered_sections)}
           <section>
