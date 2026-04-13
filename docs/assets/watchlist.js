@@ -16,6 +16,13 @@
     return String(value ?? "").trim();
   }
 
+  function normalizeQuery(query) {
+    return String(query ?? "")
+      .trim()
+      .toLowerCase()
+      .replaceAll(/\s+/g, " ");
+  }
+
   function asArray(value) {
     return Array.isArray(value) ? value : [];
   }
@@ -121,10 +128,11 @@
     return `<span class="delta ${cls}">${fmtPct(v)}</span>`;
   }
 
-  function renderSector(group, openMap, closeMap, showEnglish) {
+  function renderSector(group, openMap, closeMap, showEnglish, query) {
     const sector = escapeHtml(group.sector || "—");
     const tickers = asArray(group.tickers);
     const sectorPcts = [];
+    const counts = { up: 0, down: 0, flat: 0 };
     const rows = tickers
       .map((t) => {
         const code = normalizeText(t.code);
@@ -133,9 +141,14 @@
         const closeItem = closeMap.get(code);
         const base = closeItem || openItem || {};
 
+        const nameJa = normalizeText(base.name || t.name || "");
+        const nameEn = normalizeText(base.name_en || t.name_en || "");
         const name = showEnglish
-          ? normalizeText(base.name_en || t.name_en || "") || normalizeText(base.name || t.name || "")
-          : normalizeText(base.name || t.name || "");
+          ? nameEn || nameJa
+          : nameJa;
+
+        const hay = `${code} ${nameJa} ${nameEn}`.toLowerCase();
+        if (query && !hay.includes(query)) return "";
         const sourceUrl = normalizeText(base.source_url || `https://kabutan.jp/stock/?code=${encodeURIComponent(code)}`);
 
         const prevClose = base.prev_close;
@@ -172,11 +185,21 @@
               : closeHtmlRaw;
         const volHtml = vol != null ? `${fmt(vol, { maximumFractionDigits: 0 })}` : "—";
 
+        const dirCls = deltaClass(rowDelta);
+        if (dirCls === "up") counts.up += 1;
+        else if (dirCls === "down") counts.down += 1;
+        else counts.flat += 1;
+
+        const nameHtml = escapeHtml(name || "—");
+        const codeHtml = escapeHtml(code);
+
         return `<tr${rowClass ? ` class="${rowClass}"` : ""}>
-  <td class="w-code"><a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(
-    code,
-  )}</a></td>
-  <td class="w-name">${escapeHtml(name || "")}</td>
+  <td class="w-ticker">
+    <a class="w-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">
+      <div class="w-name-main">${nameHtml}</div>
+      <div class="w-code-sub">${codeHtml}</div>
+    </a>
+  </td>
   <td class="w-num">${openHtml}</td>
   <td class="w-delta">${renderDelta(open, prevClose)}</td>
   <td class="w-num">${closeHtml}</td>
@@ -187,24 +210,29 @@
       .filter(Boolean)
       .join("");
 
-    const avgPct = sectorPcts.length
-      ? sectorPcts.reduce((a, b) => a + b, 0) / sectorPcts.length
-      : null;
+    const avgPct = sectorPcts.length ? sectorPcts.reduce((a, b) => a + b, 0) / sectorPcts.length : null;
+    const countHtml =
+      counts.up + counts.down + counts.flat > 0
+        ? `<span class="watch-sector-count">↑${counts.up} ↓${counts.down}</span>`
+        : "";
 
     if (!rows) {
       return `<div class="watch-sector">
-  <div class="watch-sector-head"><span>${sector}</span>${renderPctPill(avgPct)}</div>
+  <div class="watch-sector-head"><span>${sector}</span><div class="watch-sector-meta">${renderPctPill(
+    avgPct,
+  )}${countHtml}</div></div>
   <div class="empty">銘柄がありません。</div>
 </div>`;
     }
 
     return `<div class="watch-sector">
-  <div class="watch-sector-head"><span>${sector}</span>${renderPctPill(avgPct)}</div>
+  <div class="watch-sector-head"><span>${sector}</span><div class="watch-sector-meta">${renderPctPill(
+    avgPct,
+  )}${countHtml}</div></div>
   <div class="watch-table-wrap">
     <table class="watch-table">
       <thead>
         <tr>
-          <th>コード</th>
           <th>銘柄</th>
           <th>寄り</th>
           <th>前日比</th>
@@ -219,7 +247,7 @@
 </div>`;
   }
 
-  function render(container, cfg, snapshots, date, showEnglish) {
+  function render(container, cfg, snapshots, date, showEnglish, query) {
     const byDatePhase = groupSnapshotsByDate(snapshots);
     const openSnap = byDatePhase.get(`${date}:open`);
     const closeSnap = byDatePhase.get(`${date}:close`);
@@ -233,7 +261,7 @@
     }
 
     container.innerHTML = groups
-      .map((g) => renderSector(g, openMap, closeMap, showEnglish))
+      .map((g) => renderSector(g, openMap, closeMap, showEnglish, query))
       .join("");
 
     return { openSnap, closeSnap };
@@ -246,6 +274,7 @@
 
     const container = $(".js-watchlist");
     const select = $(".js-date");
+    const search = $(".js-search");
     const status = $(".js-status");
     const err = $(".js-error");
     const toggleEn = $(".js-toggle-en");
@@ -274,7 +303,8 @@
     const doRender = () => {
       const date = select?.value || initial;
       const showEnglish = !!toggleEn?.checked;
-      const { openSnap, closeSnap } = render(container, cfg, snapshots, date, showEnglish);
+      const query = normalizeQuery(search?.value || "");
+      const { openSnap, closeSnap } = render(container, cfg, snapshots, date, showEnglish, query);
 
       const openLabel = openSnap?.datetime_jst ? `寄り: ${openSnap.datetime_jst}` : "寄り: —";
       const closeLabel = closeSnap?.datetime_jst ? `引け: ${closeSnap.datetime_jst}` : "引け: —";
@@ -282,6 +312,7 @@
     };
 
     if (select) select.addEventListener("change", doRender);
+    if (search) search.addEventListener("input", doRender);
     if (toggleEn) toggleEn.addEventListener("change", doRender);
     doRender();
   }

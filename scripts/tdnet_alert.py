@@ -20,6 +20,7 @@ except Exception:  # pragma: no cover
     certifi = None
 
 KABUTAN_DISCLOSURES_URL = "https://en.kabutan.com/jp/disclosures"
+TDNET_PDF_BASE_URL = "https://www.release.tdnet.info/inbs/"
 JST = ZoneInfo("Asia/Tokyo")
 MAX_ITEMS = 5000
 
@@ -328,7 +329,7 @@ def parse_disclosures(html: str) -> list[Disclosure]:
 
         pdf_en = href
         pdf_id = href.split("/")[-1].split("?")[0]
-        pdf_ja = f"https://release.tdnet.info/inbs/{pdf_id}"
+        pdf_ja = f"{TDNET_PDF_BASE_URL}{pdf_id}"
 
         headline = clean_headline(raw_text)
         m_code = CODE_RE.match(headline)
@@ -472,22 +473,23 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         item["pdf_url_en"] = pdf_url_en
         changed = True
 
-    if not pdf_url_ja:
-        base = ""
-        if pdf_url and "release.tdnet.info/inbs/" in pdf_url:
-            base = pdf_url.split("/")[-1].split("?")[0]
-        elif pdf_url_en:
-            base = pdf_url_en.split("/")[-1].split("?")[0]
-        elif pdf_url:
-            base = pdf_url.split("/")[-1].split("?")[0]
-        if base.endswith(".pdf"):
-            pdf_url_ja = f"https://release.tdnet.info/inbs/{base}"
+    def pdf_base_name(url: str) -> str:
+        u = normalize_spaces(url)
+        if not u:
+            return ""
+        base = u.split("/")[-1].split("?")[0]
+        return base if base.endswith(".pdf") else ""
+
+    base = pdf_base_name(pdf_url_ja) or pdf_base_name(pdf_url) or pdf_base_name(pdf_url_en)
+    if base:
+        canonical_ja = f"{TDNET_PDF_BASE_URL}{base}"
+        if pdf_url_ja != canonical_ja:
+            pdf_url_ja = canonical_ja
             item["pdf_url_ja"] = pdf_url_ja
             changed = True
-    else:
-        if normalize_spaces(item.get("pdf_url_ja") or "") != pdf_url_ja:
-            item["pdf_url_ja"] = pdf_url_ja
-            changed = True
+    elif pdf_url_ja and normalize_spaces(item.get("pdf_url_ja") or "") != pdf_url_ja:
+        item["pdf_url_ja"] = pdf_url_ja
+        changed = True
 
     if pdf_url_ja and normalize_spaces(item.get("pdf_url") or "") != pdf_url_ja:
         item["pdf_url"] = pdf_url_ja

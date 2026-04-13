@@ -35,6 +35,15 @@ Codex のオートメーション `Market Morning Brief` が平日 8:10（JST）
 
 GitHub Pages へ反映するため、生成後にリポジトリへ commit/push します（commit message は固定で `Daily brief`）。
 
+### 注意: 実行環境のネットワーク制限
+
+Codex（このワークスペースのサンドボックス）では、`python`/`curl`/`git` から外部ネットワークに出られず DNS 解決が失敗することがあります（例: `Could not resolve host: github.com`）。
+
+その場合の解決策は次のどちらかです。
+
+- **Codex の `web.run`（ブラウズ）を使って情報取得し、Slack 配信だけ行う**（ただし `git push` が失敗する可能性あり）
+- **GitHub Actions に日次生成〜commit/push〜Slack投稿を寄せる**（ネットワークが必要な処理を Actions 側で完結させる）
+
 ## 5) 適時開示アラート（Slack）
 
 GitHub Actions が 5分おきに適時開示（KabutanのTDnet一覧）を監視し、新着があれば Slack に「要約（タイトル+分類タグ）+ PDFリンク + ログURL」を投稿します。
