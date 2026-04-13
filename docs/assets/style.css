@@ -541,3 +541,99 @@ code{
 .watch-mini-delta{text-align:right}
 .price.up{color:var(--up); font-weight:600}
 .price.down{color:var(--down); font-weight:600}
+
+.metric-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap:12px;
+}
+.metric-card{
+  display:block;
+  padding:14px 14px 12px;
+  border:1px solid var(--border);
+  background:var(--panel);
+  border-radius:14px;
+  box-shadow: var(--shadow);
+  color:var(--text);
+  text-decoration:none;
+}
+.metric-card:hover{
+  border-color:rgba(14,165,233,.25);
+  background:rgba(2,132,199,.04);
+  text-decoration:none;
+}
+.metric-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:10px;
+}
+.metric-title{
+  font-weight:800;
+  letter-spacing:.2px;
+}
+.metric-link{
+  color:var(--link);
+  font-size:12px;
+}
+.metric-desc{
+  margin-top:6px;
+  color:rgba(71,85,105,.92);
+  font-size:12px;
+}
+.metric-top{
+  margin:10px 0 0;
+  padding-left:1.2em;
+  display:grid;
+  gap:10px;
+}
+.metric-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:12px;
+}
+.metric-left{min-width:0}
+.metric-name{
+  font-weight:700;
+  line-height:1.25;
+}
+.metric-sub{
+  margin-top:2px;
+  color:var(--muted);
+  font-size:12px;
+  font-variant-numeric: tabular-nums;
+}
+.metric-val{
+  text-align:right;
+  font-variant-numeric: tabular-nums;
+  white-space:nowrap;
+}
+.metric-pair{
+  font-size:12px;
+  color:rgba(15,23,42,.92);
+}
+.metric-table-wrap{overflow:auto}
+.metric-table{
+  width:100%;
+  border-collapse:separate;
+  border-spacing:0;
+  min-width: 720px;
+}
+.metric-table th, .metric-table td{
+  text-align:left;
+  padding:10px 10px;
+  border-bottom:1px solid var(--border);
+  vertical-align:top;
+  font-size:13px;
+}
+.metric-table thead th{
+  position: sticky;
+  top: 0;
+  background: var(--panel);
+  z-index: 1;
+  font-size:12px;
+  color:var(--muted);
+}
+.metric-table th:not(:first-child),
+.metric-table td.w-num{ text-align:right }

@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "updated_at": null,
+  "items": [
+    {
+      "code": "8035",
+      "name": "東京エレクトロン",
+      "name_en": "",
+      "sector": "半導体",
+      "asof_date": null,
+      "source_url": "https://kabutan.jp/stock/?code=8035",
+      "metrics": {}
+    },
+    {
+      "code": "6857",
+      "name": "アドバンテスト",
+      "name_en": "",
+      "sector": "半導体",
+      "asof_date": null,
+      "source_url": "https://kabutan.jp/stock/?code=6857",
+      "metrics": {}
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテック",
+      "name_en": "",
+      "sector": "半導体",
+      "asof_date": null,
+      "source_url": "https://kabutan.jp/stock/?code=6920",
+      "metrics": {}
+    },
+    {
+      "code": "7203",
+      "name": "トヨタ",
+      "name_en": "",
+      "sector": "自動車",
+      "asof_date": null,
+      "source_url": "https://kabutan.jp/stock/?code=7203",
+      "metrics": {}
+    },
+    {
+      "code": "7267",
+      "name": "ホンダ",
+      "name_en": "",
+      "sector": "自動車",
+      "asof_date": null,
+      "source_url": "https://kabutan.jp/stock/?code=7267",
+      "metrics": {}
+    },
+    {
+      "code": "9983",
+      "name": "ファストリ",
+      "name_en": "",
+      "sector": "小売",
+      "asof_date": null,
+      "source_url": "https://kabutan.jp/stock/?code=9983",
+      "metrics": {}
+    },
+    {
+      "code": "8306",
+      "name": "三菱UFJ",
+      "name_en": "",
+      "sector": "銀行",
+      "asof_date": null,
+      "source_url": "https://kabutan.jp/stock/?code=8306",
+      "metrics": {}
+    },
+    {
+      "code": "8316",
+      "name": "三井住友FG",
+      "name_en": "",
+      "sector": "銀行",
+      "asof_date": null,
+      "source_url": "https://kabutan.jp/stock/?code=8316",
+      "metrics": {}
+    }
+  ]
+}
+

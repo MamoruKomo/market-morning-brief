@@ -620,6 +620,7 @@ def render_html(
           <a href="../index.html">最新</a>
           <a href="../archive/index.html" aria-current="page">アーカイブ</a>
           <a href="../search.html">検索</a>
+          <a href="../fundamentals/index.html">ファンダ</a>
           <a href="../watchlist/index.html">ウォッチ</a>
           <a href="../stocks/index.html">銘柄</a>
           <a href="../tags/index.html">タグ</a>

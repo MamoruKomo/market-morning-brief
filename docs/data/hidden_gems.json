@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "updated_at": "2026-04-13T15:42:09+09:00",
+  "latest_date": "2026-04-13",
+  "days": {
+    "2026-04-13": {
+      "date": "2026-04-13",
+      "generated_at": "2026-04-13T15:42:09+09:00",
+      "pair": {
+        "key": "roe_growth",
+        "label": "高ROE×成長",
+        "a": "roe",
+        "b": "sales_growth_yoy"
+      },
+      "items": []
+    }
+  },
+  "pair_defs": [
+    {
+      "key": "roe_growth",
+      "label": "高ROE×成長",
+      "a": "roe",
+      "b": "sales_growth_yoy"
+    },
+    {
+      "key": "div_health",
+      "label": "高配当×健全",
+      "a": "dividend_yield",
+      "b": "equity_ratio"
+    },
+    {
+      "key": "margin_roe",
+      "label": "高利益率×ROE",
+      "a": "operating_margin",
+      "b": "roe"
+    },
+    {
+      "key": "quality_value",
+      "label": "高ROE×低PBR",
+      "a": "roe",
+      "b": "pbr"
+    }
+  ]
+}

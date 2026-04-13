@@ -558,8 +558,8 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
             # Ensure the summary is Japanese when possible (fallback to points_ja).
             summary = truncate(point or title_ja or title_en or "（要約なし）", 140)
         pdf = d.pdf_url_ja or d.pdf_url_en or ""
-        pdf_part = f" PDF: {pdf}" if pdf else ""
-        lines.append(f"- {display} — {summary}{pdf_part}")
+        pdf_part = f" <{pdf}|PDF>" if pdf else ""
+        lines.append(f"- *{display}* — {summary}{pdf_part}")
     if len(new_items) > 10:
         lines.append(f"- 他{len(new_items) - 10}件（続きはログ参照）")
     return "\n".join(lines)

@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "updated_at": "2026-04-13T15:42:09+09:00",
+  "latest_month": "2026-04",
+  "months": {
+    "2026-04": {
+      "month": "2026-04",
+      "generated_at": "2026-04-13T15:42:09+09:00",
+      "top_n": 5,
+      "metrics": {
+        "roe": [],
+        "roa": [],
+        "roic": [],
+        "operating_margin": [],
+        "net_margin": [],
+        "equity_ratio": [],
+        "dividend_yield": [],
+        "per": [],
+        "pbr": [],
+        "sales_growth_yoy": []
+      }
+    }
+  },
+  "metric_defs": [
+    {
+      "key": "roe",
+      "label": "ROE",
+      "unit": "%",
+      "better": "high",
+      "decimals": 2,
+      "description": "自己資本利益率"
+    },
+    {
+      "key": "roa",
+      "label": "ROA",
+      "unit": "%",
+      "better": "high",
+      "decimals": 2,
+      "description": "総資産利益率"
+    },
+    {
+      "key": "roic",
+      "label": "ROIC",
+      "unit": "%",
+      "better": "high",
+      "decimals": 2,
+      "description": "投下資本利益率"
+    },
+    {
+      "key": "operating_margin",
+      "label": "営業利益率",
+      "unit": "%",
+      "better": "high",
+      "decimals": 2,
+      "description": ""
+    },
+    {
+      "key": "net_margin",
+      "label": "純利益率",
+      "unit": "%",
+      "better": "high",
+      "decimals": 2,
+      "description": ""
+    },
+    {
+      "key": "equity_ratio",
+      "label": "自己資本比率",
+      "unit": "%",
+      "better": "high",
+      "decimals": 2,
+      "description": ""
+    },
+    {
+      "key": "dividend_yield",
+      "label": "配当利回り",
+      "unit": "%",
+      "better": "high",
+      "decimals": 2,
+      "description": ""
+    },
+    {
+      "key": "per",
+      "label": "PER",
+      "unit": "x",
+      "better": "low",
+      "decimals": 2,
+      "description": "株価収益率（低いほど割安）"
+    },
+    {
+      "key": "pbr",
+      "label": "PBR",
+      "unit": "x",
+      "better": "low",
+      "decimals": 2,
+      "description": "株価純資産倍率（低いほど割安）"
+    },
+    {
+      "key": "sales_growth_yoy",
+      "label": "売上成長率",
+      "unit": "%",
+      "better": "high",
+      "decimals": 2,
+      "description": "前年比（取得できる場合）"
+    }
+  ]
+}

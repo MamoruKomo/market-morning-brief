@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "updated_at": null,
+  "items": [
+    { "code": "8035", "name": "東京エレクトロン", "sector": "半導体" },
+    { "code": "6857", "name": "アドバンテスト", "sector": "半導体" },
+    { "code": "6920", "name": "レーザーテック", "sector": "半導体" },
+    { "code": "7203", "name": "トヨタ", "sector": "自動車" },
+    { "code": "7267", "name": "ホンダ", "sector": "自動車" },
+    { "code": "9983", "name": "ファストリ", "sector": "小売" },
+    { "code": "8306", "name": "三菱UFJ", "sector": "銀行" },
+    { "code": "8316", "name": "三井住友FG", "sector": "銀行" }
+  ]
+}
+

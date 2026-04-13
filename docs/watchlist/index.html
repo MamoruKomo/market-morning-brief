@@ -18,11 +18,17 @@
           <a href="../index.html">最新</a>
           <a href="../archive/index.html">アーカイブ</a>
           <a href="../search.html">検索</a>
+          <a href="../fundamentals/index.html">ファンダ</a>
           <a href="../watchlist/index.html" aria-current="page">ウォッチ</a>
           <a href="../stocks/index.html">銘柄</a>
           <a href="../tags/index.html">タグ</a>
           <a href="../tdnet/index.html">適時開示</a>
         </nav>
+        <div class="controls" style="margin-top:12px">
+          <a class="go" href="index.html">スナップ</a>
+          <a class="go" href="fundamentals.html">ファンダ</a>
+          <a class="go" href="manage.html">編集</a>
+        </div>
       </header>
 
       <main>
@@ -48,8 +54,12 @@
           <h2>編集</h2>
           <ul>
             <li>
+              ブラウザ保存の「マイウォッチ」を作る: <a href="manage.html">manage.html</a>
+            </li>
+            <li>
               ウォッチ銘柄は <code>docs/data/watchlist.json</code> を編集して追加できます（業界ごとにグループ化）。
             </li>
+            <li>ファンダ表示: <a href="fundamentals.html">fundamentals.html</a></li>
             <li>スナップショットは GitHub Actions が自動で <code>docs/data/watchlist_snapshots.json</code> に蓄積します。</li>
           </ul>
         </section>

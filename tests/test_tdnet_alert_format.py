@@ -23,5 +23,5 @@ class TestTdnetSlackMessageFormat(unittest.TestCase):
         msg = build_message([d], "https://example.com/site/", {"9983": "ファストリ"})
         self.assertIn("*適時開示*", msg)
         self.assertIn("全件ログ: https://example.com/site/tdnet/", msg)
-        self.assertIn("ファストリ（9983） — 自己株式取得に関するお知らせ", msg)
-        self.assertIn("PDF: https://www.release.tdnet.info/inbs/140120260413000000.pdf", msg)
+        self.assertIn("*ファストリ（9983）* — 自己株式取得に関するお知らせ", msg)
+        self.assertIn("<https://www.release.tdnet.info/inbs/140120260413000000.pdf|PDF>", msg)
