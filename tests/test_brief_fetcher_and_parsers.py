@@ -27,7 +27,7 @@ class TestCachedFetcher(unittest.TestCase):
 
 class TestParsers(unittest.TestCase):
     def test_fetch_stooq_two_day_parses_quote_line(self) -> None:
-        html = "<div>10 Apr, 23:00 6816.89 -7.77 (-0.11%)</div>"
+        html = "<div>10 Apr , 23:00 6816.89 -7.77 (-0.11%)</div>"
         with tempfile.TemporaryDirectory() as tmp:
             cache_dir = Path(tmp)
             (cache_dir / "stooq_spx.html").write_text(html, encoding="utf-8")
@@ -50,8 +50,9 @@ class TestParsers(unittest.TestCase):
         <html><body>
           <table>
             <tr><th>業種</th><th>現在値</th><th>前日比</th><th>騰落率(%)</th></tr>
-            <tr><td>電気機器</td><td>1</td><td>2</td><td>1.23</td></tr>
-            <tr><td>海運業</td><td>1</td><td>2</td><td>-2.34</td></tr>
+            <tr><td>電気機器</td><td>1</td><td>2</td><td>1.23%</td></tr>
+            <tr><td>海運業</td><td>1</td><td>2</td><td>-2.34%</td></tr>
+            <tr><td>鉱業</td><td>1</td><td>+48.10</td><td>+3.92%</td></tr>
           </table>
         </body></html>
         """
@@ -59,12 +60,38 @@ class TestParsers(unittest.TestCase):
         names = {s.name: s.pct for s in sectors}
         self.assertIn("電気機器", names)
         self.assertIn("海運業", names)
+        self.assertIn("鉱業", names)
         self.assertAlmostEqual(names["電気機器"], 1.23, places=2)
         self.assertAlmostEqual(names["海運業"], -2.34, places=2)
+        self.assertAlmostEqual(names["鉱業"], 3.92, places=2)
 
     def test_parse_investing_last_price(self) -> None:
         html = '<span class="instrument-price-last">39,876.5</span>'
         self.assertAlmostEqual(brief.parse_investing_last_price(html) or 0.0, 39876.5, places=1)
+
+    def test_parse_traders_schedule_extracts_events_and_earnings(self) -> None:
+        html = """
+        <div class="card market_schedule">
+          <div class="card-header">市場スケジュール</div>
+          <div class="card-section-label">国内（04月13日）</div>
+          <div class="card-body">
+            <div class="card-text">3月マネーストックM2（8:50）</div>
+            <div class="card-text">《決算発表》</div>
+            <div class="card-text">A、B、C</div>
+          </div>
+          <div class="card-section-label">海外（04月13日）</div>
+          <div class="card-body border-bottom seperator">
+            <div class="card-text">米3月中古住宅販売件数（23:00）</div>
+            <div class="card-text">《米決算発表》</div>
+            <div class="card-text">X、Y</div>
+          </div>
+        </div>
+        """
+        s = brief.parse_traders_schedule(html)
+        self.assertIn("3月マネーストックM2（8:50）", s.domestic)
+        self.assertIn("米3月中古住宅販売件数（23:00）", s.overseas)
+        self.assertIn("A、B、C", s.earnings)
+        self.assertIn("X、Y", s.earnings)
 
     def test_print_cache_plan_is_valid_json(self) -> None:
         # Ensure helper output stays machine-readable.
@@ -73,4 +100,3 @@ class TestParsers(unittest.TestCase):
             "traders_jp_index": brief.TRADERS_JP_INDEX_URL,
         }
         self.assertIsInstance(json.loads(json.dumps(plan)), dict)
-

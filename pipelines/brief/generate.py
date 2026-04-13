@@ -25,8 +25,6 @@ except Exception:
 
 JST = ZoneInfo("Asia/Tokyo")
 
-YAHOO_QUOTE_URL = "https://query1.finance.yahoo.com/v7/finance/quote?symbols={symbols}"
-
 TRADERS_JP_INDEX_URL = "https://www.traders.co.jp/market_jp/index"
 TRADERS_BOND_URL = "https://www.traders.co.jp/market_fo/bond"
 TRADERS_COMMODITY_URL = "https://www.traders.co.jp/market_fo/commodity"
@@ -205,11 +203,11 @@ def parse_stooq_day_month(day_month: str, now: dt.date) -> str:
 def fetch_stooq_two_day(symbol: str, fetcher: CachedFetcher, key: str) -> QuoteTwoDay | None:
     # Stooq daily CSV now often requires an API key; parse quote page instead.
     url = STOOQ_QUOTE_URL.format(symbol=urllib.parse.quote(symbol))
-    text = fetcher.text(key, url, timeout=25)
+    text = fetcher.text(key, url, suffix=".html", timeout=25)
     plain = strip_tags(text).replace("−", "-")
-    # Example: "10 Apr, 23:00 6816.89 -7.77 (-0.11%)"
+    # Example (after strip_tags): "10 Apr , 23:00 6816.89 -7.77 (-0.11%)"
     m = re.search(
-        r"(\d{1,2}\s+[A-Za-z]{3}),\s*(\d{1,2}:\d{2})\s+([0-9][0-9,]*\.?[0-9]*)\s+([-+]?[0-9][0-9,]*\.?[0-9]*)\s*\(([-+]?[0-9][0-9,]*\.?[0-9]*)%\)",
+        r"(\d{1,2}\s+[A-Za-z]{3})\s*,\s*(\d{1,2}:\d{2})\s+([0-9][0-9,]*\.?[0-9]*)\s+([-+]?[0-9][0-9,]*\.?[0-9]*)\s*\(([-+]?[0-9][0-9,]*\.?[0-9]*)%\)",
         plain,
     )
     if not m:
@@ -247,105 +245,37 @@ class NikkeiClose:
     pct: float | None
 
 
-def fetch_nikkei_index_profile(fetcher: CachedFetcher, key: str) -> NikkeiClose | None:
-    # Nikkei Indexes profile page includes close and change% as plain text.
-    t = fetcher.text(key, NIKKEI_INDEX_PROFILE_URL, timeout=25)
-    # Example patterns can change; keep fallbacks.
-    close = None
-    pct = None
-    date = None
-
-    # Date like "Apr. 10, 2026" near close.
-    m_date = re.search(r"(Jan\.|Feb\.|Mar\.|Apr\.|May\.|Jun\.|Jul\.|Aug\.|Sep\.|Oct\.|Nov\.|Dec\.)\s+\d{1,2},\s+\d{4}", t)
-    if m_date:
-        try:
-            date = dt.datetime.strptime(m_date.group(0), "%b. %d, %Y").date().isoformat()
-        except Exception:
-            date = None
-
-    # Close value appears as a big number; prefer a label nearby.
-    m_close = re.search(r"Close\s*([0-9][0-9,]*\.?[0-9]*)", t, flags=re.I)
-    if m_close:
-        close = parse_float(m_close.group(1))
-
-    # Change percent: "+1.23%" near "Change"
-    m_pct = re.search(r"Change\s*[+\-]?[0-9][0-9,]*\.?[0-9]*\s*\(([-+]?\d+(?:\.\d+)?)%\)", t, flags=re.I)
-    if m_pct:
-        pct = parse_percent(m_pct.group(1))
-    else:
-        m_pct2 = re.search(r"\(([-+]?\d+(?:\.\d+)?)%\)", t)
-        if m_pct2:
-            pct = parse_percent(m_pct2.group(1))
-
-    if close is None:
+def parse_traders_timestamp_date(html_text: str) -> str | None:
+    m = re.search(r'data_table_timestamp">\s*(\d{4}-\d{2}-\d{2})\s', html_text)
+    if not m:
         return None
-    if date is None:
-        # Fallback: use JST "yesterday" date; better than empty, but mark as unknown upstream.
-        date = dt.datetime.now(JST).date().isoformat()
-    return NikkeiClose(date=date, close=close, pct=pct)
+    return m.group(1)
 
 
-@dataclasses.dataclass(frozen=True)
-class MarketQuote:
-    symbol: str
-    price: float
-    prev_close: float | None
-    pct: float | None
-    market_date_jst: str | None
+def extract_last_percent(text: str) -> float | None:
+    matches = re.findall(r"([-+]?\d+(?:\.\d+)?)\s*%", strip_tags(text).replace("−", "-"))
+    if not matches:
+        return None
+    try:
+        return float(matches[-1])
+    except Exception:
+        return None
 
 
-def fetch_yahoo_quotes(symbols: list[str], fetcher: CachedFetcher, key: str) -> dict[str, MarketQuote]:
-    syms = [s.strip() for s in symbols if s and s.strip()]
-    if not syms:
-        return {}
-    url = YAHOO_QUOTE_URL.format(symbols=urllib.parse.quote(",".join(syms)))
-    data = fetcher.json(key, url, headers={**DEFAULT_HEADERS, "Accept": "application/json"}, timeout=25)
-    result = (((data or {}).get("quoteResponse") or {}).get("result") or []) if isinstance(data, dict) else []
-    out: dict[str, MarketQuote] = {}
-    if not isinstance(result, list):
-        return out
-    for it in result:
-        if not isinstance(it, dict):
+def parse_traders_index_quote(html_text: str, label: str) -> NikkeiClose | None:
+    rows = parse_html_table_rows(html_text)
+    for r in rows:
+        if len(r) < 3:
             continue
-        sym = str(it.get("symbol") or "").strip()
-        if not sym:
+        if label not in r[0]:
             continue
-        price = it.get("regularMarketPrice")
-        if price is None:
+        close = parse_float(r[1])
+        pct = extract_last_percent(r[2])
+        if close is None:
             continue
-        try:
-            price_f = float(price)
-        except Exception:
-            continue
-        prev_f = None
-        prev = it.get("regularMarketPreviousClose")
-        if prev is not None:
-            try:
-                prev_f = float(prev)
-            except Exception:
-                prev_f = None
-        pct_f = None
-        pct = it.get("regularMarketChangePercent")
-        if pct is not None:
-            try:
-                pct_f = float(pct)
-            except Exception:
-                pct_f = None
-        date_jst = None
-        t = it.get("regularMarketTime")
-        if isinstance(t, (int, float)):
-            try:
-                date_jst = dt.datetime.fromtimestamp(float(t), JST).strftime("%Y-%m-%d")
-            except Exception:
-                date_jst = None
-        out[sym] = MarketQuote(
-            symbol=sym,
-            price=price_f,
-            prev_close=prev_f,
-            pct=pct_f,
-            market_date_jst=date_jst,
-        )
-    return out
+        date = parse_traders_timestamp_date(html_text) or dt.datetime.now(JST).date().isoformat()
+        return NikkeiClose(date=date, close=close, pct=pct)
+    return None
 
 
 @dataclasses.dataclass(frozen=True)
@@ -356,6 +286,9 @@ class TradersSector:
 
 def parse_traders_sectors(html_text: str) -> list[TradersSector]:
     # Robust parsing: scan all tables and keep rows whose first cell matches TSE 33 sector names.
+    def norm(name: str) -> str:
+        return name.strip().replace("･", "・")
+
     sector_names = {
         "水産・農林業",
         "鉱業",
@@ -398,25 +331,14 @@ def parse_traders_sectors(html_text: str) -> list[TradersSector]:
     for r in rows:
         if not r:
             continue
-        name = r[0].strip()
+        name = norm(r[0])
         if name not in sector_names:
             continue
         pct_val = None
-        # Common layout: [業種, 現在値, 前日比, 騰落率(%), ...]
-        if len(r) >= 4:
-            pct_val = parse_percent(r[3])
         for cell in r[1:]:
-            if "%" in cell:
-                pct_val = parse_percent(cell)
+            pct_val = extract_last_percent(cell)
+            if pct_val is not None:
                 break
-        if pct_val is None:
-            for cell in r[1:]:
-                v = parse_percent(cell)
-                if v is None:
-                    continue
-                if -30.0 <= v <= 30.0:
-                    pct_val = v
-                    break
         if pct_val is None:
             continue
         out.append(TradersSector(name=name, pct=float(pct_val)))
@@ -439,45 +361,68 @@ class TradersSchedule:
 
 
 def parse_traders_schedule(html_text: str) -> TradersSchedule:
-    # Extract the Market Schedule section.
-    m = re.search(r"市場スケジュール.*?(<section\b[^>]*>.*?</section>)", html_text, flags=re.S)
-    block = m.group(1) if m else html_text
-    # Grab list items and normalize.
-    items = [strip_tags(x) for x in re.findall(r"<li\b[^>]*>(.*?)</li>", block, flags=re.S | re.I)]
-    items = [re.sub(r"\s*（.*?）\s*$", "", x).strip() for x in items if x.strip()]
+    def extract_div_block(s: str, start: int) -> str | None:
+        # Minimal HTML "div" block extractor using nesting count.
+        m0 = re.search(r"<div\b", s[start:], flags=re.I)
+        if not m0:
+            return None
+        i = start + m0.start()
+        depth = 0
+        for m in re.finditer(r"<\s*(/?)div\b", s[i:], flags=re.I):
+            tag_start = i + m.start()
+            tag_end = s.find(">", tag_start)
+            if tag_end == -1:
+                return None
+            is_close = bool(m.group(1))
+            if not is_close:
+                depth += 1
+            else:
+                depth -= 1
+                if depth == 0:
+                    return s[i : tag_end + 1]
+        return None
+
+    # Extract the Market Schedule card block (avoid navigation menus).
+    m = re.search(r'<div class="card market_schedule">', html_text)
+    if not m:
+        return TradersSchedule(domestic=[], overseas=[], earnings=[])
+    block = extract_div_block(html_text, m.start()) or ""
+    if not block:
+        return TradersSchedule(domestic=[], overseas=[], earnings=[])
+
+    def norm_list(s: str) -> str:
+        parts = [p.strip() for p in s.split("、") if p.strip()]
+        if len(parts) <= 12:
+            return s
+        return "、".join(parts[:12]) + "…"
 
     domestic: list[str] = []
     overseas: list[str] = []
     earnings: list[str] = []
+    for m_label in re.finditer(r'<div class="card-section-label">\s*(.*?)\s*</div>', block, flags=re.S):
+        label = strip_tags(m_label.group(1))
+        after_label = m_label.end()
+        m_body = re.search(r'<div class="card-body[^"]*">', block[after_label:], flags=re.S)
+        if not m_body:
+            continue
+        body_start = after_label + m_body.start()
+        body_block = extract_div_block(block, body_start)
+        if not body_block:
+            continue
+        items = [strip_tags(x) for x in re.findall(r'<div class="card-text">\s*(.*?)\s*</div>', body_block, flags=re.S)]
+        items = [re.sub(r"\s+", " ", it).strip() for it in items if it and it.strip()]
 
-    # Very lightweight heuristics based on labels seen on the page.
-    mode = "domestic"
-    for it in items:
-        if "【国内】" in it or "国内" == it:
-            mode = "domestic"
-            continue
-        if "【海外】" in it or "海外" == it:
-            mode = "overseas"
-            continue
-        if "《決算発表》" in it or "決算発表" in it:
-            mode = "earnings"
-            continue
-
-        # Keep items that include a time or are clearly event-ish.
-        if re.search(r"\b\d{1,2}:\d{2}\b", it) or any(
-            k in it for k in ["日銀", "FRB", "FOMC", "CPI", "雇用", "GDP", "小売", "PPI", "ISM", "米", "欧", "英"]
-        ):
-            if mode == "domestic":
-                domestic.append(it)
-            elif mode == "overseas":
-                overseas.append(it)
+        target = domestic if "国内" in label else overseas if "海外" in label else domestic
+        mode = "events"
+        for it in items:
+            if "《決算発表》" in it or "《米決算発表》" in it:
+                mode = "earnings"
+                continue
+            if mode == "earnings":
+                earnings.append(norm_list(it))
             else:
-                earnings.append(it)
-        elif mode == "earnings":
-            # Earnings lists may omit times.
-            earnings.append(it)
+                target.append(it)
 
-    # Keep short.
     return TradersSchedule(domestic=domestic[:8], overseas=overseas[:8], earnings=earnings[:10])
 
 
@@ -719,31 +664,8 @@ def main() -> int:
     page_url = f"{pages_base_url}archive/{date_iso}.html" if pages_base_url else ""
 
     sources: list[tuple[str, str]] = []
-
-    # (1) Prior trading day Nikkei 225 move (from Nikkei Indexes profile).
-    nikkei = None
-    try:
-        nikkei = fetch_nikkei_index_profile(fetcher, "nikkei_index_profile")
-        sources.append(("Nikkei Indexes（Nikkei 225）", NIKKEI_INDEX_PROFILE_URL))
-    except Exception:
-        nikkei = None
-
-    # Prefer Yahoo Finance API for key indicators (more stable than HTML scraping).
-    yahoo_syms = {
-        "nikkei_cash": "^N225",
-        "spx": "^GSPC",
-        "nasdaq": "^IXIC",
-        "usdjpy": "JPY=X",
-        "us10y": "^TNX",  # yield*10
-        "wti": "CL=F",
-        "nikkei_fut": "NK=F",
-        "vix": "^VIX",
-    }
-    yahoo_url = YAHOO_QUOTE_URL.format(symbols=urllib.parse.quote(",".join(yahoo_syms.values())))
     if args.print_cache_plan:
         plan = {
-            "nikkei_index_profile": NIKKEI_INDEX_PROFILE_URL,
-            "yahoo_quotes": yahoo_url,
             "traders_jp_index": TRADERS_JP_INDEX_URL,
             "traders_bond": TRADERS_BOND_URL,
             "traders_commodity": TRADERS_COMMODITY_URL,
@@ -754,12 +676,6 @@ def main() -> int:
         }
         print(json.dumps(plan, ensure_ascii=False, indent=2))
         return 0
-    yahoo: dict[str, MarketQuote] = {}
-    try:
-        yahoo = fetch_yahoo_quotes(list(yahoo_syms.values()), fetcher, "yahoo_quotes")
-        sources.append(("Yahoo Finance（主要指標）", yahoo_url))
-    except Exception:
-        yahoo = {}
 
     # (2) Sector movers + (4) schedule/earnings from Traders.
     traders_html = ""
@@ -774,16 +690,11 @@ def main() -> int:
         sectors = []
         schedule = TradersSchedule(domestic=[], overseas=[], earnings=[])
 
+    # (1) Prior trading day Nikkei 225 move (fallback: Traders main index row).
+    nikkei = parse_traders_index_quote(traders_html, "日経平均") if traders_html else None
+
     # (3) Overnight indicators
     spx = ndq = usdjpy = None
-    y_n225 = yahoo.get(yahoo_syms["nikkei_cash"])
-    y_spx = yahoo.get(yahoo_syms["spx"])
-    y_nas = yahoo.get(yahoo_syms["nasdaq"])
-    y_fx = yahoo.get(yahoo_syms["usdjpy"])
-    y_tnx = yahoo.get(yahoo_syms["us10y"])
-    y_wti = yahoo.get(yahoo_syms["wti"])
-    y_nk_f = yahoo.get(yahoo_syms["nikkei_fut"])
-    y_vix = yahoo.get(yahoo_syms["vix"])
     try:
         spx = fetch_stooq_two_day("^spx", fetcher, "stooq_spx")
         sources.append(("Stooq（S&P 500）", STOOQ_QUOTE_URL.format(symbol=urllib.parse.quote("^spx"))))
@@ -870,7 +781,10 @@ def main() -> int:
         # Keep the line compact; URLs go to sources section.
         desc = point or (title_ja[:60] + ("…" if len(title_ja) > 60 else ""))
         cite = pdf or src_url
-        watch_lines.append(f"{label}: {desc}（出典: {cite}）".rstrip("（）"))
+        if cite:
+            watch_lines.append(f"{label}: {desc}（出典: {cite}）")
+        else:
+            watch_lines.append(f"{label}: {desc}")
         watch_codes.append(code)
         if cite:
             sources.append((f"TDnet（{code}）", cite))
@@ -915,16 +829,9 @@ def main() -> int:
 
     # Build section lines
     sec1: list[str] = []
-    if y_n225:
-        pct = y_n225.pct if y_n225.pct is not None else pct_from_price_prev(y_n225.price, y_n225.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        sec1.append(
-            f"日経平均（{y_n225.market_date_jst or 'N/A'}）: {y_n225.price:,.2f}（{pct_s}）（出典: {yahoo_url}）"
-        )
-        sec1.append("前日要因: ギャップとセクター回転（値がさ/指数寄与）を優先して確認。")
-    elif nikkei:
+    if nikkei:
         pct_s = "N/A" if nikkei.pct is None else f"{format_signed(nikkei.pct, 2, '%')}"
-        sec1.append(f"日経平均（{nikkei.date}）: {nikkei.close:,.2f}（{pct_s}）（出典: {NIKKEI_INDEX_PROFILE_URL}）")
+        sec1.append(f"日経平均（{nikkei.date}）: {nikkei.close:,.2f}（{pct_s}）（出典: {TRADERS_JP_INDEX_URL}）")
         sec1.append("前日要因: 値がさ/指数寄与とセクター回転を優先して確認。")
     else:
         sec1.append("日経平均: N/A（出典取得失敗）")
@@ -950,74 +857,45 @@ def main() -> int:
         sec2.extend(repeats)
 
     sec3: list[str] = []
-    if y_spx:
-        pct = y_spx.pct if y_spx.pct is not None else pct_from_price_prev(y_spx.price, y_spx.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        sec3.append(f"S&P500（{y_spx.market_date_jst or 'N/A'}）: {y_spx.price:,.2f}（{pct_s}）（出典: {yahoo_url}）")
-    elif spx and spx.pct_change is not None:
+    if spx and spx.pct_change is not None:
         sec3.append(
             f"S&P500（{spx.date}）: {spx.close:,.2f}（{format_signed(spx.pct_change,2,'%')}）"
             f"（出典: {STOOQ_QUOTE_URL.format(symbol=urllib.parse.quote('^spx'))}）"
         )
     else:
         sec3.append("S&P500: N/A")
-    if y_nas:
-        pct = y_nas.pct if y_nas.pct is not None else pct_from_price_prev(y_nas.price, y_nas.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        sec3.append(f"Nasdaq（{y_nas.market_date_jst or 'N/A'}）: {y_nas.price:,.2f}（{pct_s}）（出典: {yahoo_url}）")
-    elif ndq and ndq.pct_change is not None:
+    if ndq and ndq.pct_change is not None:
         sec3.append(
             f"Nasdaq（{ndq.date}）: {ndq.close:,.2f}（{format_signed(ndq.pct_change,2,'%')}）"
             f"（出典: {STOOQ_QUOTE_URL.format(symbol=urllib.parse.quote('^ndq'))}）"
         )
     else:
         sec3.append("Nasdaq: N/A")
-    if y_fx:
-        pct = y_fx.pct if y_fx.pct is not None else pct_from_price_prev(y_fx.price, y_fx.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        sec3.append(f"USDJPY（{y_fx.market_date_jst or 'N/A'}）: {y_fx.price:,.3f}（{pct_s}）（出典: {yahoo_url}）")
-    elif usdjpy and usdjpy.pct_change is not None:
+    if usdjpy and usdjpy.pct_change is not None:
         sec3.append(
             f"USDJPY（{usdjpy.date}）: {usdjpy.close:,.3f}（{format_signed(usdjpy.pct_change,2,'%')}）"
             f"（出典: {STOOQ_QUOTE_URL.format(symbol='usdjpy')}）"
         )
     else:
         sec3.append("USDJPY: N/A")
-    if y_tnx:
-        sec3.append(f"米10年（{y_tnx.market_date_jst or 'N/A'}）: {y_tnx.price / 10.0:.3f}%（出典: {yahoo_url}）")
-    elif y10:
+    if y10:
         chg = "" if y10.change is None else f"（前日比 {format_signed(y10.change, 3)}）"
         sec3.append(f"米10年: {y10.value:.3f}%{chg}（出典: {TRADERS_BOND_URL}）")
     else:
         sec3.append("米10年: N/A")
-    if y_wti:
-        pct = y_wti.pct if y_wti.pct is not None else pct_from_price_prev(y_wti.price, y_wti.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        sec3.append(f"WTI（{y_wti.market_date_jst or 'N/A'}）: {y_wti.price:.2f}（{pct_s}）（出典: {yahoo_url}）")
-    elif wti:
+    if wti:
         pct = "" if wti.pct is None else f"（{format_signed(wti.pct,2,'%')}）"
         sec3.append(f"WTI: {wti.value:.2f}{pct}（出典: {TRADERS_COMMODITY_URL}）")
     else:
         sec3.append("WTI: N/A")
-    cash_for_gap = None
-    if y_n225:
-        cash_for_gap = y_n225.price
-    elif nikkei:
-        cash_for_gap = nikkei.close
-    if y_nk_f and cash_for_gap is not None:
-        sec3.append(
-            f"日経225先物（{y_nk_f.market_date_jst or 'N/A'}）: {y_nk_f.price:,.1f} → 現物比 {format_signed(y_nk_f.price - float(cash_for_gap), 1)}"
-            f"（出典: {yahoo_url}）"
-        )
-    elif nk_fut is not None and cash_for_gap is not None:
+    cash_for_gap = nikkei.close if nikkei else None
+    if nk_fut is not None and cash_for_gap is not None:
         gap = nk_fut - float(cash_for_gap)
         sec3.append(f"日経225先物: {nk_fut:,.1f} → 現物比 {format_signed(gap,1)}（出典: {INVESTING_NK_FUTURES_URL}）")
     elif nk_fut is not None:
         sec3.append(f"日経225先物: {nk_fut:,.1f}（現物比 N/A）（出典: {INVESTING_NK_FUTURES_URL}）")
     else:
         sec3.append("日経225先物: N/A")
-    if y_vix:
-        sec3.append(f"VIX（{y_vix.market_date_jst or 'N/A'}）: {y_vix.price:.2f}（出典: {yahoo_url}）")
 
     sec4: list[str] = []
     if schedule.domestic:
@@ -1042,11 +920,7 @@ def main() -> int:
 
     # Synthesis (1–2 sentences)
     synth_parts: list[str] = []
-    nikkei_pct = None
-    if y_n225:
-        nikkei_pct = y_n225.pct if y_n225.pct is not None else pct_from_price_prev(y_n225.price, y_n225.prev_close)
-    elif nikkei:
-        nikkei_pct = nikkei.pct
+    nikkei_pct = nikkei.pct if nikkei else None
     if nikkei_pct is not None:
         direction = "上昇" if nikkei_pct > 0 else "下落" if nikkei_pct < 0 else "横ばい"
         synth_parts.append(f"前回引けの日経平均は{direction}（{format_signed(nikkei_pct,2,'%')}）。")
@@ -1055,15 +929,6 @@ def main() -> int:
         ndq_dir = "↑" if (ndq.pct_change or 0) > 0 else "↓" if (ndq.pct_change or 0) < 0 else "→"
         fx_dir = "円安" if (usdjpy.pct_change or 0) > 0 else "円高" if (usdjpy.pct_change or 0) < 0 else "横ばい"
         synth_parts.append(f"オーバーナイトは米株({spx_dir}/{ndq_dir})・ドル円は{fx_dir}。")
-    else:
-        spx_pct = y_spx.pct if y_spx else None
-        nas_pct = y_nas.pct if y_nas else None
-        fx_pct = y_fx.pct if y_fx else None
-        if spx_pct is not None and nas_pct is not None and fx_pct is not None:
-            spx_dir = "↑" if spx_pct > 0 else "↓" if spx_pct < 0 else "→"
-            ndq_dir = "↑" if nas_pct > 0 else "↓" if nas_pct < 0 else "→"
-            fx_dir = "円安" if fx_pct > 0 else "円高" if fx_pct < 0 else "横ばい"
-            synth_parts.append(f"オーバーナイトは米株({spx_dir}/{ndq_dir})・ドル円は{fx_dir}。")
     synth_parts.append("寄りは先物ギャップ、セクター強弱、出来高（主役）を最優先で確認。")
     synthesis = "".join(synth_parts)[:240]
 
@@ -1101,11 +966,7 @@ def main() -> int:
 
     # Upsert briefs index for archive/search/ticker pages.
     summary_bullets: list[str] = []
-    if y_n225:
-        pct = y_n225.pct if y_n225.pct is not None else pct_from_price_prev(y_n225.price, y_n225.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        summary_bullets.append(f"日経平均({y_n225.market_date_jst or 'N/A'}): {y_n225.price:,.2f} ({pct_s})")
-    elif nikkei:
+    if nikkei:
         pct_s = "N/A" if nikkei.pct is None else f"{format_signed(nikkei.pct,2,'%')}"
         summary_bullets.append(f"日経平均({nikkei.date}): {nikkei.close:,.2f} ({pct_s})")
     if spx and ndq:
@@ -1115,14 +976,7 @@ def main() -> int:
             + " / "
             + (f"Nasdaq {format_signed(ndq.pct_change or 0,2,'%')}" if ndq.pct_change is not None else "Nasdaq N/A")
         )
-    elif y_spx and y_nas:
-        spx_pct = y_spx.pct if y_spx.pct is not None else pct_from_price_prev(y_spx.price, y_spx.prev_close)
-        nas_pct = y_nas.pct if y_nas.pct is not None else pct_from_price_prev(y_nas.price, y_nas.prev_close)
-        if spx_pct is not None and nas_pct is not None:
-            summary_bullets.append(f"米株: S&P {format_signed(spx_pct,2,'%')} / Nasdaq {format_signed(nas_pct,2,'%')}")
-    if y_nk_f and cash_for_gap is not None:
-        summary_bullets.append(f"先物: {y_nk_f.price:,.1f}（現物比 {format_signed(y_nk_f.price - float(cash_for_gap),1)}）")
-    elif nk_fut is not None and cash_for_gap is not None:
+    if nk_fut is not None and cash_for_gap is not None:
         summary_bullets.append(f"先物: {nk_fut:,.1f}（現物比 {format_signed(nk_fut - float(cash_for_gap),1)}）")
     if watch_codes:
         summary_bullets.append("注目: " + ", ".join(watch_codes[:6]))
@@ -1146,13 +1000,9 @@ def main() -> int:
     w = weekday_jp(date_iso)
     slack_lines: list[str] = []
     slack_lines.append(f"*Market Morning Brief（{date_iso} {w}）*")
-    if y_n225:
-        pct = y_n225.pct if y_n225.pct is not None else pct_from_price_prev(y_n225.price, y_n225.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        slack_lines.append(f"- *前回引け*: 日経平均 {y_n225.price:,.2f}（{pct_s}）（出典: {yahoo_url}）")
-    elif nikkei:
+    if nikkei:
         pct_s = "N/A" if nikkei.pct is None else f"{format_signed(nikkei.pct,2,'%')}"
-        slack_lines.append(f"- *前回引け*: 日経平均 {nikkei.close:,.2f}（{pct_s}）（出典: {NIKKEI_INDEX_PROFILE_URL}）")
+        slack_lines.append(f"- *前回引け*: 日経平均 {nikkei.close:,.2f}（{pct_s}）（出典: {TRADERS_JP_INDEX_URL}）")
     else:
         slack_lines.append("- *前回引け*: N/A")
     if top3 and bot3:
@@ -1167,39 +1017,19 @@ def main() -> int:
         slack_lines.append("- *業種*: N/A")
     # Overnight compact
     overnight_parts: list[str] = []
-    if y_spx:
-        pct = y_spx.pct if y_spx.pct is not None else pct_from_price_prev(y_spx.price, y_spx.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        overnight_parts.append(f"S&P {y_spx.price:,.2f}({pct_s})")
-    elif spx and spx.pct_change is not None:
+    if spx and spx.pct_change is not None:
         overnight_parts.append(f"S&P {spx.close:,.2f}({format_signed(spx.pct_change,2,'%')})")
-    if y_nas:
-        pct = y_nas.pct if y_nas.pct is not None else pct_from_price_prev(y_nas.price, y_nas.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        overnight_parts.append(f"Nasdaq {y_nas.price:,.2f}({pct_s})")
-    elif ndq and ndq.pct_change is not None:
+    if ndq and ndq.pct_change is not None:
         overnight_parts.append(f"Nasdaq {ndq.close:,.2f}({format_signed(ndq.pct_change,2,'%')})")
-    if y_fx:
-        pct = y_fx.pct if y_fx.pct is not None else pct_from_price_prev(y_fx.price, y_fx.prev_close)
-        pct_s = "N/A" if pct is None else format_signed(pct, 2, "%")
-        overnight_parts.append(f"USDJPY {y_fx.price:.3f}({pct_s})")
-    elif usdjpy and usdjpy.pct_change is not None:
+    if usdjpy and usdjpy.pct_change is not None:
         overnight_parts.append(f"USDJPY {usdjpy.close:.3f}({format_signed(usdjpy.pct_change,2,'%')})")
-    if y_tnx:
-        overnight_parts.append(f"US10Y {y_tnx.price/10.0:.3f}%")
-    elif y10:
+    if y10:
         overnight_parts.append(f"US10Y {y10.value:.3f}%")
-    if y_wti:
-        overnight_parts.append(f"WTI {y_wti.price:.2f}")
-    elif wti:
+    if wti:
         overnight_parts.append(f"WTI {wti.value:.2f}")
-    if y_nk_f and cash_for_gap is not None:
-        overnight_parts.append(f"先物 {y_nk_f.price:,.1f}（現物比 {format_signed(y_nk_f.price - float(cash_for_gap),1)}）")
-    elif nk_fut is not None and cash_for_gap is not None:
+    if nk_fut is not None and cash_for_gap is not None:
         overnight_parts.append(f"先物 {nk_fut:,.1f}（現物比 {format_signed(nk_fut - float(cash_for_gap),1)}）")
     overnight_srcs: list[str] = []
-    if any([y_spx, y_nas, y_fx, y_tnx, y_wti, y_nk_f]):
-        overnight_srcs.append(yahoo_url)
     if spx:
         overnight_srcs.append(STOOQ_QUOTE_URL.format(symbol=urllib.parse.quote("^spx")))
     if ndq:
@@ -1231,6 +1061,8 @@ def main() -> int:
         slack_lines.append("- *ウォッチ*: " + ", ".join(watch_codes[:10]))
     else:
         slack_lines.append("- *ウォッチ*: N/A")
+    if page_url:
+        slack_lines.append(f"- *HTML*: {page_url}")
     # Note: sources are attached inline to key bullets above.
 
     slack_message = "\n".join(slack_lines).strip()[:3500]
