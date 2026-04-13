@@ -1,7 +1,130 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-13T10:10:48+09:00",
+  "last_checked_jst": "2026-04-13T13:28:32+09:00",
   "items": [
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502421.pdf",
+      "code": "3649",
+      "company": "FINDEX Inc.",
+      "title": "Notice Regarding Completion of Payment for Disposal of Treasury Stock as Restricted Stock Compensation",
+      "title_en": "Notice Regarding Completion of Payment for Disposal of Treasury Stock as Restricted Stock Compensation",
+      "title_ja": "Completion of Payment for Disposal of Treasury Stock as Restricted Stock Compensationに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T13:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502421.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502421.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502421.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502409.pdf",
+      "code": "3287",
+      "company": "Hoshino Resorts REIT,Inc.",
+      "title": "[Delayed] Notice Concerning Portfolio Management Results (for February 2026)",
+      "title_en": "[Delayed] Notice Concerning Portfolio Management Results (for February 2026)",
+      "title_ja": "（遅延）Portfolio Management Results (for February 2026)に関するお知らせ",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-04-13T13:00:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502409.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502409.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502409.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502381.pdf",
+      "code": "4343",
+      "company": "",
+      "title": "AEON Fantasy Co.,LTD. (Delayed)Notice Regarding Formulation of Medium-term Management Plan (FY2026-FY2030) 【Summary】",
+      "title_en": "AEON Fantasy Co.,LTD. (Delayed)Notice Regarding Formulation of Medium-term Management Plan (FY2026-FY2030) 【Summary】",
+      "title_ja": "（遅延）AEON Fantasy Co.,LTD. (Delayed)Notice Regarding Formulation of Medium-term Management Plan (FY2026-FY2030) 【Summary】",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-04-13T13:00:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502381.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502381.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502381.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502345.pdf",
+      "code": "3778",
+      "company": "SAKURA internet Inc.",
+      "title": "Notice Regarding Receipt of a Large-Scale Order for Generative AI",
+      "title_en": "Notice Regarding Receipt of a Large-Scale Order for Generative AI",
+      "title_ja": "Receipt of a Large-Scale Order for Generative AIに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T12:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502345.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502345.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502345.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502367.pdf",
+      "code": "3687",
+      "company": "",
+      "title": "Fixstars Corporation Fixstars Reduces AI Training Costs by Up to 43% and Reducing Search Time to 1/16th",
+      "title_en": "Fixstars Corporation Fixstars Reduces AI Training Costs by Up to 43% and Reducing Search Time to 1/16th",
+      "title_ja": "Fixstars Corporation Fixstars Reduces AI Training Costs by Up to 43% and Reducing Search Time to 1/16th",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T11:30:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502367.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502367.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502367.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502256.pdf",
+      "code": "3076",
+      "company": "Ai Holdings Corporation",
+      "title": "Notice Regarding the Launch of New Products in the \"Ai-Glies\" Energy-Saving System, Specialized for Freezers",
+      "title_en": "Notice Regarding the Launch of New Products in the \"Ai-Glies\" Energy-Saving System, Specialized for Freezers",
+      "title_ja": "the Launch of New Products in the \"Ai-Glies\" Energy-Saving System, Specialized for Freezersに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T11:30:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502256.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502256.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502256.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502273.pdf",
+      "code": "9501",
+      "company": "",
+      "title": "Tokyo Electric Power Company Holdings, Incorporated Corporate Governance Report",
+      "title_en": "Tokyo Electric Power Company Holdings, Incorporated Corporate Governance Report",
+      "title_ja": "Tokyo Electric Power Company Holdings, Incorporated Corporate Governance Report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T11:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502273.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502273.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502273.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502247.pdf",
       "code": "4461",
