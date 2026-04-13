@@ -1,7 +1,153 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-13T14:51:44+09:00",
+  "last_checked_jst": "2026-04-13T15:30:34+09:00",
   "items": [
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502491.pdf",
+      "code": "3132",
+      "company": "",
+      "title": "MACNICA HOLDINGS, INC. Frequently Asked Investor Questions and Answers (Q3 FY2025)",
+      "title_en": "MACNICA HOLDINGS, INC. Frequently Asked Investor Questions and Answers (Q3 FY2025)",
+      "title_ja": "MACNICA HOLDINGS, INC. Frequently Asked Investor Questions and Answers (Q3 FY2025)",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T15:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502491.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502491.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502491.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502451.pdf",
+      "code": "8095",
+      "company": "Astena Holdings Co.,Ltd. [Summary]Consolidated",
+      "title": "Financial Results for the Three Months Ended February 28, 2026 (Under Japanese GAAP)",
+      "title_en": "Financial Results for the Three Months Ended February 28, 2026 (Under Japanese GAAP)",
+      "title_ja": "決算 for the Three Months Ended February 28, 2026 (Under Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T15:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502451.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502451.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502451.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502443.pdf",
+      "code": "4578",
+      "company": "Otsuka Holdings Co., Ltd.",
+      "title": "[Delayed] Corprate Governance Report(April 6, 2026)",
+      "title_en": "[Delayed] Corprate Governance Report(April 6, 2026)",
+      "title_ja": "（遅延）Corprate Governance Report(April 6, 2026)",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-04-13T15:00:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502443.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502443.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502443.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502380.pdf",
+      "code": "9412",
+      "company": "",
+      "title": "SKY Perfect JSAT Corporation Space Compass Sign MOU to Explore Multi-Orbit Optical Data Relay Collaboration with JSAT International and Apolink",
+      "title_en": "SKY Perfect JSAT Corporation Space Compass Sign MOU to Explore Multi-Orbit Optical Data Relay Collaboration with JSAT International and Apolink",
+      "title_ja": "SKY Perfect JSAT Corporation Space Compass Sign MOU to Explore Multi-Orbit Optical Data Relay Collaboration with JSAT International and Apolink",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T15:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502380.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502380.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502380.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502154.pdf",
+      "code": "8167",
+      "company": "RETAIL PARTNERS CO., LTD. Consolidated",
+      "title": "Financial Results for the Fiscal Year Ended February 28, 2026(Under Japanese GAAP)",
+      "title_en": "Financial Results for the Fiscal Year Ended February 28, 2026(Under Japanese GAAP)",
+      "title_ja": "決算 for the Fiscal Year Ended February 28, 2026(Under Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T15:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260412502154.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260412502154.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502154.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502150.pdf",
+      "code": "8167",
+      "company": "RETAIL PARTNERS CO., LTD. Reference Materials for the",
+      "title": "Financial Results for the Fiscal Year Ended February 28, 2026",
+      "title_en": "Financial Results for the Fiscal Year Ended February 28, 2026",
+      "title_ja": "決算 for the Fiscal Year Ended February 28, 2026",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T15:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260412502150.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260412502150.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502150.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502149.pdf",
+      "code": "8167",
+      "company": "RETAIL PARTNERS CO., LTD.",
+      "title": "Notice Regarding Decision on Matters Related to Acquisition of Treasury Stock",
+      "title_en": "Notice Regarding Decision on Matters Related to Acquisition of Treasury Stock",
+      "title_ja": "Decision on Matters Related to Acquisition of Treasury Stockに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T15:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260412502149.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260412502149.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502149.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260411501809.pdf",
+      "code": "7370",
+      "company": "Enjin Co.,Ltd. Summary of Consolidated",
+      "title": "Financial Results for the Nine Months Ended February 28, 2026[Japanese GAAP]",
+      "title_en": "Financial Results for the Nine Months Ended February 28, 2026[Japanese GAAP]",
+      "title_ja": "決算 for the Nine Months Ended February 28, 2026[Japanese GAAP]",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T15:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260411501809.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260411501809.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260411501809.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502486.pdf",
       "code": "4062",
