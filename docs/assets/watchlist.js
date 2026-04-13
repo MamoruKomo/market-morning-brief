@@ -1,4 +1,10 @@
 (function () {
+  const GAP_ALERT_PCT = 2.0;
+  const OPEN_VOL_ALERT_RATIO = 0.15;
+  const CLOSE_VOL_ALERT_RATIO = 1.8;
+  const ALERT_TOP_N = 5;
+  const CLOSE_VOL_HISTORY_DAYS = 20;
+
   function $(selector) {
     return document.querySelector(selector);
   }
@@ -68,10 +74,80 @@
     return ((p - prev) / prev) * 100;
   }
 
+  function median(values) {
+    const xs = asArray(values).map((v) => Number(v)).filter((v) => Number.isFinite(v) && v > 0).sort((a, b) => a - b);
+    if (!xs.length) return null;
+    const mid = Math.floor(xs.length / 2);
+    if (xs.length % 2 === 1) return xs[mid];
+    return (xs[mid - 1] + xs[mid]) / 2;
+  }
+
   async function loadJson(path) {
     const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error(`Failed to load ${path}`);
     return res.json();
+  }
+
+  function iterSnapshots(snapshots) {
+    return asArray(snapshots)
+      .filter((s) => s && typeof s === "object")
+      .slice()
+      .sort((a, b) => String(b.datetime_jst || "").localeCompare(String(a.datetime_jst || "")));
+  }
+
+  function findPrevCloseSnapshot(snapshots, currentDate) {
+    for (const s of iterSnapshots(snapshots)) {
+      const phase = normalizeText(s.phase);
+      if (phase !== "close") continue;
+      const dt = normalizeText(s.datetime_jst);
+      if (!dt) continue;
+      const day = dt.slice(0, 10);
+      if (day && day < currentDate) return s;
+    }
+    return null;
+  }
+
+  function buildCloseVolumeHistory(snapshots, codes, currentDate, maxDays) {
+    const hist = new Map();
+    for (const c of codes) hist.set(c, []);
+    for (const s of iterSnapshots(snapshots)) {
+      const phase = normalizeText(s.phase);
+      if (phase !== "close") continue;
+      const dt = normalizeText(s.datetime_jst);
+      if (!dt) continue;
+      const day = dt.slice(0, 10);
+      if (!day || day >= currentDate) continue;
+
+      const items = asArray(s.items);
+      for (const it of items) {
+        const code = normalizeText(it?.code);
+        if (!code || !hist.has(code)) continue;
+        const arr = hist.get(code);
+        if (arr.length >= maxDays) continue;
+        const vol = num(it?.volume);
+        if (vol == null || vol <= 0) continue;
+        arr.push(vol);
+      }
+    }
+    return hist;
+  }
+
+  function buildMetaByCode(cfg) {
+    const map = new Map();
+    for (const g of asArray(cfg?.groups)) {
+      const sector = normalizeText(g?.sector);
+      for (const t of asArray(g?.tickers)) {
+        const code = normalizeText(t?.code);
+        if (!code || map.has(code)) continue;
+        map.set(code, {
+          code,
+          sector,
+          name: normalizeText(t?.name),
+          name_en: normalizeText(t?.name_en),
+        });
+      }
+    }
+    return map;
   }
 
   function groupSnapshotsByDate(snapshots) {
@@ -267,12 +343,139 @@
     return { openSnap, closeSnap };
   }
 
+  function renderAlerts(container, cfg, snapshots, date, openSnap, closeSnap) {
+    if (!container) return;
+    const metaByCode = buildMetaByCode(cfg);
+    const openMap = mapItems(openSnap);
+    const closeMap = mapItems(closeSnap);
+    const codes = new Set([...openMap.keys(), ...closeMap.keys()]);
+    if (!codes.size) {
+      container.innerHTML = `<div class="empty">異常検知: スナップショットがありません。</div>`;
+      return;
+    }
+
+    const prevCloseSnap = findPrevCloseSnapshot(snapshots, date);
+    const prevVol = new Map();
+    for (const it of asArray(prevCloseSnap?.items)) {
+      const code = normalizeText(it?.code);
+      if (!code || !codes.has(code)) continue;
+      const v = num(it?.volume);
+      if (v == null || v <= 0) continue;
+      prevVol.set(code, v);
+    }
+
+    const closeHist = buildCloseVolumeHistory(snapshots, codes, date, CLOSE_VOL_HISTORY_DAYS);
+
+    const gapAlerts = [];
+    if (openSnap) {
+      for (const code of openMap.keys()) {
+        const it = openMap.get(code) || {};
+        const prev = num(it.prev_close);
+        const open = num(it.open);
+        if (prev == null || open == null || prev === 0) continue;
+        const pct = computeChangePct(open, prev);
+        if (pct == null) continue;
+        if (Math.abs(pct) < GAP_ALERT_PCT) continue;
+        const meta = metaByCode.get(code) || {};
+        const name = normalizeText(it.name || meta.name || "");
+        const url = normalizeText(it.source_url || `https://kabutan.jp/stock/?code=${encodeURIComponent(code)}`);
+        gapAlerts.push({
+          abs: Math.abs(pct),
+          code,
+          name,
+          pct,
+          open,
+          prev,
+          url,
+        });
+      }
+    }
+    gapAlerts.sort((a, b) => b.abs - a.abs);
+
+    const volPhase = closeSnap ? "close" : "open";
+    const volThreshold = volPhase === "close" ? CLOSE_VOL_ALERT_RATIO : OPEN_VOL_ALERT_RATIO;
+    const volAlerts = [];
+    const volMap = volPhase === "close" ? closeMap : openMap;
+    for (const code of volMap.keys()) {
+      const it = volMap.get(code) || {};
+      const vol = num(it.volume);
+      if (vol == null || vol <= 0) continue;
+      let base = null;
+      if (volPhase === "close") {
+        const med = median(closeHist.get(code) || []);
+        base = med != null && med > 0 ? med : prevVol.get(code);
+      } else {
+        base = prevVol.get(code);
+      }
+      if (base == null || base <= 0) continue;
+      const ratio = vol / base;
+      if (!Number.isFinite(ratio) || ratio < volThreshold) continue;
+      const meta = metaByCode.get(code) || {};
+      const name = normalizeText(it.name || meta.name || "");
+      const url = normalizeText(it.source_url || `https://kabutan.jp/stock/?code=${encodeURIComponent(code)}`);
+      volAlerts.push({ ratio, code, name, vol, base, url });
+    }
+    volAlerts.sort((a, b) => b.ratio - a.ratio);
+
+    const gapHtml =
+      gapAlerts.length > 0
+        ? `<ul class="points compact">${gapAlerts
+            .slice(0, ALERT_TOP_N)
+            .map(
+              (a) =>
+                `<li><a href="${escapeHtml(a.url)}" target="_blank" rel="noreferrer">${escapeHtml(
+                  `${a.code} ${a.name}`.trim() || a.code,
+                )}</a> ${escapeHtml(fmtPct(a.pct))}（寄り ${escapeHtml(fmt(a.open, { maximumFractionDigits: 0 }))} / 前日 ${escapeHtml(
+                  fmt(a.prev, { maximumFractionDigits: 0 }),
+                )}）</li>`,
+            )
+            .join("")}</ul>`
+        : `<div class="empty">なし（|%| ≥ ${GAP_ALERT_PCT.toFixed(0)}%）</div>`;
+
+    const volLabel =
+      volPhase === "close"
+        ? `平常比 ≥ ${CLOSE_VOL_ALERT_RATIO.toFixed(1)}x`
+        : `前日比 ≥ ${Math.round(OPEN_VOL_ALERT_RATIO * 100)}%`;
+    const volHtml =
+      volAlerts.length > 0
+        ? `<ul class="points compact">${volAlerts
+            .slice(0, ALERT_TOP_N)
+            .map(
+              (a) =>
+                `<li><a href="${escapeHtml(a.url)}" target="_blank" rel="noreferrer">${escapeHtml(
+                  `${a.code} ${a.name}`.trim() || a.code,
+                )}</a> ${escapeHtml(fmt(a.vol, { maximumFractionDigits: 0 }))}（${escapeHtml(
+                  fmt(a.ratio, { maximumFractionDigits: 2 }),
+                )}x / 基準 ${escapeHtml(fmt(a.base, { maximumFractionDigits: 0 }))}）</li>`,
+            )
+            .join("")}</ul>`
+        : `<div class="empty">なし（${escapeHtml(volLabel)}）</div>`;
+
+    container.innerHTML = `<div class="metric-grid">
+  <div class="mini-card">
+    <div class="row"><div class="metric-title">異常検知：ギャップ</div><div class="date">${escapeHtml(
+      openSnap?.datetime_jst ? openSnap.datetime_jst.slice(11, 16) : "—",
+    )} JST</div></div>
+    <div class="meta-line">条件: |%| ≥ ${escapeHtml(GAP_ALERT_PCT.toFixed(0))}%</div>
+    ${gapHtml}
+  </div>
+  <div class="mini-card">
+    <div class="row"><div class="metric-title">異常検知：出来高</div><div class="date">${escapeHtml(
+      (volPhase === "close" ? closeSnap?.datetime_jst : openSnap?.datetime_jst) ? (volPhase === "close" ? closeSnap?.datetime_jst : openSnap?.datetime_jst).slice(11, 16) : "—",
+    )} JST</div></div>
+    <div class="meta-line">条件: ${escapeHtml(volLabel)}</div>
+    ${volHtml}
+  </div>
+</div>`;
+  }
+
   async function main() {
     const root = document.documentElement;
     const cfgPath = root.getAttribute("data-watchlist-config") || "../data/watchlist.json";
     const snapPath = root.getAttribute("data-watchlist-snapshots") || "../data/watchlist_snapshots.json";
 
     const container = $(".js-watchlist");
+    const alerts = $(".js-alerts");
     const select = $(".js-date");
     const search = $(".js-search");
     const status = $(".js-status");
@@ -305,6 +508,7 @@
       const showEnglish = !!toggleEn?.checked;
       const query = normalizeQuery(search?.value || "");
       const { openSnap, closeSnap } = render(container, cfg, snapshots, date, showEnglish, query);
+      renderAlerts(alerts, cfg, snapshots, date, openSnap, closeSnap);
 
       const openLabel = openSnap?.datetime_jst ? `寄り: ${openSnap.datetime_jst}` : "寄り: —";
       const closeLabel = closeSnap?.datetime_jst ? `引け: ${closeSnap.datetime_jst}` : "引け: —";

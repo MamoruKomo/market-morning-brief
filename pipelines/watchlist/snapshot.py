@@ -25,6 +25,10 @@ except Exception:  # pragma: no cover
 JST = ZoneInfo("Asia/Tokyo")
 KABUTAN_STOCK_URL = "https://en.kabutan.com/jp/stocks/{code}/"
 MAX_SNAPSHOTS_DEFAULT = 2000
+GAP_ALERT_PCT = 2.0
+OPEN_VOL_ALERT_RATIO = 0.15
+CLOSE_VOL_ALERT_RATIO = 1.8
+ALERT_TOP_N = 5
 
 
 MONTHS = {
@@ -303,12 +307,82 @@ def compute_delta(price: float | None, prev_close: float | None) -> tuple[float 
     return d, p
 
 
+def median(values: list[int]) -> float | None:
+    xs = [int(v) for v in values if isinstance(v, int) and v > 0]
+    if not xs:
+        return None
+    xs.sort()
+    n = len(xs)
+    mid = n // 2
+    if n % 2 == 1:
+        return float(xs[mid])
+    return (xs[mid - 1] + xs[mid]) / 2.0
+
+
+def iter_snapshots(store: dict[str, Any]) -> list[dict[str, Any]]:
+    snaps = store.get("snapshots")
+    if not isinstance(snaps, list):
+        return []
+    out: list[dict[str, Any]] = []
+    for s in snaps:
+        if isinstance(s, dict):
+            out.append(s)
+    out.sort(key=lambda s: normalize_text(s.get("datetime_jst") or ""), reverse=True)
+    return out
+
+
+def find_prev_close_snapshot(store: dict[str, Any], current_date: str) -> dict[str, Any] | None:
+    for s in iter_snapshots(store):
+        if normalize_text(s.get("phase") or "") != "close":
+            continue
+        dt = normalize_text(s.get("datetime_jst") or "")
+        if not dt:
+            continue
+        day = dt[:10]
+        if day and day < current_date:
+            return s
+    return None
+
+
+def build_close_volume_history(
+    store: dict[str, Any], codes: set[str], current_date: str, max_days: int
+) -> dict[str, list[int]]:
+    hist: dict[str, list[int]] = {c: [] for c in codes}
+    for s in iter_snapshots(store):
+        if normalize_text(s.get("phase") or "") != "close":
+            continue
+        dt = normalize_text(s.get("datetime_jst") or "")
+        if not dt:
+            continue
+        day = dt[:10]
+        if not day or day >= current_date:
+            continue
+
+        items = s.get("items")
+        if not isinstance(items, list):
+            continue
+        for it in items:
+            if not isinstance(it, dict):
+                continue
+            code = normalize_text(it.get("code") or "")
+            if not code or code not in hist:
+                continue
+            if len(hist[code]) >= max_days:
+                continue
+            vol = num_int(it.get("volume"))
+            if vol is None or vol <= 0:
+                continue
+            hist[code].append(vol)
+    return hist
+
+
 def build_slack_message(
     phase: str,
     now_jst: datetime,
     cfg: dict[str, Any],
     watchlist_cfg: dict[str, Any],
     snapshot: dict[str, Any],
+    store: dict[str, Any],
 ) -> str:
     pages_base_url = normalize_text(cfg.get("pages_base_url") or "")
     link = pages_base_url.rstrip("/") + "/watchlist/"
@@ -325,6 +399,76 @@ def build_slack_message(
                 items_by_code[code] = it
 
     lines: list[str] = [header, f"一覧: {link}"]
+
+    current_date = normalize_text(snapshot.get("datetime_jst") or "")[:10]
+    codes = set(items_by_code.keys())
+
+    prev_close = find_prev_close_snapshot(store, current_date) if current_date else None
+    prev_close_vol: dict[str, int] = {}
+    if isinstance(prev_close, dict):
+        for it in prev_close.get("items") if isinstance(prev_close.get("items"), list) else []:
+            if not isinstance(it, dict):
+                continue
+            c = normalize_text(it.get("code") or "")
+            if c and c in codes:
+                v = num_int(it.get("volume"))
+                if v is not None and v > 0:
+                    prev_close_vol[c] = v
+
+    close_hist = build_close_volume_history(store, codes, current_date, max_days=20) if current_date else {}
+
+    gap_alerts: list[tuple[float, str, str, float, float, float, str]] = []
+    vol_alerts: list[tuple[float, str, str, int, int, str]] = []
+    for code, it in items_by_code.items():
+        name = normalize_text(it.get("name") or "")
+        url = normalize_text(it.get("source_url") or f"https://kabutan.jp/stock/?code={urllib.parse.quote(code)}")
+        prev = num(it.get("prev_close"))
+        price = num(it.get(phase))
+        vol = num_int(it.get("volume"))
+
+        if phase == "open" and price is not None and prev is not None and prev > 0:
+            _, p = compute_delta(price, prev)
+            if p is not None and abs(p) >= GAP_ALERT_PCT:
+                gap_alerts.append((abs(p), code, name, p, price, prev, url))
+
+        if vol is None or vol <= 0:
+            continue
+        base_vol = None
+        if phase == "open":
+            base_vol = prev_close_vol.get(code)
+        else:
+            base = median(close_hist.get(code, [])) if close_hist else None
+            if base is not None and base > 0:
+                base_vol = int(base)
+            else:
+                base_vol = prev_close_vol.get(code)
+
+        if base_vol is None or base_vol <= 0:
+            continue
+        ratio = vol / float(base_vol)
+        if phase == "open" and ratio >= OPEN_VOL_ALERT_RATIO:
+            vol_alerts.append((ratio, code, name, vol, base_vol, url))
+        if phase == "close" and ratio >= CLOSE_VOL_ALERT_RATIO:
+            vol_alerts.append((ratio, code, name, vol, base_vol, url))
+
+    gap_alerts.sort(key=lambda x: x[0], reverse=True)
+    vol_alerts.sort(key=lambda x: x[0], reverse=True)
+
+    if gap_alerts or vol_alerts:
+        lines.append("*異常検知*")
+        if phase == "open" and gap_alerts:
+            lines.append(f"*ギャップ*（|%|≥{GAP_ALERT_PCT:.0f}%）")
+            for _, code, name, p, price, prev, url in gap_alerts[:ALERT_TOP_N]:
+                disp = f"{code} {name}".strip()
+                lines.append(f"・<{url}|{disp}> {p:+.2f}%（{fmt_price(price)} / 前日 {fmt_price(prev)}）")
+        if vol_alerts:
+            if phase == "open":
+                lines.append(f"*出来高急増*（前日比≥{int(OPEN_VOL_ALERT_RATIO*100)}%）")
+            else:
+                lines.append(f"*出来高急増*（平常比≥{CLOSE_VOL_ALERT_RATIO:.1f}x）")
+            for ratio, code, name, vol, base, url in vol_alerts[:ALERT_TOP_N]:
+                disp = f"{code} {name}".strip()
+                lines.append(f"・<{url}|{disp}> {fmt_int(vol)}（{ratio:.2f}x / 基準 {fmt_int(base)}）")
 
     groups = watchlist_cfg.get("groups") if isinstance(watchlist_cfg.get("groups"), list) else []
     for group in groups:
@@ -546,7 +690,7 @@ def main() -> int:
     store["updated_at"] = now_jst.isoformat(timespec="seconds")
     store, changed = upsert_snapshot(store, snapshot, max_snapshots=int(args.max_snapshots))
 
-    message = build_slack_message(phase, now_jst, cfg, watch_cfg, snapshot)
+    message = build_slack_message(phase, now_jst, cfg, watch_cfg, snapshot, store)
 
     if changed:
         store_path.parent.mkdir(parents=True, exist_ok=True)

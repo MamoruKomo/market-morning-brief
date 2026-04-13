@@ -253,6 +253,21 @@ input[type="search"]:focus{
   box-shadow: 0 0 0 2px rgba(0,82,208,.16);
 }
 input[type="search"]::placeholder{color:rgba(71,85,105,.55)}
+textarea{
+  width:100%;
+  padding:12px 12px;
+  border-radius:14px;
+  border:1px solid transparent;
+  background:var(--panel2);
+  color:var(--text);
+  outline:none;
+  resize:vertical;
+}
+textarea:focus{
+  background: var(--panel);
+  border-color: rgba(0,82,208,.40);
+  box-shadow: 0 0 0 2px rgba(0,82,208,.16);
+}
 .empty{
   color:var(--muted);
   padding:12px 0 6px;
