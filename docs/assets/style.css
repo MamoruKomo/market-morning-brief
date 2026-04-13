@@ -201,6 +201,15 @@ section{
   box-shadow: var(--shadow);
   scroll-margin-top: 96px;
 }
+.watch-hero{
+  background:
+    radial-gradient(900px 460px at 10% 0%, rgba(0,82,208,.10), transparent 60%),
+    radial-gradient(700px 420px at 100% 10%, rgba(134,254,167,.18), transparent 55%),
+    var(--panel);
+}
+.watch-hero h2{
+  font-size:16px;
+}
 @media (max-height: 880px){
   section{padding:14px 16px}
   .kpi{min-width:160px}
