@@ -1,7 +1,381 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-13T15:30:34+09:00",
+  "last_checked_jst": "2026-04-13T17:28:56+09:00",
   "items": [
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502953.pdf",
+      "code": "9517",
+      "company": "",
+      "title": "eREX Co.,Ltd. Planned personnel changes in executive officers",
+      "title_en": "eREX Co.,Ltd. Planned personnel changes in executive officers",
+      "title_ja": "eREX Co.,Ltd. Planned personnel changes in executive officers",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-13T17:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502953.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502953.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502953.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502939.pdf",
+      "code": "3482",
+      "company": "Loadstar Capital K.K.",
+      "title": "Notice Regarding Determination of Terms for Issuance of Share Acquisition Rights (Stock Options)",
+      "title_en": "Notice Regarding Determination of Terms for Issuance of Share Acquisition Rights (Stock Options)",
+      "title_ja": "Determination of Terms for Issuance of Share Acquisition Rights (Stock Options)に関するお知らせ",
+      "points_ja": [
+        "ストックオプション（希薄化/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T17:00:00+09:00",
+      "tags": [
+        "SO"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502939.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502939.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502939.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502736.pdf",
+      "code": "2972",
+      "company": "",
+      "title": "SANKEI REAL ESTATE Inc. Revisions to Operating Forecasts and Distribution Forecasts (No Distributions) and Recording of Impairment Losses for Fiscal Period Ended Feb 28, 2026",
+      "title_en": "SANKEI REAL ESTATE Inc. Revisions to Operating Forecasts and Distribution Forecasts (No Distributions) and Recording of Impairment Losses for Fiscal Period Ended Feb 28, 2026",
+      "title_ja": "SANKEI REAL ESTATE Inc. 修正 to Operating Forecasts and Distribution Forecasts (No Distributions) and Recording of Impairment Losses for Fiscal Period Ended Feb 28, 2026",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-04-13T17:00:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502736.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502736.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502736.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502687.pdf",
+      "code": "6209",
+      "company": "NPR-RIKEN CORPORATION",
+      "title": "Notice Concerning Partial Termination of Domestic Production in the Casting Components Business",
+      "title_en": "Notice Concerning Partial Termination of Domestic Production in the Casting Components Business",
+      "title_ja": "Partial Termination of Domestic Production in the Casting Components Businessに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T17:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502687.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502687.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502687.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502625.pdf",
+      "code": "6209",
+      "company": "NPR-RIKEN CORPORATION",
+      "title": "Notice Regarding the Acquisition of Shares in Hastings Holding Corp. by Riken Corporation of America, a subsidiary of NPR-RIKEN CORPORATION",
+      "title_en": "Notice Regarding the Acquisition of Shares in Hastings Holding Corp. by Riken Corporation of America, a subsidiary of NPR-RIKEN CORPORATION",
+      "title_ja": "the Acquisition of Shares in Hastings Holding Corp. by Riken Corporation of America, a subsidiary of NPR-RIKEN CORPORATIONに関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T17:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502625.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502625.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502625.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502911.pdf",
+      "code": "7049",
+      "company": "SHIKIGAKU. Co.,Ltd.",
+      "title": "Financial Results for the Fiscal Year Ended February 28, 2026 Full Year Financial Report",
+      "title_en": "Financial Results for the Fiscal Year Ended February 28, 2026 Full Year Financial Report",
+      "title_ja": "決算 for the Fiscal Year Ended February 28, 2026 Full Year 財務報告",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502911.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502911.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502911.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502871.pdf",
+      "code": "7049",
+      "company": "SHIKIGAKU. Co.,Ltd. Consolidated",
+      "title": "Financial Results for the Fiscal Year Ended February 28, 2026 (Under Japanese GAAP)",
+      "title_en": "Financial Results for the Fiscal Year Ended February 28, 2026 (Under Japanese GAAP)",
+      "title_ja": "決算 for the Fiscal Year Ended February 28, 2026 (Under Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502871.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502871.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502871.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502418.pdf",
+      "code": "6200",
+      "company": "Insource Co.,Ltd",
+      "title": "Notice: Organizational and Personnel Changes",
+      "title_en": "Notice: Organizational and Personnel Changes",
+      "title_ja": "Notice: Organizational and Personnel Changes",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:30:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502418.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502418.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502418.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502856.pdf",
+      "code": "2124",
+      "company": "",
+      "title": "JAC Recruitment Co., Ltd. Completion of Payment for Disposal of Treasury Stock as Restricted Stock Remuneration for Executive Directors",
+      "title_en": "JAC Recruitment Co., Ltd. Completion of Payment for Disposal of Treasury Stock as Restricted Stock Remuneration for Executive Directors",
+      "title_ja": "JAC Recruitment Co., Ltd. Completion of Payment for Disposal of Treasury Stock as Restricted Stock Remuneration for Executive Directors",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502856.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502856.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502856.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502658.pdf",
+      "code": "4552",
+      "company": "",
+      "title": "JCR Pharmaceuticals Co.,Ltd. JCR Pharmaceuticals Initiates Phase III Dose Comparison Study of GROWJECT S.C. Injection 12mg in Japan",
+      "title_en": "JCR Pharmaceuticals Co.,Ltd. JCR Pharmaceuticals Initiates Phase III Dose Comparison Study of GROWJECT S.C. Injection 12mg in Japan",
+      "title_ja": "JCR Pharmaceuticals Co.,Ltd. JCR Pharmaceuticals Initiates Phase III Dose Comparison Study of GROWJECT S.C. Injection 12mg in Japan",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502658.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502658.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502658.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502647.pdf",
+      "code": "6088",
+      "company": "SIGMAXYZ Holdings Inc.",
+      "title": "Notice Regarding the Acquisition of Core Concept Technologies Inc.(Stock Code: 4371)'s Shares",
+      "title_en": "Notice Regarding the Acquisition of Core Concept Technologies Inc.(Stock Code: 4371)'s Shares",
+      "title_ja": "the Acquisition of Core Concept Technologies Inc.(Stock Code: 4371)'s Sharesに関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502647.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502647.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502647.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502593.pdf",
+      "code": "9418",
+      "company": "U-NEXT HOLDINGS Co.,Ltd. Consolidated",
+      "title": "Financial Results for the Six Months Ended February 28, 2026 ［Japanese GAAP］",
+      "title_en": "Financial Results for the Six Months Ended February 28, 2026 ［Japanese GAAP］",
+      "title_ja": "決算 for the Six Months Ended February 28, 2026 ［Japanese GAAP］",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502593.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502593.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502593.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502564.pdf",
+      "code": "4820",
+      "company": "EM SYSTEMS CO.,LTD.",
+      "title": "Notice of Disposal of Treasury Stock as Restricted Stock Compensation",
+      "title_en": "Notice of Disposal of Treasury Stock as Restricted Stock Compensation",
+      "title_ja": "Disposal of Treasury Stock as Restricted Stock Compensationのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502564.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502564.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502564.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502540.pdf",
+      "code": "3276",
+      "company": "",
+      "title": "Japan Property Management Center Co.,Ltd. Monthly Information for March of the Fiscal Year Ending December 31, 2026",
+      "title_en": "Japan Property Management Center Co.,Ltd. Monthly Information for March of the Fiscal Year Ending December 31, 2026",
+      "title_ja": "Japan Property Management Center Co.,Ltd. Monthly Information for March of the Fiscal Year Ending December 31, 2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502540.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502540.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502540.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502463.pdf",
+      "code": "3679",
+      "company": "ZIGExN Co., Ltd.",
+      "title": "Notice Concerning the Booking of Non-Operating Income in Non-Consolidated Financial Results",
+      "title_en": "Notice Concerning the Booking of Non-Operating Income in Non-Consolidated Financial Results",
+      "title_ja": "the Booking of Non-Operating Income in Non-連結決算に関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502463.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502463.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502463.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502394.pdf",
+      "code": "9418",
+      "company": "U-NEXT HOLDINGS Co.,Ltd.",
+      "title": "Notice on Dividend of Surplus",
+      "title_en": "Notice on Dividend of Surplus",
+      "title_ja": "Notice on 配当 of Surplus",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [
+        "配当"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502394.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502394.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502394.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502373.pdf",
+      "code": "9418",
+      "company": "",
+      "title": "U-NEXT HOLDINGS Co.,Ltd. Summary of Second Quarter of Fiscal Year Ending August 2026",
+      "title_en": "U-NEXT HOLDINGS Co.,Ltd. Summary of Second Quarter of Fiscal Year Ending August 2026",
+      "title_ja": "U-NEXT HOLDINGS Co.,Ltd. Summary of Second Quarter of Fiscal Year Ending August 2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502373.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502373.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502373.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502234.pdf",
+      "code": "6419",
+      "company": "Mars Group Holdings Corporation",
+      "title": "Notice Concerning Revision of Consolidated Earnings Forecast",
+      "title_en": "Notice Concerning Revision of Consolidated Earnings Forecast",
+      "title_ja": "修正 of Consolidated Earnings 予想に関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-04-13T16:00:00+09:00",
+      "tags": [
+        "決算",
+        "業績修正"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502234.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502234.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502234.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260410502051.pdf",
+      "code": "2282",
+      "company": "NH Foods Ltd.",
+      "title": "Notice of the Cancellation of Shares of Treasury Stocks",
+      "title_en": "Notice of the Cancellation of Shares of Treasury Stocks",
+      "title_ja": "the Cancellation of Shares of Treasury Stocksのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T15:40:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260410502051.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410502051.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260410502051.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260410501922.pdf",
+      "code": "8141",
+      "company": "Shinko Shoji Co.,Ltd.",
+      "title": "Notice Concerning the Revision to the Full-Year Consolidated Financial Results Forecast and Year-end Dividend Forecast",
+      "title_en": "Notice Concerning the Revision to the Full-Year Consolidated Financial Results Forecast and Year-end Dividend Forecast",
+      "title_ja": "the 修正 to the Full-Year 連結決算 予想 and Year-end 配当予想に関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認",
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-04-13T15:35:00+09:00",
+      "tags": [
+        "決算",
+        "業績修正",
+        "配当"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260410501922.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501922.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260410501922.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502491.pdf",
       "code": "3132",
