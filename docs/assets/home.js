@@ -480,7 +480,7 @@ ${tags}`;
   }
 
   async function main() {
-    const kpi = $(".js-kpi");
+    const kpi = document.querySelectorAll(".js-kpi");
     const today = $(".js-today");
     const recent = $(".js-recent");
     const trends = $(".js-tag-trends");
@@ -508,7 +508,7 @@ ${tags}`;
     if (recent) renderRecentBriefs(recent, briefs);
     if (trends) renderTagTrends(trends, briefs);
 
-    if (kpi) {
+    if (kpi && kpi.length) {
       const hasMo =
         latest &&
         latest.market_overview &&
@@ -518,7 +518,9 @@ ${tags}`;
       const mo = hasMo ? latest.market_overview : parseMarketOverviewFromBullets(latest?.summary_bullets || []);
       const tiles = buildKpisFromMarketOverview(mo);
       const html = tiles.map((t) => renderKpiTile(t)).join("");
-      kpi.innerHTML = html || `<div class="empty">—</div>`;
+      kpi.forEach((el) => {
+        el.innerHTML = html || `<div class="empty">—</div>`;
+      });
     }
 
     try {

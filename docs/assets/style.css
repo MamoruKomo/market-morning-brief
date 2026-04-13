@@ -26,6 +26,32 @@ body{
 }
 a{color:var(--link); text-decoration:none}
 a:hover{text-decoration:underline}
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  background: rgba(246,248,252,.82);
+  border-bottom: 1px solid rgba(15,23,42,.10);
+}
+.topbar-inner{
+  max-width:1440px;
+  margin:0 auto;
+  padding:10px 16px;
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+.topbar-left{display:flex; flex-direction:column; gap:2px; min-width:180px}
+.topbar-title{font-weight:800; letter-spacing:.2px}
+.topbar-sub{font-size:12px}
+.topbar-kpi{
+  display:flex;
+  gap:10px;
+  overflow-x:auto;
+  padding-bottom:4px;
+}
+.topbar-kpi .kpi{min-width: 180px}
 .wrap{max-width:1120px; margin:0 auto; padding:22px 16px 56px}
 @media (min-width: 920px){
   .wrap{
@@ -325,6 +351,7 @@ ul.mini{
   overflow-x:auto;
   padding-bottom:6px;
 }
+.kpi-bar.js-kpi{margin-top:0}
 .kpi{
   min-width: 170px;
   padding:12px 12px;
