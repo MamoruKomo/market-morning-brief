@@ -168,12 +168,15 @@
               const name = escapeHtml(normalizeText(r.name));
               const sector = escapeHtml(normalizeText(r.sector));
               const value = formatValue(r.value, unit, decimals);
+              const kabutan = `https://kabutan.jp/stock/?code=${encodeURIComponent(normalizeText(r.code))}`;
               return `<li class="metric-row">
-  <div class="metric-left">
-    <div class="metric-name">${name || "<span class=\"muted\">(銘柄名なし)</span>"}</div>
-    <div class="metric-sub">${code}${sector ? ` · ${sector}` : ""}</div>
-  </div>
-  <div class="metric-val">${escapeHtml(value)}</div>
+  <a class="metric-link-row" href="${escapeHtml(kabutan)}" target="_blank" rel="noreferrer">
+    <div class="metric-left">
+      <div class="metric-name">${name || "<span class=\"muted\">(銘柄名なし)</span>"}</div>
+      <div class="metric-sub">${code}${sector ? ` · ${sector}` : ""}</div>
+    </div>
+    <div class="metric-val">${escapeHtml(value)}</div>
+  </a>
 </li>`;
             })
             .join("")}</ol>`
@@ -233,15 +236,18 @@
               const sector = escapeHtml(normalizeText(it.sector));
               const aVal = formatValue(it.a_value, aDef.unit, aDef.decimals);
               const bVal = formatValue(it.b_value, bDef.unit, bDef.decimals);
+              const kabutan = `https://kabutan.jp/stock/?code=${encodeURIComponent(normalizeText(it.code))}`;
               return `<li class="metric-row">
-  <div class="metric-left">
-    <div class="metric-name">${name || "<span class=\"muted\">(銘柄名なし)</span>"}</div>
-    <div class="metric-sub">${code}${sector ? ` · ${sector}` : ""}</div>
-  </div>
-  <div class="metric-val">
-    <div class="metric-pair">${escapeHtml(aDef.label || a)}: ${escapeHtml(aVal)}</div>
-    <div class="metric-pair">${escapeHtml(bDef.label || b)}: ${escapeHtml(bVal)}</div>
-  </div>
+  <a class="metric-link-row" href="${escapeHtml(kabutan)}" target="_blank" rel="noreferrer">
+    <div class="metric-left">
+      <div class="metric-name">${name || "<span class=\"muted\">(銘柄名なし)</span>"}</div>
+      <div class="metric-sub">${code}${sector ? ` · ${sector}` : ""}</div>
+    </div>
+    <div class="metric-val">
+      <div class="metric-pair">${escapeHtml(aDef.label || a)}: ${escapeHtml(aVal)}</div>
+      <div class="metric-pair">${escapeHtml(bDef.label || b)}: ${escapeHtml(bVal)}</div>
+    </div>
+  </a>
 </li>`;
             })
             .join("")}</ol>`
@@ -288,10 +294,13 @@ ${listHtml}`;
           const name = escapeHtml(normalizeText(r.name));
           const sector = escapeHtml(normalizeText(r.sector));
           const value = escapeHtml(formatValue(r.value, def.unit, def.decimals));
+          const kabutan = `https://kabutan.jp/stock/?code=${encodeURIComponent(normalizeText(r.code))}`;
           return `<tr>
   <td>
-    <div class="w-name-main">${name || "—"}</div>
-    <div class="w-code-sub">${code}</div>
+    <a class="w-link" href="${escapeHtml(kabutan)}" target="_blank" rel="noreferrer">
+      <div class="w-name-main">${name || "—"}</div>
+      <div class="w-code-sub">${code}</div>
+    </a>
   </td>
   <td class="w-num">${value}</td>
   <td>${sector || "—"}</td>

@@ -118,6 +118,12 @@ section{
   border-radius:14px;
   box-shadow: var(--shadow);
 }
+@media (max-height: 880px){
+  section{padding:14px 16px}
+  .kpi{min-width:160px}
+  .mini-row{padding:10px 10px}
+  .mini-card{padding:10px 10px}
+}
 section h2{
   margin:0 0 8px;
   font-size:15px;
@@ -536,7 +542,10 @@ code{
   -webkit-line-clamp:2;
   -webkit-box-orient:vertical;
   white-space:normal;
+  color:inherit;
+  text-decoration:none;
 }
+.watch-mini-name:hover{text-decoration:underline}
 .watch-mini-last, .watch-mini-vol{font-variant-numeric: tabular-nums; text-align:right}
 .watch-mini-delta{text-align:right}
 .price.up{color:var(--up); font-weight:600}
@@ -592,6 +601,21 @@ code{
   justify-content:space-between;
   align-items:flex-start;
   gap:12px;
+}
+.metric-link-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:12px;
+  width:100%;
+  color:inherit;
+  text-decoration:none;
+  padding:8px 10px;
+  border-radius:12px;
+}
+.metric-link-row:hover{
+  background:rgba(2,132,199,.04);
+  text-decoration:none;
 }
 .metric-left{min-width:0}
 .metric-name{

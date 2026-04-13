@@ -235,7 +235,7 @@ ${sub}`;
       .filter(Boolean);
     const bulletHtml =
       bullets.length > 0
-        ? `<ul class="mini">${bullets.slice(0, 8).map((t) => `<li>${escapeHtml(t)}</li>`).join("")}</ul>`
+        ? `<ul class="mini">${bullets.slice(0, 5).map((t) => `<li>${escapeHtml(t)}</li>`).join("")}</ul>`
         : `<div class="empty">サマリーがありません。</div>`;
 
     const tickers = renderChipLinks(latest.tickers, (code) => `stocks/ticker.html?code=${encodeURIComponent(code)}`);
@@ -446,7 +446,7 @@ ${tags}`;
 
             return `<div class="watch-mini-row${rowClass ? ` ${rowClass}` : ""}">
   <a class="watch-mini-code" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(code)}</a>
-  <div class="watch-mini-name">${escapeHtml(name)}</div>
+  <a class="watch-mini-name" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(name || "—")}</a>
   <div class="watch-mini-last">${lastHtmlColored}</div>
   <div class="watch-mini-delta">${renderDeltaPill(ch)}</div>
   <div class="watch-mini-vol">${volHtml}</div>
