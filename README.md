@@ -39,20 +39,36 @@ GitHub Pages へ反映するため、生成後にリポジトリへ commit/push 
 
 Codex（このワークスペースのサンドボックス）では、`python`/`curl`/`git` から外部ネットワークに出られず DNS 解決が失敗することがあります（例: `Could not resolve host: github.com`）。
 
-その場合の解決策は次のどちらかです。
+その場合でも **Codex の `web.run`（ブラウズ）で情報取得 → 生成スクリプトはオフライン実行** にすることで回避できます。
 
-- **Codex の `web.run`（ブラウズ）を使って情報取得し、Slack 配信だけ行う**（ただし `git push` が失敗する可能性あり）
-- **GitHub Actions に日次生成〜commit/push〜Slack投稿を寄せる**（ネットワークが必要な処理を Actions 側で完結させる）
+`scripts/morning_brief.py` は次の2モードで動きます。
 
-### 現在の推奨構成（GitHub Actions）
+- **オンライン実行（GitHub Actions向け）**: 通常どおりHTML/JSONを取得して生成
+- **オフライン実行（Codex automation向け）**: `--cache-dir` に保存されたHTML/JSONだけで生成（ネットワーク不要）
 
-このリポジトリでは、平日 08:30（JST）に GitHub Actions でブリーフを生成し、`docs/` を commit/push して GitHub Pages に反映、Slack へ通知する構成に寄せています。
+オフラインで回す場合は、まず以下で必要URL一覧を出して（JSON）、そのURLを `web.run` で取得→ `--cache-dir` に保存してから生成します。
 
-- Workflow: `.github/workflows/morning-brief.yml`
-- 生成スクリプト: `scripts/morning_brief.py`
-- Slack 通知: `SLACK_WEBHOOK_URL`（repo secrets）を設定すると投稿されます
+```bash
+python3 scripts/morning_brief.py --print-cache-plan
+python3 scripts/morning_brief.py --offline --cache-dir /tmp/brief-cache
+```
 
-## 5) 適時開示アラート（Slack）
+### 現在の推奨構成（ハイブリッド）
+
+- **Codex automation（推奨/主系）**: `web.run`でニュース収集→ `scripts/morning_brief.py --offline`でHTML生成→ `git push`→ Slack（Slack tools）投稿
+- **GitHub Actions（補助/監視）**
+  - 適時開示アラート: `.github/workflows/tdnet-alert.yml`（5分おき、SlackはWebhook）
+  - ウォッチリスト定点: `.github/workflows/watchlist-snapshot.yml`（09:30/16:00 JST、SlackはWebhook）
+  - ブリーフ手動生成（バックアップ）: `.github/workflows/morning-brief.yml`（`workflow_dispatch`のみ / 事前にテスト実行）
+
+## 5) リポジトリ構成
+
+- `pipelines/`: 実処理（ActionsとCodexの両方から利用）
+- `scripts/`: CLI用の薄いラッパー（`python3 scripts/...` で実行）
+- `tests/`: オフラインで動くパーサー/生成のユニットテスト
+- `docs/`: GitHub Pagesで公開されるHTML/JS/CSSとログJSON
+
+## 6) 適時開示アラート（Slack）
 
 GitHub Actions が 5分おきに適時開示（KabutanのTDnet一覧）を監視し、新着があれば Slack に「要約（タイトル+分類タグ）+ PDFリンク + ログURL」を投稿します。
 

@@ -1,9 +1,6 @@
 name: Morning brief (Japan stocks)
 
 on:
-  schedule:
-    # 08:30 JST (23:30 UTC, Sun-Thu) = Mon-Fri morning in Japan
-    - cron: "30 23 * * 0-4"
   workflow_dispatch:
     inputs:
       date:
@@ -30,6 +27,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -q
 
       - name: Generate brief
         id: gen
@@ -87,4 +87,3 @@ jobs:
           with urllib.request.urlopen(req, timeout=20) as res:
             res.read()
           PY
-
