@@ -43,21 +43,21 @@
           <a href="#today">今日のブリーフ</a>
           <a href="#tdnet">適時開示</a>
           <a href="#watch">ウォッチ</a>
-          <a href="#recent">最近のブリーフ</a>
           <a href="#tags">人気テーマ</a>
+          <a href="#recent">最近のブリーフ</a>
           <a href="#links">クイックリンク</a>
         </div>
 
       </header>
 
       <main>
-        <div class="dash-flex">
-          <section id="today" class="wide">
+        <div class="dash-grid">
+          <section id="today">
             <h2>今日の寄り前ブリーフ</h2>
             <div class="js-today"></div>
           </section>
 
-          <section id="tdnet">
+          <section id="tdnet" class="aside">
             <h2>適時開示（新着）</h2>
             <div class="js-tdnet-mini"></div>
             <div class="controls" style="margin-top:12px">
@@ -65,11 +65,19 @@
             </div>
           </section>
 
-          <section id="watch" class="wide">
+          <section id="watch">
             <h2>ウォッチリスト（今日）</h2>
             <div class="js-watchlist-mini"></div>
             <div class="controls" style="margin-top:12px">
               <a class="go" href="watchlist/index.html">一覧へ</a>
+            </div>
+          </section>
+
+          <section id="tags" class="aside">
+            <h2>人気テーマ（過去ログ）</h2>
+            <div class="js-tag-trends"></div>
+            <div class="controls" style="margin-top:12px">
+              <a class="go" href="tags/index.html">タグ一覧</a>
             </div>
           </section>
 
@@ -78,14 +86,6 @@
             <div class="js-recent"></div>
             <div class="controls" style="margin-top:12px">
               <a class="go" href="archive/index.html">アーカイブへ</a>
-            </div>
-          </section>
-
-          <section id="tags">
-            <h2>人気テーマ（過去ログ）</h2>
-            <div class="js-tag-trends"></div>
-            <div class="controls" style="margin-top:12px">
-              <a class="go" href="tags/index.html">タグ一覧</a>
             </div>
           </section>
 

@@ -87,3 +87,7 @@ EDINET DB の APIキーは **git に入れません**。
 
 - ブラウザで使う（推奨）: `docs/fundamentals/index.html` / `docs/watchlist/manage.html` / `docs/watchlist/fundamentals.html` の画面で入力すると、キーは **ブラウザの localStorage にのみ保存**されます（リポジトリには保存されません）。
 - GitHub Actions で使う: `Settings → Secrets and variables → Actions` に `EDINETDB_API_KEY` のような名前で登録して、workflow から環境変数として参照してください。
+
+## Design system（ナレッジ）
+
+- デザイン方針（保管）: `DESIGN.md`
