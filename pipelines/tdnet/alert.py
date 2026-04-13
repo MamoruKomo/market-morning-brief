@@ -329,10 +329,8 @@ def parse_disclosures(html: str) -> list[Disclosure]:
         seen.add(href)
 
         pdf_en = href
-        # NOTE: Avoid guessing the official TDnet URL from the Kabutan basename.
-        # Kabutan's mirror is reliable for viewing; the official URL is optional and
-        # should only be stored when we can verify it (otherwise it becomes 404).
-        pdf_ja = ""
+        pdf_id = href.split("/")[-1].split("?")[0]
+        pdf_ja = f"{TDNET_PDF_BASE_URL}{pdf_id}" if pdf_id.endswith(".pdf") else ""
 
         headline = clean_headline(raw_text)
         m_code = CODE_RE.match(headline)
@@ -387,7 +385,8 @@ def normalize_store(data: dict[str, Any]) -> dict[str, Any]:
 def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
     pdf_kabutan = d.pdf_url_en
     pdf_tdnet = d.pdf_url_ja
-    pdf_primary = pdf_kabutan or pdf_tdnet
+    # Prefer official TDnet PDF (usually Japanese). Keep Kabutan mirror as fallback.
+    pdf_primary = pdf_tdnet or pdf_kabutan
     return {
         "id": d.id,
         "code": d.code,
@@ -502,6 +501,10 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
             pdf_tdnet = pdf_url_ja
         elif is_tdnet(pdf_url):
             pdf_tdnet = pdf_url
+        elif pdf_kabutan:
+            base = normalize_spaces(pdf_kabutan).split("/")[-1].split("?")[0]
+            if base.endswith(".pdf"):
+                pdf_tdnet = f"{TDNET_PDF_BASE_URL}{base}"
 
     if pdf_kabutan and normalize_spaces(item.get("pdf_url_kabutan") or "") != pdf_kabutan:
         item["pdf_url_kabutan"] = pdf_kabutan
@@ -518,7 +521,7 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         item["pdf_url_ja"] = pdf_tdnet
         changed = True
 
-    pdf_primary = pdf_kabutan or pdf_tdnet or pdf_url
+    pdf_primary = pdf_tdnet or pdf_kabutan or pdf_url
     if pdf_primary and normalize_spaces(item.get("pdf_url") or "") != pdf_primary:
         item["pdf_url"] = pdf_primary
         changed = True
@@ -614,7 +617,7 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
         tag_part = f"【{tag}】" if tag else ""
         summary = truncate(summary_core, 20) + tag_part
 
-        pdf = d.pdf_url_en or d.pdf_url_ja or ""
+        pdf = d.pdf_url_ja or d.pdf_url_en or ""
         pdf_part = f" <{pdf}|PDF>" if pdf else ""
         lines.append(f"- *{display}*: {summary}{pdf_part} · <{item_link}|ログ>")
     if len(new_items) > 10:

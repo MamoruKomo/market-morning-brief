@@ -91,3 +91,9 @@ EDINET DB の APIキーは **git に入れません**。
 ## Design system（ナレッジ）
 
 - デザイン方針（保管）: `DESIGN.md`
+
+## 適時開示PDF（日本語リンク）
+
+- このプロジェクトでは、適時開示のPDFリンクは **公式TDnet**（`https://www.release.tdnet.info/inbs/...`）を優先して保存/表示します（通常は日本語PDF）。
+- 公式が閲覧できない場合に備えて、**KabutanのPDFミラー**（`https://tdnet-pdf.kabutan.jp/...`）も併記用に保持します。
+- 一部の開示（統合報告書など）は、元PDFが英語のみの場合があります（その場合は日本語リンクにしても英語になります）。
