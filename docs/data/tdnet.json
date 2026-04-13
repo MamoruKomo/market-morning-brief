@@ -1,7 +1,43 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-13T19:13:04+09:00",
+  "last_checked_jst": "2026-04-14T00:49:02+09:00",
   "items": [
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260414/140120260413502764.pdf",
+      "code": "7860",
+      "company": "",
+      "title": "Avex Inc. INTEGRATED REPORT 2025",
+      "title_en": "Avex Inc. INTEGRATED REPORT 2025",
+      "title_ja": "Avex Inc. INTEGRATED REPORT 2025",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-14T00:30:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502764.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502764.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260414/140120260413502764.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260414/140120260410501956.pdf",
+      "code": "1429",
+      "company": "Nippon Aqua Co., Ltd.",
+      "title": "[Delayed] 2025 Nippon Aqua Integrated Report",
+      "title_en": "[Delayed] 2025 Nippon Aqua Integrated Report",
+      "title_ja": "（遅延）2025 Nippon Aqua Integrated Report",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-04-14T00:30:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260410501956.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501956.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260414/140120260410501956.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413503059.pdf",
       "code": "3922",
