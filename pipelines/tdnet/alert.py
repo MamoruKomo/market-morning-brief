@@ -572,9 +572,32 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
     header = f"*適時開示* {ts} JST"
     link = pages_base_url.rstrip("/") + "/tdnet/"
     lines: list[str] = [header, f"全件ログ: {link}"]
+
+    tag_priority = [
+        "決算",
+        "業績修正",
+        "配当",
+        "自己株",
+        "TOB",
+        "増資/売出",
+        "M&A",
+        "人事",
+        "借入",
+        "訂正",
+        "遅延",
+    ]
+
+    def pick_tag(tags: list[str]) -> str:
+        for t in tag_priority:
+            if t in tags:
+                return t
+        return tags[0] if tags else ""
+
     for d in new_items[:10]:
         jp_name = normalize_spaces(name_map.get(d.code) or "")
-        display = f"{jp_name}（{d.code}）" if jp_name else f"{d.code}"
+        company = normalize_spaces(d.company)
+        name = jp_name or company or d.code
+        display = f"{name}（{d.code}）" if name and name != d.code else f"{d.code}"
         item_link = f"{link}?q={urllib.parse.quote(d.code)}"
 
         title_ja = normalize_spaces(d.title_ja)
@@ -582,13 +605,18 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
         point = normalize_spaces(d.points_ja[0]) if d.points_ja else ""
 
         if title_ja and has_japanese(title_ja):
-            summary = truncate(title_ja, 140)
+            summary_core = title_ja
         else:
             # Ensure the summary is Japanese when possible (fallback to points_ja).
-            summary = truncate(point or title_ja or title_en or "（要約なし）", 140)
+            summary_core = point or title_ja or title_en or "（要約なし）"
+
+        tag = pick_tag(d.tags)
+        tag_part = f"【{tag}】" if tag else ""
+        summary = truncate(summary_core, 20) + tag_part
+
         pdf = d.pdf_url_en or d.pdf_url_ja or ""
         pdf_part = f" <{pdf}|PDF>" if pdf else ""
-        lines.append(f"- <{item_link}|{display}> — {summary}{pdf_part}")
+        lines.append(f"- *{display}*: {summary}{pdf_part} · <{item_link}|ログ>")
     if len(new_items) > 10:
         lines.append(f"- 他{len(new_items) - 10}件（続きはログ参照）")
     return "\n".join(lines)
