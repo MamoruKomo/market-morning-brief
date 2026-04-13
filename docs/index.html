@@ -31,26 +31,18 @@
 
       <main>
         <div class="dash-grid">
-          <section class="span-all">
+          <section class="dash-kpi">
             <h2>マーケット概況（最新ブリーフから）</h2>
             <div class="kpi-bar js-kpi"></div>
             <div class="meta-line">※数値は毎朝のブリーフ作成時点のスナップショットです。</div>
           </section>
 
-          <section class="span-2">
+          <section class="dash-today">
             <h2>今日の寄り前ブリーフ</h2>
             <div class="js-today"></div>
           </section>
 
-          <section>
-            <h2>ウォッチリスト（今日）</h2>
-            <div class="js-watchlist-mini"></div>
-            <div class="controls" style="margin-top:12px">
-              <a class="go" href="watchlist/index.html">一覧へ</a>
-            </div>
-          </section>
-
-          <section>
+          <section class="dash-tdnet">
             <h2>適時開示（新着）</h2>
             <div class="js-tdnet-mini"></div>
             <div class="controls" style="margin-top:12px">
@@ -58,7 +50,15 @@
             </div>
           </section>
 
-          <section class="span-all">
+          <section class="dash-watch">
+            <h2>ウォッチリスト（今日）</h2>
+            <div class="js-watchlist-mini"></div>
+            <div class="controls" style="margin-top:12px">
+              <a class="go" href="watchlist/index.html">一覧へ</a>
+            </div>
+          </section>
+
+          <section class="dash-recent">
             <h2>最近のブリーフ</h2>
             <div class="js-recent"></div>
             <div class="controls" style="margin-top:12px">
@@ -66,7 +66,7 @@
             </div>
           </section>
 
-          <section class="span-all">
+          <section class="dash-tags">
             <h2>人気テーマ（過去ログ）</h2>
             <div class="js-tag-trends"></div>
             <div class="controls" style="margin-top:12px">
@@ -74,7 +74,7 @@
             </div>
           </section>
 
-          <section class="span-all">
+          <section class="dash-links">
             <h2>クイックリンク（外部）</h2>
             <ul>
               <li>

@@ -102,14 +102,37 @@ nav a[aria-current="page"]{
 .muted{color:var(--muted)}
 main{margin-top:18px; display:grid; gap:14px}
 .dash-grid{display:grid; gap:14px}
-.dash-grid .span-all{grid-column: 1 / -1}
+.dash-grid{grid-template-columns: 1fr}
 @media (min-width: 920px){
-  .dash-grid{grid-template-columns: 1.35fr 1fr; align-items:start}
-  .dash-grid .span-2{grid-column: 1 / -1}
+  .dash-grid{
+    grid-template-columns: 1.25fr 1fr;
+    grid-template-areas:
+      "kpi kpi"
+      "today tdnet"
+      "watch tags"
+      "recent recent"
+      "links links";
+    align-items:start;
+  }
+  .dash-kpi{grid-area:kpi}
+  .dash-today{grid-area:today}
+  .dash-tdnet{grid-area:tdnet}
+  .dash-watch{grid-area:watch}
+  .dash-tags{grid-area:tags}
+  .dash-recent{grid-area:recent}
+  .dash-links{grid-area:links}
 }
 @media (min-width: 1320px){
-  .dash-grid{grid-template-columns: 1.35fr 1fr 1fr; align-items:start}
-  .dash-grid .span-2{grid-column: span 2}
+  .dash-grid{
+    grid-template-columns: 1.35fr 1fr 1fr;
+    grid-template-areas:
+      "kpi kpi kpi"
+      "today today tdnet"
+      "watch watch tags"
+      "recent recent recent"
+      "links links links";
+    align-items:start;
+  }
 }
 section{
   padding:16px 18px;
@@ -123,6 +146,12 @@ section{
   .kpi{min-width:160px}
   .mini-row{padding:10px 10px}
   .mini-card{padding:10px 10px}
+}
+@media (min-width: 1320px) and (max-height: 900px){
+  .wrap{padding:18px 14px 44px}
+  section{padding:14px 16px}
+  .kpi{min-width:158px}
+  .watch-mini-row{padding:9px 10px}
 }
 section h2{
   margin:0 0 8px;
