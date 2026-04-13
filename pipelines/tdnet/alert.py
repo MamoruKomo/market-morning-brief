@@ -329,8 +329,10 @@ def parse_disclosures(html: str) -> list[Disclosure]:
         seen.add(href)
 
         pdf_en = href
-        pdf_id = href.split("/")[-1].split("?")[0]
-        pdf_ja = f"{TDNET_PDF_BASE_URL}{pdf_id}"
+        # NOTE: Avoid guessing the official TDnet URL from the Kabutan basename.
+        # Kabutan's mirror is reliable for viewing; the official URL is optional and
+        # should only be stored when we can verify it (otherwise it becomes 404).
+        pdf_ja = ""
 
         headline = clean_headline(raw_text)
         m_code = CODE_RE.match(headline)
@@ -383,6 +385,9 @@ def normalize_store(data: dict[str, Any]) -> dict[str, Any]:
 
 
 def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
+    pdf_kabutan = d.pdf_url_en
+    pdf_tdnet = d.pdf_url_ja
+    pdf_primary = pdf_kabutan or pdf_tdnet
     return {
         "id": d.id,
         "code": d.code,
@@ -393,9 +398,14 @@ def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
         "points_ja": d.points_ja,
         "datetime_jst": d.datetime_jst,
         "tags": d.tags,
-        "pdf_url": d.pdf_url_ja,
-        "pdf_url_ja": d.pdf_url_ja,
-        "pdf_url_en": d.pdf_url_en,
+        # Primary PDF link used by UI/Slack (prefer Kabutan mirror).
+        "pdf_url": pdf_primary,
+        # Explicit fields (for UI buttons / future enrichment).
+        "pdf_url_kabutan": pdf_kabutan,
+        "pdf_url_tdnet": pdf_tdnet,
+        # Backward compatible fields (older UI expects these).
+        "pdf_url_ja": pdf_tdnet,
+        "pdf_url_en": pdf_kabutan,
         "source_url": d.source_url,
     }
 
@@ -464,36 +474,53 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         item["company"] = company
         changed = True
 
-    # Prefer Japanese TDnet PDF, keep Kabutan PDF as EN fallback.
+    # PDFs: keep Kabutan mirror as primary to avoid broken guessed TDnet URLs.
     pdf_url = normalize_spaces(item.get("pdf_url") or "")
+    pdf_kabutan = normalize_spaces(item.get("pdf_url_kabutan") or "")
+    pdf_tdnet = normalize_spaces(item.get("pdf_url_tdnet") or "")
     pdf_url_ja = normalize_spaces(item.get("pdf_url_ja") or "")
     pdf_url_en = normalize_spaces(item.get("pdf_url_en") or "")
+    item_id = normalize_spaces(item.get("id") or "")
 
-    if not pdf_url_en and pdf_url and "tdnet-pdf.kabutan.jp" in pdf_url:
-        pdf_url_en = pdf_url
-        item["pdf_url_en"] = pdf_url_en
+    def is_kabutan(u: str) -> bool:
+        return "tdnet-pdf.kabutan.jp" in normalize_spaces(u)
+
+    def is_tdnet(u: str) -> bool:
+        u2 = normalize_spaces(u)
+        return "release.tdnet.info/inbs/" in u2 or "www.release.tdnet.info/inbs/" in u2
+
+    if not pdf_kabutan:
+        if is_kabutan(pdf_url_en):
+            pdf_kabutan = pdf_url_en
+        elif is_kabutan(pdf_url):
+            pdf_kabutan = pdf_url
+        elif is_kabutan(item_id):
+            pdf_kabutan = item_id
+
+    if not pdf_tdnet:
+        if is_tdnet(pdf_url_ja):
+            pdf_tdnet = pdf_url_ja
+        elif is_tdnet(pdf_url):
+            pdf_tdnet = pdf_url
+
+    if pdf_kabutan and normalize_spaces(item.get("pdf_url_kabutan") or "") != pdf_kabutan:
+        item["pdf_url_kabutan"] = pdf_kabutan
+        changed = True
+    if pdf_tdnet and normalize_spaces(item.get("pdf_url_tdnet") or "") != pdf_tdnet:
+        item["pdf_url_tdnet"] = pdf_tdnet
         changed = True
 
-    def pdf_base_name(url: str) -> str:
-        u = normalize_spaces(url)
-        if not u:
-            return ""
-        base = u.split("/")[-1].split("?")[0]
-        return base if base.endswith(".pdf") else ""
-
-    base = pdf_base_name(pdf_url_ja) or pdf_base_name(pdf_url) or pdf_base_name(pdf_url_en)
-    if base:
-        canonical_ja = f"{TDNET_PDF_BASE_URL}{base}"
-        if pdf_url_ja != canonical_ja:
-            pdf_url_ja = canonical_ja
-            item["pdf_url_ja"] = pdf_url_ja
-            changed = True
-    elif pdf_url_ja and normalize_spaces(item.get("pdf_url_ja") or "") != pdf_url_ja:
-        item["pdf_url_ja"] = pdf_url_ja
+    # Backward compatible aliases.
+    if pdf_kabutan and normalize_spaces(item.get("pdf_url_en") or "") != pdf_kabutan:
+        item["pdf_url_en"] = pdf_kabutan
+        changed = True
+    if pdf_tdnet and normalize_spaces(item.get("pdf_url_ja") or "") != pdf_tdnet:
+        item["pdf_url_ja"] = pdf_tdnet
         changed = True
 
-    if pdf_url_ja and normalize_spaces(item.get("pdf_url") or "") != pdf_url_ja:
-        item["pdf_url"] = pdf_url_ja
+    pdf_primary = pdf_kabutan or pdf_tdnet or pdf_url
+    if pdf_primary and normalize_spaces(item.get("pdf_url") or "") != pdf_primary:
+        item["pdf_url"] = pdf_primary
         changed = True
 
     return changed
@@ -559,7 +586,7 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
         else:
             # Ensure the summary is Japanese when possible (fallback to points_ja).
             summary = truncate(point or title_ja or title_en or "（要約なし）", 140)
-        pdf = d.pdf_url_ja or d.pdf_url_en or ""
+        pdf = d.pdf_url_en or d.pdf_url_ja or ""
         pdf_part = f" <{pdf}|PDF>" if pdf else ""
         lines.append(f"- <{item_link}|{display}> — {summary}{pdf_part}")
     if len(new_items) > 10:
