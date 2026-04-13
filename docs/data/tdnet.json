@@ -1,7 +1,111 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-13T13:28:32+09:00",
+  "last_checked_jst": "2026-04-13T14:51:44+09:00",
   "items": [
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502486.pdf",
+      "code": "4062",
+      "company": "",
+      "title": "IBIDEN CO.,LTD. 【First Report】 Service Outages on the Website of the IBIDEN",
+      "title_en": "IBIDEN CO.,LTD. 【First Report】 Service Outages on the Website of the IBIDEN",
+      "title_ja": "IBIDEN CO.,LTD. 【First Report】 Service Outages on the Website of the IBIDEN",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T14:30:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502486.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502486.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502486.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502703.pdf",
+      "code": "7172",
+      "company": "Japan Investment Adviser Co.,Ltd.",
+      "title": "Notice of the bronze sponsorship for“Growth Frontiers Tokyo\" organized by Airline Economics Ltd.",
+      "title_en": "Notice of the bronze sponsorship for“Growth Frontiers Tokyo\" organized by Airline Economics Ltd.",
+      "title_ja": "the bronze sponsorship for“Growth Frontiers Tokyo\" organized by Airline Economics Ltd.のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T14:15:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502703.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502703.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502703.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502711.pdf",
+      "code": "1419",
+      "company": "Tama Home Co., Ltd. Release of Summary of Q&A Session from the",
+      "title": "Financial Results Briefing (Teleconference) for the Nine Months Ended February 28, 2026",
+      "title_en": "Financial Results Briefing (Teleconference) for the Nine Months Ended February 28, 2026",
+      "title_ja": "決算 Briefing (Teleconference) for the Nine Months Ended February 28, 2026",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T14:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502711.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502711.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502711.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502554.pdf",
+      "code": "9519",
+      "company": "RENOVA,Inc.",
+      "title": "Notice of Revenue from Electricity Sales in March 2026",
+      "title_en": "Notice of Revenue from Electricity Sales in March 2026",
+      "title_ja": "Revenue from Electricity Sales in March 2026のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T14:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502554.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502554.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502554.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502264.pdf",
+      "code": "8387",
+      "company": "The Shikoku Bank, Ltd.",
+      "title": "Notice Regarding Change in Shareholder Return Policy",
+      "title_en": "Notice Regarding Change in Shareholder Return Policy",
+      "title_ja": "Change in Shareholder Return Policyに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T14:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502264.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502264.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502264.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502253.pdf",
+      "code": "8387",
+      "company": "",
+      "title": "The Shikoku Bank, Ltd. Formulation of Medium-Term Management Plan",
+      "title_en": "The Shikoku Bank, Ltd. Formulation of Medium-Term Management Plan",
+      "title_ja": "The Shikoku Bank, Ltd. Formulation of Medium-Term Management Plan",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-13T14:00:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502253.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502253.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502253.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502421.pdf",
       "code": "3649",

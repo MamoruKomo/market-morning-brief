@@ -532,15 +532,31 @@ def truncate(text: str, max_len: int) -> str:
     return s[: max_len - 1] + "…"
 
 
+def has_japanese(text: str) -> bool:
+    s = normalize_spaces(text)
+    if not s:
+        return False
+    return re.search(r"[一-龯ぁ-んァ-ン]", s) is not None
+
+
 def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: dict[str, str]) -> str:
     ts = datetime.now(JST).strftime("%Y/%m/%d %H:%M")
     header = f"*適時開示* {ts} JST"
     link = pages_base_url.rstrip("/") + "/tdnet/"
     lines: list[str] = [header, f"全件ログ: {link}"]
     for d in new_items[:10]:
-        name = name_map.get(d.code) or d.company or d.code
-        display = f"{name}（{d.code}）"
-        summary = truncate(d.title_ja or d.title_en, 140) or "（要約なし）"
+        jp_name = normalize_spaces(name_map.get(d.code) or "")
+        display = f"{jp_name}（{d.code}）" if jp_name else f"{d.code}"
+
+        title_ja = normalize_spaces(d.title_ja)
+        title_en = normalize_spaces(d.title_en)
+        point = normalize_spaces(d.points_ja[0]) if d.points_ja else ""
+
+        if title_ja and has_japanese(title_ja):
+            summary = truncate(title_ja, 140)
+        else:
+            # Ensure the summary is Japanese when possible (fallback to points_ja).
+            summary = truncate(point or title_ja or title_en or "（要約なし）", 140)
         pdf = d.pdf_url_ja or d.pdf_url_en or ""
         pdf_part = f" <{pdf}|PDF>" if pdf else ""
         lines.append(f"- {display} — {summary}{pdf_part}")
