@@ -1,0 +1,90 @@
+name: Morning brief (Japan stocks)
+
+on:
+  schedule:
+    # 08:30 JST (23:30 UTC, Sun-Thu) = Mon-Fri morning in Japan
+    - cron: "30 23 * * 0-4"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "JST date to generate (YYYY-MM-DD). Default: today JST"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morning-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate brief
+        id: gen
+        env:
+          TARGET_DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "${TARGET_DATE}" ]; then
+            python3 scripts/morning_brief.py --date "${TARGET_DATE}"
+          else
+            python3 scripts/morning_brief.py
+          fi
+
+      - name: Commit + push (if updates)
+        id: push
+        if: steps.gen.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs README.md docs/data/briefs.json docs/archive docs/index.html || true
+          git diff --cached --quiet || git commit -m "Daily brief"
+          set +e
+          git push
+          status=$?
+          if [ $status -eq 0 ]; then
+            echo "push_ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "push_ok=false" >> "$GITHUB_OUTPUT"
+          fi
+          exit 0
+
+      - name: Post to Slack (if webhook configured)
+        if: always()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_MESSAGE_CORE: ${{ steps.gen.outputs.slack_message }}
+          PAGE_URL: ${{ steps.gen.outputs.page_url }}
+          PUSH_OK: ${{ steps.push.outputs.push_ok }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.request
+          url = (os.environ.get("SLACK_WEBHOOK_URL") or "").strip()
+          core = (os.environ.get("SLACK_MESSAGE_CORE") or "").strip()
+          page_url = (os.environ.get("PAGE_URL") or "").strip()
+          push_ok = (os.environ.get("PUSH_OK") or "").strip().lower()
+          if not url or not core:
+            raise SystemExit(0)
+          note = ""
+          if push_ok and push_ok != "true":
+            note = "\n- _注意: GitHub Pages 反映用の push が失敗しました（Actionsログを確認）_"
+          text = core + (f"\n\n本文: {page_url}" if page_url else "") + note
+          data = json.dumps({"text": text}, ensure_ascii=False).encode("utf-8")
+          req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+          with urllib.request.urlopen(req, timeout=20) as res:
+            res.read()
+          PY
+

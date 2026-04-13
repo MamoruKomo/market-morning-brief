@@ -44,6 +44,14 @@ Codex（このワークスペースのサンドボックス）では、`python`/
 - **Codex の `web.run`（ブラウズ）を使って情報取得し、Slack 配信だけ行う**（ただし `git push` が失敗する可能性あり）
 - **GitHub Actions に日次生成〜commit/push〜Slack投稿を寄せる**（ネットワークが必要な処理を Actions 側で完結させる）
 
+### 現在の推奨構成（GitHub Actions）
+
+このリポジトリでは、平日 08:30（JST）に GitHub Actions でブリーフを生成し、`docs/` を commit/push して GitHub Pages に反映、Slack へ通知する構成に寄せています。
+
+- Workflow: `.github/workflows/morning-brief.yml`
+- 生成スクリプト: `scripts/morning_brief.py`
+- Slack 通知: `SLACK_WEBHOOK_URL`（repo secrets）を設定すると投稿されます
+
 ## 5) 適時開示アラート（Slack）
 
 GitHub Actions が 5分おきに適時開示（KabutanのTDnet一覧）を監視し、新着があれば Slack に「要約（タイトル+分類タグ）+ PDFリンク + ログURL」を投稿します。
