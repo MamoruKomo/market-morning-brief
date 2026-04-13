@@ -182,14 +182,14 @@
             .join("")}</ol>`
         : `<div class="empty">データがありません（${escapeHtml(label)}）</div>`;
 
-    return `<a class="metric-card" href="${href}">
+    return `<div class="metric-card">
   <div class="metric-head">
     <div class="metric-title">${label}</div>
-    <div class="metric-link">${escapeHtml(opts?.linkLabel || "Top企業を見る")}</div>
+    <a class="go metric-go" href="${href}">${escapeHtml(opts?.linkLabel || "詳細")}</a>
   </div>
   ${desc ? `<div class="metric-desc">${escapeHtml(desc)}</div>` : ""}
   ${body}
-</a>`;
+</div>`;
   }
 
   function renderGrid(container, json, month) {

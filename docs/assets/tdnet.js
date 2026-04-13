@@ -267,6 +267,13 @@
       return;
     }
 
+    try {
+      const q = new URLSearchParams(window.location.search).get("q");
+      if (input && q) input.value = q;
+    } catch (e) {
+      // ignore
+    }
+
     let limit = 80;
     const render = () => {
       const q = input?.value || "";

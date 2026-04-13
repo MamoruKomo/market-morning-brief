@@ -6,6 +6,7 @@ import json
 import os
 import re
 import ssl
+import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from datetime import datetime
@@ -547,6 +548,7 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
     for d in new_items[:10]:
         jp_name = normalize_spaces(name_map.get(d.code) or "")
         display = f"{jp_name}（{d.code}）" if jp_name else f"{d.code}"
+        item_link = f"{link}?q={urllib.parse.quote(d.code)}"
 
         title_ja = normalize_spaces(d.title_ja)
         title_en = normalize_spaces(d.title_en)
@@ -559,7 +561,7 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
             summary = truncate(point or title_ja or title_en or "（要約なし）", 140)
         pdf = d.pdf_url_ja or d.pdf_url_en or ""
         pdf_part = f" <{pdf}|PDF>" if pdf else ""
-        lines.append(f"- *{display}* — {summary}{pdf_part}")
+        lines.append(f"- <{item_link}|{display}> — {summary}{pdf_part}")
     if len(new_items) > 10:
         lines.append(f"- 他{len(new_items) - 10}件（続きはログ参照）")
     return "\n".join(lines)

@@ -6,6 +6,7 @@ import json
 import os
 import re
 import ssl
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
@@ -116,7 +117,7 @@ def fetch_text(url: str) -> str:
     if context is None:
         context = ssl.create_default_context()
 
-    with urllib.request.urlopen(req, timeout=30, context=context) as res:
+    with urllib.request.urlopen(req, timeout=15, context=context) as res:
         return res.read().decode("utf-8", errors="replace")
 
 STOCK_DATE_RE = re.compile(r"Stock Price\s+(?P<mon>[A-Za-z]{3})\s+(?P<day>\d{1,2}),\s+(?P<year>\d{4})", re.IGNORECASE)
@@ -214,6 +215,13 @@ def fetch_kabutan_quote(code: str) -> KabutanQuote | None:
         prev_close=prev_close,
         volume=volume,
     )
+
+
+def fetch_kabutan_quote_safe(code: str) -> KabutanQuote | None:
+    try:
+        return fetch_kabutan_quote(code)
+    except Exception:
+        return None
 
 
 def load_json(path: Path, default: dict[str, Any]) -> dict[str, Any]:
@@ -451,15 +459,32 @@ def main() -> int:
     dates_seen: list[str] = []
     fresh_count = 0
 
+    # Fetch quotes concurrently to stay within GitHub Actions time limits.
+    max_workers = min(10, max(4, len(tickers)))
+    quotes_by_code: dict[str, KabutanQuote] = {}
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futs = {}
+        for t in tickers:
+            code = normalize_text(t.get("code") or "")
+            if not code:
+                continue
+            futs[ex.submit(fetch_kabutan_quote_safe, code)] = code
+
+        for fut in as_completed(futs):
+            code = futs[fut]
+            q = fut.result()
+            if q is not None:
+                quotes_by_code[code] = q
+
     for idx, t in enumerate(tickers):
         code = normalize_text(t.get("code") or "")
         if not code:
             continue
-        quote = fetch_kabutan_quote(code)
+        quote = quotes_by_code.get(code)
         if quote is None:
             continue
-        dates_seen.append(quote.stock_date)
 
+        dates_seen.append(quote.stock_date)
         if args.debug and idx == 0:
             import sys
 
