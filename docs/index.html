@@ -52,52 +52,56 @@
 
       <main>
         <div class="dash-grid">
-          <section id="today">
-            <h2>今日の寄り前ブリーフ</h2>
-            <div class="js-today"></div>
-          </section>
+          <div class="maincol">
+            <section id="today">
+              <h2>今日の寄り前ブリーフ</h2>
+              <div class="js-today"></div>
+            </section>
 
-          <section id="tdnet" class="aside">
-            <h2>適時開示（新着）</h2>
-            <div class="js-tdnet-mini"></div>
-            <div class="controls" style="margin-top:12px">
-              <a class="go" href="tdnet/index.html">ログへ</a>
-            </div>
-          </section>
+            <section id="watch">
+              <h2>ウォッチリスト（今日）</h2>
+              <div class="js-watchlist-mini"></div>
+              <div class="controls" style="margin-top:12px">
+                <a class="go" href="watchlist/index.html">一覧へ</a>
+              </div>
+            </section>
 
-          <section id="watch">
-            <h2>ウォッチリスト（今日）</h2>
-            <div class="js-watchlist-mini"></div>
-            <div class="controls" style="margin-top:12px">
-              <a class="go" href="watchlist/index.html">一覧へ</a>
-            </div>
-          </section>
+            <section id="recent" class="wide">
+              <h2>最近のブリーフ</h2>
+              <div class="js-recent"></div>
+              <div class="controls" style="margin-top:12px">
+                <a class="go" href="archive/index.html">アーカイブへ</a>
+              </div>
+            </section>
 
-          <section id="tags" class="aside">
-            <h2>人気テーマ（過去ログ）</h2>
-            <div class="js-tag-trends"></div>
-            <div class="controls" style="margin-top:12px">
-              <a class="go" href="tags/index.html">タグ一覧</a>
-            </div>
-          </section>
+            <section id="links" class="wide">
+              <h2>クイックリンク（外部）</h2>
+              <div class="quick-links">
+                <a class="quick-btn" href="https://en.kabutan.com/jp/trends/pts_night_price_increase?capitalization=1" target="_blank" rel="noreferrer">PTSナイト 値上がりTop</a>
+                <a class="quick-btn" href="https://en.kabutan.com/jp/trends/pts_night_volume_ranking?capitalization=1" target="_blank" rel="noreferrer">PTSナイト 出来高Top</a>
+                <a class="quick-btn" href="https://www.release.tdnet.info/inbs/I_main_00.html" target="_blank" rel="noreferrer">TDnet（公式）</a>
+                <a class="quick-btn" href="https://en.kabutan.com/jp/trends" target="_blank" rel="noreferrer">日本株トレンド（Kabutan）</a>
+              </div>
+            </section>
+          </div>
 
-          <section id="recent" class="wide">
-            <h2>最近のブリーフ</h2>
-            <div class="js-recent"></div>
-            <div class="controls" style="margin-top:12px">
-              <a class="go" href="archive/index.html">アーカイブへ</a>
-            </div>
-          </section>
+          <div class="sidecol">
+            <section id="tdnet">
+              <h2>適時開示（新着）</h2>
+              <div class="js-tdnet-mini"></div>
+              <div class="controls" style="margin-top:12px">
+                <a class="go" href="tdnet/index.html">ログへ</a>
+              </div>
+            </section>
 
-          <section id="links" class="wide">
-            <h2>クイックリンク（外部）</h2>
-            <div class="quick-links">
-              <a class="quick-btn" href="https://en.kabutan.com/jp/trends/pts_night_price_increase?capitalization=1" target="_blank" rel="noreferrer">PTSナイト 値上がりTop</a>
-              <a class="quick-btn" href="https://en.kabutan.com/jp/trends/pts_night_volume_ranking?capitalization=1" target="_blank" rel="noreferrer">PTSナイト 出来高Top</a>
-              <a class="quick-btn" href="https://www.release.tdnet.info/inbs/I_main_00.html" target="_blank" rel="noreferrer">TDnet（公式）</a>
-              <a class="quick-btn" href="https://en.kabutan.com/jp/trends" target="_blank" rel="noreferrer">日本株トレンド（Kabutan）</a>
-            </div>
-          </section>
+            <section id="tags">
+              <h2>人気テーマ（過去ログ）</h2>
+              <div class="js-tag-trends"></div>
+              <div class="controls" style="margin-top:12px">
+                <a class="go" href="tags/index.html">タグ一覧</a>
+              </div>
+            </section>
+          </div>
         </div>
       </main>
 
