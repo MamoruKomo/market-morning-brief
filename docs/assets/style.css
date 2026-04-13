@@ -35,14 +35,14 @@ a:hover{text-decoration:underline}
   border-bottom: 1px solid rgba(15,23,42,.10);
 }
 .topbar-inner{
-  max-width:1440px;
+  max-width: min(1760px, 100vw);
   margin:0 auto;
   padding:10px 16px;
   display:flex;
   align-items:center;
   gap:14px;
 }
-.topbar-left{display:flex; flex-direction:column; gap:2px; min-width:180px}
+.topbar-left{display:flex; flex-direction:column; gap:2px; min-width:160px}
 .topbar-title{font-weight:800; letter-spacing:.2px}
 .topbar-sub{font-size:12px}
 .topbar-kpi{
@@ -50,8 +50,26 @@ a:hover{text-decoration:underline}
   gap:10px;
   overflow-x:auto;
   padding-bottom:4px;
+  scrollbar-width: thin;
 }
-.topbar-kpi .kpi{min-width: 180px}
+.topbar-kpi::-webkit-scrollbar{height:8px}
+.topbar-kpi::-webkit-scrollbar-thumb{background:rgba(15,23,42,.16); border-radius:999px}
+.topbar-kpi::-webkit-scrollbar-track{background:transparent}
+.topbar-kpi .kpi{
+  min-width: 0;
+  width: 136px;
+  height: 136px;
+  padding:12px 12px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+.topbar-kpi .kpi-value{font-size:18px}
+.topbar-kpi .kpi-label{font-size:12px}
+.topbar-kpi .kpi-sub{font-size:11px}
+.topbar-kpi .kpi-delta{font-size:12px}
+.topbar-kpi .kpi:hover{background:rgba(2,132,199,.03)}
 .wrap{max-width:1120px; margin:0 auto; padding:22px 16px 56px}
 @media (min-width: 920px){
   .wrap{
