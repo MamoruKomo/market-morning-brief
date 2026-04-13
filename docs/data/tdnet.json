@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-14T00:49:02+09:00",
+  "last_checked_jst": "2026-04-14T01:48:05+09:00",
   "items": [
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260414/140120260413502764.pdf",
@@ -17,7 +17,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502764.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502764.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260414/140120260413502764.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260414/140120260413502764.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502764.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260414/140120260410501956.pdf",
@@ -36,7 +38,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260410501956.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501956.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260414/140120260410501956.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260414/140120260410501956.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501956.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413503059.pdf",
@@ -53,7 +57,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413503059.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413503059.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413503059.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413503059.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413503059.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413503017.pdf",
@@ -70,7 +76,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413503017.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413503017.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413503017.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413503017.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413503017.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502416.pdf",
@@ -87,7 +95,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502416.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502416.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502416.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502416.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502416.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502772.pdf",
@@ -104,7 +114,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502772.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502772.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502772.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502772.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502772.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502953.pdf",
@@ -123,7 +135,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502953.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502953.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502953.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502953.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502953.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502939.pdf",
@@ -142,7 +156,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502939.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502939.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502939.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502939.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502939.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502736.pdf",
@@ -161,7 +177,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502736.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502736.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502736.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502736.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502736.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502687.pdf",
@@ -178,7 +196,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502687.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502687.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502687.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502687.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502687.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502625.pdf",
@@ -197,7 +217,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502625.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502625.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502625.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502625.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502625.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502911.pdf",
@@ -216,7 +238,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502911.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502911.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502911.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502911.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502911.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502871.pdf",
@@ -235,7 +259,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502871.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502871.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502871.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502871.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502871.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502418.pdf",
@@ -254,7 +280,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502418.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502418.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502418.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502418.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502418.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502856.pdf",
@@ -273,7 +301,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502856.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502856.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502856.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502856.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502856.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502658.pdf",
@@ -290,7 +320,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502658.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502658.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502658.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502658.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502658.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502647.pdf",
@@ -309,7 +341,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502647.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502647.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502647.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502647.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502647.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502593.pdf",
@@ -328,7 +362,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502593.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502593.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502593.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502593.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502593.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502564.pdf",
@@ -345,7 +381,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502564.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502564.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502564.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502564.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502564.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502540.pdf",
@@ -362,7 +400,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502540.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502540.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502540.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502540.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502540.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502463.pdf",
@@ -381,7 +421,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502463.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502463.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502463.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502463.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502463.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502394.pdf",
@@ -400,7 +442,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502394.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502394.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502394.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502394.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502394.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502373.pdf",
@@ -417,7 +461,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502373.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502373.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502373.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502373.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502373.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502234.pdf",
@@ -438,7 +484,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502234.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502234.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502234.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502234.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502234.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260410502051.pdf",
@@ -455,7 +503,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260410502051.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410502051.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260410502051.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260410502051.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410502051.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260410501922.pdf",
@@ -478,7 +528,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260410501922.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501922.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260410501922.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260410501922.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501922.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502491.pdf",
@@ -495,7 +547,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502491.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502491.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502491.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502491.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502491.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502451.pdf",
@@ -514,7 +568,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502451.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502451.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502451.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502451.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502451.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502443.pdf",
@@ -533,7 +589,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502443.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502443.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502443.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502443.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502443.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502380.pdf",
@@ -550,7 +608,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502380.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502380.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502380.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502380.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502380.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502154.pdf",
@@ -569,7 +629,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260412502154.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260412502154.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502154.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502154.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260412502154.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502150.pdf",
@@ -588,7 +650,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260412502150.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260412502150.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502150.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502150.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260412502150.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502149.pdf",
@@ -605,7 +669,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260412502149.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260412502149.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502149.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502149.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260412502149.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260411501809.pdf",
@@ -624,7 +690,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260411501809.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260411501809.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260411501809.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260411501809.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260411501809.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502486.pdf",
@@ -641,7 +709,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502486.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502486.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502486.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502486.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502486.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502703.pdf",
@@ -658,7 +728,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502703.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502703.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502703.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502703.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502703.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502711.pdf",
@@ -677,7 +749,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502711.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502711.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502711.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502711.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502711.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502554.pdf",
@@ -694,7 +768,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502554.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502554.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502554.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502554.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502554.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502264.pdf",
@@ -711,7 +787,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502264.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502264.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502264.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502264.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502264.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502253.pdf",
@@ -728,7 +806,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502253.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502253.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502253.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502253.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502253.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502421.pdf",
@@ -745,7 +825,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502421.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502421.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502421.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502421.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502421.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502409.pdf",
@@ -764,7 +846,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502409.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502409.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502409.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502409.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502409.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502381.pdf",
@@ -783,7 +867,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502381.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502381.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502381.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502381.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502381.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502345.pdf",
@@ -800,7 +886,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502345.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502345.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502345.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502345.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502345.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502367.pdf",
@@ -817,7 +905,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502367.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502367.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502367.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502367.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502367.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502256.pdf",
@@ -834,7 +924,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502256.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502256.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502256.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502256.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502256.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502273.pdf",
@@ -851,7 +943,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502273.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502273.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502273.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502273.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502273.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502247.pdf",
@@ -872,7 +966,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502247.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502247.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502247.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502247.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502247.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260411502147.pdf",
@@ -891,7 +987,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260411502147.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260411502147.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260411502147.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260411502147.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260411502147.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502163.pdf",
@@ -908,7 +1006,9 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260412502163.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260412502163.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502163.pdf",
-      "source_url": "https://en.kabutan.com/jp/disclosures"
+      "source_url": "https://en.kabutan.com/jp/disclosures",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502163.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260412502163.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501982.pdf",
@@ -929,7 +1029,9 @@
         "開示遅延（追補の有無）に注意"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501982.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501982.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501982.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501982.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501982.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410502015.pdf",
@@ -948,7 +1050,9 @@
         "決算関連（決算短信/説明資料）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410502015.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410502015.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410502015.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410502015.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410502015.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501827.pdf",
@@ -965,7 +1069,9 @@
         "株式数の変化（転換/希薄化）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501827.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501827.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501827.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501827.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501827.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501985.pdf",
@@ -985,7 +1091,9 @@
         "業績への影響（定量/定性）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501985.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501985.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501985.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501985.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501985.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501971.pdf",
@@ -1006,7 +1114,9 @@
         "訂正開示（差分）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501971.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501971.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501971.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501971.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501971.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501247.pdf",
@@ -1025,7 +1135,9 @@
         "自己株式の処分（需給/希薄化）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501247.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501247.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501247.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501247.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501247.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501965.pdf",
@@ -1042,7 +1154,9 @@
         "PDFで重要点（数字/条件）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501965.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501965.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501965.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501965.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501965.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501927.pdf",
@@ -1061,7 +1175,9 @@
         "決算関連（決算短信/説明資料）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501927.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501927.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501927.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501927.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501927.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501888.pdf",
@@ -1080,7 +1196,9 @@
         "M&A/子会社化など（スキーム/条件）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501888.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501888.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501888.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501888.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501888.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501854.pdf",
@@ -1099,7 +1217,9 @@
         "ストックオプション（希薄化/条件）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501854.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501854.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501854.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501854.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501854.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
@@ -1118,7 +1238,9 @@
         "役員人事/体制変更の内容を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501852.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501852.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501852.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
@@ -1137,7 +1259,9 @@
         "自己株式（取得/消却/方針）の条件を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501847.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501847.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501847.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501721.pdf",
@@ -1156,7 +1280,9 @@
         "TOB（価格/期間/目的）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501721.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501721.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501721.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501721.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501721.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501337.pdf",
@@ -1175,7 +1301,9 @@
         "借入/資金調達（条件/返済）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501337.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501337.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501337.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501337.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501337.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501355.pdf",
@@ -1194,7 +1322,9 @@
         "自己株式の処分（需給/希薄化）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501355.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501355.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501355.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501355.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501355.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501226.pdf",
@@ -1211,7 +1341,9 @@
         "PDFで重要点（数字/条件）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501226.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260409501226.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260409501226.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501226.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260409501226.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501166.pdf",
@@ -1230,7 +1362,9 @@
         "増資/売出（希薄化・需給インパクト）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501166.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260409501166.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260409501166.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260409501166.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260409501166.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260409500810.pdf",
@@ -1249,7 +1383,9 @@
         "増資/売出（希薄化・需給インパクト）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260409500810.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260409500810.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260409500810.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260409500810.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260409500810.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599610.pdf",
@@ -1270,7 +1406,9 @@
         "配当予想/方針（増配/減配/無配）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599610.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260407599610.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260407599610.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599610.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260407599610.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
@@ -1289,7 +1427,9 @@
         "決算関連（決算短信/説明資料）を確認"
       ],
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260407599607.pdf"
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260407599607.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260407599607.pdf"
     }
   ]
 }
