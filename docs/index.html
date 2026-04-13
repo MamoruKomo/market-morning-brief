@@ -27,22 +27,30 @@
           <a href="tags/index.html">タグ</a>
           <a href="tdnet/index.html">適時開示</a>
         </nav>
+
+        <div class="toc">
+          <div class="toc-head">目次</div>
+          <a href="#today">今日のブリーフ</a>
+          <a href="#tdnet">適時開示</a>
+          <a href="#watch">ウォッチ</a>
+          <a href="#recent">最近のブリーフ</a>
+          <a href="#tags">人気テーマ</a>
+          <a href="#links">クイックリンク</a>
+        </div>
+
+        <div class="toc-head" style="margin-top:14px">マーケット概要</div>
+        <div class="kpi-bar js-kpi"></div>
+        <div class="meta-line">※数値はブリーフ作成時点のスナップショットです。</div>
       </header>
 
       <main>
-        <div class="dash-grid">
-          <section class="dash-kpi">
-            <h2>マーケット概況（最新ブリーフから）</h2>
-            <div class="kpi-bar js-kpi"></div>
-            <div class="meta-line">※数値は毎朝のブリーフ作成時点のスナップショットです。</div>
-          </section>
-
-          <section class="dash-today">
+        <div class="dash-flex">
+          <section id="today" class="wide">
             <h2>今日の寄り前ブリーフ</h2>
             <div class="js-today"></div>
           </section>
 
-          <section class="dash-tdnet">
+          <section id="tdnet">
             <h2>適時開示（新着）</h2>
             <div class="js-tdnet-mini"></div>
             <div class="controls" style="margin-top:12px">
@@ -50,7 +58,7 @@
             </div>
           </section>
 
-          <section class="dash-watch">
+          <section id="watch" class="wide">
             <h2>ウォッチリスト（今日）</h2>
             <div class="js-watchlist-mini"></div>
             <div class="controls" style="margin-top:12px">
@@ -58,7 +66,7 @@
             </div>
           </section>
 
-          <section class="dash-recent">
+          <section id="recent" class="wide">
             <h2>最近のブリーフ</h2>
             <div class="js-recent"></div>
             <div class="controls" style="margin-top:12px">
@@ -66,7 +74,7 @@
             </div>
           </section>
 
-          <section class="dash-tags">
+          <section id="tags">
             <h2>人気テーマ（過去ログ）</h2>
             <div class="js-tag-trends"></div>
             <div class="controls" style="margin-top:12px">
@@ -74,22 +82,14 @@
             </div>
           </section>
 
-          <section class="dash-links">
+          <section id="links" class="wide">
             <h2>クイックリンク（外部）</h2>
-            <ul>
-              <li>
-                PTSナイト値上がりランキング（株探/Kabutan）：
-                <a href="https://en.kabutan.com/jp/trends/pts_night_price_increase?capitalization=1" target="_blank" rel="noreferrer">en.kabutan.com</a>
-              </li>
-              <li>
-                PTSナイト出来高ランキング（株探/Kabutan）：
-                <a href="https://en.kabutan.com/jp/trends/pts_night_volume_ranking?capitalization=1" target="_blank" rel="noreferrer">en.kabutan.com</a>
-              </li>
-              <li>
-                適時開示（TDnet 公式）：
-                <a href="https://www.release.tdnet.info/inbs/I_main_00.html" target="_blank" rel="noreferrer">release.tdnet.info</a>
-              </li>
-            </ul>
+            <div class="quick-links">
+              <a class="quick-btn" href="https://en.kabutan.com/jp/trends/pts_night_price_increase?capitalization=1" target="_blank" rel="noreferrer">PTSナイト 値上がりTop</a>
+              <a class="quick-btn" href="https://en.kabutan.com/jp/trends/pts_night_volume_ranking?capitalization=1" target="_blank" rel="noreferrer">PTSナイト 出来高Top</a>
+              <a class="quick-btn" href="https://www.release.tdnet.info/inbs/I_main_00.html" target="_blank" rel="noreferrer">TDnet（公式）</a>
+              <a class="quick-btn" href="https://en.kabutan.com/jp/trends" target="_blank" rel="noreferrer">日本株トレンド（Kabutan）</a>
+            </div>
           </section>
         </div>
       </main>
