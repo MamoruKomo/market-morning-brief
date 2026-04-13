@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-13T09:06:32+09:00",
+  "last_checked_jst": "2026-04-13T10:10:48+09:00",
   "items": [
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502247.pdf",
+      "code": "4461",
+      "company": "DKS Co. Ltd.",
+      "title": "[Delayed]NOTICE REGARDING REVISIONS TO SELLING PRICES（Second Notice）",
+      "title_en": "[Delayed]NOTICE REGARDING REVISIONS TO SELLING PRICES（Second Notice）",
+      "title_ja": "（遅延）修正 TO SELLING PRICES（Second Notice）に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認",
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-04-13T10:00:00+09:00",
+      "tags": [
+        "業績修正",
+        "遅延"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502247.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502247.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502247.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260411502147.pdf",
+      "code": "3608",
+      "company": "TSI HOLDINGS CO., LTD. FY2026 Full Year",
+      "title": "Financial Results Briefing",
+      "title_en": "Financial Results Briefing",
+      "title_ja": "決算 Briefing",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-13T10:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260411502147.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260411502147.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260411502147.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502163.pdf",
       "code": "4565",
