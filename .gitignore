@@ -1,4 +1,7 @@
 .DS_Store
+.env
+.env.*
+secrets.local.json
 __pycache__/
 *.pyc
 .tdnet_*
