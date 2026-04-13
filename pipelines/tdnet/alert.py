@@ -498,19 +498,54 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
     return changed
 
 
-def build_message(new_items: list[Disclosure], pages_base_url: str) -> str:
+def load_watchlist_name_map(path: Path) -> dict[str, str]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    groups = data.get("groups")
+    if not isinstance(groups, list):
+        return {}
+    out: dict[str, str] = {}
+    for g in groups:
+        if not isinstance(g, dict):
+            continue
+        tickers = g.get("tickers")
+        if not isinstance(tickers, list):
+            continue
+        for t in tickers:
+            if not isinstance(t, dict):
+                continue
+            code = normalize_spaces(t.get("code") or "")
+            name = normalize_spaces(t.get("name") or "")
+            if code and name and code not in out:
+                out[code] = name
+    return out
+
+
+def truncate(text: str, max_len: int) -> str:
+    s = normalize_spaces(text)
+    if len(s) <= max_len:
+        return s
+    return s[: max_len - 1] + "…"
+
+
+def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: dict[str, str]) -> str:
     ts = datetime.now(JST).strftime("%Y/%m/%d %H:%M")
-    header = f"*適時開示アラート*（Kabutan/TDnet） {ts} JST"
+    header = f"*適時開示* {ts} JST"
     link = pages_base_url.rstrip("/") + "/tdnet/"
     lines: list[str] = [header, f"全件ログ: {link}"]
     for d in new_items[:10]:
-        tag = f" [{'/'.join(d.tags)}]" if d.tags else ""
-        dt = f"{d.datetime_jst} " if d.datetime_jst else ""
-        company = f"{d.company} " if d.company else ""
-        title = d.title_ja or d.title_en
-        lines.append(f"・{dt}{d.code} {company}{title}{tag}（PDF: {d.pdf_url_ja}）")
+        name = name_map.get(d.code) or d.company or d.code
+        display = f"{name}（{d.code}）"
+        summary = truncate(d.title_ja or d.title_en, 140) or "（要約なし）"
+        pdf = d.pdf_url_ja or d.pdf_url_en or ""
+        pdf_part = f" <{pdf}|PDF>" if pdf else ""
+        lines.append(f"- {display} — {summary}{pdf_part}")
     if len(new_items) > 10:
-        lines.append(f"・他{len(new_items) - 10}件（続きはログ参照）")
+        lines.append(f"- 他{len(new_items) - 10}件（続きはログ参照）")
     return "\n".join(lines)
 
 
@@ -518,6 +553,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Poll Kabutan TDnet disclosures and update docs/data/tdnet.json.")
     ap.add_argument("--data", default="docs/data/tdnet.json", help="TDnet JSON store path")
     ap.add_argument("--config", default="brief.config.json", help="Config JSON containing pages_base_url")
+    ap.add_argument("--watchlist", default="docs/data/watchlist.json", help="Optional watchlist JSON for JP names")
     ap.add_argument("--out", default=os.environ.get("GITHUB_OUTPUT", ""), help="GitHub Actions output file path")
     args = ap.parse_args()
 
@@ -572,7 +608,8 @@ def main() -> int:
         store["items"] = deduped[:MAX_ITEMS]
         has_changes = True
         should_notify = True
-        message = build_message(new_items, pages_base_url)
+        name_map = load_watchlist_name_map(Path(args.watchlist))
+        message = build_message(new_items, pages_base_url, name_map)
 
     # Backfill / migrate existing items (JP title + points, company split, etc.)
     backfilled = False
