@@ -17,6 +17,7 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 from pipelines.brief.upsert_index import upsert_index_file
+from pipelines.common.pages import ensure_docs_base_url
 
 try:
     import certifi  # type: ignore
@@ -679,7 +680,8 @@ def main() -> int:
 
     cfg = load_json(Path(args.config), {})
     pages_base_url = str(cfg.get("pages_base_url") or "").strip()
-    page_url = f"{pages_base_url}archive/{date_iso}.html" if pages_base_url else ""
+    docs_base = ensure_docs_base_url(pages_base_url) or (pages_base_url.rstrip("/") + "/" if pages_base_url else "")
+    page_url = f"{docs_base}archive/{date_iso}.html" if docs_base else ""
 
     sources: list[tuple[str, str]] = []
     if args.print_cache_plan:

@@ -20,6 +20,8 @@ try:
 except Exception:  # pragma: no cover
     certifi = None
 
+from pipelines.common.pages import ensure_docs_base_url
+
 KABUTAN_DISCLOSURES_URL = "https://en.kabutan.com/jp/disclosures"
 TDNET_PDF_BASE_URL = "https://www.release.tdnet.info/inbs/"
 JST = ZoneInfo("Asia/Tokyo")
@@ -573,7 +575,8 @@ def has_japanese(text: str) -> bool:
 def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: dict[str, str]) -> str:
     ts = datetime.now(JST).strftime("%Y/%m/%d %H:%M")
     header = f"*適時開示* {ts} JST"
-    link = pages_base_url.rstrip("/") + "/tdnet/"
+    docs_base = ensure_docs_base_url(pages_base_url) or pages_base_url.rstrip("/") + "/"
+    link = docs_base + "tdnet/"
     lines: list[str] = [header, f"全件ログ: {link}"]
 
     tag_priority = [
