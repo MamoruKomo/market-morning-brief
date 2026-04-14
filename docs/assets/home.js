@@ -299,7 +299,7 @@
       }),
       tile({ label: "S&P500", value: spx.value, deltaPct: spx.change_pct, sub: spx.asof || "" }),
       tile({ label: "NYダウ", value: dow.value, deltaPct: dow.change_pct, sub: dow.asof || "" }),
-      tile({ label: "Nasdaq", value: nasdaq.value, deltaPct: nasdaq.change_pct, sub: nasdaq.asof || "" }),
+      tile({ label: "ナスダック", value: nasdaq.value, deltaPct: nasdaq.change_pct, sub: nasdaq.asof || "" }),
     ].filter(Boolean);
 
     return tiles;
