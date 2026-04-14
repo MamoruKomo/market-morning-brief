@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-14T08:52:28+09:00",
+  "last_checked_jst": "2026-04-14T10:11:19+09:00",
   "items": [
+    {
+      "id": "https://tdnet-pdf.kabutan.jp/20260414/140120260414503224.pdf",
+      "code": "6361",
+      "company": "EBARA CORPORATION",
+      "title": "Notice Regarding in the Media",
+      "title_en": "Notice Regarding in the Media",
+      "title_ja": "in the Mediaに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-14T09:05:00+09:00",
+      "tags": [],
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414503224.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260414/140120260414503224.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260414503224.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260414503224.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260414/140120260414503224.pdf",
+      "source_url": "https://en.kabutan.com/jp/disclosures"
+    },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260414/140120260413502478.pdf",
       "code": "8591",
