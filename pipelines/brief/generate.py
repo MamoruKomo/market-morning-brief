@@ -625,6 +625,8 @@ def render_html(
           <a href="../stocks/index.html">銘柄</a>
           <a href="../tags/index.html">タグ</a>
           <a href="../tdnet/index.html">適時開示</a>
+          <a href="../my/index.html">マイ</a>
+          <a href="../review/index.html">振り返り</a>
         </nav>
       </header>
 
@@ -637,13 +639,13 @@ def render_html(
           </section>
           {"".join(rendered_sections)}
           <section>
-            <h2>Sources（リンク）</h2>
+            <h2>出典（リンク）</h2>
             {source_list}
           </section>
         </article>
       </main>
 
-      <footer>Generated automatically.</footer>
+      <footer>自動生成</footer>
     </div>
   </body>
 </html>

@@ -372,7 +372,7 @@ ${entries
       const params = new URLSearchParams(location.search);
       const code = String(params.get("code") || "").trim();
       const title = $(".js-ticker-title");
-      if (title) title.textContent = code ? `Ticker: ${code}` : "Ticker";
+      if (title) title.textContent = code ? `銘柄: ${code}` : "銘柄";
 
       const tickerMap = buildTickerIndex(briefs);
       const entries = code ? tickerMap.get(code) : null;
@@ -385,7 +385,7 @@ ${entries
       const params = new URLSearchParams(location.search);
       const tag = String(params.get("tag") || "").trim();
       const title = $(".js-tag-title");
-      if (title) title.textContent = tag ? `Tag: ${tag}` : "Tag";
+      if (title) title.textContent = tag ? `タグ: ${tag}` : "タグ";
 
       const tagMap = buildTagIndex(briefs);
       const entries = tag ? tagMap.get(tag) : null;

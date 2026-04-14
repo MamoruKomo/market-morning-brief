@@ -170,7 +170,11 @@
     const pdf = escapeHtml(
       normalizeText(item.pdf_url_tdnet || item.pdf_url_ja || item.pdf_url || item.pdf_url_kabutan || item.pdf_url_en),
     );
-    const source = escapeHtml(normalizeText(item.source_url));
+    let sourceRaw = normalizeText(item.source_url);
+    if (sourceRaw.includes("en.kabutan.com/jp/disclosures")) {
+      sourceRaw = "https://kabutan.jp/disclosures/";
+    }
+    const source = escapeHtml(sourceRaw);
     const tags = asArray(item.tags).map((t) => normalizeText(t)).filter(Boolean);
     const points = getPointsJa(item);
 
@@ -188,7 +192,7 @@
     <div class="date">${dt}</div>
     <div class="actions">
       ${pdf ? `<a class="go" href="${pdf}" target="_blank" rel="noreferrer">PDF</a>` : ""}
-      ${source ? `<a class="go" href="${source}" target="_blank" rel="noreferrer">List</a>` : ""}
+      ${source ? `<a class="go" href="${source}" target="_blank" rel="noreferrer">一覧</a>` : ""}
     </div>
   </div>
   <div class="tdnet-head">

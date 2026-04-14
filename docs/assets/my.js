@@ -11,10 +11,10 @@
   const CLOSE_VOL_HISTORY_DAYS = 20;
 
   const DEFAULT_LINKS = [
-    { label: "PTSナイト 値上がりTop", url: "https://en.kabutan.com/jp/trends/pts_night_price_increase?capitalization=1" },
-    { label: "PTSナイト 出来高Top", url: "https://en.kabutan.com/jp/trends/pts_night_volume_ranking?capitalization=1" },
+    { label: "PTS夜間 上昇率ランキング", url: "https://kabutan.jp/warning/pts_night_price_increase" },
+    { label: "PTS夜間 出来高ランキング", url: "https://kabutan.jp/warning/pts_night_volume_ranking" },
+    { label: "会社開示（株探）", url: "https://kabutan.jp/disclosures/" },
     { label: "TDnet（公式）", url: "https://www.release.tdnet.info/inbs/I_main_00.html" },
-    { label: "日本株トレンド（Kabutan）", url: "https://en.kabutan.com/jp/trends" },
   ];
 
   function $(selector) {
@@ -757,4 +757,3 @@ ${tagsHtml}`;
     void main();
   });
 })();
-
