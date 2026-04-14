@@ -1,4 +1,5 @@
 (function () {
+  const MY_WATCH_KEY = "mmb_my_watchlist_v1";
   const GAP_ALERT_PCT = 2.0;
   const OPEN_VOL_ALERT_RATIO = 0.15;
   const CLOSE_VOL_ALERT_RATIO = 1.8;
@@ -88,6 +89,21 @@
     return res.json();
   }
 
+  function loadMyWatchlist() {
+    try {
+      const raw = localStorage.getItem(MY_WATCH_KEY);
+      if (!raw) return { version: 1, groups: [] };
+      const json = JSON.parse(raw);
+      return { version: 1, groups: asArray(json?.groups) };
+    } catch (e) {
+      return { version: 1, groups: [] };
+    }
+  }
+
+  function hasAnyTickers(groups) {
+    return asArray(groups).some((g) => asArray(g?.tickers).length > 0);
+  }
+
   function iterSnapshots(snapshots) {
     return asArray(snapshots)
       .filter((s) => s && typeof s === "object")
@@ -148,6 +164,17 @@
       }
     }
     return map;
+  }
+
+  function codesFromCfg(cfg) {
+    const set = new Set();
+    for (const g of asArray(cfg?.groups)) {
+      for (const t of asArray(g?.tickers)) {
+        const code = normalizeText(t?.code);
+        if (code) set.add(code);
+      }
+    }
+    return set;
   }
 
   function groupSnapshotsByDate(snapshots) {
@@ -401,12 +428,17 @@
     return { openSnap, closeSnap };
   }
 
-  function renderAlerts(container, cfg, snapshots, date, openSnap, closeSnap) {
+  function renderAlerts(container, cfg, snapshots, date, openSnap, closeSnap, wantedCodes) {
     if (!container) return { gapCount: 0, volCount: 0 };
     const metaByCode = buildMetaByCode(cfg);
     const openMap = mapItems(openSnap);
     const closeMap = mapItems(closeSnap);
     const codes = new Set([...openMap.keys(), ...closeMap.keys()]);
+    if (wantedCodes && wantedCodes.size) {
+      for (const c of Array.from(codes)) {
+        if (!wantedCodes.has(c)) codes.delete(c);
+      }
+    }
     if (!codes.size) {
       container.innerHTML = `<div class="empty">異常検知: スナップショットがありません。</div>`;
       return { gapCount: 0, volCount: 0 };
@@ -538,9 +570,11 @@
     const alertsDetails = $(".watch-alerts");
     const alertsCount = $(".js-alerts-count");
     const select = $(".js-date");
+    const scope = $(".js-scope");
     const view = $(".js-view");
     const search = $(".js-search");
     const status = $(".js-status");
+    const scopeHint = $(".js-scope-hint");
     const err = $(".js-error");
     const toggleEn = $(".js-toggle-en");
 
@@ -565,13 +599,51 @@
       select.value = initial;
     }
 
+    const my = loadMyWatchlist();
+    const hasMy = hasAnyTickers(my.groups);
+    if (scope) {
+      scope.value = hasMy ? "auto" : "shared";
+    }
+
     const doRender = () => {
       const date = select?.value || initial;
+      const scopeMode = normalizeText(scope?.value || "auto") || "auto";
       const mode = normalizeText(view?.value || "latest") || "latest";
       const showEnglish = !!toggleEn?.checked;
       const query = normalizeQuery(search?.value || "");
-      const { openSnap, closeSnap } = render(container, cfg, snapshots, date, showEnglish, query, mode);
-      const info = renderAlerts(alerts, cfg, snapshots, date, openSnap, closeSnap);
+      const usingMy = scopeMode === "my" || (scopeMode === "auto" && hasMy);
+      const effectiveCfg = usingMy ? my : cfg;
+      const wantedCodes = codesFromCfg(effectiveCfg);
+
+      if (usingMy && !hasMy) {
+        const href = "manage.html";
+        if (scopeHint) {
+          scopeHint.innerHTML = `マイウォッチが空です。<a href="${escapeHtml(href)}">編集で追加</a>`;
+        }
+        container.innerHTML = `<div class="empty">マイウォッチが空です。<a href="${escapeHtml(href)}">編集で追加</a></div>`;
+        if (alertsDetails) alertsDetails.open = false;
+        if (alertsCount) alertsCount.textContent = "（—）";
+        if (status) status.textContent = "—";
+        return;
+      }
+
+      if (scopeHint) {
+        if (!hasMy) {
+          scopeHint.innerHTML = `マイウォッチ未設定（<a href="manage.html">編集で追加</a>）。`;
+        } else {
+          scopeHint.textContent =
+            scopeMode === "my"
+              ? "表示: マイウォッチ（ブラウザ保存）"
+              : scopeMode === "shared"
+                ? "表示: 共有ウォッチ（スナップ/Slack通知の対象）"
+                : usingMy
+                  ? "表示: マイウォッチ（自動）"
+                  : "表示: 共有ウォッチ（自動）";
+        }
+      }
+
+      const { openSnap, closeSnap } = render(container, effectiveCfg, snapshots, date, showEnglish, query, mode);
+      const info = renderAlerts(alerts, effectiveCfg, snapshots, date, openSnap, closeSnap, wantedCodes);
       if (alertsCount) {
         const g = Number(info?.gapCount || 0);
         const v = Number(info?.volCount || 0);
@@ -589,6 +661,7 @@
     };
 
     if (select) select.addEventListener("change", doRender);
+    if (scope) scope.addEventListener("change", doRender);
     if (view) view.addEventListener("change", doRender);
     if (search) search.addEventListener("input", doRender);
     if (toggleEn) toggleEn.addEventListener("change", doRender);

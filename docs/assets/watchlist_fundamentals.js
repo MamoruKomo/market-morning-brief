@@ -1,4 +1,6 @@
 (function () {
+  const MY_WATCH_KEY = "mmb_my_watchlist_v1";
+
   function $(selector) {
     return document.querySelector(selector);
   }
@@ -25,6 +27,21 @@
 
   function asArray(value) {
     return Array.isArray(value) ? value : [];
+  }
+
+  function loadMyWatchlist() {
+    try {
+      const raw = localStorage.getItem(MY_WATCH_KEY);
+      if (!raw) return { version: 1, groups: [] };
+      const json = JSON.parse(raw);
+      return { version: 1, groups: asArray(json?.groups) };
+    } catch (e) {
+      return { version: 1, groups: [] };
+    }
+  }
+
+  function hasAnyTickers(groups) {
+    return asArray(groups).some((g) => asArray(g?.tickers).length > 0);
   }
 
   function num(value) {
@@ -375,15 +392,20 @@
       return;
     }
 
-    const groups = asArray(watch?.groups);
+    const sharedGroups = asArray(watch?.groups);
+    const my = loadMyWatchlist();
+    const useMy = hasAnyTickers(my.groups);
+    const groups = useMy ? asArray(my.groups) : sharedGroups;
     if (!groups.length) {
-      container.innerHTML = `<div class="empty">watchlist.json が未設定です。</div>`;
+      container.innerHTML = `<div class="empty">ウォッチがありません。<a href="manage.html">編集で追加</a></div>`;
+      if (status) status.textContent = "—";
       return;
     }
 
     let fundamentalsByCode = new Map();
     let fundamentalsUpdated = normalizeText(fundamentals?.updated_at) || "—";
     let mode = "local";
+    let scope = useMy ? "my" : "shared";
 
     const loadLocal = () => {
       const map = new Map();
@@ -465,7 +487,8 @@
       container.innerHTML = html || `<div class="empty">該当なし</div>`;
 
       if (status) {
-        status.textContent = `mode: ${mode} / 更新: ${fundamentalsUpdated}`;
+        const scopeLabel = scope === "my" ? "マイ" : "共有";
+        status.textContent = `対象: ${scopeLabel} / mode: ${mode} / 更新: ${fundamentalsUpdated}`;
       }
     };
 

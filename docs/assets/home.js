@@ -1,4 +1,6 @@
 (function () {
+  const MY_WATCH_KEY = "mmb_my_watchlist_v1";
+
   function $(selector) {
     return document.querySelector(selector);
   }
@@ -20,6 +22,17 @@
 
   function asArray(value) {
     return Array.isArray(value) ? value : [];
+  }
+
+  function loadMyWatchlist() {
+    try {
+      const raw = localStorage.getItem(MY_WATCH_KEY);
+      if (!raw) return { version: 1, groups: [] };
+      const json = JSON.parse(raw);
+      return { version: 1, groups: asArray(json?.groups) };
+    } catch (e) {
+      return { version: 1, groups: [] };
+    }
   }
 
   function fmtNum(value, opts) {
@@ -542,11 +555,12 @@ ${tags}`;
     return `<span class="delta ${cls}">${fmtPct(n)}</span>`;
   }
 
-  function renderWatchlistMini(container, cfg, snapshots) {
+  function renderWatchlistMini(container, cfg, snapshots, opts) {
     const groups = asArray(cfg?.groups);
     const snaps = asArray(snapshots);
     if (!groups.length) {
-      container.innerHTML = `<div class="empty">watchlist.json が未設定です。</div>`;
+      const setupHref = opts?.setupHref || "watchlist/manage.html";
+      container.innerHTML = `<div class="empty">ウォッチが未設定です。<a href="${escapeHtml(setupHref)}">追加</a></div>`;
       return;
     }
     if (!snaps.length) {
@@ -566,9 +580,12 @@ ${tags}`;
 
     const stamp = closeSnap?.datetime_jst || openSnap?.datetime_jst || "";
 
-    const head = `<div class="meta-line">${escapeHtml(date)}（${escapeHtml(
-      stamp ? stamp.slice(11, 16) : "—",
-    )} JST）</div>`;
+    const label = opts?.label ? `<span class="badge">${escapeHtml(String(opts.label))}</span>` : "";
+    const count = groups.reduce((sum, g) => sum + asArray(g?.tickers).length, 0);
+    const head = `<div class="row" style="margin-top:2px">
+  <div class="meta-line">${escapeHtml(date)}（${escapeHtml(stamp ? stamp.slice(11, 16) : "—")} JST）</div>
+  <div class="muted" style="font-size:12px">${label}${label ? " " : ""}${count}銘柄</div>
+</div>`;
 
     const sections = groups
       .map((g) => {
@@ -791,7 +808,13 @@ ${tags}`;
         const wlCfg = await loadJson("data/watchlist.json");
         const wlSnap = await loadJson("data/watchlist_snapshots.json");
         const snaps = Array.isArray(wlSnap.snapshots) ? wlSnap.snapshots : [];
-        renderWatchlistMini(watchMini, wlCfg, snaps);
+        const my = loadMyWatchlist();
+        const hasMy = asArray(my?.groups).some((g) => asArray(g?.tickers).length > 0);
+        const useCfg = hasMy ? my : wlCfg;
+        renderWatchlistMini(watchMini, useCfg, snaps, {
+          label: hasMy ? "マイウォッチ" : "共有ウォッチ",
+          setupHref: "watchlist/manage.html",
+        });
       } catch (e) {
         watchMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
       }

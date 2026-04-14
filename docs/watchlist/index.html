@@ -66,6 +66,14 @@
                   <select class="select js-date"></select>
                 </label>
                 <label class="toggle">
+                  対象
+                  <select class="select js-scope">
+                    <option value="auto">自動</option>
+                    <option value="my">マイ</option>
+                    <option value="shared">共有</option>
+                  </select>
+                </label>
+                <label class="toggle">
                   表示
                   <select class="select js-view">
                     <option value="latest">最新</option>
@@ -81,6 +89,7 @@
                 </label>
                 <div class="muted js-status"></div>
               </div>
+              <div class="muted js-scope-hint" style="margin-top:6px"></div>
               <div class="muted js-error"></div>
               <details class="watch-alerts">
                 <summary>異常検知 <span class="muted js-alerts-count">—</span></summary>
