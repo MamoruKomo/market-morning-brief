@@ -187,35 +187,49 @@ ${sub}`;
       return Number.isFinite(n) ? n : null;
     };
 
-    const mNikkei = text.match(/日経平均\s*([0-9,]+(?:\.[0-9]+)?)\s*（\s*([+\-]?[0-9.]+)%/);
+    const mNikkei =
+      text.match(/日経平均\s*([0-9,]+(?:\.[0-9]+)?)\s*[（(]\s*([+\-]?[0-9.]+)%/) ||
+      text.match(/日経平均\s*(?:\([^)]*\)\s*)?[:：]?\s*([0-9,]+(?:\.[0-9]+)?)\s*[（(]\s*([+\-]?[0-9.]+)%/);
     if (mNikkei) out.nikkei = { value: num(mNikkei[1]), change_pct: num(mNikkei[2]) };
 
     const mTopix = text.match(/TOPIX\s*([0-9,]+(?:\.[0-9]+)?)\s*（\s*([+\-]?[0-9.]+)%/i);
     if (mTopix) out.topix = { value: num(mTopix[1]), change_pct: num(mTopix[2]) };
 
-    const mUsd = text.match(/ドル円\s*([0-9.]+)(?:\s*（\s*([+\-]?[0-9.]+)%\s*）)?/);
+    const mUsd =
+      text.match(/ドル円\s*([0-9.]+)(?:\s*[（(]\s*([+\-]?[0-9.]+)%\s*[）)])?/) ||
+      text.match(/USDJPY\s*[:：]?\s*([0-9.]+)(?:\s*[（(]\s*([+\-]?[0-9.]+)%\s*[）)])?/i) ||
+      text.match(/米ドル\/円\s*([0-9.]+)(?:\s*[（(]\s*([+\-]?[0-9.]+)%\s*[）)])?/);
     if (mUsd) out.usd_jpy = { value: num(mUsd[1]), change_pct: num(mUsd[2]) };
 
     const mUs10y = text.match(/米10年\s*[:：]?\s*([0-9.]+)%/);
     if (mUs10y) out.us10y = { value: num(mUs10y[1]) };
 
-    const mWti = text.match(/WTI\s*[:：]?\s*([0-9.]+)(?:\s*（\s*([+\-]?[0-9.]+)%\s*）)?/i);
+    const mWti = text.match(/WTI\s*[:：]?\s*([0-9.]+)(?:\s*[（(]\s*([+\-]?[0-9.]+)%\s*[）)])?/i);
     if (mWti) out.wti = { value: num(mWti[1]), change_pct: num(mWti[2]) };
 
-    const mFut = text.match(/日経225先物\s*[:：]?\s*([0-9,]+(?:\.[0-9]+)?)(?:\s*（[^)]*?([+\-]?[0-9.]+)%[^)]*）)?/);
+    const mFut =
+      text.match(/日経225先物\s*[:：]?\s*([0-9,]+(?:\.[0-9]+)?)(?:\s*[（(][^)]*?([+\-]?[0-9.]+)%[^)]*[）)])?/) ||
+      text.match(/先物\s*[:：]?\s*([0-9,]+(?:\.[0-9]+)?)(?:\s*[（(][^)]*?([+\-]?[0-9.]+)%[^)]*[）)])?/);
     if (mFut) out.nikkei_futures = { value: num(mFut[1]), change_pct: num(mFut[2]) };
 
     const mGap = text.match(/現物比\s*([+\-]?[0-9,]+)/);
     if (mGap) out.futures_gap = { value: num(mGap[1]) };
 
-    const mSpx = text.match(/S&P\s*500\s*([0-9,]+(?:\.[0-9]+)?)\s*（\s*([+\-]?[0-9.]+)%/i);
-    if (mSpx) out.sp500 = { value: num(mSpx[1]), change_pct: num(mSpx[2]) };
+    const mSpx =
+      text.match(/S&P\s*500\s*([0-9,]+(?:\.[0-9]+)?)\s*[（(]\s*([+\-]?[0-9.]+)%/i) ||
+      text.match(/S&P\s*500\s*[（(]\s*([+\-]?[0-9.]+)%/i) ||
+      text.match(/S&P500\s*[（(]\s*([+\-]?[0-9.]+)%/i) ||
+      text.match(/S&P\s*([+\-]?[0-9.]+)%/i);
+    if (mSpx) out.sp500 = { value: num(mSpx[2] ? mSpx[1] : null), change_pct: num(mSpx[2] ? mSpx[2] : mSpx[1]) };
 
     const mDow = text.match(/ダウ\s*([0-9,]+(?:\.[0-9]+)?)\s*（\s*([+\-]?[0-9.]+)%/);
     if (mDow) out.dow = { value: num(mDow[1]), change_pct: num(mDow[2]) };
 
-    const mNas = text.match(/ナスダック\s*([0-9,]+(?:\.[0-9]+)?)\s*（\s*([+\-]?[0-9.]+)%/);
-    if (mNas) out.nasdaq = { value: num(mNas[1]), change_pct: num(mNas[2]) };
+    const mNas =
+      text.match(/ナスダック\s*([0-9,]+(?:\.[0-9]+)?)\s*[（(]\s*([+\-]?[0-9.]+)%/) ||
+      text.match(/Nasdaq\s*([0-9,]+(?:\.[0-9]+)?)\s*[（(]\s*([+\-]?[0-9.]+)%/i) ||
+      text.match(/Nasdaq\s*[（(]\s*([+\-]?[0-9.]+)%/i);
+    if (mNas) out.nasdaq = { value: num(mNas[2] ? mNas[1] : null), change_pct: num(mNas[2] ? mNas[2] : mNas[1]) };
 
     return out;
   }
