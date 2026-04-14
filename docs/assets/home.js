@@ -199,7 +199,7 @@
       .join("")}</div>`;
   }
 
-  function renderKpiTile(tile) {
+  function renderTapeItem(tile) {
     const label = escapeHtml(tile.label || "");
     const valueCore =
       tile.valueText != null
@@ -216,22 +216,20 @@
           : tile.delta != null
             ? fmtNum(tile.delta)
             : "—";
-    const delta = tile.deltaSuffix && deltaCore !== "—" ? `${deltaCore}${escapeHtml(tile.deltaSuffix)}` : deltaCore;
+    const delta = tile.deltaSuffix && deltaCore && deltaCore !== "—" ? `${deltaCore}${escapeHtml(tile.deltaSuffix)}` : deltaCore;
     const cls = deltaClass(tile.delta, tile.deltaPct);
-    const sub = tile.sub ? `<div class="kpi-sub">${escapeHtml(tile.sub)}</div>` : "";
     const href = tile.href ? escapeHtml(tile.href) : "";
-    const deltaHtml =
-      deltaCore === "—" && tile.hideDeltaWhenMissing !== false ? "" : `<div class="kpi-delta ${cls}">${delta}</div>`;
 
-    const inner = `<div class="kpi-label">${label}</div>
-<div class="kpi-value">${value}</div>
-${deltaHtml}
-${sub}`;
+    const hideDelta = tile.hideDeltaWhenMissing !== false && (!deltaCore || deltaCore === "—");
+    const deltaHtml = hideDelta ? "" : `<span class="tape-delta ${cls}">(${escapeHtml(delta)})</span>`;
+    const inner = `<span class="tape-label">${label}:</span><span class="tape-value">${escapeHtml(
+      value,
+    )}</span>${deltaHtml}`;
 
     if (href) {
-      return `<a class="kpi" href="${href}" target="_blank" rel="noreferrer">${inner}</a>`;
+      return `<a class="tape-item" href="${href}" target="_blank" rel="noreferrer">${inner}</a>`;
     }
-    return `<div class="kpi">${inner}</div>`;
+    return `<div class="tape-item">${inner}</div>`;
   }
 
   function buildKpisFromMarketOverview(mo) {
@@ -667,9 +665,22 @@ ${tags}`;
         Object.keys(latest.market_overview).length > 0;
       const mo = hasMo ? latest.market_overview : parseMarketOverviewFromBullets(latest?.summary_bullets || []);
       const tiles = buildKpisFromMarketOverview(mo);
-      const html = tiles.map((t) => renderKpiTile(t)).join("");
+      const html = tiles.map((t) => renderTapeItem(t)).join("");
       kpi.forEach((el) => {
-        el.innerHTML = html || `<div class="empty">—</div>`;
+        if (!html) {
+          el.innerHTML = `<div class="tape-set"><div class="tape-item"><span class="tape-label">マーケット:</span><span class="tape-value">—</span></div></div>`;
+          return;
+        }
+        el.innerHTML = `<div class="tape-set">${html}</div><div class="tape-set" aria-hidden="true">${html}</div>`;
+        window.requestAnimationFrame(() => {
+          const set = el.querySelector(".tape-set");
+          if (!set) return;
+          const width = Math.max(set.scrollWidth || 0, set.getBoundingClientRect().width || 0);
+          if (!Number.isFinite(width) || width <= 0) return;
+          const pxPerSec = 78;
+          const secs = Math.min(140, Math.max(24, width / pxPerSec));
+          el.style.setProperty("--tape-duration", `${secs.toFixed(1)}s`);
+        });
       });
     }
 
