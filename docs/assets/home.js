@@ -465,9 +465,10 @@ ${tags}`;
         const code = escapeHtml(String(it.code || ""));
         const company = escapeHtml(String(it.company || ""));
         const title = escapeHtml(String(it.title_ja || it.title_en || it.title || ""));
-        const pdf = escapeHtml(
-          String(it.pdf_url_ja || it.pdf_url_tdnet || it.pdf_url || it.pdf_url_kabutan || it.pdf_url_en || ""),
+        const pdfPrimary = escapeHtml(
+          String(it.pdf_url_kabutan || it.pdf_url_en || it.pdf_url || it.pdf_url_tdnet || it.pdf_url_ja || ""),
         );
+        const pdfTdnet = escapeHtml(String(it.pdf_url_tdnet || it.pdf_url_ja || ""));
         const points = asArray(it.points_ja).filter(Boolean).slice(0, 2);
         const pointsHtml =
           points.length > 0
@@ -476,7 +477,14 @@ ${tags}`;
         return `<div class="mini-card">
   <div class="row">
     <div class="date">${dt}</div>
-    ${pdf ? `<a class="go" href="${pdf}" target="_blank" rel="noreferrer">PDF</a>` : ""}
+    <div class="actions">
+      ${pdfPrimary ? `<a class="go" href="${pdfPrimary}" target="_blank" rel="noreferrer">PDF</a>` : ""}
+      ${
+        pdfTdnet && pdfPrimary && pdfTdnet !== pdfPrimary
+          ? `<a class="go" href="${pdfTdnet}" target="_blank" rel="noreferrer">公式</a>`
+          : ""
+      }
+    </div>
   </div>
   <div class="tdnet-title">${code ? `<span class="code-pill">${code}</span> ` : ""}${company ? `${company} — ` : ""}${title}</div>
   ${pointsHtml}

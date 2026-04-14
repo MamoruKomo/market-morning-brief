@@ -167,9 +167,9 @@
     const company = escapeHtml(normalizeText(item.company));
     const titleJa = escapeHtml(getTitleJa(item));
     const titleEn = escapeHtml(getTitleEn(item));
-    const pdf = escapeHtml(
-      normalizeText(item.pdf_url_ja || item.pdf_url_tdnet || item.pdf_url || item.pdf_url_kabutan || item.pdf_url_en),
-    );
+    const pdfKabutan = escapeHtml(normalizeText(item.pdf_url_kabutan || item.pdf_url_en));
+    const pdfTdnet = escapeHtml(normalizeText(item.pdf_url_tdnet || item.pdf_url_ja));
+    const pdfPrimary = escapeHtml(normalizeText(item.pdf_url_kabutan || item.pdf_url_en || item.pdf_url || pdfTdnet));
     const source = escapeHtml(normalizeText(item.source_url));
     const tags = asArray(item.tags).map((t) => normalizeText(t)).filter(Boolean);
     const points = getPointsJa(item);
@@ -187,7 +187,12 @@
   <div class="row">
     <div class="date">${dt}</div>
     <div class="actions">
-      ${pdf ? `<a class="go" href="${pdf}" target="_blank" rel="noreferrer">PDF</a>` : ""}
+      ${pdfPrimary ? `<a class="go" href="${pdfPrimary}" target="_blank" rel="noreferrer">PDF</a>` : ""}
+      ${
+        pdfTdnet && pdfKabutan && pdfTdnet !== pdfKabutan
+          ? `<a class="go" href="${pdfTdnet}" target="_blank" rel="noreferrer">公式</a>`
+          : ""
+      }
       ${source ? `<a class="go" href="${source}" target="_blank" rel="noreferrer">一覧</a>` : ""}
     </div>
   </div>
