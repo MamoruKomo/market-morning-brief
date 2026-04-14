@@ -24,5 +24,5 @@ class TestTdnetSlackMessageFormat(unittest.TestCase):
         self.assertIn("*適時開示*", msg)
         self.assertIn("一覧: https://kabutan.jp/disclosures/", msg)
         self.assertIn("*ファストリ（9983）*: 自己株式取得に関するお知らせ【自己株】", msg)
-        self.assertIn("<https://tdnet-pdf.kabutan.jp/140120260413000000.pdf|PDF>", msg)
+        self.assertIn("<https://www.release.tdnet.info/inbs/140120260413000000.pdf|PDF>", msg)
         self.assertIn("<https://kabutan.jp/stock/?code=9983|株探>", msg)

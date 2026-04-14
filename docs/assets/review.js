@@ -365,7 +365,7 @@ ${renderMoversCard("引け 変動Top", closeStamp, closeMovers)}
         const company = escapeHtml(String(it.company || ""));
         const title = escapeHtml(String(it.title_ja || it.title_en || it.title || ""));
         const pdf = escapeHtml(
-          String(it.pdf_url_tdnet || it.pdf_url_ja || it.pdf_url || it.pdf_url_kabutan || it.pdf_url_en || ""),
+          String(it.pdf_url_ja || it.pdf_url_tdnet || it.pdf_url || it.pdf_url_kabutan || it.pdf_url_en || ""),
         );
         return `<div class="mini-card">
   <div class="row">
@@ -520,4 +520,3 @@ ${renderMoversCard("引け 変動Top", closeStamp, closeMovers)}
     void main();
   });
 })();
-

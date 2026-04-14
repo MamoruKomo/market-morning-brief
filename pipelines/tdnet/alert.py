@@ -21,6 +21,7 @@ except Exception:  # pragma: no cover
     certifi = None
 
 KABUTAN_DISCLOSURES_URL = "https://kabutan.jp/disclosures/"
+TDNET_PDF_BASE_URL = "https://www.release.tdnet.info/inbs/"
 JST = ZoneInfo("Asia/Tokyo")
 MAX_ITEMS = 5000
 
@@ -49,6 +50,7 @@ DATE_RE = re.compile(
 
 
 CODE_RE = re.compile(r"^(?P<code>\d{3,4}[A-Z]?)\s+(?P<rest>.+)$")
+TDNET_DOC_ID_RE = re.compile(r"(?P<id>\d{18})")
 
 
 def normalize_spaces(text: str) -> str:
@@ -300,7 +302,7 @@ def fetch_html(url: str) -> str:
         url,
         headers={
             "User-Agent": "market-morning-brief/1.0 (+GitHub Actions)",
-            "Accept-Language": "en-US,en;q=0.9,ja;q=0.8",
+            "Accept-Language": "ja-JP,ja;q=0.9,en-US;q=0.8,en;q=0.7",
         },
     )
     context = None
@@ -316,6 +318,31 @@ def fetch_html(url: str) -> str:
         return res.read().decode("utf-8", errors="replace")
 
 
+def extract_tdnet_doc_id(value: str) -> str:
+    s = normalize_spaces(value)
+    if not s:
+        return ""
+    # Common forms:
+    # - https://tdnet-pdf.kabutan.jp/YYYYMMDD/<id>.pdf
+    # - https://www.release.tdnet.info/inbs/<id>.pdf
+    # - https://kabutan.jp/disclosures/pdf/YYYYMMDD/<id>/
+    m = re.search(r"/(?P<id>\d{18})\.pdf", s)
+    if m:
+        return m.group("id")
+    m = re.search(r"/pdf/\d{8}/(?P<id>\d{18})/?", s)
+    if m:
+        return m.group("id")
+    m2 = TDNET_DOC_ID_RE.search(s)
+    return m2.group("id") if m2 else ""
+
+
+def build_tdnet_pdf_url(value: str) -> str:
+    doc_id = extract_tdnet_doc_id(value)
+    if not doc_id:
+        return ""
+    return f"{TDNET_PDF_BASE_URL}{doc_id}.pdf"
+
+
 def parse_disclosures(html: str) -> list[Disclosure]:
     parser = KabutanDisclosureParser()
     parser.feed(html)
@@ -327,9 +354,10 @@ def parse_disclosures(html: str) -> list[Disclosure]:
             continue
         seen.add(href)
 
-        pdf_en = href
-        # Keep TDnet-related links Kabutan-derived (mirror PDF).
-        pdf_ja = href
+        pdf_kabutan = href
+        pdf_tdnet = build_tdnet_pdf_url(href)
+        pdf_ja = pdf_tdnet or pdf_kabutan
+        pdf_en = pdf_kabutan
 
         headline = clean_headline(raw_text)
         m_code = CODE_RE.match(headline)
@@ -382,9 +410,10 @@ def normalize_store(data: dict[str, Any]) -> dict[str, Any]:
 
 
 def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
-    # Keep Kabutan mirror as the primary source for PDFs/links.
-    pdf_kabutan = d.pdf_url_en or d.pdf_url_ja
-    pdf_primary = pdf_kabutan
+    # Prefer official TDnet PDF (Japanese) while keeping Kabutan mirror as fallback.
+    pdf_kabutan = normalize_spaces(d.pdf_url_en)
+    pdf_tdnet = normalize_spaces(d.pdf_url_ja) or build_tdnet_pdf_url(pdf_kabutan)
+    pdf_primary = pdf_tdnet or pdf_kabutan
     return {
         "id": d.id,
         "code": d.code,
@@ -395,12 +424,13 @@ def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
         "points_ja": d.points_ja,
         "datetime_jst": d.datetime_jst,
         "tags": d.tags,
-        # Primary PDF link used by UI/Slack (Kabutan mirror).
+        # Primary PDF link used by UI/Slack.
         "pdf_url": pdf_primary,
         # Explicit fields (for UI buttons / future enrichment).
         "pdf_url_kabutan": pdf_kabutan,
+        "pdf_url_tdnet": pdf_tdnet,
         # Backward compatible fields (older UI expects these).
-        "pdf_url_ja": pdf_kabutan,
+        "pdf_url_ja": pdf_tdnet or pdf_kabutan,
         "pdf_url_en": pdf_kabutan,
         "source_url": d.source_url,
     }
@@ -470,15 +500,19 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         item["company"] = company
         changed = True
 
-    # PDFs: keep Kabutan mirror as primary.
+    # PDFs: prefer official TDnet PDF (Japanese) as primary.
     pdf_url = normalize_spaces(item.get("pdf_url") or "")
     pdf_kabutan = normalize_spaces(item.get("pdf_url_kabutan") or "")
+    pdf_tdnet = normalize_spaces(item.get("pdf_url_tdnet") or "")
     pdf_url_ja = normalize_spaces(item.get("pdf_url_ja") or "")
     pdf_url_en = normalize_spaces(item.get("pdf_url_en") or "")
     item_id = normalize_spaces(item.get("id") or "")
 
     def is_kabutan(u: str) -> bool:
         return "tdnet-pdf.kabutan.jp" in normalize_spaces(u)
+
+    def is_tdnet(u: str) -> bool:
+        return "release.tdnet.info/inbs/" in normalize_spaces(u)
 
     if not pdf_kabutan:
         if is_kabutan(pdf_url_en):
@@ -492,15 +526,25 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         item["pdf_url_kabutan"] = pdf_kabutan
         changed = True
 
+    if not pdf_tdnet:
+        candidate = pdf_url_ja if is_tdnet(pdf_url_ja) else pdf_url if is_tdnet(pdf_url) else ""
+        pdf_tdnet = candidate or build_tdnet_pdf_url(pdf_kabutan or pdf_url or item_id)
+
+    if pdf_tdnet and normalize_spaces(item.get("pdf_url_tdnet") or "") != pdf_tdnet:
+        item["pdf_url_tdnet"] = pdf_tdnet
+        changed = True
+
     # Backward compatible aliases.
     if pdf_kabutan and normalize_spaces(item.get("pdf_url_en") or "") != pdf_kabutan:
         item["pdf_url_en"] = pdf_kabutan
         changed = True
-    if pdf_kabutan and normalize_spaces(item.get("pdf_url_ja") or "") != pdf_kabutan:
-        item["pdf_url_ja"] = pdf_kabutan
+
+    pdf_ja_final = pdf_tdnet or pdf_url_ja or pdf_kabutan or pdf_url
+    if pdf_ja_final and normalize_spaces(item.get("pdf_url_ja") or "") != pdf_ja_final:
+        item["pdf_url_ja"] = pdf_ja_final
         changed = True
 
-    pdf_primary = pdf_kabutan or pdf_url
+    pdf_primary = pdf_ja_final or pdf_kabutan or pdf_url
     if pdf_primary and normalize_spaces(item.get("pdf_url") or "") != pdf_primary:
         item["pdf_url"] = pdf_primary
         changed = True
@@ -595,7 +639,7 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
         tag_part = f"【{tag}】" if tag else ""
         summary = truncate(summary_core, 20) + tag_part
 
-        pdf = d.pdf_url_en or d.pdf_url_ja or ""
+        pdf = d.pdf_url_ja or d.pdf_url_en or ""
         pdf_part = f" <{pdf}|PDF>" if pdf else ""
         lines.append(f"- *{display}*: {summary}{pdf_part} · <{item_link}|株探>")
     if len(new_items) > 10:
