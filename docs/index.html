@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <div class="app-shell">
+    <div class="app-shell has-topbar">
+      <div class="app-topbar" aria-label="market-ticker">
+        <div class="app-topbar-inner">
+          <div class="tape">
+            <div class="tape-track js-kpi"></div>
+          </div>
+        </div>
+      </div>
+
       <aside class="sidebar">
         <div class="sidebar-inner">
           <div class="brand">
@@ -35,6 +43,7 @@
             <div class="nav-group">
               <div class="nav-label">目次</div>
               <a class="nav-link" href="#watch">ウォッチ（今日）</a>
+              <a class="nav-link" href="#quicklinks">クイックリンク</a>
               <a class="nav-link" href="#today">寄り前ブリーフ</a>
               <a class="nav-link" href="#tdnet">適時開示</a>
               <a class="nav-link" href="#recent">最近</a>
@@ -51,28 +60,6 @@
 
       <div class="app-main">
         <div class="app-main-inner">
-          <div class="kpi-strip" aria-label="market-overview">
-            <div class="kpi-strip-inner">
-              <div class="kpi-strip-head">
-                <div>
-                  <div class="kpi-strip-title">マーケット概要</div>
-                  <div class="kpi-strip-sub">最新ブリーフから表示（出せない項目は非表示）</div>
-                </div>
-                <div class="ql-actions" aria-label="quick-link-actions">
-                  <button class="go js-ql-edit" type="button">リンク編集</button>
-                  <button class="go js-ql-save" type="button" style="display:none">保存</button>
-                  <button class="go js-ql-cancel" type="button" style="display:none">キャンセル</button>
-                  <button class="go js-ql-reset" type="button" style="display:none">リセット</button>
-                </div>
-              </div>
-              <div class="tape" aria-label="market-ticker">
-                <div class="tape-track js-kpi"></div>
-              </div>
-              <div class="subhead">クイックリンク（このブラウザ内で編集）</div>
-              <div class="js-quicklinks"></div>
-            </div>
-          </div>
-
           <header class="page-head">
             <div>
               <h1 class="page-title">ホーム</h1>
@@ -91,6 +78,20 @@
               <div class="controls" style="margin-top:12px">
                 <a class="go" href="watchlist/index.html">一覧へ</a>
               </div>
+            </section>
+
+            <section id="quicklinks">
+              <div class="row" style="align-items:flex-start">
+                <h2 style="margin:0">クイックリンク</h2>
+                <div class="ql-actions" aria-label="quick-link-actions">
+                  <button class="go js-ql-edit" type="button">リンク編集</button>
+                  <button class="go js-ql-save" type="button" style="display:none">保存</button>
+                  <button class="go js-ql-cancel" type="button" style="display:none">キャンセル</button>
+                  <button class="go js-ql-reset" type="button" style="display:none">リセット</button>
+                </div>
+              </div>
+              <div class="meta-line">このブラウザ内で編集（localStorage）</div>
+              <div class="js-quicklinks"></div>
             </section>
 
             <div class="dash-grid">

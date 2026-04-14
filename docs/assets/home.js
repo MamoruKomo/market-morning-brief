@@ -41,6 +41,14 @@
     return d > 0 ? "up" : "down";
   }
 
+  function syncTopbarHeight() {
+    const shell = document.querySelector(".app-shell.has-topbar");
+    const topbar = document.querySelector(".app-topbar");
+    if (!shell || !topbar) return;
+    const h = Math.ceil(topbar.getBoundingClientRect().height || 0);
+    if (h > 0) shell.style.setProperty("--app-topbar-height", `${h}px`);
+  }
+
   const QUICKLINKS_STORAGE_KEY = "mmb_quicklinks_v1";
 
   function safeJsonParse(text) {
@@ -680,6 +688,7 @@ ${tags}`;
           const pxPerSec = 78;
           const secs = Math.min(140, Math.max(24, width / pxPerSec));
           el.style.setProperty("--tape-duration", `${secs.toFixed(1)}s`);
+          syncTopbarHeight();
         });
       });
     }
@@ -779,6 +788,9 @@ ${tags}`;
         watchMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
       }
     }
+
+    syncTopbarHeight();
+    window.addEventListener("resize", () => syncTopbarHeight());
   }
 
   window.addEventListener("DOMContentLoaded", () => {
