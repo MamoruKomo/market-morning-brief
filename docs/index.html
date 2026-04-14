@@ -9,11 +9,29 @@
   <body>
     <div class="topbar">
       <div class="topbar-inner">
-        <div class="topbar-left">
-          <div class="topbar-title">マーケット概要</div>
-          <div class="topbar-sub muted">最新ブリーフからスナップショット表示</div>
-        </div>
-        <div class="topbar-kpi js-kpi"></div>
+        <section class="topbar-market" aria-label="market-overview">
+          <div class="topbar-left">
+            <div class="topbar-title">マーケット概要</div>
+            <div class="topbar-sub muted">最新ブリーフから表示（出せない項目は非表示）</div>
+          </div>
+          <div class="topbar-kpi js-kpi"></div>
+        </section>
+
+        <section class="topbar-quick" aria-label="quick-links">
+          <div class="topbar-quick-head">
+            <div class="topbar-left">
+              <div class="topbar-title">クイックリンク</div>
+              <div class="topbar-sub muted">このブラウザ内で編集（localStorage）</div>
+            </div>
+            <div class="ql-actions">
+              <button class="go js-ql-edit" type="button">編集</button>
+              <button class="go js-ql-save" type="button" style="display:none">保存</button>
+              <button class="go js-ql-cancel" type="button" style="display:none">キャンセル</button>
+              <button class="go js-ql-reset" type="button" style="display:none">リセット</button>
+            </div>
+          </div>
+          <div class="js-quicklinks"></div>
+        </section>
       </div>
     </div>
 
@@ -66,15 +84,6 @@
               </div>
             </section>
 
-            <section id="links" class="wide">
-              <h2>クイックリンク（外部）</h2>
-              <div class="quick-links">
-                <a class="quick-btn" href="https://kabutan.jp/warning/pts_night_price_increase" target="_blank" rel="noreferrer">PTS夜間 上昇率ランキング</a>
-                <a class="quick-btn" href="https://kabutan.jp/warning/pts_night_volume_ranking" target="_blank" rel="noreferrer">PTS夜間 出来高ランキング</a>
-                <a class="quick-btn" href="https://kabutan.jp/disclosures/" target="_blank" rel="noreferrer">会社開示（株探）</a>
-                <a class="quick-btn" href="https://www.release.tdnet.info/inbs/I_main_00.html" target="_blank" rel="noreferrer">TDnet（公式）</a>
-              </div>
-            </section>
           </div>
 
           <div class="sidecol">

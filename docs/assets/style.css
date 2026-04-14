@@ -61,13 +61,34 @@ a:hover{text-decoration:underline}
   max-width: min(1440px, 100vw);
   margin:0 auto;
   padding:10px 16px;
-  display:flex;
-  align-items:center;
-  gap:14px;
+  display:grid;
+  grid-template-columns: 1fr;
+  align-items:start;
+  gap:12px;
 }
 .topbar-left{display:flex; flex-direction:column; gap:2px; min-width:160px}
 .topbar-title{font-family: Manrope, Inter, system-ui, sans-serif; font-weight:800; letter-spacing:.2px}
 .topbar-sub{font-size:12px}
+.topbar-market{
+  display:grid;
+  gap:10px;
+}
+.topbar-quick{
+  display:grid;
+  gap:10px;
+}
+.topbar-quick-head{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:10px;
+}
+.ql-actions{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
 .topbar-kpi{
   display:flex;
   gap:10px;
@@ -95,6 +116,80 @@ a:hover{text-decoration:underline}
 .topbar-kpi .kpi-sub{font-size:11px}
 .topbar-kpi .kpi-delta{font-size:12px}
 .topbar-kpi .kpi:hover{background:rgba(0,82,208,.03)}
+
+.ql-grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap:8px;
+}
+.ql-btn{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  padding:10px 12px;
+  border-radius:12px;
+  background: rgba(231,235,239,.78);
+  color:var(--text);
+  text-decoration:none;
+  font-size:13px;
+  line-height:1.2;
+}
+.ql-btn:hover{background: rgba(231,235,239,.98); text-decoration:none}
+.ql-btn .ql-label{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.ql-btn .ql-host{
+  font-size:11px;
+  color:var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.ql-editor{
+  display:grid;
+  gap:8px;
+}
+.ql-row{
+  display:grid;
+  grid-template-columns: 1fr 1.6fr auto;
+  gap:8px;
+  align-items:center;
+}
+.ql-row input{
+  width:100%;
+  padding:10px 12px;
+  border-radius: var(--radius-md);
+  border:1px solid transparent;
+  background:var(--panel2);
+  color:var(--text);
+  outline:none;
+}
+.ql-row input:focus{
+  background: var(--panel);
+  border-color: rgba(0,82,208,.40);
+  box-shadow: 0 0 0 2px rgba(0,82,208,.16);
+}
+.ql-help{color:var(--muted); font-size:12px}
+
+@media (min-width: 920px){
+  .topbar-inner{
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    gap:16px;
+  }
+  .topbar-market{
+    grid-template-columns: 200px minmax(0, 1fr);
+    align-items:center;
+    gap:14px;
+  }
+  .topbar-quick{
+    align-content:start;
+  }
+  .ql-grid{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
 .wrap{max-width:1120px; margin:0 auto; padding:22px 16px 56px}
 @media (min-width: 920px){
   .wrap{

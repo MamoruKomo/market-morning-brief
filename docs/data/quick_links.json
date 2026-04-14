@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "links": [
+    {
+      "label": "会社開示（株探）",
+      "url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "label": "PTS夜間 上昇率",
+      "url": "https://kabutan.jp/warning/pts_night_price_increase"
+    },
+    {
+      "label": "PTS夜間 出来高",
+      "url": "https://kabutan.jp/warning/pts_night_volume_ranking"
+    },
+    {
+      "label": "日本株トレンド",
+      "url": "https://kabutan.jp/market/"
+    },
+    {
+      "label": "日経225ETF（1321）",
+      "url": "https://kabutan.jp/stock/?code=1321"
+    },
+    {
+      "label": "TOPIX ETF（1570）",
+      "url": "https://kabutan.jp/stock/?code=1570"
+    }
+  ]
+}

@@ -41,6 +41,142 @@
     return d > 0 ? "up" : "down";
   }
 
+  const QUICKLINKS_STORAGE_KEY = "mmb_quicklinks_v1";
+
+  function safeJsonParse(text) {
+    try {
+      return JSON.parse(text);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function normalizeQuickLinks(value) {
+    const list = Array.isArray(value) ? value : [];
+    const out = [];
+    for (const it of list) {
+      const label = String(it?.label ?? it?.name ?? "").trim();
+      const url = String(it?.url ?? it?.href ?? "").trim();
+      if (!url) continue;
+      if (!/^https?:\/\//i.test(url)) continue;
+      let safeLabel = label;
+      try {
+        const u = new URL(url);
+        if (!safeLabel) safeLabel = u.hostname;
+      } catch (e) {
+        // ignore
+      }
+      if (!safeLabel) continue;
+      out.push({ label: safeLabel, url });
+    }
+    return out.slice(0, 12);
+  }
+
+  function loadQuickLinksFromLocalStorage() {
+    try {
+      const raw = localStorage.getItem(QUICKLINKS_STORAGE_KEY);
+      if (!raw) return null;
+      const json = safeJsonParse(raw);
+      return normalizeQuickLinks(json);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function saveQuickLinksToLocalStorage(links) {
+    try {
+      localStorage.setItem(QUICKLINKS_STORAGE_KEY, JSON.stringify(links));
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function clearQuickLinksLocalStorage() {
+    try {
+      localStorage.removeItem(QUICKLINKS_STORAGE_KEY);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  async function loadQuickLinks() {
+    const local = loadQuickLinksFromLocalStorage();
+    if (local && local.length) return { links: local, source: "local" };
+
+    try {
+      const json = await loadJson("data/quick_links.json");
+      const links = normalizeQuickLinks(json?.links || json);
+      if (links.length) return { links, source: "file" };
+    } catch (e) {
+      // ignore
+    }
+
+    const fallback = normalizeQuickLinks([
+      { label: "会社開示（株探）", url: "https://kabutan.jp/disclosures/" },
+      { label: "PTS夜間 上昇率", url: "https://kabutan.jp/warning/pts_night_price_increase" },
+      { label: "PTS夜間 出来高", url: "https://kabutan.jp/warning/pts_night_volume_ranking" },
+    ]);
+    return { links: fallback, source: "fallback" };
+  }
+
+  function getHost(url) {
+    try {
+      return new URL(url).hostname;
+    } catch (e) {
+      return "";
+    }
+  }
+
+  function renderQuickLinksDisplay(container, links) {
+    const list = Array.isArray(links) ? links : [];
+    if (!list.length) {
+      container.innerHTML = `<div class="empty">—</div>`;
+      return;
+    }
+    container.innerHTML = `<div class="ql-grid">${list
+      .map((it) => {
+        const label = escapeHtml(it.label || "");
+        const url = escapeHtml(it.url || "");
+        const host = escapeHtml(getHost(it.url || ""));
+        return `<a class="ql-btn" href="${url}" target="_blank" rel="noreferrer"><span class="ql-label">${label}</span><span class="ql-host">${host}</span></a>`;
+      })
+      .join("")}</div>`;
+  }
+
+  function readQuickLinksEditor(container) {
+    const rows = Array.from(container.querySelectorAll(".ql-row"));
+    return rows.map((row) => {
+      const label = String(row.querySelector('input[name="label"]')?.value || "").trim();
+      const url = String(row.querySelector('input[name="url"]')?.value || "").trim();
+      return { label, url };
+    });
+  }
+
+  function renderQuickLinksEditor(container, links) {
+    const list = Array.isArray(links) ? links : [];
+    const rows = list
+      .map((it, idx) => {
+        const label = escapeHtml(it?.label || "");
+        const url = escapeHtml(it?.url || "");
+        return `<div class="ql-row" data-idx="${idx}">
+  <input name="label" type="text" placeholder="ラベル" value="${label}" />
+  <input name="url" type="url" placeholder="https://..." value="${url}" />
+  <button class="go js-ql-del" type="button" data-idx="${idx}">削除</button>
+</div>`;
+      })
+      .join("");
+
+    container.innerHTML = `<div class="ql-editor">
+  ${rows || `<div class="empty">リンクがありません（追加してください）。</div>`}
+  <div class="row" style="justify-content:flex-start">
+    <button class="go js-ql-add" type="button">＋ 追加</button>
+    <div class="ql-help">保存するとこのブラウザにだけ反映されます。</div>
+  </div>
+</div>`;
+  }
+
   function renderChipLinks(values, hrefFn) {
     const list = asArray(values)
       .map((v) => String(v || "").trim())
@@ -490,6 +626,11 @@ ${tags}`;
 
   async function main() {
     const kpi = document.querySelectorAll(".js-kpi");
+    const quickLinks = $(".js-quicklinks");
+    const qlEdit = $(".js-ql-edit");
+    const qlSave = $(".js-ql-save");
+    const qlCancel = $(".js-ql-cancel");
+    const qlReset = $(".js-ql-reset");
     const today = $(".js-today");
     const recent = $(".js-recent");
     const trends = $(".js-tag-trends");
@@ -530,6 +671,80 @@ ${tags}`;
       kpi.forEach((el) => {
         el.innerHTML = html || `<div class="empty">—</div>`;
       });
+    }
+
+    if (quickLinks) {
+      const loaded = await loadQuickLinks();
+      let viewLinks = loaded.links;
+      let editing = false;
+
+      const setMode = (mode) => {
+        editing = mode === "edit";
+        if (qlEdit) qlEdit.style.display = editing ? "none" : "";
+        if (qlSave) qlSave.style.display = editing ? "" : "none";
+        if (qlCancel) qlCancel.style.display = editing ? "" : "none";
+        if (qlReset) qlReset.style.display = editing ? "" : "none";
+
+        if (editing) {
+          renderQuickLinksEditor(quickLinks, viewLinks);
+        } else {
+          renderQuickLinksDisplay(quickLinks, viewLinks);
+        }
+      };
+
+      const updateEditorHandlers = () => {
+        if (!editing) return;
+        quickLinks.querySelectorAll(".js-ql-del").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const idx = Number(btn.getAttribute("data-idx"));
+            const cur = readQuickLinksEditor(quickLinks);
+            if (Number.isFinite(idx) && idx >= 0) cur.splice(idx, 1);
+            viewLinks = cur;
+            renderQuickLinksEditor(quickLinks, viewLinks);
+            updateEditorHandlers();
+          });
+        });
+        const add = quickLinks.querySelector(".js-ql-add");
+        if (add) {
+          add.addEventListener("click", () => {
+            const cur = readQuickLinksEditor(quickLinks);
+            cur.push({ label: "", url: "" });
+            viewLinks = cur;
+            renderQuickLinksEditor(quickLinks, viewLinks);
+            updateEditorHandlers();
+          });
+        }
+      };
+
+      setMode("view");
+
+      if (qlEdit) {
+        qlEdit.addEventListener("click", () => {
+          setMode("edit");
+          updateEditorHandlers();
+        });
+      }
+      if (qlCancel) {
+        qlCancel.addEventListener("click", () => {
+          setMode("view");
+        });
+      }
+      if (qlReset) {
+        qlReset.addEventListener("click", async () => {
+          clearQuickLinksLocalStorage();
+          const reloaded = await loadQuickLinks();
+          viewLinks = reloaded.links;
+          setMode("view");
+        });
+      }
+      if (qlSave) {
+        qlSave.addEventListener("click", () => {
+          const cur = normalizeQuickLinks(readQuickLinksEditor(quickLinks));
+          viewLinks = cur;
+          saveQuickLinksToLocalStorage(cur);
+          setMode("view");
+        });
+      }
     }
 
     try {
