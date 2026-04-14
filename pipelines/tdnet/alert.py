@@ -24,6 +24,7 @@ from pipelines.common.pages import ensure_docs_base_url
 
 KABUTAN_DISCLOSURES_URL = "https://en.kabutan.com/jp/disclosures"
 TDNET_PDF_BASE_URL = "https://www.release.tdnet.info/inbs/"
+TDNET_LIST_URL = "https://www.release.tdnet.info/inbs/I_main_00.html"
 JST = ZoneInfo("Asia/Tokyo")
 MAX_ITEMS = 5000
 
@@ -361,7 +362,7 @@ def parse_disclosures(html: str) -> list[Disclosure]:
                 tags=tags,
                 pdf_url_ja=pdf_ja,
                 pdf_url_en=pdf_en,
-                source_url=KABUTAN_DISCLOSURES_URL,
+                source_url=TDNET_LIST_URL,
             )
         )
 

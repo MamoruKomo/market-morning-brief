@@ -170,11 +170,7 @@
     const pdf = escapeHtml(
       normalizeText(item.pdf_url_tdnet || item.pdf_url_ja || item.pdf_url || item.pdf_url_kabutan || item.pdf_url_en),
     );
-    let sourceRaw = normalizeText(item.source_url);
-    if (sourceRaw.includes("en.kabutan.com/jp/disclosures")) {
-      sourceRaw = "https://kabutan.jp/disclosures/";
-    }
-    const source = escapeHtml(sourceRaw);
+    const source = escapeHtml(normalizeText(item.source_url));
     const tags = asArray(item.tags).map((t) => normalizeText(t)).filter(Boolean);
     const points = getPointsJa(item);
 
