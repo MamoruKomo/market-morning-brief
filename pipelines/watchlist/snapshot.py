@@ -21,8 +21,6 @@ try:
 except Exception:  # pragma: no cover
     certifi = None
 
-from pipelines.common.pages import ensure_docs_base_url
-
 
 JST = ZoneInfo("Asia/Tokyo")
 KABUTAN_STOCK_URL = "https://en.kabutan.com/jp/stocks/{code}/"
@@ -386,10 +384,6 @@ def build_slack_message(
     snapshot: dict[str, Any],
     store: dict[str, Any],
 ) -> str:
-    pages_base_url = normalize_text(cfg.get("pages_base_url") or "")
-    docs_base = ensure_docs_base_url(pages_base_url) or pages_base_url.rstrip("/") + "/"
-    link = docs_base + "watchlist/"
-
     label = "寄り" if phase == "open" else "引け"
     ts = now_jst.strftime("%Y/%m/%d %H:%M")
     header = f"*ウォッチリスト*（{label}） {ts} JST"
@@ -401,7 +395,8 @@ def build_slack_message(
             if code:
                 items_by_code[code] = it
 
-    lines: list[str] = [header, f"一覧: {link}"]
+    # Keep Slack links Kabutan-derived: each line links to Kabutan stock page.
+    lines: list[str] = [header]
 
     current_date = normalize_text(snapshot.get("datetime_jst") or "")[:10]
     codes = set(items_by_code.keys())

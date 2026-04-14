@@ -44,7 +44,6 @@ class TestWatchlistSnapshotAlerts(unittest.TestCase):
 
         msg = build_slack_message("open", now_jst, cfg, watch_cfg, open_snapshot, store)
         self.assertIn("*ウォッチリスト*", msg)
-        self.assertIn("一覧: https://example.com/site/docs/watchlist/", msg)
         self.assertIn("*異常検知*", msg)
         self.assertIn("*ギャップ*", msg)
         self.assertIn("*出来高急増*", msg)

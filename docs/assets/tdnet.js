@@ -168,7 +168,7 @@
     const titleJa = escapeHtml(getTitleJa(item));
     const titleEn = escapeHtml(getTitleEn(item));
     const pdf = escapeHtml(
-      normalizeText(item.pdf_url_tdnet || item.pdf_url_ja || item.pdf_url || item.pdf_url_kabutan || item.pdf_url_en),
+      normalizeText(item.pdf_url_kabutan || item.pdf_url_en || item.pdf_url || item.pdf_url_ja || item.pdf_url_tdnet),
     );
     const source = escapeHtml(normalizeText(item.source_url));
     const tags = asArray(item.tags).map((t) => normalizeText(t)).filter(Boolean);
