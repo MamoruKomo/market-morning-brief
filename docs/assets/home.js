@@ -65,7 +65,12 @@
 
   function renderKpiTile(tile) {
     const label = escapeHtml(tile.label || "");
-    const valueCore = tile.value === "—" ? "—" : fmtNum(tile.value, tile.formatOpts);
+    const valueCore =
+      tile.valueText != null
+        ? String(tile.valueText)
+        : tile.value === "—"
+          ? "—"
+          : fmtNum(tile.value, tile.formatOpts);
     const value = tile.valueSuffix && valueCore !== "—" ? `${valueCore}${escapeHtml(tile.valueSuffix)}` : valueCore;
     const deltaCore =
       tile.deltaText != null
@@ -75,15 +80,16 @@
           : tile.delta != null
             ? fmtNum(tile.delta)
             : "—";
-    const delta =
-      tile.deltaSuffix && deltaCore !== "—" ? `${deltaCore}${escapeHtml(tile.deltaSuffix)}` : deltaCore;
+    const delta = tile.deltaSuffix && deltaCore !== "—" ? `${deltaCore}${escapeHtml(tile.deltaSuffix)}` : deltaCore;
     const cls = deltaClass(tile.delta, tile.deltaPct);
     const sub = tile.sub ? `<div class="kpi-sub">${escapeHtml(tile.sub)}</div>` : "";
     const href = tile.href ? escapeHtml(tile.href) : "";
+    const deltaHtml =
+      deltaCore === "—" && tile.hideDeltaWhenMissing !== false ? "" : `<div class="kpi-delta ${cls}">${delta}</div>`;
 
     const inner = `<div class="kpi-label">${label}</div>
 <div class="kpi-value">${value}</div>
-<div class="kpi-delta ${cls}">${delta}</div>
+${deltaHtml}
 ${sub}`;
 
     if (href) {
@@ -104,76 +110,63 @@ ${sub}`;
     const fut = mo?.nikkei_futures || mo?.nikkei225_futures || {};
     const gap = mo?.futures_gap || {};
 
+    const hasValue = (v) => Number.isFinite(Number(v));
+    const hasPct = (v) => Number.isFinite(Number(v));
+
+    const tile = (t) => {
+      if (hasValue(t.value)) return t;
+      if (hasPct(t.deltaPct)) {
+        return {
+          ...t,
+          valueText: fmtPct(t.deltaPct),
+          deltaText: "",
+        };
+      }
+      return null;
+    };
+
     const tiles = [
-      {
-        label: "日経平均",
-        value: nikkei.value,
-        deltaPct: nikkei.change_pct,
-        sub: nikkei.asof || "",
-      },
-      {
-        label: "TOPIX",
-        value: topix.value,
-        deltaPct: topix.change_pct,
-        sub: topix.asof || "",
-      },
-      {
+      tile({ label: "日経平均", value: nikkei.value, deltaPct: nikkei.change_pct, sub: nikkei.asof || "" }),
+      tile({ label: "TOPIX", value: topix.value, deltaPct: topix.change_pct, sub: topix.asof || "" }),
+      tile({
         label: "米ドル/円",
         value: usdJpy.value,
         delta: usdJpy.change,
         deltaPct: usdJpy.change_pct,
         formatOpts: { maximumFractionDigits: 2 },
         sub: usdJpy.asof || "",
-      },
-      {
+      }),
+      tile({
         label: "米10年",
         value: us10y.value,
         delta: us10y.change,
         deltaPct: us10y.change_pct,
         formatOpts: { maximumFractionDigits: 3 },
         valueSuffix: "%",
+        hideDeltaWhenMissing: true,
         sub: us10y.asof || "",
-      },
-      {
+      }),
+      tile({
         label: "WTI",
         value: wti.value,
         deltaPct: wti.change_pct,
         formatOpts: { maximumFractionDigits: 2 },
         sub: wti.asof || "",
-      },
-      {
-        label: "日経225先物",
-        value: fut.value,
-        deltaPct: fut.change_pct,
-        sub: fut.asof || "",
-      },
-      {
+      }),
+      tile({ label: "日経225先物", value: fut.value, deltaPct: fut.change_pct, sub: fut.asof || "" }),
+      tile({
         label: "先物ギャップ",
         value: gap.value,
         delta: gap.value,
         formatOpts: { maximumFractionDigits: 0 },
         valueSuffix: "pts",
+        hideDeltaWhenMissing: true,
         sub: gap.asof || "",
-      },
-      {
-        label: "S&P500",
-        value: spx.value,
-        deltaPct: spx.change_pct,
-        sub: spx.asof || "",
-      },
-      {
-        label: "NYダウ",
-        value: dow.value,
-        deltaPct: dow.change_pct,
-        sub: dow.asof || "",
-      },
-      {
-        label: "Nasdaq",
-        value: nasdaq.value,
-        deltaPct: nasdaq.change_pct,
-        sub: nasdaq.asof || "",
-      },
-    ];
+      }),
+      tile({ label: "S&P500", value: spx.value, deltaPct: spx.change_pct, sub: spx.asof || "" }),
+      tile({ label: "NYダウ", value: dow.value, deltaPct: dow.change_pct, sub: dow.asof || "" }),
+      tile({ label: "Nasdaq", value: nasdaq.value, deltaPct: nasdaq.change_pct, sub: nasdaq.asof || "" }),
+    ].filter(Boolean);
 
     return tiles;
   }
