@@ -72,36 +72,22 @@
           </header>
 
           <main class="page">
-            <section id="watch" class="watch-hero">
-              <h2>ウォッチリスト（今日）</h2>
-              <div class="js-watchlist-mini"></div>
-              <div class="controls" style="margin-top:12px">
-                <a class="go" href="watchlist/index.html">一覧へ</a>
-              </div>
-            </section>
-
-            <section id="quicklinks">
-              <div class="row" style="align-items:flex-start">
-                <h2 style="margin:0">クイックリンク</h2>
-                <div class="ql-actions" aria-label="quick-link-actions">
-                  <button class="go js-ql-edit" type="button">リンク編集</button>
-                  <button class="go js-ql-save" type="button" style="display:none">保存</button>
-                  <button class="go js-ql-cancel" type="button" style="display:none">キャンセル</button>
-                  <button class="go js-ql-reset" type="button" style="display:none">リセット</button>
-                </div>
-              </div>
-              <div class="meta-line">このブラウザ内で編集（localStorage）</div>
-              <div class="js-quicklinks"></div>
-            </section>
-
             <div class="dash-grid">
               <div class="maincol">
+                <section id="watch" class="watch-hero">
+                  <h2>ウォッチリスト（今日）</h2>
+                  <div class="js-watchlist-mini"></div>
+                  <div class="controls" style="margin-top:12px">
+                    <a class="go" href="watchlist/index.html">一覧へ</a>
+                  </div>
+                </section>
+
                 <section id="today">
                   <h2>今日の寄り前ブリーフ</h2>
                   <div class="js-today"></div>
                 </section>
 
-                <section id="recent">
+                <section id="recent" class="wide">
                   <h2>最近のブリーフ</h2>
                   <div class="js-recent"></div>
                   <div class="controls" style="margin-top:12px">
@@ -111,6 +97,20 @@
               </div>
 
               <div class="sidecol">
+                <section id="quicklinks">
+                  <div class="row" style="align-items:flex-start">
+                    <h2 style="margin:0">クイックリンク</h2>
+                    <div class="ql-actions" aria-label="quick-link-actions">
+                      <button class="go js-ql-edit" type="button">リンク編集</button>
+                      <button class="go js-ql-save" type="button" style="display:none">保存</button>
+                      <button class="go js-ql-cancel" type="button" style="display:none">キャンセル</button>
+                      <button class="go js-ql-reset" type="button" style="display:none">リセット</button>
+                    </div>
+                  </div>
+                  <div class="meta-line">このブラウザ内で編集（localStorage）</div>
+                  <div class="js-quicklinks"></div>
+                </section>
+
                 <section id="tdnet">
                   <h2>適時開示（新着）</h2>
                   <div class="js-tdnet-mini"></div>

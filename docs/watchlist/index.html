@@ -65,6 +65,15 @@
                   日付
                   <select class="select js-date"></select>
                 </label>
+                <label class="toggle">
+                  表示
+                  <select class="select js-view">
+                    <option value="latest">最新</option>
+                    <option value="open">寄り</option>
+                    <option value="close">引け</option>
+                    <option value="both">寄り+引け</option>
+                  </select>
+                </label>
                 <input class="js-search" type="search" placeholder="コード/銘柄で絞り込み（例: 8035, トヨタ）" />
                 <label class="toggle">
                   <input class="js-toggle-en" type="checkbox" />
@@ -73,22 +82,27 @@
                 <div class="muted js-status"></div>
               </div>
               <div class="muted js-error"></div>
-              <div class="js-alerts" style="margin-top:12px"></div>
+              <details class="watch-alerts">
+                <summary>異常検知 <span class="muted js-alerts-count">—</span></summary>
+                <div class="js-alerts" style="margin-top:10px"></div>
+              </details>
               <div class="js-watchlist" style="margin-top:12px"></div>
             </section>
 
             <section id="howto">
-              <h2>使い方</h2>
-              <ul>
-                <li>
-                  ブラウザ保存の「マイウォッチ」を作る: <a href="manage.html">編集</a>
-                </li>
-                <li>
-                  ウォッチ銘柄は <code>docs/data/watchlist.json</code> を編集して追加できます（業界ごとにグループ化）。
-                </li>
-                <li>ファンダ表示: <a href="fundamentals.html">ファンダ</a></li>
-                <li>スナップショットは GitHub Actions が自動で <code>docs/data/watchlist_snapshots.json</code> に蓄積します。</li>
-              </ul>
+              <details class="watch-howto">
+                <summary>使い方</summary>
+                <ul>
+                  <li>
+                    ブラウザ保存の「マイウォッチ」を作る: <a href="manage.html">編集</a>
+                  </li>
+                  <li>
+                    ウォッチ銘柄は <code>docs/data/watchlist.json</code> を編集して追加できます（業界ごとにグループ化）。
+                  </li>
+                  <li>ファンダ表示: <a href="fundamentals.html">ファンダ</a></li>
+                  <li>スナップショットは GitHub Actions が自動で <code>docs/data/watchlist_snapshots.json</code> に蓄積します。</li>
+                </ul>
+              </details>
             </section>
           </main>
 

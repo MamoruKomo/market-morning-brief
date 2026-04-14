@@ -204,7 +204,21 @@
     return `<span class="delta ${cls}">${fmtPct(v)}</span>`;
   }
 
-  function renderSector(group, openMap, closeMap, showEnglish, query) {
+  function resolvePhase(view, openSnap, closeSnap) {
+    const v = normalizeText(view || "latest");
+    if (v === "both") return "both";
+    if (v === "open") return "open";
+    if (v === "close") return "close";
+    return closeSnap ? "close" : "open";
+  }
+
+  function phaseLabel(phase) {
+    if (phase === "close") return "引け";
+    if (phase === "open") return "寄り";
+    return "—";
+  }
+
+  function renderSector(group, openMap, closeMap, showEnglish, query, phase) {
     const sector = escapeHtml(group.sector || "—");
     const tickers = asArray(group.tickers);
     const sectorPcts = [];
@@ -234,13 +248,19 @@
 
         const openDelta = computeChange(open, prevClose);
         const closeDelta = computeChange(close, prevClose);
-        const rowDelta = closeDelta ?? openDelta;
+        const singlePhase = phase && phase !== "both" ? phase : null;
+        const rowDelta = singlePhase === "open" ? openDelta : singlePhase === "close" ? closeDelta : closeDelta ?? openDelta;
         const rowCls = deltaClass(rowDelta);
         const rowClass = rowCls === "up" ? "is-up" : rowCls === "down" ? "is-down" : "";
 
         const openPct = computeChangePct(open, prevClose);
         const closePct = computeChangePct(close, prevClose);
-        const refPct = closePct ?? openPct;
+        const refPct =
+          singlePhase === "open"
+            ? openPct
+            : singlePhase === "close"
+              ? closePct
+              : closePct ?? openPct;
         if (refPct != null) sectorPcts.push(refPct);
 
         const openCls = deltaClass(openDelta);
@@ -268,6 +288,33 @@
 
         const nameHtml = escapeHtml(name || "—");
         const codeHtml = escapeHtml(code);
+
+        if (singlePhase) {
+          const price = singlePhase === "open" ? open : close;
+          const phaseDelta = singlePhase === "open" ? openDelta : closeDelta;
+          const phaseCls = deltaClass(phaseDelta);
+          const priceHtmlRaw = price != null ? fmt(price, { maximumFractionDigits: 0 }) : "—";
+          const priceHtml =
+            phaseCls === "up"
+              ? `<span class="price up">${priceHtmlRaw}</span>`
+              : phaseCls === "down"
+                ? `<span class="price down">${priceHtmlRaw}</span>`
+                : priceHtmlRaw;
+          const volOne = singlePhase === "close" ? (closeItem?.volume ?? base.volume ?? openItem?.volume) : (openItem?.volume ?? base.volume ?? closeItem?.volume);
+          const volOneHtml = volOne != null ? `${fmt(volOne, { maximumFractionDigits: 0 })}` : "—";
+
+          return `<tr${rowClass ? ` class="${rowClass}"` : ""}>
+  <td class="w-ticker">
+    <a class="w-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">
+      <div class="w-name-main">${nameHtml}</div>
+      <div class="w-code-sub">${codeHtml}</div>
+    </a>
+  </td>
+  <td class="w-num">${priceHtml}</td>
+  <td class="w-delta">${renderDelta(price, prevClose)}</td>
+  <td class="w-num">${volOneHtml}</td>
+</tr>`;
+        }
 
         return `<tr${rowClass ? ` class="${rowClass}"` : ""}>
   <td class="w-ticker">
@@ -301,21 +348,31 @@
 </div>`;
     }
 
-    return `<div class="watch-sector">
-  <div class="watch-sector-head"><span>${sector}</span><div class="watch-sector-meta">${renderPctPill(
-    avgPct,
-  )}${countHtml}</div></div>
-  <div class="watch-table-wrap">
-    <table class="watch-table">
-      <thead>
-        <tr>
+    const single = phase && phase !== "both" ? phase : null;
+    const thead = single
+      ? `<tr>
+          <th>銘柄</th>
+          <th>${escapeHtml(phaseLabel(single))}</th>
+          <th>前日比</th>
+          <th>出来高</th>
+        </tr>`
+      : `<tr>
           <th>銘柄</th>
           <th>寄り</th>
           <th>前日比</th>
           <th>引け</th>
           <th>前日比</th>
           <th>出来高</th>
-        </tr>
+        </tr>`;
+
+    return `<div class="watch-sector">
+  <div class="watch-sector-head"><span>${sector}</span><div class="watch-sector-meta">${renderPctPill(
+    avgPct,
+  )}${countHtml}</div></div>
+  <div class="watch-table-wrap">
+    <table class="watch-table${single ? " is-compact" : ""}">
+      <thead>
+        ${thead}
       </thead>
       <tbody>${rows}</tbody>
     </table>
@@ -323,12 +380,13 @@
 </div>`;
   }
 
-  function render(container, cfg, snapshots, date, showEnglish, query) {
+  function render(container, cfg, snapshots, date, showEnglish, query, view) {
     const byDatePhase = groupSnapshotsByDate(snapshots);
     const openSnap = byDatePhase.get(`${date}:open`);
     const closeSnap = byDatePhase.get(`${date}:close`);
     const openMap = mapItems(openSnap);
     const closeMap = mapItems(closeSnap);
+    const phase = resolvePhase(view, openSnap, closeSnap);
 
     const groups = asArray(cfg?.groups);
     if (!groups.length) {
@@ -337,21 +395,21 @@
     }
 
     container.innerHTML = groups
-      .map((g) => renderSector(g, openMap, closeMap, showEnglish, query))
+      .map((g) => renderSector(g, openMap, closeMap, showEnglish, query, phase))
       .join("");
 
     return { openSnap, closeSnap };
   }
 
   function renderAlerts(container, cfg, snapshots, date, openSnap, closeSnap) {
-    if (!container) return;
+    if (!container) return { gapCount: 0, volCount: 0 };
     const metaByCode = buildMetaByCode(cfg);
     const openMap = mapItems(openSnap);
     const closeMap = mapItems(closeSnap);
     const codes = new Set([...openMap.keys(), ...closeMap.keys()]);
     if (!codes.size) {
       container.innerHTML = `<div class="empty">異常検知: スナップショットがありません。</div>`;
-      return;
+      return { gapCount: 0, volCount: 0 };
     }
 
     const prevCloseSnap = findPrevCloseSnapshot(snapshots, date);
@@ -467,6 +525,7 @@
     ${volHtml}
   </div>
 </div>`;
+    return { gapCount: gapAlerts.length, volCount: volAlerts.length };
   }
 
   async function main() {
@@ -476,7 +535,10 @@
 
     const container = $(".js-watchlist");
     const alerts = $(".js-alerts");
+    const alertsDetails = $(".watch-alerts");
+    const alertsCount = $(".js-alerts-count");
     const select = $(".js-date");
+    const view = $(".js-view");
     const search = $(".js-search");
     const status = $(".js-status");
     const err = $(".js-error");
@@ -505,10 +567,21 @@
 
     const doRender = () => {
       const date = select?.value || initial;
+      const mode = normalizeText(view?.value || "latest") || "latest";
       const showEnglish = !!toggleEn?.checked;
       const query = normalizeQuery(search?.value || "");
-      const { openSnap, closeSnap } = render(container, cfg, snapshots, date, showEnglish, query);
-      renderAlerts(alerts, cfg, snapshots, date, openSnap, closeSnap);
+      const { openSnap, closeSnap } = render(container, cfg, snapshots, date, showEnglish, query, mode);
+      const info = renderAlerts(alerts, cfg, snapshots, date, openSnap, closeSnap);
+      if (alertsCount) {
+        const g = Number(info?.gapCount || 0);
+        const v = Number(info?.volCount || 0);
+        alertsCount.textContent = g || v ? `（ギャップ ${g} / 出来高 ${v}）` : "（なし）";
+      }
+      if (alertsDetails) {
+        const g = Number(info?.gapCount || 0);
+        const v = Number(info?.volCount || 0);
+        alertsDetails.open = g > 0 || v > 0;
+      }
 
       const openLabel = openSnap?.datetime_jst ? `寄り: ${openSnap.datetime_jst}` : "寄り: —";
       const closeLabel = closeSnap?.datetime_jst ? `引け: ${closeSnap.datetime_jst}` : "引け: —";
@@ -516,6 +589,7 @@
     };
 
     if (select) select.addEventListener("change", doRender);
+    if (view) view.addEventListener("change", doRender);
     if (search) search.addEventListener("input", doRender);
     if (toggleEn) toggleEn.addEventListener("change", doRender);
     doRender();
