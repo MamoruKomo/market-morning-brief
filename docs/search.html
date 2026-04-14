@@ -3,51 +3,75 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Market Morning Brief - Search</title>
+    <title>寄り前ブリーフ - 検索</title>
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <div class="wrap">
-      <header>
-        <h1>Market Morning Brief（検索）</h1>
-        <div class="meta">過去ログから、材料・テーマ・銘柄コードで探せます。</div>
-        <nav>
-          <a href="index.html">最新</a>
-          <a href="archive/index.html">アーカイブ</a>
-          <a href="search.html" aria-current="page">検索</a>
-          <a href="fundamentals/index.html">ファンダ</a>
-          <a href="watchlist/index.html">ウォッチ</a>
-          <a href="stocks/index.html">銘柄</a>
-          <a href="tags/index.html">タグ</a>
-          <a href="tdnet/index.html">適時開示</a>
-          <a href="my/index.html">マイ</a>
-          <a href="review/index.html">振り返り</a>
-        </nav>
-      </header>
-
-      <main>
-        <section>
-          <h2>検索</h2>
-          <div class="controls">
-            <input class="js-search" type="search" placeholder="キーワード / 銘柄コード / タグ（例: PTS, 7203, 半導体）" />
-            <div class="muted js-count"></div>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="sidebar-inner">
+          <div class="brand">
+            <div class="brand-title"><a href="index.html">寄り前ブリーフ</a></div>
+            <div class="brand-sub">過去ログ検索 / テーマ・材料・銘柄</div>
           </div>
-          <div class="muted js-error"></div>
-          <div class="js-brief-list" style="margin-top:12px"></div>
-        </section>
 
-        <section>
-          <h2>クイックリンク（株探系の便利機能）</h2>
-          <div class="quick-links">
-            <a class="quick-btn" href="https://kabutan.jp/warning/pts_night_price_increase" target="_blank" rel="noreferrer">PTS夜間 上昇率ランキング</a>
-            <a class="quick-btn" href="https://kabutan.jp/warning/pts_night_volume_ranking" target="_blank" rel="noreferrer">PTS夜間 出来高ランキング</a>
-            <a class="quick-btn" href="https://kabutan.jp/disclosures/" target="_blank" rel="noreferrer">会社開示（株探）</a>
-            <a class="quick-btn" href="https://www.release.tdnet.info/inbs/I_main_00.html" target="_blank" rel="noreferrer">TDnet（公式）</a>
-          </div>
-        </section>
-      </main>
+          <form class="sidebar-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="材料 / コード / タグ（例: 9983, 円安, 決算）" />
+          </form>
 
-      <footer>自動生成</footer>
+          <nav class="sidebar-nav" aria-label="navigation">
+            <div class="nav-group">
+              <div class="nav-label">ページ</div>
+              <a class="nav-link" href="index.html">ホーム</a>
+              <a class="nav-link" href="watchlist/index.html">ウォッチリスト</a>
+              <a class="nav-link" href="tdnet/index.html">適時開示</a>
+              <a class="nav-link" href="fundamentals/index.html">ファンダ</a>
+              <a class="nav-link" href="archive/index.html">アーカイブ</a>
+              <a class="nav-link" href="stocks/index.html">銘柄</a>
+              <a class="nav-link" href="tags/index.html">タグ</a>
+              <a class="nav-link" href="my/index.html">マイ</a>
+              <a class="nav-link" href="review/index.html">振り返り</a>
+            </div>
+          </nav>
+
+          <div class="sidebar-foot">検索はブリーフの要点・タグ・銘柄コードに対応。</div>
+        </div>
+      </aside>
+
+      <div class="app-main">
+        <div class="app-main-inner">
+          <header class="page-head">
+            <div>
+              <h1 class="page-title">検索</h1>
+              <div class="page-meta">材料・テーマ・銘柄コードで、過去ログを横断検索します。</div>
+            </div>
+          </header>
+
+          <main class="page">
+            <section>
+              <h2>検索</h2>
+              <div class="controls">
+                <input class="js-search" type="search" placeholder="キーワード / 銘柄コード / タグ（例: PTS, 7203, 半導体）" />
+                <div class="muted js-count"></div>
+              </div>
+              <div class="muted js-error"></div>
+              <div class="js-brief-list" style="margin-top:12px"></div>
+            </section>
+
+            <section>
+              <h2>クイックリンク（株探系の便利機能）</h2>
+              <div class="quick-links">
+                <a class="quick-btn" href="https://kabutan.jp/warning/pts_night_price_increase" target="_blank" rel="noreferrer">PTS夜間 上昇率ランキング</a>
+                <a class="quick-btn" href="https://kabutan.jp/warning/pts_night_volume_ranking" target="_blank" rel="noreferrer">PTS夜間 出来高ランキング</a>
+                <a class="quick-btn" href="https://kabutan.jp/disclosures/" target="_blank" rel="noreferrer">会社開示（株探）</a>
+                <a class="quick-btn" href="https://www.release.tdnet.info/inbs/I_main_00.html" target="_blank" rel="noreferrer">TDnet（公式）</a>
+              </div>
+            </section>
+          </main>
+
+          <footer>自動生成</footer>
+        </div>
+      </div>
     </div>
     <script src="assets/site.js"></script>
   </body>

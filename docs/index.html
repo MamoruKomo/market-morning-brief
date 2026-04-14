@@ -3,67 +3,87 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Market Morning Brief</title>
+    <title>寄り前ブリーフ</title>
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <div class="topbar">
-      <div class="topbar-inner">
-        <section class="topbar-market" aria-label="market-overview">
-          <div class="topbar-left">
-            <div class="topbar-title">マーケット概要</div>
-            <div class="topbar-sub muted">最新ブリーフから表示（出せない項目は非表示）</div>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="sidebar-inner">
+          <div class="brand">
+            <div class="brand-title"><a href="index.html">寄り前ブリーフ</a></div>
+            <div class="brand-sub">日本株デイトレ向け / 毎朝8:30配信</div>
           </div>
-          <div class="topbar-kpi js-kpi"></div>
-        </section>
 
-        <section class="topbar-quick" aria-label="quick-links">
-          <div class="topbar-quick-head">
-            <div class="topbar-left">
-              <div class="topbar-title">クイックリンク</div>
-              <div class="topbar-sub muted">このブラウザ内で編集（localStorage）</div>
+          <form class="sidebar-search" action="search.html" method="get">
+            <input class="js-gsearch" type="search" name="q" placeholder="材料 / コード / タグ（例: 9983, 円安, 決算）" />
+          </form>
+
+          <nav class="sidebar-nav" aria-label="navigation">
+            <div class="nav-group">
+              <div class="nav-label">ページ</div>
+              <a class="nav-link" href="index.html" aria-current="page">ホーム</a>
+              <a class="nav-link" href="watchlist/index.html">ウォッチリスト</a>
+              <a class="nav-link" href="tdnet/index.html">適時開示</a>
+              <a class="nav-link" href="fundamentals/index.html">ファンダ</a>
+              <a class="nav-link" href="archive/index.html">アーカイブ</a>
+              <a class="nav-link" href="stocks/index.html">銘柄</a>
+              <a class="nav-link" href="tags/index.html">タグ</a>
+              <a class="nav-link" href="my/index.html">マイ</a>
+              <a class="nav-link" href="review/index.html">振り返り</a>
             </div>
-            <div class="ql-actions">
-              <button class="go js-ql-edit" type="button">編集</button>
-              <button class="go js-ql-save" type="button" style="display:none">保存</button>
-              <button class="go js-ql-cancel" type="button" style="display:none">キャンセル</button>
-              <button class="go js-ql-reset" type="button" style="display:none">リセット</button>
+            <div class="nav-group">
+              <div class="nav-label">目次</div>
+              <a class="nav-link" href="#watch">ウォッチ（今日）</a>
+              <a class="nav-link" href="#today">寄り前ブリーフ</a>
+              <a class="nav-link" href="#tdnet">適時開示</a>
+              <a class="nav-link" href="#recent">最近</a>
+              <a class="nav-link" href="#tags">人気テーマ</a>
             </div>
+          </nav>
+
+          <div class="sidebar-foot">
+            <div class="js-stats-brief">最新ブリーフ: —</div>
+            <div class="js-stats-tdnet">適時開示更新: —</div>
           </div>
-          <div class="js-quicklinks"></div>
-        </section>
-      </div>
-    </div>
-
-    <div class="wrap">
-      <header>
-        <h1>Market Morning Brief（日本株・寄り前）</h1>
-        <div class="meta">毎朝8:30（JST）にSlackへ「サマリー + 本文リンク」を配信します。</div>
-        <form class="gsearch" action="search.html" method="get">
-          <input class="js-gsearch" type="search" name="q" placeholder="材料 / 銘柄コード / タグで検索（例: 9983, 円安, 決算）" />
-        </form>
-        <div class="meta-line">
-          <span class="js-stats-brief">最新ブリーフ: —</span> · <span class="js-stats-tdnet">適時開示更新: —</span>
         </div>
-        <nav>
-          <a href="index.html" aria-current="page">最新</a>
-          <a href="archive/index.html">アーカイブ</a>
-          <a href="search.html">検索</a>
-          <a href="fundamentals/index.html">ファンダ</a>
-          <a href="watchlist/index.html">ウォッチ</a>
-          <a href="stocks/index.html">銘柄</a>
-          <a href="tags/index.html">タグ</a>
-          <a href="tdnet/index.html">適時開示</a>
-          <a href="my/index.html">マイ</a>
-          <a href="review/index.html">振り返り</a>
-        </nav>
+      </aside>
 
-      </header>
+      <div class="app-main">
+        <div class="app-main-inner">
+          <div class="kpi-strip" aria-label="market-overview">
+            <div class="kpi-strip-inner">
+              <div class="kpi-strip-head">
+                <div>
+                  <div class="kpi-strip-title">マーケット概要</div>
+                  <div class="kpi-strip-sub">最新ブリーフから表示（出せない項目は非表示）</div>
+                </div>
+                <div class="ql-actions" aria-label="quick-link-actions">
+                  <button class="go js-ql-edit" type="button">リンク編集</button>
+                  <button class="go js-ql-save" type="button" style="display:none">保存</button>
+                  <button class="go js-ql-cancel" type="button" style="display:none">キャンセル</button>
+                  <button class="go js-ql-reset" type="button" style="display:none">リセット</button>
+                </div>
+              </div>
+              <div class="kpi-row js-kpi"></div>
+              <div class="subhead">クイックリンク（このブラウザ内で編集）</div>
+              <div class="js-quicklinks"></div>
+            </div>
+          </div>
 
-      <main>
-        <div class="dash-grid">
-          <div class="maincol">
-            <section id="watch" class="wide watch-hero">
+          <header class="page-head">
+            <div>
+              <h1 class="page-title">ホーム</h1>
+              <div class="page-meta">寄り前の材料チェックとログ閲覧を、1画面で。</div>
+            </div>
+            <div class="page-actions">
+              <a class="go" href="watchlist/manage.html">ウォッチ編集</a>
+              <a class="go" href="tdnet/index.html">適時開示ログ</a>
+            </div>
+          </header>
+
+          <main class="page">
+            <section id="watch" class="watch-hero">
               <h2>ウォッチリスト（今日）</h2>
               <div class="js-watchlist-mini"></div>
               <div class="controls" style="margin-top:12px">
@@ -71,42 +91,45 @@
               </div>
             </section>
 
-            <section id="today">
-              <h2>今日の寄り前ブリーフ</h2>
-              <div class="js-today"></div>
-            </section>
+            <div class="dash-grid">
+              <div class="maincol">
+                <section id="today">
+                  <h2>今日の寄り前ブリーフ</h2>
+                  <div class="js-today"></div>
+                </section>
 
-            <section id="recent" class="wide">
-              <h2>最近のブリーフ</h2>
-              <div class="js-recent"></div>
-              <div class="controls" style="margin-top:12px">
-                <a class="go" href="archive/index.html">アーカイブへ</a>
+                <section id="recent">
+                  <h2>最近のブリーフ</h2>
+                  <div class="js-recent"></div>
+                  <div class="controls" style="margin-top:12px">
+                    <a class="go" href="archive/index.html">アーカイブへ</a>
+                  </div>
+                </section>
               </div>
-            </section>
 
-          </div>
+              <div class="sidecol">
+                <section id="tdnet">
+                  <h2>適時開示（新着）</h2>
+                  <div class="js-tdnet-mini"></div>
+                  <div class="controls" style="margin-top:12px">
+                    <a class="go" href="tdnet/index.html">ログへ</a>
+                  </div>
+                </section>
 
-          <div class="sidecol">
-            <section id="tdnet">
-              <h2>適時開示（新着）</h2>
-              <div class="js-tdnet-mini"></div>
-              <div class="controls" style="margin-top:12px">
-                <a class="go" href="tdnet/index.html">ログへ</a>
+                <section id="tags">
+                  <h2>人気テーマ（過去ログ）</h2>
+                  <div class="js-tag-trends"></div>
+                  <div class="controls" style="margin-top:12px">
+                    <a class="go" href="tags/index.html">タグ一覧</a>
+                  </div>
+                </section>
               </div>
-            </section>
+            </div>
+          </main>
 
-            <section id="tags">
-              <h2>人気テーマ（過去ログ）</h2>
-              <div class="js-tag-trends"></div>
-              <div class="controls" style="margin-top:12px">
-                <a class="go" href="tags/index.html">タグ一覧</a>
-              </div>
-            </section>
-          </div>
+          <footer>自動生成</footer>
         </div>
-      </main>
-
-      <footer>自動生成</footer>
+      </div>
     </div>
     <script src="assets/home.js"></script>
   </body>

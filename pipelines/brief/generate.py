@@ -574,7 +574,7 @@ def render_html(
     sources: list[tuple[str, str]],
 ) -> str:
     w = weekday_jp(date_iso)
-    title = f"Market Morning Brief - {date_iso}"
+    title = f"寄り前ブリーフ - {date_iso}"
     source_list = render_sources_list(sources)
 
     def esc_with_links(text: str) -> str:
@@ -597,8 +597,23 @@ def render_html(
         return "<ul>\n" + "\n".join(out) + "\n</ul>"
 
     rendered_sections = []
-    for h, lines in sections:
-        rendered_sections.append(f"<section>\n<h2>{html.escape(h)}</h2>\n{li_lines(lines)}\n</section>")
+    toc_items: list[tuple[str, str]] = []
+    toc_items.append(("summary", "サマリー"))
+    toc_items.append(("headline", "ヘッドライン"))
+    for idx, (h, lines) in enumerate(sections, start=1):
+        sid = f"sec-{idx}"
+        toc_items.append((sid, h))
+        rendered_sections.append(
+            f'<section id="{sid}">\n<h2>{html.escape(h)}</h2>\n{li_lines(lines)}\n</section>'
+        )
+    toc_items.append(("sources", "出典（リンク）"))
+
+    toc_html = "\n".join(
+        [
+            f'<a class="nav-link" href="#{html.escape(anchor)}">{html.escape(label)}</a>'
+            for anchor, label in toc_items
+        ]
+    )
 
     return f"""<!doctype html>
 <html lang="ja">
@@ -609,43 +624,76 @@ def render_html(
     <link rel="stylesheet" href="../assets/style.css" />
   </head>
   <body>
-    <div class="wrap">
-      <header>
-        <h1>Market Morning Brief（本文）</h1>
-        <div class="meta">{html.escape(date_iso)}（{w}）寄り前ブリーフ</div>
-        <form class="gsearch" action="../search.html" method="get">
-          <input type="search" name="q" placeholder="材料 / 銘柄コード / タグで検索（例: 9983, 円安, 決算）" />
-        </form>
-        <nav>
-          <a href="../index.html">最新</a>
-          <a href="../archive/index.html" aria-current="page">アーカイブ</a>
-          <a href="../search.html">検索</a>
-          <a href="../fundamentals/index.html">ファンダ</a>
-          <a href="../watchlist/index.html">ウォッチ</a>
-          <a href="../stocks/index.html">銘柄</a>
-          <a href="../tags/index.html">タグ</a>
-          <a href="../tdnet/index.html">適時開示</a>
-          <a href="../my/index.html">マイ</a>
-          <a href="../review/index.html">振り返り</a>
-        </nav>
-      </header>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="sidebar-inner">
+          <div class="brand">
+            <div class="brand-title"><a href="../index.html">寄り前ブリーフ</a></div>
+            <div class="brand-sub">{html.escape(date_iso)}（{w}）本文</div>
+          </div>
 
-      <main>
-        <article>
-          <p class="meta" style="margin-top:0">{esc_with_links(synthesis)}</p>
-          <section>
-            <h2>ヘッドライン</h2>
-            <ul><li>{esc_with_links(headline)}</li></ul>
-          </section>
-          {"".join(rendered_sections)}
-          <section>
-            <h2>出典（リンク）</h2>
-            {source_list}
-          </section>
-        </article>
-      </main>
+          <form class="sidebar-search" action="../search.html" method="get">
+            <input type="search" name="q" placeholder="材料 / コード / タグ（例: 9983, 円安, 決算）" />
+          </form>
 
-      <footer>自動生成</footer>
+          <nav class="sidebar-nav" aria-label="navigation">
+            <div class="nav-group">
+              <div class="nav-label">ページ</div>
+              <a class="nav-link" href="../index.html">ホーム</a>
+              <a class="nav-link" href="../watchlist/index.html">ウォッチリスト</a>
+              <a class="nav-link" href="../tdnet/index.html">適時開示</a>
+              <a class="nav-link" href="../fundamentals/index.html">ファンダ</a>
+              <a class="nav-link" href="../archive/index.html" aria-current="page">アーカイブ</a>
+              <a class="nav-link" href="../stocks/index.html">銘柄</a>
+              <a class="nav-link" href="../tags/index.html">タグ</a>
+              <a class="nav-link" href="../my/index.html">マイ</a>
+              <a class="nav-link" href="../review/index.html">振り返り</a>
+            </div>
+            <div class="nav-group">
+              <div class="nav-label">目次</div>
+              {toc_html}
+            </div>
+          </nav>
+
+          <div class="sidebar-foot">出典リンクは原則、日本語で閲覧できるURLを優先します。</div>
+        </div>
+      </aside>
+
+      <div class="app-main">
+        <div class="app-main-inner">
+          <header class="page-head">
+            <div>
+              <h1 class="page-title">寄り前ブリーフ（本文）</h1>
+              <div class="page-meta">{html.escape(date_iso)}（{w}）</div>
+            </div>
+            <div class="page-actions">
+              <a class="go" href="../archive/index.html">アーカイブ</a>
+              <a class="go" href="../index.html">ホーム</a>
+            </div>
+          </header>
+
+          <main class="page">
+            <section id="summary">
+              <h2>サマリー</h2>
+              <p class="synthesis">{esc_with_links(synthesis)}</p>
+            </section>
+
+            <section id="headline">
+              <h2>ヘッドライン</h2>
+              <ul><li>{esc_with_links(headline)}</li></ul>
+            </section>
+
+            {"".join(rendered_sections)}
+
+            <section id="sources">
+              <h2>出典（リンク）</h2>
+              {source_list}
+            </section>
+          </main>
+
+          <footer>自動生成</footer>
+        </div>
+      </div>
     </div>
   </body>
 </html>
