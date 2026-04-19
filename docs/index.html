@@ -46,7 +46,6 @@
               <a class="nav-link" href="#quicklinks">クイックリンク</a>
               <a class="nav-link" href="#today">寄り前ブリーフ</a>
               <a class="nav-link" href="#tdnet">適時開示</a>
-              <a class="nav-link" href="#recent">最近</a>
               <a class="nav-link" href="#tags">人気テーマ</a>
             </div>
           </nav>
@@ -64,6 +63,12 @@
             <div>
               <h1 class="page-title">ホーム</h1>
               <div class="page-meta">寄り前の材料チェックとログ閲覧を、1画面で。</div>
+              <nav class="page-tabs" aria-label="home-tabs">
+                <a class="tab is-active" href="index.html">ホーム</a>
+                <a class="tab" href="archive/index.html">最近のブリーフ</a>
+                <a class="tab" href="watchlist/index.html">ウォッチ</a>
+                <a class="tab" href="tdnet/index.html">適時開示</a>
+              </nav>
             </div>
             <div class="page-actions">
               <a class="go" href="watchlist/manage.html">ウォッチ編集</a>
@@ -76,6 +81,8 @@
               <div class="maincol">
                 <section id="watch" class="watch-hero">
                   <h2>ウォッチリスト（今日）</h2>
+                  <div class="js-watchlist-overview"></div>
+                  <div class="js-watchlist-highlights"></div>
                   <div class="js-watchlist-mini"></div>
                   <div class="controls" style="margin-top:12px">
                     <a class="go" href="watchlist/index.html">一覧へ</a>
@@ -85,14 +92,6 @@
                 <section id="today">
                   <h2>今日の寄り前ブリーフ</h2>
                   <div class="js-today"></div>
-                </section>
-
-                <section id="recent" class="wide">
-                  <h2>最近のブリーフ</h2>
-                  <div class="js-recent"></div>
-                  <div class="controls" style="margin-top:12px">
-                    <a class="go" href="archive/index.html">アーカイブへ</a>
-                  </div>
                 </section>
               </div>
 

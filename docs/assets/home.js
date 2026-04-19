@@ -654,6 +654,165 @@ ${tags}`;
     container.innerHTML = head + (sections || `<div class="empty">—</div>`);
   }
 
+  function collectMyWatchCodes(cfg) {
+    const codes = [];
+    const groups = asArray(cfg?.groups);
+    for (const g of groups) {
+      for (const t of asArray(g?.tickers)) {
+        const code = String(t?.code || "").trim();
+        if (code) codes.push(code);
+      }
+    }
+    return Array.from(new Set(codes));
+  }
+
+  function buildVolumeHistory(snaps) {
+    const byCode = new Map();
+    for (const s of asArray(snaps)) {
+      if (String(s?.phase || "") !== "close") continue;
+      const items = asArray(s?.items);
+      for (const it of items) {
+        const code = String(it?.code || "").trim();
+        const vol = Number(it?.volume);
+        if (!code || !Number.isFinite(vol) || vol <= 0) continue;
+        if (!byCode.has(code)) byCode.set(code, []);
+        byCode.get(code).push(vol);
+      }
+    }
+    for (const [code, vols] of byCode.entries()) {
+      // keep latest 12 volumes
+      byCode.set(code, vols.slice(-12));
+    }
+    return byCode;
+  }
+
+  function pickLatestWatchSnapshot(snaps, date) {
+    const by = groupWatchSnapshots(snaps);
+    const openSnap = by.get(`${date}:open`);
+    const closeSnap = by.get(`${date}:close`);
+    return { openSnap, closeSnap, by };
+  }
+
+  function renderWatchOverview(container, ctx) {
+    if (!container) return;
+    if (!ctx?.hasMy) {
+      container.innerHTML = `<div class="empty">マイウォッチが未設定です。<a href="watchlist/manage.html">追加</a></div>`;
+      return;
+    }
+    const { stamp, breadth, sectorAvgs } = ctx;
+    if (!stamp) {
+      container.innerHTML = `<div class="empty">まだスナップショットがありません（GitHub Actionsが更新）</div>`;
+      return;
+    }
+    const { up, down, flat, avgPct, maxUp, maxDown } = breadth;
+    const avgHtml = avgPct == null ? "—" : fmtPct(avgPct);
+    const stampHtml = escapeHtml(stamp.slice(11, 16));
+
+    const sectors = sectorAvgs
+      .slice()
+      .sort((a, b) => Math.abs(b.avgPct) - Math.abs(a.avgPct))
+      .slice(0, 8);
+
+    const sectorChips =
+      sectors.length > 0
+        ? `<div class="chips" style="margin-top:8px">${sectors
+            .map((s) => {
+              const cls = s.avgPct > 0 ? "tone-up" : s.avgPct < 0 ? "tone-down" : "tone-flat";
+              return `<span class="chip chip-muted"><span style="font-weight:700">${escapeHtml(
+                s.sector,
+              )}</span> <span class="${cls}" style="font-variant-numeric:tabular-nums">${escapeHtml(
+                fmtPct(s.avgPct),
+              )}</span></span>`;
+            })
+            .join("")}</div>`
+        : "";
+
+    const fmtPick = (p) => {
+      if (!p) return "—";
+      const cls = p.pct > 0 ? "tone-up" : p.pct < 0 ? "tone-down" : "tone-flat";
+      return `<span class="${cls}" style="font-variant-numeric:tabular-nums">${escapeHtml(
+        fmtPct(p.pct),
+      )}</span> <span class="muted" style="font-size:12px">${escapeHtml(p.name || p.code || "")}</span>`;
+    };
+
+    container.innerHTML = `<div class="watch-overview">
+  <div class="watch-kpi"><span class="label">更新</span><span class="value">${stampHtml}</span></div>
+  <div class="watch-kpi"><span class="label">上昇</span><span class="value tone-up">${up}</span></div>
+  <div class="watch-kpi"><span class="label">下落</span><span class="value tone-down">${down}</span></div>
+  <div class="watch-kpi"><span class="label">横ばい</span><span class="value">${flat}</span></div>
+  <div class="watch-kpi"><span class="label">平均</span><span class="value">${avgHtml}</span></div>
+  <div class="watch-kpi"><span class="label">最大↑</span><span class="value">${fmtPick(maxUp)}</span></div>
+  <div class="watch-kpi"><span class="label">最大↓</span><span class="value">${fmtPick(maxDown)}</span></div>
+</div>${sectorChips}`;
+  }
+
+  function renderWatchHighlights(container, ctx) {
+    if (!container) return;
+    if (!ctx?.hasMy) {
+      container.innerHTML = "";
+      return;
+    }
+    if (!ctx?.stamp) {
+      container.innerHTML = "";
+      return;
+    }
+    const { highlights, stamp } = ctx;
+    const stampHtml = escapeHtml(stamp.slice(11, 16));
+    if (!highlights) {
+      container.innerHTML = "";
+      return;
+    }
+
+    const renderList = (rows, fmt) => {
+      const list = asArray(rows).slice(0, 5);
+      if (!list.length) return `<div class="empty">—</div>`;
+      return `<div class="hl-list">${list
+        .map((r) => {
+          const url = `https://kabutan.jp/stock/?code=${encodeURIComponent(r.code)}`;
+          const metric = fmt(r);
+          return `<div class="hl-row">
+  <a class="hl-code" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(r.code)}</a>
+  <a class="hl-name" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(r.name || "—")}</a>
+  ${metric}
+</div>`;
+        })
+        .join("")}</div>`;
+    };
+
+    const metricPct = (v) => {
+      const n = Number(v);
+      const cls = !Number.isFinite(n) || n === 0 ? "flat" : n > 0 ? "up" : "down";
+      return `<div class="hl-metric ${cls}">${escapeHtml(fmtPct(n))}</div>`;
+    };
+
+    const metricRatio = (v) => {
+      const n = Number(v);
+      if (!Number.isFinite(n)) return `<div class="hl-metric">—</div>`;
+      const cls = n >= 2 ? "up" : n >= 1.2 ? "flat" : "down";
+      return `<div class="hl-metric ${cls}">${escapeHtml(fmtNum(n, { maximumFractionDigits: 2 }))}x</div>`;
+    };
+
+    const grid = `<div class="hl-grid">
+  <div class="hl-card">
+    <div class="hl-title">ギャップ% 上位</div>
+    <div class="hl-sub">${stampHtml} 時点（寄り/最新スナップ）</div>
+    ${renderList(highlights.gap, (r) => metricPct(r.gapPct))}
+  </div>
+  <div class="hl-card">
+    <div class="hl-title">出来高 急増</div>
+    <div class="hl-sub">${stampHtml} 時点（過去の終値出来高平均比）</div>
+    ${renderList(highlights.vol, (r) => metricRatio(r.volRatio))}
+  </div>
+  <div class="hl-card">
+    <div class="hl-title">前日比% 異常</div>
+    <div class="hl-sub">${stampHtml} 時点（絶対値）</div>
+    ${renderList(highlights.move, (r) => metricPct(r.changePct))}
+  </div>
+</div>`;
+
+    container.innerHTML = `<div class="watch-highlights">${grid}</div>`;
+  }
+
   async function main() {
     const kpi = document.querySelectorAll(".js-kpi");
     const quickLinks = $(".js-quicklinks");
@@ -666,6 +825,8 @@ ${tags}`;
     const trends = $(".js-tag-trends");
     const tdnetMini = $(".js-tdnet-mini");
     const watchMini = $(".js-watchlist-mini");
+    const watchOverview = $(".js-watchlist-overview");
+    const watchHighlights = $(".js-watchlist-highlights");
     const statsBrief = $(".js-stats-brief");
     const statsTdnet = $(".js-stats-tdnet");
 
@@ -802,20 +963,139 @@ ${tags}`;
       if (tdnetMini) tdnetMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
     }
 
-    if (watchMini) {
+    if (watchMini || watchOverview || watchHighlights) {
       try {
-        const wlCfg = await loadJson("data/watchlist.json");
         const wlSnap = await loadJson("data/watchlist_snapshots.json");
         const snaps = Array.isArray(wlSnap.snapshots) ? wlSnap.snapshots : [];
         const my = loadMyWatchlist();
         const hasMy = asArray(my?.groups).some((g) => asArray(g?.tickers).length > 0);
-        const useCfg = hasMy ? my : wlCfg;
-        renderWatchlistMini(watchMini, useCfg, snaps, {
-          label: hasMy ? "マイウォッチ" : "共有ウォッチ",
-          setupHref: "watchlist/manage.html",
-        });
+        const useCfg = hasMy ? my : { version: 1, groups: [] };
+
+        if (watchMini) {
+          renderWatchlistMini(watchMini, useCfg, snaps, {
+            label: "マイウォッチ",
+            setupHref: "watchlist/manage.html",
+          });
+        }
+
+        const codes = collectMyWatchCodes(useCfg);
+        const dates = Array.from(
+          new Set(snaps.map((s) => String(s?.datetime_jst || "").slice(0, 10)).filter(Boolean)),
+        ).sort((a, b) => b.localeCompare(a));
+        const date = dates[0] || "";
+        const { openSnap, closeSnap } = pickLatestWatchSnapshot(snaps, date);
+        const stamp = closeSnap?.datetime_jst || openSnap?.datetime_jst || "";
+        const openMap = mapWatchItems(openSnap);
+        const closeMap = mapWatchItems(closeSnap);
+
+        const volHist = buildVolumeHistory(snaps);
+
+        const sectorMap = new Map();
+        for (const g of asArray(useCfg?.groups)) {
+          const sector = String(g?.sector || "").trim() || "—";
+          for (const t of asArray(g?.tickers)) {
+            const code = String(t?.code || "").trim();
+            if (!code) continue;
+            sectorMap.set(code, sector);
+          }
+        }
+
+        const rows = codes
+          .map((code) => {
+            const openItem = openMap.get(code);
+            const closeItem = closeMap.get(code);
+            const base = closeItem || openItem || {};
+            const name = String(base.name || "").trim();
+            const prev = Number(base.prev_close);
+            const openPrice = Number(openItem?.open ?? base.open);
+            const lastPrice = Number(closeItem?.close ?? openItem?.open ?? base.close ?? base.open);
+            const vol = Number(closeItem?.volume ?? openItem?.volume ?? base.volume);
+            const gap = computeChange(openPrice, prev);
+            const move = computeChange(lastPrice, prev);
+            const vols = volHist.get(code) || [];
+            const avgVol =
+              vols.length > 0 ? vols.reduce((a, b) => a + b, 0) / Math.max(1, vols.length) : null;
+            const volRatio = avgVol && Number.isFinite(vol) && vol > 0 ? vol / avgVol : null;
+            const sector = sectorMap.get(code) || "—";
+            return {
+              code,
+              name,
+              sector,
+              gapPct: gap?.pct ?? null,
+              changePct: move?.pct ?? null,
+              volRatio,
+            };
+          })
+          .filter((r) => r.code);
+
+        const breadth = (() => {
+          let up = 0;
+          let down = 0;
+          let flat = 0;
+          const pcts = [];
+          let maxUp = null;
+          let maxDown = null;
+          for (const r of rows) {
+            const pct = Number(r.changePct);
+            if (!Number.isFinite(pct)) continue;
+            pcts.push(pct);
+            if (pct > 0) up += 1;
+            else if (pct < 0) down += 1;
+            else flat += 1;
+            if (!maxUp || pct > maxUp.pct) maxUp = { code: r.code, name: r.name, pct };
+            if (!maxDown || pct < maxDown.pct) maxDown = { code: r.code, name: r.name, pct };
+          }
+          const avgPct = pcts.length ? pcts.reduce((a, b) => a + b, 0) / pcts.length : null;
+          return { up, down, flat, avgPct, maxUp, maxDown };
+        })();
+
+        const sectorAvgs = (() => {
+          const m = new Map();
+          for (const r of rows) {
+            const pct = Number(r.changePct);
+            if (!Number.isFinite(pct)) continue;
+            const sector = r.sector || "—";
+            if (!m.has(sector)) m.set(sector, []);
+            m.get(sector).push(pct);
+          }
+          return Array.from(m.entries()).map(([sector, pcts]) => ({
+            sector,
+            avgPct: pcts.reduce((a, b) => a + b, 0) / Math.max(1, pcts.length),
+            count: pcts.length,
+          }));
+        })();
+
+        const highlights = {
+          gap: rows
+            .filter((r) => Number.isFinite(Number(r.gapPct)))
+            .slice()
+            .sort((a, b) => Math.abs(Number(b.gapPct)) - Math.abs(Number(a.gapPct)))
+            .slice(0, 5),
+          vol: rows
+            .filter((r) => Number.isFinite(Number(r.volRatio)))
+            .slice()
+            .sort((a, b) => Number(b.volRatio) - Number(a.volRatio))
+            .slice(0, 5),
+          move: rows
+            .filter((r) => Number.isFinite(Number(r.changePct)))
+            .slice()
+            .sort((a, b) => Math.abs(Number(b.changePct)) - Math.abs(Number(a.changePct)))
+            .slice(0, 5),
+        };
+
+        const ctx = {
+          hasMy,
+          stamp,
+          breadth,
+          sectorAvgs,
+          highlights,
+        };
+        if (watchOverview) renderWatchOverview(watchOverview, ctx);
+        if (watchHighlights) renderWatchHighlights(watchHighlights, ctx);
       } catch (e) {
-        watchMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
+        if (watchMini) watchMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
+        if (watchOverview) watchOverview.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
+        if (watchHighlights) watchHighlights.innerHTML = "";
       }
     }
 

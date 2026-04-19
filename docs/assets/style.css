@@ -62,6 +62,9 @@ code{
 }
 
 .muted{color:var(--muted)}
+.tone-up{color:var(--up)}
+.tone-down{color:var(--down)}
+.tone-flat{color:var(--muted)}
 
 /* ===== App Shell ===== */
 .app-shell{
@@ -603,21 +606,79 @@ ul.mini{
     rgba(255,255,255,.72);
 }
 
-/* Home: keep "最近のブリーフ" compact */
-#recent .mini-list{
-  max-height: 280px;
-  overflow:auto;
-  padding-right:6px;
+/* ===== Home Tabs ===== */
+.page-tabs{
+  margin-top:10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
 }
-#recent .mini-row{
-  padding:10px 10px;
-  grid-template-columns: 96px 1fr;
+.tab{
+  display:inline-flex;
+  align-items:center;
+  padding:8px 10px;
+  border-radius:999px;
+  background: rgba(255,255,255,.70);
+  color: var(--text);
+  text-decoration:none;
+  font-size:12.5px;
+  box-shadow: var(--shadow);
+}
+.tab:hover{background: rgba(0,82,208,.06); text-decoration:none}
+.tab.is-active{
+  background: rgba(0,82,208,.10);
+  color: var(--link);
+}
+
+/* ===== Home Watch Summary ===== */
+.watch-overview{
+  margin-top:10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  align-items:center;
+}
+.watch-kpi{
+  display:inline-flex;
+  align-items:baseline;
+  gap:8px;
+  padding:8px 10px;
+  border-radius:12px;
+  background: rgba(255,255,255,.66);
+  box-shadow: var(--shadow);
+  font-size:12.5px;
+}
+.watch-kpi .label{color:var(--muted); font-size:12px}
+.watch-kpi .value{font-variant-numeric: tabular-nums; font-weight:700}
+.watch-highlights{margin-top:12px; display:grid; gap:10px}
+.hl-grid{
+  display:grid;
   gap:10px;
 }
-#recent .mini-text{font-size:12.5px}
-@media (max-width: 720px){
-  #recent .mini-list{max-height:none; padding-right:0}
+@media (min-width: 1320px){
+  .hl-grid{grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);}
 }
+.hl-card{
+  padding:12px 12px 12px;
+  border-radius: var(--radius-xl);
+  background: rgba(255,255,255,.66);
+  box-shadow: var(--shadow);
+}
+.hl-title{font-weight:800; letter-spacing:.2px}
+.hl-sub{margin-top:4px; color:var(--muted); font-size:12px}
+.hl-list{margin-top:10px; display:grid; gap:8px}
+.hl-row{
+  display:grid;
+  grid-template-columns: 66px 1fr auto;
+  gap:10px;
+  align-items:baseline;
+}
+.hl-code{font-variant-numeric: tabular-nums; color:var(--link); text-decoration:none}
+.hl-name{color:rgba(15,23,42,.92); text-decoration:none}
+.hl-metric{font-variant-numeric: tabular-nums; font-weight:700}
+.hl-metric.up{color:var(--up)}
+.hl-metric.down{color:var(--down)}
+.hl-row a:hover{text-decoration:underline}
 
 /* ===== TDnet ===== */
 .actions{display:flex; gap:8px; align-items:center}
