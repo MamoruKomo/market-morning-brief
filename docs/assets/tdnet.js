@@ -169,7 +169,7 @@
     const titleEn = escapeHtml(getTitleEn(item));
     const pdfKabutan = escapeHtml(normalizeText(item.pdf_url_kabutan || item.pdf_url_en));
     const pdfTdnet = escapeHtml(normalizeText(item.pdf_url_tdnet || item.pdf_url_ja));
-    const pdfPrimary = escapeHtml(normalizeText(item.pdf_url_kabutan || item.pdf_url_en || item.pdf_url || pdfTdnet));
+    const pdfPrimary = escapeHtml(normalizeText(pdfTdnet || pdfKabutan || item.pdf_url));
     const source = escapeHtml(normalizeText(item.source_url));
     const tags = asArray(item.tags).map((t) => normalizeText(t)).filter(Boolean);
     const points = getPointsJa(item);
@@ -189,8 +189,13 @@
     <div class="actions">
       ${pdfPrimary ? `<a class="go" href="${pdfPrimary}" target="_blank" rel="noreferrer">PDF</a>` : ""}
       ${
-        pdfTdnet && pdfKabutan && pdfTdnet !== pdfKabutan
+        pdfTdnet && pdfTdnet !== pdfPrimary
           ? `<a class="go" href="${pdfTdnet}" target="_blank" rel="noreferrer">公式</a>`
+          : ""
+      }
+      ${
+        pdfKabutan && pdfKabutan !== pdfPrimary
+          ? `<a class="go" href="${pdfKabutan}" target="_blank" rel="noreferrer">ミラー</a>`
           : ""
       }
       ${source ? `<a class="go" href="${source}" target="_blank" rel="noreferrer">一覧</a>` : ""}
