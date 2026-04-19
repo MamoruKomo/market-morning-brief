@@ -603,6 +603,22 @@ ul.mini{
     rgba(255,255,255,.72);
 }
 
+/* Home: keep "最近のブリーフ" compact */
+#recent .mini-list{
+  max-height: 280px;
+  overflow:auto;
+  padding-right:6px;
+}
+#recent .mini-row{
+  padding:10px 10px;
+  grid-template-columns: 96px 1fr;
+  gap:10px;
+}
+#recent .mini-text{font-size:12.5px}
+@media (max-width: 720px){
+  #recent .mini-list{max-height:none; padding-right:0}
+}
+
 /* ===== TDnet ===== */
 .actions{display:flex; gap:8px; align-items:center}
 .filters{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px}

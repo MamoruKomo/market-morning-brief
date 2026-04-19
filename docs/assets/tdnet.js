@@ -193,11 +193,6 @@
           ? `<a class="go" href="${pdfTdnet}" target="_blank" rel="noreferrer">公式</a>`
           : ""
       }
-      ${
-        pdfKabutan && pdfKabutan !== pdfPrimary
-          ? `<a class="go" href="${pdfKabutan}" target="_blank" rel="noreferrer">ミラー</a>`
-          : ""
-      }
       ${source ? `<a class="go" href="${source}" target="_blank" rel="noreferrer">一覧</a>` : ""}
     </div>
   </div>

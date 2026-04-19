@@ -422,7 +422,7 @@ ${tags}`;
       return;
     }
     container.innerHTML = `<div class="mini-list">${list
-      .slice(0, 10)
+      .slice(0, 6)
       .map((b) => {
         const date = escapeHtml(b.date || "");
         const headline = escapeHtml(b.headline || "");
@@ -494,11 +494,6 @@ ${tags}`;
       ${
         pdfTdnet && pdfTdnet !== pdfPrimary
           ? `<a class="go" href="${pdfTdnet}" target="_blank" rel="noreferrer">公式</a>`
-          : ""
-      }
-      ${
-        pdfKabutan && pdfKabutan !== pdfPrimary
-          ? `<a class="go" href="${pdfKabutan}" target="_blank" rel="noreferrer">ミラー</a>`
           : ""
       }
     </div>

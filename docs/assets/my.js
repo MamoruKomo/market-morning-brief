@@ -205,11 +205,6 @@ ${tagsHtml}`;
           ? `<a class="go" href="${pdfTdnet}" target="_blank" rel="noreferrer">公式</a>`
           : ""
       }
-      ${
-        pdfKabutan && pdfKabutan !== pdfPrimary
-          ? `<a class="go" href="${pdfKabutan}" target="_blank" rel="noreferrer">ミラー</a>`
-          : ""
-      }
     </div>
   </div>
   <div class="tdnet-title">${code ? `<span class="code-pill">${code}</span> ` : ""}${company ? `${company} — ` : ""}${title}</div>
