@@ -14,6 +14,10 @@
       .replaceAll("'", "&#039;");
   }
 
+  function normalizeText(value) {
+    return String(value ?? "").trim();
+  }
+
   async function loadJson(path) {
     const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error(`Failed to load ${path}`);
@@ -586,6 +590,9 @@ ${tags}`;
   <div class="muted" style="font-size:12px">${label}${label ? " " : ""}${count}銘柄</div>
 </div>`;
 
+    const nameMap = opts?.nameMap instanceof Map ? opts.nameMap : null;
+    const sectorMaster = opts?.sectorMap instanceof Map ? opts.sectorMap : null;
+
     const sections = groups
       .map((g) => {
         const sector = escapeHtml(g.sector || "—");
@@ -599,7 +606,8 @@ ${tags}`;
             const openItem = openMap.get(code);
             const closeItem = closeMap.get(code);
             const base = closeItem || openItem || {};
-            const name = String(base.name || t.name || "").trim();
+            const masterName = nameMap ? String(nameMap.get(code) || "") : "";
+            const name = String(base.name || t.name || masterName || "").trim();
 
             const prev = base.prev_close;
             const last = closeItem?.close ?? openItem?.open ?? base.close ?? base.open;
@@ -735,7 +743,9 @@ ${tags}`;
       )}</span> <span class="muted" style="font-size:12px">${escapeHtml(p.name || p.code || "")}</span>`;
     };
 
-    container.innerHTML = `<div class="watch-overview">
+    const chartsHtml = normalizeText(ctx?.charts_html);
+
+    const kpisHtml = `<div class="watch-overview">
   <div class="watch-kpi"><span class="label">更新</span><span class="value">${stampHtml}</span></div>
   <div class="watch-kpi"><span class="label">上昇</span><span class="value tone-up">${up}</span></div>
   <div class="watch-kpi"><span class="label">下落</span><span class="value tone-down">${down}</span></div>
@@ -744,6 +754,103 @@ ${tags}`;
   <div class="watch-kpi"><span class="label">最大↑</span><span class="value">${fmtPick(maxUp)}</span></div>
   <div class="watch-kpi"><span class="label">最大↓</span><span class="value">${fmtPick(maxDown)}</span></div>
 </div>${sectorChips}`;
+
+    container.innerHTML = chartsHtml
+      ? `<div class="watch-overview-grid"><div>${kpisHtml}</div><div>${chartsHtml}</div></div>`
+      : kpisHtml;
+  }
+
+  function svgDonut({ up, down, flat }) {
+    const total = Math.max(0, Number(up) + Number(down) + Number(flat));
+    if (!Number.isFinite(total) || total <= 0) return "";
+    const segs = [
+      { key: "up", v: Math.max(0, Number(up)), cls: "tone-up", label: "上昇" },
+      { key: "down", v: Math.max(0, Number(down)), cls: "tone-down", label: "下落" },
+      { key: "flat", v: Math.max(0, Number(flat)), cls: "tone-flat", label: "横ばい" },
+    ].filter((s) => s.v > 0);
+    const r = 44;
+    const c = 2 * Math.PI * r;
+    let offset = 0;
+    const rings = segs
+      .map((s) => {
+        const len = (s.v / total) * c;
+        const dash = `${len.toFixed(2)} ${(c - len).toFixed(2)}`;
+        const style = `stroke-dasharray:${dash};stroke-dashoffset:${(-offset).toFixed(2)};`;
+        offset += len;
+        return `<circle class="donut-seg ${s.cls}" cx="56" cy="56" r="${r}" style="${style}"></circle>`;
+      })
+      .join("");
+    const legend = segs
+      .map((s) => {
+        const pct = ((s.v / total) * 100).toFixed(0);
+        return `<div class="legend-row"><span class="dot ${s.cls}"></span><span class="muted">${escapeHtml(
+          s.label,
+        )}</span><span class="legend-val ${s.cls}">${escapeHtml(pct)}%</span></div>`;
+      })
+      .join("");
+    return `<div class="chart-wrap">
+  <svg class="donut" viewBox="0 0 112 112" role="img" aria-label="上昇下落比率">
+    <circle class="donut-bg" cx="56" cy="56" r="${r}"></circle>
+    ${rings}
+    <text x="56" y="58" text-anchor="middle" class="donut-text">${escapeHtml(String(total))}</text>
+    <text x="56" y="74" text-anchor="middle" class="donut-sub">銘柄</text>
+  </svg>
+  <div class="legend">${legend}</div>
+</div>`;
+  }
+
+  function svgSparkline(seriesA, seriesB, opts) {
+    const w = 280;
+    const h = 84;
+    const pad = 10;
+    const ptsA = asArray(seriesA).filter((p) => Number.isFinite(Number(p?.y)));
+    const ptsB = asArray(seriesB).filter((p) => Number.isFinite(Number(p?.y)));
+    const all = ptsA.concat(ptsB);
+    if (all.length < 2) return "";
+
+    const ys = all.map((p) => Number(p.y));
+    let minY = Math.min(...ys);
+    let maxY = Math.max(...ys);
+    if (!Number.isFinite(minY) || !Number.isFinite(maxY)) return "";
+    if (minY === maxY) {
+      minY -= 1;
+      maxY += 1;
+    }
+    const n = Math.max(ptsA.length, ptsB.length);
+    const xAt = (i, count) => {
+      const c = Math.max(2, count);
+      return pad + (i * (w - pad * 2)) / (c - 1);
+    };
+    const yAt = (v) => pad + ((maxY - v) * (h - pad * 2)) / (maxY - minY);
+
+    const pathFor = (pts) =>
+      pts
+        .map((p, i) => {
+          const x = xAt(i, pts.length);
+          const y = yAt(Number(p.y));
+          return `${i === 0 ? "M" : "L"}${x.toFixed(1)} ${y.toFixed(1)}`;
+        })
+        .join(" ");
+
+    const aPath = ptsA.length >= 2 ? pathFor(ptsA) : "";
+    const bPath = ptsB.length >= 2 ? pathFor(ptsB) : "";
+    const fmtAxis = (v) => `${v > 0 ? "+" : ""}${v.toFixed(1)}%`;
+    const label = escapeHtml(String(opts?.label || "平均推移"));
+
+    return `<div class="spark-wrap">
+  <div class="spark-head"><span>${label}</span><span class="muted">（最新10日）</span></div>
+  <svg class="spark" viewBox="0 0 ${w} ${h}" role="img" aria-label="${label}">
+    <line x1="${pad}" y1="${yAt(0).toFixed(1)}" x2="${w - pad}" y2="${yAt(0).toFixed(1)}" class="spark-zero"></line>
+    <text x="${pad}" y="${pad + 10}" class="spark-axis">${escapeHtml(fmtAxis(maxY))}</text>
+    <text x="${pad}" y="${h - 2}" class="spark-axis">${escapeHtml(fmtAxis(minY))}</text>
+    ${aPath ? `<path d="${aPath}" class="spark-line a"></path>` : ""}
+    ${bPath ? `<path d="${bPath}" class="spark-line b"></path>` : ""}
+  </svg>
+  <div class="spark-legend">
+    ${ptsA.length ? `<span class="lg"><span class="dot a"></span>終値</span>` : ""}
+    ${ptsB.length ? `<span class="lg"><span class="dot b"></span>寄り</span>` : ""}
+  </div>
+</div>`;
   }
 
   function renderWatchHighlights(container, ctx) {
@@ -966,15 +1073,31 @@ ${tags}`;
     if (watchMini || watchOverview || watchHighlights) {
       try {
         const wlSnap = await loadJson("data/watchlist_snapshots.json");
+        const master = await loadJson("data/tickers_master.json");
+        const masterItems = Array.isArray(master?.items) ? master.items : [];
+        const masterNameMap = new Map(masterItems.map((it) => [String(it?.code || ""), String(it?.name || "")]));
+        const masterSectorMap = new Map(masterItems.map((it) => [String(it?.code || ""), String(it?.sector || "")]));
+
         const snaps = Array.isArray(wlSnap.snapshots) ? wlSnap.snapshots : [];
         const my = loadMyWatchlist();
         const hasMy = asArray(my?.groups).some((g) => asArray(g?.tickers).length > 0);
         const useCfg = hasMy ? my : { version: 1, groups: [] };
 
+        const cfgNameMap = new Map();
+        for (const g of asArray(useCfg?.groups)) {
+          for (const t of asArray(g?.tickers)) {
+            const code = String(t?.code || "").trim();
+            const name = String(t?.name || "").trim();
+            if (code && name && !cfgNameMap.has(code)) cfgNameMap.set(code, name);
+          }
+        }
+
         if (watchMini) {
           renderWatchlistMini(watchMini, useCfg, snaps, {
             label: "マイウォッチ",
             setupHref: "watchlist/manage.html",
+            nameMap: masterNameMap,
+            sectorMap: masterSectorMap,
           });
         }
 
@@ -1005,7 +1128,7 @@ ${tags}`;
             const openItem = openMap.get(code);
             const closeItem = closeMap.get(code);
             const base = closeItem || openItem || {};
-            const name = String(base.name || "").trim();
+            const name = String(base.name || cfgNameMap.get(code) || masterNameMap.get(code) || "").trim();
             const prev = Number(base.prev_close);
             const openPrice = Number(openItem?.open ?? base.open);
             const lastPrice = Number(closeItem?.close ?? openItem?.open ?? base.close ?? base.open);
@@ -1016,7 +1139,7 @@ ${tags}`;
             const avgVol =
               vols.length > 0 ? vols.reduce((a, b) => a + b, 0) / Math.max(1, vols.length) : null;
             const volRatio = avgVol && Number.isFinite(vol) && vol > 0 ? vol / avgVol : null;
-            const sector = sectorMap.get(code) || "—";
+            const sector = sectorMap.get(code) || masterSectorMap.get(code) || "—";
             return {
               code,
               name,
@@ -1083,12 +1206,47 @@ ${tags}`;
             .slice(0, 5),
         };
 
+        const chartDates = dates.slice(0, 10).slice().reverse();
+        const closeSeries = [];
+        const openSeries = [];
+        for (const d of chartDates) {
+          const { openSnap: oSnap, closeSnap: cSnap } = pickLatestWatchSnapshot(snaps, d);
+          const oMap = mapWatchItems(oSnap);
+          const cMap = mapWatchItems(cSnap);
+
+          const avgPct = (mode) => {
+            const pcts = [];
+            for (const code of codes) {
+              const o = oMap.get(code);
+              const c = cMap.get(code);
+              const base = c || o || {};
+              const prev = Number(base?.prev_close);
+              if (!Number.isFinite(prev) || prev === 0) continue;
+              const price =
+                mode === "open" ? Number(o?.open ?? base?.open) : Number(c?.close ?? base?.close);
+              const ch = computeChange(price, prev);
+              if (ch && Number.isFinite(Number(ch.pct))) pcts.push(Number(ch.pct));
+            }
+            return pcts.length ? pcts.reduce((a, b) => a + b, 0) / pcts.length : null;
+          };
+
+          const cAvg = avgPct("close");
+          const oAvg = avgPct("open");
+          if (Number.isFinite(Number(cAvg))) closeSeries.push({ x: d, y: cAvg });
+          if (Number.isFinite(Number(oAvg))) openSeries.push({ x: d, y: oAvg });
+        }
+
+        const donut = svgDonut(breadth);
+        const spark = svgSparkline(closeSeries, openSeries, { label: "平均（前日比%）" });
+        const charts_html = donut || spark ? `<div class="chart-grid">${donut ? `<div class="chart-card"><div class="chart-title">上昇/下落</div>${donut}</div>` : ""}${spark ? `<div class="chart-card"><div class="chart-title">推移</div>${spark}</div>` : ""}</div>` : "";
+
         const ctx = {
           hasMy,
           stamp,
           breadth,
           sectorAvgs,
           highlights,
+          charts_html,
         };
         if (watchOverview) renderWatchOverview(watchOverview, ctx);
         if (watchHighlights) renderWatchHighlights(watchHighlights, ctx);
