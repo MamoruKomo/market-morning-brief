@@ -18,6 +18,12 @@
     return String(value ?? "").trim();
   }
 
+  function toFiniteNumber(value) {
+    if (value == null) return null;
+    const n = Number(value);
+    return Number.isFinite(n) ? n : null;
+  }
+
   async function loadJson(path) {
     const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error(`Failed to load ${path}`);
@@ -751,18 +757,22 @@ ${tags}`;
   <div class="watch-kpi"><span class="label">下落</span><span class="value tone-down">${down}</span></div>
   <div class="watch-kpi"><span class="label">横ばい</span><span class="value">${flat}</span></div>
   <div class="watch-kpi"><span class="label">平均</span><span class="value">${avgHtml}</span></div>
-  <div class="watch-kpi"><span class="label">最大↑</span><span class="value">${fmtPick(maxUp)}</span></div>
-  <div class="watch-kpi"><span class="label">最大↓</span><span class="value">${fmtPick(maxDown)}</span></div>
 </div>${sectorChips}`;
 
+    const maxLine =
+      maxUp || maxDown
+        ? `<div class="meta-line" style="margin-top:10px">最大↑ ${fmtPick(maxUp)} / 最大↓ ${fmtPick(maxDown)}</div>`
+        : "";
+
     container.innerHTML = chartsHtml
-      ? `<div class="watch-overview-grid"><div>${kpisHtml}</div><div>${chartsHtml}</div></div>`
-      : kpisHtml;
+      ? `${kpisHtml}${maxLine}<div class="watch-charts">${chartsHtml}</div>`
+      : `${kpisHtml}${maxLine}`;
   }
 
   function svgDonut({ up, down, flat }) {
-    const total = Math.max(0, Number(up) + Number(down) + Number(flat));
-    if (!Number.isFinite(total) || total <= 0) return "";
+    const totalRaw = Math.max(0, Number(up) + Number(down) + Number(flat));
+    const total = Number.isFinite(totalRaw) ? totalRaw : 0;
+    if (total <= 0) return "";
     const segs = [
       { key: "up", v: Math.max(0, Number(up)), cls: "tone-up", label: "上昇" },
       { key: "down", v: Math.max(0, Number(down)), cls: "tone-down", label: "下落" },
@@ -771,13 +781,20 @@ ${tags}`;
     const r = 44;
     const c = 2 * Math.PI * r;
     let offset = 0;
+    const strokeFor = (key) => {
+      if (key === "up") return "var(--up)";
+      if (key === "down") return "var(--down)";
+      return "rgba(71,85,105,.55)";
+    };
     const rings = segs
       .map((s) => {
         const len = (s.v / total) * c;
         const dash = `${len.toFixed(2)} ${(c - len).toFixed(2)}`;
         const style = `stroke-dasharray:${dash};stroke-dashoffset:${(-offset).toFixed(2)};`;
         offset += len;
-        return `<circle class="donut-seg ${s.cls}" cx="56" cy="56" r="${r}" style="${style}"></circle>`;
+        return `<circle cx="56" cy="56" r="${r}" fill="none" stroke="${strokeFor(
+          s.key,
+        )}" stroke-width="14" stroke-linecap="round" style="${style}"></circle>`;
       })
       .join("");
     const legend = segs
@@ -789,11 +806,13 @@ ${tags}`;
       })
       .join("");
     return `<div class="chart-wrap">
-  <svg class="donut" viewBox="0 0 112 112" role="img" aria-label="上昇下落比率">
-    <circle class="donut-bg" cx="56" cy="56" r="${r}"></circle>
-    ${rings}
-    <text x="56" y="58" text-anchor="middle" class="donut-text">${escapeHtml(String(total))}</text>
-    <text x="56" y="74" text-anchor="middle" class="donut-sub">銘柄</text>
+  <svg class="donut" width="112" height="112" viewBox="0 0 112 112" role="img" aria-label="上昇下落比率">
+    <circle cx="56" cy="56" r="${r}" fill="none" stroke="rgba(44,47,49,.10)" stroke-width="14"></circle>
+    <g transform="rotate(-90 56 56)">${rings}</g>
+    <text x="56" y="58" text-anchor="middle" font-weight="900" font-size="18" fill="rgba(15,23,42,.92)">${escapeHtml(
+      String(total),
+    )}</text>
+    <text x="56" y="74" text-anchor="middle" font-size="11" fill="rgba(71,85,105,.9)">銘柄</text>
   </svg>
   <div class="legend">${legend}</div>
 </div>`;
@@ -834,17 +853,54 @@ ${tags}`;
 
     const aPath = ptsA.length >= 2 ? pathFor(ptsA) : "";
     const bPath = ptsB.length >= 2 ? pathFor(ptsB) : "";
-    const fmtAxis = (v) => `${v > 0 ? "+" : ""}${v.toFixed(1)}%`;
     const label = escapeHtml(String(opts?.label || "平均推移"));
+    const fillId = `sparkFill_${Math.floor(Math.random() * 1e9)}`;
+
+    const areaFor = (pts, linePath) => {
+      if (!linePath || pts.length < 2) return "";
+      const x0 = xAt(0, pts.length);
+      const x1 = xAt(pts.length - 1, pts.length);
+      const yB = h - pad;
+      return `${linePath} L${x1.toFixed(1)} ${yB.toFixed(1)} L${x0.toFixed(1)} ${yB.toFixed(1)} Z`;
+    };
+    const aArea = areaFor(ptsA, aPath);
+    const lastA = ptsA.length ? ptsA[ptsA.length - 1] : null;
+    const lastB = ptsB.length ? ptsB[ptsB.length - 1] : null;
 
     return `<div class="spark-wrap">
   <div class="spark-head"><span>${label}</span><span class="muted">（最新10日）</span></div>
-  <svg class="spark" viewBox="0 0 ${w} ${h}" role="img" aria-label="${label}">
-    <line x1="${pad}" y1="${yAt(0).toFixed(1)}" x2="${w - pad}" y2="${yAt(0).toFixed(1)}" class="spark-zero"></line>
-    <text x="${pad}" y="${pad + 10}" class="spark-axis">${escapeHtml(fmtAxis(maxY))}</text>
-    <text x="${pad}" y="${h - 2}" class="spark-axis">${escapeHtml(fmtAxis(minY))}</text>
-    ${aPath ? `<path d="${aPath}" class="spark-line a"></path>` : ""}
-    ${bPath ? `<path d="${bPath}" class="spark-line b"></path>` : ""}
+  <svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${label}">
+    <defs>
+      <linearGradient id="${fillId}" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.18"></stop>
+        <stop offset="100%" stop-color="var(--primary)" stop-opacity="0.00"></stop>
+      </linearGradient>
+    </defs>
+    ${aArea ? `<path d="${aArea}" fill="url(#${fillId})"></path>` : ""}
+    ${
+      aPath
+        ? `<path d="${aPath}" fill="none" stroke="var(--primary)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>`
+        : ""
+    }
+    ${
+      bPath
+        ? `<path d="${bPath}" fill="none" stroke="var(--good)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3"></path>`
+        : ""
+    }
+    ${
+      lastA
+        ? `<circle cx="${xAt(ptsA.length - 1, ptsA.length).toFixed(1)}" cy="${yAt(
+            Number(lastA.y),
+          ).toFixed(1)}" r="2.8" fill="var(--primary)"></circle>`
+        : ""
+    }
+    ${
+      lastB
+        ? `<circle cx="${xAt(ptsB.length - 1, ptsB.length).toFixed(1)}" cy="${yAt(
+            Number(lastB.y),
+          ).toFixed(1)}" r="2.6" fill="var(--good)"></circle>`
+        : ""
+    }
   </svg>
   <div class="spark-legend">
     ${ptsA.length ? `<span class="lg"><span class="dot a"></span>終値</span>` : ""}
@@ -879,7 +935,9 @@ ${tags}`;
           const metric = fmt(r);
           return `<div class="hl-row">
   <a class="hl-code" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(r.code)}</a>
-  <a class="hl-name" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(r.name || "—")}</a>
+  <a class="hl-name" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(
+    r.name || r.code || "—",
+  )}</a>
   ${metric}
 </div>`;
         })
@@ -887,14 +945,15 @@ ${tags}`;
     };
 
     const metricPct = (v) => {
-      const n = Number(v);
-      const cls = !Number.isFinite(n) || n === 0 ? "flat" : n > 0 ? "up" : "down";
+      const n = toFiniteNumber(v);
+      if (n == null) return `<div class="hl-metric">—</div>`;
+      const cls = n === 0 ? "flat" : n > 0 ? "up" : "down";
       return `<div class="hl-metric ${cls}">${escapeHtml(fmtPct(n))}</div>`;
     };
 
     const metricRatio = (v) => {
-      const n = Number(v);
-      if (!Number.isFinite(n)) return `<div class="hl-metric">—</div>`;
+      const n = toFiniteNumber(v);
+      if (n == null) return `<div class="hl-metric">—</div>`;
       const cls = n >= 2 ? "up" : n >= 1.2 ? "flat" : "down";
       return `<div class="hl-metric ${cls}">${escapeHtml(fmtNum(n, { maximumFractionDigits: 2 }))}x</div>`;
     };
@@ -1159,8 +1218,8 @@ ${tags}`;
           let maxUp = null;
           let maxDown = null;
           for (const r of rows) {
-            const pct = Number(r.changePct);
-            if (!Number.isFinite(pct)) continue;
+            const pct = toFiniteNumber(r.changePct);
+            if (pct == null) continue;
             pcts.push(pct);
             if (pct > 0) up += 1;
             else if (pct < 0) down += 1;
@@ -1175,8 +1234,8 @@ ${tags}`;
         const sectorAvgs = (() => {
           const m = new Map();
           for (const r of rows) {
-            const pct = Number(r.changePct);
-            if (!Number.isFinite(pct)) continue;
+            const pct = toFiniteNumber(r.changePct);
+            if (pct == null) continue;
             const sector = r.sector || "—";
             if (!m.has(sector)) m.set(sector, []);
             m.get(sector).push(pct);
@@ -1190,19 +1249,19 @@ ${tags}`;
 
         const highlights = {
           gap: rows
-            .filter((r) => Number.isFinite(Number(r.gapPct)))
+            .filter((r) => toFiniteNumber(r.gapPct) != null)
             .slice()
-            .sort((a, b) => Math.abs(Number(b.gapPct)) - Math.abs(Number(a.gapPct)))
+            .sort((a, b) => Math.abs(Number(b.gapPct ?? 0)) - Math.abs(Number(a.gapPct ?? 0)))
             .slice(0, 5),
           vol: rows
-            .filter((r) => Number.isFinite(Number(r.volRatio)))
+            .filter((r) => toFiniteNumber(r.volRatio) != null)
             .slice()
-            .sort((a, b) => Number(b.volRatio) - Number(a.volRatio))
+            .sort((a, b) => Number(b.volRatio ?? 0) - Number(a.volRatio ?? 0))
             .slice(0, 5),
           move: rows
-            .filter((r) => Number.isFinite(Number(r.changePct)))
+            .filter((r) => toFiniteNumber(r.changePct) != null)
             .slice()
-            .sort((a, b) => Math.abs(Number(b.changePct)) - Math.abs(Number(a.changePct)))
+            .sort((a, b) => Math.abs(Number(b.changePct ?? 0)) - Math.abs(Number(a.changePct ?? 0)))
             .slice(0, 5),
         };
 
@@ -1232,8 +1291,8 @@ ${tags}`;
 
           const cAvg = avgPct("close");
           const oAvg = avgPct("open");
-          if (Number.isFinite(Number(cAvg))) closeSeries.push({ x: d, y: cAvg });
-          if (Number.isFinite(Number(oAvg))) openSeries.push({ x: d, y: oAvg });
+          if (cAvg != null && Number.isFinite(Number(cAvg))) closeSeries.push({ x: d, y: cAvg });
+          if (oAvg != null && Number.isFinite(Number(oAvg))) openSeries.push({ x: d, y: oAvg });
         }
 
         const donut = svgDonut(breadth);

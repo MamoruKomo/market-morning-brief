@@ -93,7 +93,6 @@ code{
   padding:12px 0;
   background: rgba(255,255,255,.80);
   backdrop-filter: blur(18px);
-  border-bottom: 1px solid rgba(44,47,49,.10);
 }
 .app-topbar-inner{
   width:100%;
@@ -339,25 +338,25 @@ main{min-width:0}
   align-items:start;
 }
 section{
-  padding:16px 18px;
-  background:var(--panel);
+  padding:18px 20px;
+  background: rgba(255,255,255,.82);
   border-radius: var(--radius-xl);
-  box-shadow: var(--shadow);
+  box-shadow: none;
   scroll-margin-top: 120px;
 }
 section h2{
-  margin:0 0 8px;
-  font-size:15px;
+  margin:0 0 10px;
+  font-size:16px;
   font-family: Manrope, Inter, system-ui, sans-serif;
-  color:var(--accent);
+  color:var(--text);
   letter-spacing:.2px;
 }
 
 .card{
   padding:14px 14px 12px;
-  background:var(--panel);
+  background: rgba(238,242,245,.86);
   border-radius: var(--radius-xl);
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 
 .row{
@@ -540,11 +539,11 @@ ul.mini{
   gap:12px;
   align-items:baseline;
   padding:12px 12px;
-  background: rgba(255,255,255,.66);
+  background: rgba(238,242,245,.86);
   border-radius: var(--radius-xl);
   text-decoration:none;
   color:inherit;
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 .mini-row:hover{background: rgba(0,82,208,.04); text-decoration:none}
 .mini-date{color:var(--muted); font-size:12px; font-variant-numeric: tabular-nums}
@@ -552,9 +551,9 @@ ul.mini{
 
 .mini-card{
   padding:12px 12px 12px;
-  background: rgba(255,255,255,.66);
+  background: rgba(238,242,245,.86);
   border-radius: var(--radius-xl);
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 
 /* ===== Quick links ===== */
@@ -618,11 +617,11 @@ ul.mini{
   align-items:center;
   padding:8px 10px;
   border-radius:999px;
-  background: rgba(255,255,255,.70);
+  background: rgba(238,242,245,.86);
   color: var(--text);
   text-decoration:none;
   font-size:12.5px;
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 .tab:hover{background: rgba(0,82,208,.06); text-decoration:none}
 .tab.is-active{
@@ -644,31 +643,44 @@ ul.mini{
   gap:8px;
   padding:8px 10px;
   border-radius:12px;
-  background: rgba(255,255,255,.66);
-  box-shadow: var(--shadow);
+  background: rgba(238,242,245,.86);
+  box-shadow: none;
   font-size:12.5px;
 }
 .watch-kpi .label{color:var(--muted); font-size:12px}
 .watch-kpi .value{font-variant-numeric: tabular-nums; font-weight:700}
 .watch-highlights{margin-top:12px; display:grid; gap:10px}
-.watch-overview-grid{
-  display:grid;
-  gap:12px;
-  align-items:start;
+.watch-charts{margin-top:12px}
+
+.watch-details{
+  margin-top:12px;
+  padding:12px 12px;
+  border-radius: var(--radius-xl);
+  background: rgba(238,242,245,.86);
 }
-@media (min-width: 1320px){
-  .watch-overview-grid{grid-template-columns: minmax(0, 1fr) 520px;}
+.watch-details > summary{
+  cursor:pointer;
+  font-weight:900;
+  letter-spacing:.2px;
+  font-family: Manrope, Inter, system-ui, sans-serif;
+  color: var(--accent);
+  list-style:none;
 }
+.watch-details > summary::-webkit-details-marker{display:none}
+.watch-details[open] > summary{margin-bottom:10px}
 
 .chart-grid{
   display:grid;
   gap:10px;
 }
+@media (min-width: 980px){
+  .chart-grid{grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);}
+}
 .chart-card{
   padding:12px 12px 12px;
   border-radius: var(--radius-xl);
-  background: rgba(255,255,255,.66);
-  box-shadow: var(--shadow);
+  background: rgba(238,242,245,.86);
+  box-shadow: none;
 }
 .chart-title{font-weight:800; letter-spacing:.2px}
 .chart-wrap{margin-top:10px; display:flex; gap:12px; align-items:center}
@@ -683,19 +695,9 @@ ul.mini{
   display:inline-block;
 }
 .donut{width:112px; height:112px}
-.donut-bg{fill:none; stroke: rgba(44,47,49,.10); stroke-width:14}
-.donut-seg{fill:none; stroke: currentColor; stroke-width:14; transform: rotate(-90deg); transform-origin: 56px 56px}
-.donut-text{font-weight:900; font-size:18px; fill: rgba(15,23,42,.92)}
-.donut-sub{font-size:11px; fill: rgba(71,85,105,.9)}
-
 .spark-wrap{margin-top:10px}
 .spark-head{display:flex; gap:8px; align-items:baseline; justify-content:space-between; font-size:12.5px}
-.spark{margin-top:8px; width:100%; height:96px}
-.spark-zero{stroke: rgba(44,47,49,.12); stroke-width:1}
-.spark-axis{fill: rgba(71,85,105,.8); font-size:10px}
-.spark-line{fill:none; stroke-width:2.5}
-.spark-line.a{stroke: var(--primary)}
-.spark-line.b{stroke: var(--good); stroke-dasharray: 4 3}
+.spark{margin-top:8px; width:100%; height:auto; display:block}
 .spark-legend{margin-top:6px; display:flex; gap:12px; font-size:12px; color:var(--muted)}
 .spark-legend .lg{display:inline-flex; align-items:center; gap:6px}
 .spark-legend .dot{width:9px; height:9px}
@@ -711,8 +713,8 @@ ul.mini{
 .hl-card{
   padding:12px 12px 12px;
   border-radius: var(--radius-xl);
-  background: rgba(255,255,255,.66);
-  box-shadow: var(--shadow);
+  background: rgba(238,242,245,.86);
+  box-shadow: none;
 }
 .hl-title{font-weight:800; letter-spacing:.2px}
 .hl-sub{margin-top:4px; color:var(--muted); font-size:12px}
@@ -855,7 +857,7 @@ ul.mini{
   gap:8px;
   align-items:center;
   padding:8px 10px;
-  background: rgba(255,255,255,.66);
+  background: rgba(255,255,255,.84);
   border-radius:12px;
   box-shadow: none;
 }
@@ -1014,12 +1016,12 @@ ul.mini{
   gap:10px;
   padding:10px 12px;
   border-radius:12px;
-  background: rgba(255,255,255,.66);
+  background: rgba(238,242,245,.86);
   color:var(--text);
   text-decoration:none;
   font-size:13px;
   line-height:1.2;
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 .ql-btn:hover{background: rgba(0,82,208,.06); text-decoration:none}
 .ql-btn .ql-label{
