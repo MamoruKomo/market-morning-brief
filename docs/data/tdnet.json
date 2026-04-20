@@ -1,7 +1,29 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-20T20:45:31+09:00",
+  "last_checked_jst": "2026-04-20T21:50:43+09:00",
   "items": [
+    {
+      "id": "kabutan:7590:1401202604205070",
+      "code": "7590",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/20",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/20",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/20",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T21:01:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205070",
+      "doc_id_ja": "140120260420507059",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420507059.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507059.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420507059.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260420507059.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:451A:1401202604205070",
       "code": "451A",
