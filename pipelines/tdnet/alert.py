@@ -663,10 +663,12 @@ def normalize_store(data: dict[str, Any]) -> dict[str, Any]:
 
 
 def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
-    pdf_ja = normalize_spaces(d.pdf_url_ja)
-    pdf_en = normalize_spaces(d.pdf_url_en)
+    # Kabutan-hosted PDFs are often an English-rendered mirror. Use TDnet official as "Japanese default".
+    pdf_kabutan_ja = normalize_spaces(d.pdf_url_ja)
+    pdf_kabutan_en = normalize_spaces(d.pdf_url_en)
     pdf_tdnet = normalize_spaces(build_tdnet_pdf_url(d.doc_id_ja or d.doc_id_en))
-    pdf_primary = pdf_ja or pdf_tdnet or pdf_en
+    pdf_ja = pdf_tdnet or pdf_kabutan_ja
+    pdf_primary = pdf_ja or pdf_kabutan_en
     title_fallback = normalize_spaces(d.title_en) or normalize_spaces(d.title_ja)
     return {
         "id": d.id,
@@ -684,11 +686,11 @@ def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
         # Primary PDF link used by UI/Slack.
         "pdf_url": pdf_primary,
         # Explicit fields (for UI buttons / future enrichment).
-        "pdf_url_kabutan": pdf_ja,
+        "pdf_url_kabutan": pdf_kabutan_ja or pdf_kabutan_en,
         "pdf_url_tdnet": pdf_tdnet,
         # Backward compatible fields (older UI expects these).
-        "pdf_url_ja": pdf_ja or pdf_tdnet or pdf_primary,
-        "pdf_url_en": pdf_en,
+        "pdf_url_ja": pdf_ja,
+        "pdf_url_en": pdf_kabutan_en,
         "source_url": d.source_url,
     }
 
@@ -805,6 +807,19 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         item["pdf_url"] = pdf_url_ja or pdf_tdnet or pdf_url_en or pdf_kabutan
         changed = True
 
+    # 日本語PDFをデフォルトにする（旧データの移行）。
+    # - `pdf_url_ja` は TDnet公式を優先
+    # - `pdf_url`（旧UI/Slack互換）も同じに揃える
+    if pdf_tdnet:
+        if normalize_spaces(item.get("pdf_url_ja") or "") != pdf_tdnet:
+            item["pdf_url_ja"] = pdf_tdnet
+            changed = True
+
+        cur_primary = normalize_spaces(item.get("pdf_url") or "")
+        if (not cur_primary) or is_kabutan(cur_primary):
+            item["pdf_url"] = pdf_tdnet
+            changed = True
+
     return changed
 
 
@@ -851,7 +866,7 @@ def has_japanese(text: str) -> bool:
 
 def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: dict[str, str]) -> str:
     ts = datetime.now(JST).strftime("%Y/%m/%d %H:%M")
-    header = f"*適時開示* {ts} JST"
+    header = f"*適時開示（ウォッチ）* {ts} JST"
     lines: list[str] = [header, f"一覧: {KABUTAN_DISCLOSURES_URL}"]
 
     tag_priority = [
@@ -895,22 +910,31 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
         tag_part = f"【{tag}】" if tag else ""
         summary = truncate(summary_core, 20) + tag_part
 
-        # Prefer Japanese PDF; include EN/official as optional.
-        pdf_parts: list[str] = []
-        pdf_ja = normalize_spaces(d.pdf_url_ja)
-        pdf_en = normalize_spaces(d.pdf_url_en)
-        pdf_official = normalize_spaces(build_tdnet_pdf_url(d.doc_id_ja or d.doc_id_en))
-        if pdf_ja:
-            pdf_parts.append(f"<{pdf_ja}|PDF>")
-        if pdf_en and pdf_en != pdf_ja:
-            pdf_parts.append(f"<{pdf_en}|英訳>")
-        if pdf_official and pdf_official not in (pdf_ja, pdf_en):
-            pdf_parts.append(f"<{pdf_official}|公式>")
-        pdf_part = f" {' '.join(pdf_parts)}" if pdf_parts else ""
-        lines.append(f"- *{display}*: {summary}{pdf_part} · <{item_link}|株探>")
+        pdf_primary = normalize_spaces(build_tdnet_pdf_url(d.doc_id_ja or d.doc_id_en)) or normalize_spaces(d.pdf_url_ja)
+        pdf_part = f" <{pdf_primary}|PDF>" if pdf_primary else ""
+
+        log_part = ""
+        base = normalize_spaces(pages_base_url)
+        if base:
+            base2 = base if base.endswith("/") else base + "/"
+            log_url = f"{base2}tdnet/index.html?q={urllib.parse.quote(d.code)}"
+            log_part = f" · <{log_url}|ログ>"
+
+        lines.append(f"- *{display}*: {summary}{pdf_part} · <{item_link}|株探>{log_part}")
     if len(new_items) > 10:
         lines.append(f"- 他{len(new_items) - 10}件（続きはログ参照）")
     return "\n".join(lines)
+
+
+def load_pages_base_url(path: Path) -> str:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return ""
+    if not isinstance(data, dict):
+        return ""
+    url = normalize_spaces(data.get("pages_base_url") or "")
+    return url
 
 
 def item_family_key(item: dict[str, Any]) -> str:
@@ -999,9 +1023,13 @@ def main() -> int:
             has_changes = True
 
         if new_items:
-            should_notify = True
             name_map = load_watchlist_name_map(Path(args.watchlist))
-            message = build_message(new_items, "", name_map)
+            watch_codes = set(name_map.keys())
+            watch_items = [d for d in new_items if d.code in watch_codes]
+            if watch_items:
+                should_notify = True
+                pages_base_url = load_pages_base_url(Path(args.config))
+                message = build_message(watch_items, pages_base_url, name_map)
 
     # Backfill / migrate existing items (JP title + points, company split, etc.)
     backfilled = False

@@ -21,16 +21,21 @@
 
           <nav class="sidebar-nav" aria-label="navigation">
             <div class="nav-group">
-              <div class="nav-label">ページ</div>
+              <div class="nav-label">ダッシュボード</div>
               <a class="nav-link" href="../index.html">ホーム</a>
-              <a class="nav-link" href="../watchlist/index.html" aria-current="page">ウォッチリスト</a>
+              <a class="nav-link" href="../watchlist/index.html">ウォッチ</a>
+              <a class="nav-link" href="../fundamentals/index.html">探す（ファンダ）</a>
               <a class="nav-link" href="../tdnet/index.html">適時開示</a>
-              <a class="nav-link" href="../fundamentals/index.html">ファンダ</a>
-              <a class="nav-link" href="../archive/index.html">アーカイブ</a>
-              <a class="nav-link" href="../stocks/index.html">銘柄</a>
-              <a class="nav-link" href="../tags/index.html">タグ</a>
-              <a class="nav-link" href="../my/index.html">マイ</a>
+            </div>
+            <div class="nav-group">
+              <div class="nav-label">ログ</div>
+              <a class="nav-link" href="../archive/index.html">ブリーフ</a>
+              <a class="nav-link" href="../search.html">検索</a>
               <a class="nav-link" href="../review/index.html">振り返り</a>
+            </div>
+            <div class="nav-group">
+              <div class="nav-label">設定</div>
+              <a class="nav-link" href="../watchlist/manage.html" aria-current="page">ウォッチ編集</a>
             </div>
           </nav>
 
@@ -74,6 +79,18 @@
                 </label>
                 <div class="muted js-status"></div>
               </div>
+              <details class="fund-details" style="margin-top:10px">
+                <summary>コードで手動追加</summary>
+                <div class="meta-line" style="margin-top:8px">
+                  検索で見つからない場合でも、コードと銘柄名（任意）で追加できます。
+                </div>
+                <div class="controls" style="margin-top:10px">
+                  <input class="js-manual-code" type="search" placeholder="コード（例: 6361）" style="width:140px" />
+                  <input class="js-manual-name" type="search" placeholder="銘柄名（任意）" style="width:min(340px, 100%)" />
+                  <button class="go js-manual-add" type="button">追加</button>
+                  <div class="muted js-manual-status"></div>
+                </div>
+              </details>
               <div class="muted js-error"></div>
               <div class="js-results" style="margin-top:12px"></div>
             </section>

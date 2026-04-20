@@ -474,7 +474,18 @@ ${tags}`;
 
   function renderTdnetMini(container, json, opts) {
     const nameMap = opts?.nameMap instanceof Map ? opts.nameMap : null;
-    const items = Array.isArray(json?.items) ? json.items : [];
+    const watchCodes = opts?.watchCodes instanceof Set ? opts.watchCodes : null;
+    let items = Array.isArray(json?.items) ? json.items : [];
+    if (watchCodes && watchCodes.size) {
+      items = items.filter((it) => {
+        const code = String(it?.code || "").trim();
+        return !!code && watchCodes.has(code);
+      });
+      if (items.length === 0) {
+        container.innerHTML = `<div class="empty">ウォッチ銘柄の新着開示はありません。</div>`;
+        return;
+      }
+    }
     if (items.length === 0) {
       container.innerHTML = `<div class="empty">データなし（GitHub Actionsが更新します）</div>`;
       return;
@@ -482,7 +493,7 @@ ${tags}`;
     const list = items
       .slice()
       .sort((a, b) => String(b.datetime_jst || "").localeCompare(String(a.datetime_jst || "")))
-      .slice(0, 8);
+      .slice(0, 6);
     container.innerHTML = `<div class="mini-list">${list
       .map((it) => {
         const dt = escapeHtml(String(it.datetime_jst || "").slice(0, 16).replace("T", " "));
@@ -751,7 +762,7 @@ ${tags}`;
         name: normalizeText(t?.name),
       }))
       .filter((t) => t.code);
-    const shown = watchTickers.slice(0, 14);
+    const shown = watchTickers.slice(0, 10);
     const moreCount = Math.max(0, watchTickers.length - shown.length);
     const tickersChips =
       shown.length > 0
@@ -792,9 +803,14 @@ ${tags}`;
         ? `<div class="meta-line" style="margin-top:10px">最大↑ ${fmtPick(maxUp)} / 最大↓ ${fmtPick(maxDown)}</div>`
         : "";
 
-    container.innerHTML = chartsHtml
-      ? `${kpisHtml}${scopeLine}${maxLine}<div class="watch-charts">${chartsHtml}</div>`
-      : `${kpisHtml}${scopeLine}${maxLine}`;
+    const chartsDetails = chartsHtml
+      ? `<details class="watch-details" style="margin-top:12px">
+  <summary>チャート</summary>
+  <div class="watch-charts">${chartsHtml}</div>
+</details>`
+      : "";
+
+    container.innerHTML = `${kpisHtml}${scopeLine}${maxLine}${chartsDetails}`;
   }
 
   function svgDonut({ up, down, flat }) {
@@ -1015,14 +1031,14 @@ ${tags}`;
     const qlCancel = $(".js-ql-cancel");
     const qlReset = $(".js-ql-reset");
     const today = $(".js-today");
-    const recent = $(".js-recent");
-    const trends = $(".js-tag-trends");
     const tdnetMini = $(".js-tdnet-mini");
     const watchMini = $(".js-watchlist-mini");
     const watchOverview = $(".js-watchlist-overview");
     const watchHighlights = $(".js-watchlist-highlights");
     const statsBrief = $(".js-stats-brief");
     const statsTdnet = $(".js-stats-tdnet");
+    let watchCodes = null;
+    let watchNameMap = null;
 
     let briefs = [];
     try {
@@ -1040,8 +1056,6 @@ ${tags}`;
     }
 
     if (today) renderTodayBrief(today, latest);
-    if (recent) renderRecentBriefs(recent, briefs);
-    if (trends) renderTagTrends(trends, briefs);
 
     if (kpi && kpi.length) {
       const hasMo =
@@ -1146,25 +1160,6 @@ ${tags}`;
       }
     }
 
-    try {
-      const tdnetJson = await loadJson("data/tdnet.json");
-      let tdnetNameMap = null;
-      try {
-        const master = await loadJson("data/tickers_master.json");
-        const items = Array.isArray(master?.items) ? master.items : [];
-        tdnetNameMap = new Map(items.map((it) => [String(it?.code || "").trim(), String(it?.name || "").trim()]));
-      } catch (e) {
-        tdnetNameMap = null;
-      }
-      if (statsTdnet) {
-        statsTdnet.textContent = tdnetJson?.last_checked_jst ? `適時開示更新: ${tdnetJson.last_checked_jst}` : "適時開示更新: —";
-      }
-      if (tdnetMini) renderTdnetMini(tdnetMini, tdnetJson, { nameMap: tdnetNameMap });
-    } catch (e) {
-      if (statsTdnet) statsTdnet.textContent = "適時開示更新: —";
-      if (tdnetMini) tdnetMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
-    }
-
     if (watchMini || watchOverview || watchHighlights) {
       try {
         const wlSnap = await loadJson("data/watchlist_snapshots.json");
@@ -1204,6 +1199,7 @@ ${tags}`;
             if (code && name && !cfgNameMap.has(code)) cfgNameMap.set(code, name);
           }
         }
+        watchNameMap = cfgNameMap.size ? cfgNameMap : null;
 
         if (watchMini) {
           renderWatchlistMini(watchMini, useCfg, snaps, {
@@ -1215,6 +1211,7 @@ ${tags}`;
         }
 
         const codes = collectMyWatchCodes(useCfg);
+        watchCodes = new Set(codes.filter(Boolean));
         const dates = Array.from(
           new Set(snaps.map((s) => String(s?.datetime_jst || "").slice(0, 10)).filter(Boolean)),
         ).sort((a, b) => b.localeCompare(a));
@@ -1370,6 +1367,35 @@ ${tags}`;
         if (watchOverview) watchOverview.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
         if (watchHighlights) watchHighlights.innerHTML = "";
       }
+    }
+
+    try {
+      const tdnetJson = await loadJson("data/tdnet.json");
+      let tdnetNameMap = null;
+      try {
+        const master = await loadJson("data/tickers_master.json");
+        const items = Array.isArray(master?.items) ? master.items : [];
+        tdnetNameMap = new Map(items.map((it) => [String(it?.code || "").trim(), String(it?.name || "").trim()]));
+      } catch (e) {
+        tdnetNameMap = null;
+      }
+      if (watchNameMap && watchNameMap.size) {
+        if (!tdnetNameMap) tdnetNameMap = new Map();
+        for (const [code, name] of watchNameMap.entries()) {
+          const c = String(code || "").trim();
+          const n = String(name || "").trim();
+          if (c && n) tdnetNameMap.set(c, n);
+        }
+      }
+      if (statsTdnet) {
+        statsTdnet.textContent = tdnetJson?.last_checked_jst
+          ? `適時開示更新: ${tdnetJson.last_checked_jst}`
+          : "適時開示更新: —";
+      }
+      if (tdnetMini) renderTdnetMini(tdnetMini, tdnetJson, { nameMap: tdnetNameMap, watchCodes });
+    } catch (e) {
+      if (statsTdnet) statsTdnet.textContent = "適時開示更新: —";
+      if (tdnetMini) tdnetMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
     }
 
     syncTopbarHeight();

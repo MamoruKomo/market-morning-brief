@@ -116,6 +116,16 @@
     return out;
   }
 
+  function updateTickerName(groups, code, name) {
+    const c = normalizeText(code);
+    const n = normalizeText(name);
+    if (!c) return asArray(groups);
+    return asArray(groups).map((g) => ({
+      sector: normalizeText(g?.sector) || "未分類",
+      tickers: asArray(g?.tickers).map((t) => (normalizeText(t?.code) === c ? { ...t, code: c, name: n } : t)),
+    }));
+  }
+
   function buildTags(item, metrics) {
     const tags = [];
     const sector = normalizeText(item?.sector);
@@ -234,12 +244,15 @@
       .map((g) => {
         const rows = g.tickers
           .map(
-            (t) => `<div class="row" style="padding:8px 0; border-bottom:1px solid var(--border)">
+            (t) => `<div class="row" style="padding:10px 0">
   <div>
     <div class="w-name-main">${escapeHtml(t.name || "—")}</div>
     <div class="w-code-sub">${escapeHtml(t.code)}</div>
   </div>
-  <button class="go js-remove" type="button" data-code="${escapeHtml(t.code)}">削除</button>
+  <div class="actions">
+    <button class="go js-edit" type="button" data-code="${escapeHtml(t.code)}" data-name="${escapeHtml(t.name || "")}">名前</button>
+    <button class="go js-remove" type="button" data-code="${escapeHtml(t.code)}">削除</button>
+  </div>
 </div>`,
           )
           .join("");
@@ -289,6 +302,10 @@
     const results = $(".js-results");
     const status = $(".js-status");
     const err = $(".js-error");
+    const manualCode = $(".js-manual-code");
+    const manualName = $(".js-manual-name");
+    const manualAdd = $(".js-manual-add");
+    const manualStatus = $(".js-manual-status");
     const my = $(".js-my");
     const msg = $(".js-msg");
     const exportBtn = $(".js-export");
@@ -296,10 +313,16 @@
     const clearBtn = $(".js-clear");
 
     let master = [];
+    const masterByCode = new Map();
     const metricsByCode = new Map();
     try {
       const masterJson = await loadJson(masterPath);
       master = asArray(masterJson?.items);
+      for (const it of master) {
+        const code = normalizeText(it?.code);
+        if (!code || masterByCode.has(code)) continue;
+        masterByCode.set(code, it);
+      }
       const fJson = await loadJson(fundamentalsPath);
       for (const it of asArray(fJson?.items)) {
         const code = normalizeText(it?.code);
@@ -363,6 +386,19 @@
           btn.addEventListener("click", () => {
             const code = btn.getAttribute("data-code") || "";
             local.groups = removeTicker(asArray(local.groups), code);
+            saveLocalWatchlist(local);
+            rerenderMy();
+            render();
+          });
+        });
+
+        my.querySelectorAll("button.js-edit").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const code = btn.getAttribute("data-code") || "";
+            const cur = btn.getAttribute("data-name") || "";
+            if (!code) return;
+            const next = normalizeText(window.prompt("銘柄名を入力してください", cur) || "");
+            local.groups = updateTickerName(asArray(local.groups), code, next);
             saveLocalWatchlist(local);
             rerenderMy();
             render();
@@ -445,6 +481,70 @@
         render();
       }, 300);
     };
+
+    const manualAddTicker = async () => {
+      const codeRaw = secCodeToShort(manualCode?.value || "");
+      const code = normalizeText(codeRaw);
+      const nameInput = normalizeText(manualName?.value || "");
+      const sectorRaw = sectorSelect?.value || "自動";
+      const sectorOverride = sectorRaw === "自動" ? "" : normalizeText(sectorRaw);
+
+      if (!code || !/^\d{3,4}[A-Z]?$/.test(code)) {
+        if (manualStatus) manualStatus.textContent = "コードが不正です（例: 6361）";
+        return;
+      }
+      if (hasTicker(asArray(local.groups), code)) {
+        if (manualStatus) manualStatus.textContent = `すでに追加済み: ${code}`;
+        return;
+      }
+
+      const resolved = masterByCode.get(code) || null;
+      let name = nameInput || normalizeText(resolved?.name || "");
+      let sector = sectorOverride || normalizeText(resolved?.sector || "");
+      let edinetCode = normalizeText(resolved?.edinet_code || resolved?.edinetCode || "");
+      let secFull = normalizeText(resolved?.sec_code_full || resolved?.secCodeFull || "");
+
+      if (!name && hasEdinetDb() && window.EDINETDB.getApiKey()) {
+        if (manualStatus) manualStatus.textContent = "EDINET DBで検索中…";
+        try {
+          const found = await edinetSearch(code);
+          const hit =
+            found.find((it) => secCodeToShort(it?.sec_code_full || it?.secCodeFull || "") === code) || found[0] || null;
+          if (hit) {
+            name = name || normalizeText(hit?.name);
+            sector = sector || normalizeText(hit?.sector);
+            edinetCode = edinetCode || normalizeText(hit?.edinet_code || hit?.edinetCode || "");
+            secFull = secFull || normalizeText(hit?.sec_code_full || hit?.secCodeFull || "");
+          }
+        } catch (e) {
+          // ignore
+        }
+      }
+
+      if (!sector) sector = "未分類";
+
+      const groups = asArray(local.groups);
+      const g = upsertGroup(groups, sector);
+      g.tickers.push({ code, name, edinet_code: edinetCode || "", sec_code_full: secFull || "" });
+      local.groups = groups;
+      saveLocalWatchlist(local);
+
+      if (manualCode) manualCode.value = "";
+      if (manualName) manualName.value = "";
+      if (manualStatus) manualStatus.textContent = `追加しました: ${code}${name ? `（${name}）` : ""}`;
+      rerenderMy();
+      render();
+    };
+
+    if (manualAdd) manualAdd.addEventListener("click", () => void manualAddTicker());
+    if (manualCode) {
+      manualCode.addEventListener("keydown", (ev) => {
+        if (ev.key === "Enter") {
+          ev.preventDefault();
+          void manualAddTicker();
+        }
+      });
+    }
 
     if (search) search.addEventListener("input", scheduleLiveSearch);
     if (sectorSelect) sectorSelect.addEventListener("change", render);

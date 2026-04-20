@@ -24,13 +24,12 @@ class TestTdnetSlackMessageFormat(unittest.TestCase):
             source_url="https://en.kabutan.com/jp/disclosures",
         )
         msg = build_message([d], "https://example.com/site/", {"9983": "ファストリ"})
-        self.assertIn("*適時開示*", msg)
+        self.assertIn("*適時開示", msg)
         self.assertIn("一覧: https://kabutan.jp/disclosures/", msg)
         self.assertIn("*ファストリ（9983）*: 自己株式取得に関するお知らせ【自己株】", msg)
-        self.assertIn("<https://tdnet-pdf.kabutan.jp/20260413/140120260413000000.pdf|PDF>", msg)
-        self.assertIn("<https://tdnet-pdf.kabutan.jp/20260413/140120260413000002.pdf|英訳>", msg)
-        self.assertIn("<https://www.release.tdnet.info/inbs/140120260413000000.pdf|公式>", msg)
+        self.assertIn("<https://www.release.tdnet.info/inbs/140120260413000000.pdf|PDF>", msg)
         self.assertIn("<https://kabutan.jp/stock/?code=9983|株探>", msg)
+        self.assertIn("<https://example.com/site/tdnet/index.html?q=9983|ログ>", msg)
 
 
 class TestTdnetKabutanListParser(unittest.TestCase):
