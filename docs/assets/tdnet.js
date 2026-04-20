@@ -201,11 +201,12 @@
     const company = escapeHtml(companyRaw);
     const titleJa = escapeHtml(getTitleJa(item));
     const titleEn = escapeHtml(getTitleEn(item));
-    const pdfKabutanRaw = normalizeText(item.pdf_url_kabutan || item.pdf_url_en);
-    const pdfTdnetRaw = normalizeText(item.pdf_url_tdnet || item.pdf_url_ja);
-    // Official TDnet PDF sometimes returns 404; prefer Kabutan mirror for reliability.
-    const pdfPrimaryRaw = normalizeText(pdfKabutanRaw || pdfTdnetRaw || item.pdf_url);
-    const pdfKabutan = escapeHtml(pdfKabutanRaw);
+    const pdfJaRaw = normalizeText(item.pdf_url_ja || item.pdf_url_kabutan || item.pdf_url);
+    const pdfEnRaw = normalizeText(item.pdf_url_en || "");
+    const pdfTdnetRaw = normalizeText(item.pdf_url_tdnet || "");
+    const pdfPrimaryRaw = normalizeText(pdfJaRaw || item.pdf_url || pdfEnRaw || pdfTdnetRaw);
+    const pdfJa = escapeHtml(pdfJaRaw);
+    const pdfEn = escapeHtml(pdfEnRaw);
     const pdfTdnet = escapeHtml(pdfTdnetRaw);
     const pdfPrimary = escapeHtml(pdfPrimaryRaw);
     const source = escapeHtml(normalizeText(item.source_url || ""));
@@ -227,8 +228,9 @@
     <div class="date">${dt}</div>
     <div class="actions">
       ${pdfPrimary ? `<a class="go" href="${pdfPrimary}" target="_blank" rel="noreferrer">PDF</a>` : ""}
+      ${pdfEn && pdfEn !== pdfPrimary ? `<a class="go" href="${pdfEn}" target="_blank" rel="noreferrer">英訳</a>` : ""}
       ${
-        pdfTdnet && pdfTdnet !== pdfPrimary
+        pdfTdnet && pdfTdnet !== pdfPrimary && pdfTdnet !== pdfEn
           ? `<a class="go" href="${pdfTdnet}" target="_blank" rel="noreferrer">公式</a>`
           : ""
       }

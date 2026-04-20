@@ -50,7 +50,11 @@ DATE_RE = re.compile(
 
 
 CODE_RE = re.compile(r"^(?P<code>\d{3,4}[A-Z]?)\s+(?P<rest>.+)$")
+CODE_ONLY_RE = re.compile(r"^\d{3,4}[A-Z]?$")
 TDNET_DOC_ID_RE = re.compile(r"(?P<id>\d{18})")
+KABUTAN_LIST_DT_RE = re.compile(
+    r"(?P<yy>\d{2})/(?P<mon>\d{2})/(?P<day>\d{2})\s+(?P<hour>\d{2}):(?P<minute>\d{2})",
+)
 
 
 def normalize_spaces(text: str) -> str:
@@ -188,6 +192,36 @@ def classify_tags(text: str) -> list[str]:
         if tag not in tags:
             tags.append(tag)
 
+    # JP keywords (best-effort)
+    s = normalize_spaces(text)
+    if re.search(r"[一-龯ぁ-んァ-ン]", s):
+        if "決算" in s or "短信" in s or "決算説明" in s:
+            add("決算")
+        if "業績予想" in s or "業績予想の修正" in s or "予想修正" in s or "ガイダンス" in s:
+            add("業績修正")
+        if "配当" in s or "株主還元" in s:
+            add("配当")
+        if "自己株式" in s or "自己株" in s or "自社株" in s:
+            add("自己株")
+        if ("処分" in s or "売却" in s) and ("自己株式" in s or "自己株" in s):
+            add("自己株処分")
+        if "公開買付" in s or "ＴＯＢ" in s or "TOB" in s:
+            add("TOB")
+        if "第三者割当" in s or "公募" in s or "売出" in s or "募集" in s:
+            add("増資/売出")
+        if "子会社" in s or "M&A" in s or "買収" in s or ("株式" in s and "取得" in s):
+            add("M&A")
+        if "役員" in s or "人事" in s or "代表取締役" in s:
+            add("人事")
+        if "借入" in s or "社債" in s or "資金調達" in s:
+            add("借入")
+        if "ストックオプション" in s:
+            add("SO")
+        if "遅延" in s:
+            add("遅延")
+        if "訂正" in s:
+            add("訂正")
+
     if "financial results" in t or "earnings" in t:
         add("決算")
     if "financial report" in t:
@@ -254,9 +288,51 @@ class Disclosure:
     points_ja: list[str]
     datetime_jst: str
     tags: list[str]
+    doc_id_family: str
+    doc_id_ja: str
+    doc_id_en: str
     pdf_url_ja: str
     pdf_url_en: str
     source_url: str
+
+
+@dataclass(frozen=True)
+class KabutanListRow:
+    code: str
+    company: str
+    title: str
+    datetime_jst: str
+    doc_id: str
+    kabutan_pdf_url: str
+
+
+def parse_kabutan_list_datetime_jst(text: str) -> str:
+    s = normalize_spaces(text)
+    m = KABUTAN_LIST_DT_RE.search(s)
+    if not m:
+        return ""
+    yy = int(m.group("yy"))
+    year = 2000 + yy
+    mon = int(m.group("mon"))
+    day = int(m.group("day"))
+    hour = int(m.group("hour"))
+    minute = int(m.group("minute"))
+    return f"{year:04d}-{mon:02d}-{day:02d}T{hour:02d}:{minute:02d}:00+09:00"
+
+
+def build_kabutan_pdf_url(yyyymmdd: str, doc_id: str) -> str:
+    ymd = normalize_spaces(yyyymmdd)
+    doc = normalize_spaces(doc_id)
+    if not ymd or not doc:
+        return ""
+    return f"https://tdnet-pdf.kabutan.jp/{ymd}/{doc}.pdf"
+
+
+def make_kabutan_family_key(code: str, doc_id: str) -> str:
+    c = normalize_spaces(code)
+    doc = normalize_spaces(doc_id)
+    family = doc[:16] if len(doc) >= 16 else doc
+    return f"kabutan:{c}:{family}"
 
 
 class KabutanDisclosureParser(HTMLParser):
@@ -302,7 +378,7 @@ def fetch_html(url: str) -> str:
         url,
         headers={
             "User-Agent": "market-morning-brief/1.0 (+GitHub Actions)",
-            "Accept-Language": "ja-JP,ja;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Accept-Language": "ja-JP,ja;q=0.9",
         },
     )
     context = None
@@ -343,47 +419,224 @@ def build_tdnet_pdf_url(value: str) -> str:
     return f"{TDNET_PDF_BASE_URL}{doc_id}.pdf"
 
 
-def parse_disclosures(html: str) -> list[Disclosure]:
-    parser = KabutanDisclosureParser()
-    parser.feed(html)
+class KabutanDisclosuresTableParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self._in_tr = False
+        self._in_td = False
+        self._in_a = False
+        self._a_href = ""
+        self._a_text: list[str] = []
+        self._td_text: list[str] = []
+        self._td_links: list[tuple[str, str]] = []
+        self._cells: list[dict[str, Any]] = []
+        self.rows: list[KabutanListRow] = []
 
-    disclosures: list[Disclosure] = []
-    seen: set[str] = set()
-    for href, raw_text in parser.links:
-        if href in seen:
-            continue
-        seen.add(href)
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "tr":
+            self._in_tr = True
+            self._cells = []
+            return
+        if not self._in_tr:
+            return
+        if tag == "td":
+            self._in_td = True
+            self._td_text = []
+            self._td_links = []
+            return
+        if tag == "a" and self._in_td:
+            href = dict(attrs).get("href") or ""
+            if href.startswith("//"):
+                href = "https:" + href
+            self._in_a = True
+            self._a_href = href
+            self._a_text = []
 
-        pdf_kabutan = href
-        pdf_tdnet = build_tdnet_pdf_url(href)
-        pdf_ja = pdf_tdnet or pdf_kabutan
-        pdf_en = pdf_kabutan
+    def handle_data(self, data: str) -> None:
+        if self._in_a:
+            self._a_text.append(data)
+        elif self._in_td:
+            self._td_text.append(data)
 
-        headline = clean_headline(raw_text)
-        m_code = CODE_RE.match(headline)
-        if not m_code:
-            continue
-        code = m_code.group("code")
-        raw_title = m_code.group("rest").strip()
-        company, subject = split_company_and_subject(raw_title)
-        title_en = normalize_spaces(subject or raw_title)
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "a" and self._in_a:
+            text = normalize_spaces(" ".join(self._a_text))
+            href = normalize_spaces(self._a_href)
+            if href and text and self._in_td:
+                self._td_links.append((href, text))
+            self._in_a = False
+            self._a_href = ""
+            self._a_text = []
+            return
+        if tag == "td" and self._in_td:
+            text = normalize_spaces(" ".join(self._td_text))
+            self._cells.append({"text": text, "links": list(self._td_links)})
+            self._in_td = False
+            self._td_text = []
+            self._td_links = []
+            return
+        if tag == "tr" and self._in_tr:
+            self._in_tr = False
+            self._flush_row()
+            self._cells = []
 
-        m_dt = DATE_RE.search(raw_text)
-        dt_jst = format_dt_jst_from_match(m_dt) if m_dt else ""
+    def _flush_row(self) -> None:
+        if not self._cells:
+            return
 
-        tags = classify_tags(raw_text)
-        title_ja = translate_subject_to_ja(title_en, tags)
-        points_ja = build_points_ja(title_en, tags)
-        disclosures.append(
-            Disclosure(
-                id=href,
+        code = ""
+        code_cell_idx: int | None = None
+        title = ""
+        disclosure_href = ""
+        dt_text = ""
+        company = ""
+
+        for idx, cell in enumerate(self._cells):
+            for href, text in cell.get("links") or []:
+                href_s = normalize_spaces(href)
+                if "stock/?code=" in href_s and CODE_ONLY_RE.match(text):
+                    code = text
+                    code_cell_idx = idx
+                if "/disclosures/pdf/" in href_s or href_s.startswith("/disclosures/pdf/"):
+                    title = text
+                    disclosure_href = href_s
+
+            cell_text = normalize_spaces(cell.get("text") or "")
+            if not dt_text and KABUTAN_LIST_DT_RE.search(cell_text):
+                dt_text = cell_text
+
+        if code_cell_idx is not None and len(self._cells) > code_cell_idx + 1:
+            company = normalize_spaces(self._cells[code_cell_idx + 1].get("text") or "")
+
+        if not (code and title and disclosure_href):
+            return
+
+        doc_id = extract_tdnet_doc_id(disclosure_href)
+        if not doc_id:
+            return
+        yyyymmdd_match = re.search(r"/pdf/(?P<ymd>\d{8})/", disclosure_href)
+        yyyymmdd = yyyymmdd_match.group("ymd") if yyyymmdd_match else ""
+        kabutan_pdf = build_kabutan_pdf_url(yyyymmdd, doc_id)
+        dt_jst = parse_kabutan_list_datetime_jst(dt_text)
+        if not dt_jst:
+            return
+
+        self.rows.append(
+            KabutanListRow(
                 code=code,
                 company=company,
+                title=title,
+                datetime_jst=dt_jst,
+                doc_id=doc_id,
+                kabutan_pdf_url=kabutan_pdf,
+            )
+        )
+
+
+def parse_disclosures(html: str) -> list[Disclosure]:
+    # Prefer kabutan.jp disclosures table and consolidate JP/EN pairs by doc_id family.
+    table_parser = KabutanDisclosuresTableParser()
+    table_parser.feed(html)
+    rows = table_parser.rows
+
+    if not rows:
+        # Fallback to older EN list parsing (direct tdnet-pdf links).
+        parser = KabutanDisclosureParser()
+        parser.feed(html)
+
+        disclosures: list[Disclosure] = []
+        seen: set[str] = set()
+        for href, raw_text in parser.links:
+            if href in seen:
+                continue
+            seen.add(href)
+
+            pdf_en = normalize_spaces(href)
+            pdf_ja = normalize_spaces(build_tdnet_pdf_url(href))
+            headline = clean_headline(raw_text)
+            m_code = CODE_RE.match(headline)
+            if not m_code:
+                continue
+            code = m_code.group("code")
+            raw_title = m_code.group("rest").strip()
+            company, subject = split_company_and_subject(raw_title)
+            title_en = normalize_spaces(subject or raw_title)
+
+            m_dt = DATE_RE.search(raw_text)
+            dt_jst = format_dt_jst_from_match(m_dt) if m_dt else ""
+
+            tags = classify_tags(raw_text)
+            title_ja = translate_subject_to_ja(title_en, tags)
+            points_ja = build_points_ja(title_en, tags)
+
+            doc_id = extract_tdnet_doc_id(href)
+            family = doc_id[:16] if len(doc_id) >= 16 else doc_id
+            disclosures.append(
+                Disclosure(
+                    id=make_kabutan_family_key(code, doc_id or href),
+                    code=code,
+                    company=company,
+                    title_en=title_en,
+                    title_ja=title_ja,
+                    points_ja=points_ja,
+                    datetime_jst=dt_jst,
+                    tags=tags,
+                    doc_id_family=family,
+                    doc_id_ja=extract_tdnet_doc_id(pdf_ja),
+                    doc_id_en=extract_tdnet_doc_id(pdf_en),
+                    pdf_url_ja=pdf_ja,
+                    pdf_url_en=pdf_en,
+                    source_url=KABUTAN_DISCLOSURES_URL,
+                )
+            )
+
+        disclosures.sort(key=lambda d: (d.datetime_jst or "", d.id), reverse=True)
+        return disclosures
+
+    groups: dict[tuple[str, str], list[KabutanListRow]] = {}
+    for r in rows:
+        family = r.doc_id[:16] if len(r.doc_id) >= 16 else r.doc_id
+        groups.setdefault((r.code, family), []).append(r)
+
+    disclosures: list[Disclosure] = []
+    for (code, family), grp in groups.items():
+        grp_sorted = sorted(grp, key=lambda x: x.doc_id)
+        ja_row = next((r for r in grp_sorted if has_japanese(r.title)), None)
+        en_row = next((r for r in grp_sorted if not has_japanese(r.title)), None)
+        primary = ja_row or en_row or grp_sorted[0]
+
+        title_ja = normalize_spaces(ja_row.title if ja_row else "")
+        title_en = normalize_spaces(en_row.title if en_row else "")
+
+        if not title_ja and has_japanese(primary.title):
+            title_ja = normalize_spaces(primary.title)
+        if not title_en and not has_japanese(primary.title):
+            title_en = normalize_spaces(primary.title)
+
+        tags_source = title_ja or title_en or primary.title
+        tags = classify_tags(tags_source)
+        if not title_ja:
+            title_ja = translate_subject_to_ja(title_en or primary.title, tags)
+        points_ja = build_points_ja(title_en or title_ja, tags)
+
+        doc_id_ja = ja_row.doc_id if ja_row else primary.doc_id
+        doc_id_en = en_row.doc_id if en_row else ""
+        pdf_ja = normalize_spaces(ja_row.kabutan_pdf_url if ja_row else primary.kabutan_pdf_url)
+        pdf_en = normalize_spaces(en_row.kabutan_pdf_url if en_row else "")
+
+        disclosures.append(
+            Disclosure(
+                id=make_kabutan_family_key(code, primary.doc_id),
+                code=code,
+                company=normalize_spaces(primary.company),
                 title_en=title_en,
                 title_ja=title_ja,
                 points_ja=points_ja,
-                datetime_jst=dt_jst,
+                datetime_jst=normalize_spaces(primary.datetime_jst),
                 tags=tags,
+                doc_id_family=family,
+                doc_id_ja=doc_id_ja,
+                doc_id_en=doc_id_en,
                 pdf_url_ja=pdf_ja,
                 pdf_url_en=pdf_en,
                 source_url=KABUTAN_DISCLOSURES_URL,
@@ -410,29 +663,32 @@ def normalize_store(data: dict[str, Any]) -> dict[str, Any]:
 
 
 def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
-    # Prefer official TDnet PDF (Japanese) while keeping Kabutan mirror as fallback.
-    pdf_kabutan = normalize_spaces(d.pdf_url_en)
-    pdf_tdnet = normalize_spaces(d.pdf_url_ja) or build_tdnet_pdf_url(pdf_kabutan)
-    # Official TDnet PDF sometimes returns 404; use Kabutan mirror as primary for reliability.
-    pdf_primary = pdf_kabutan or pdf_tdnet
+    pdf_ja = normalize_spaces(d.pdf_url_ja)
+    pdf_en = normalize_spaces(d.pdf_url_en)
+    pdf_tdnet = normalize_spaces(build_tdnet_pdf_url(d.doc_id_ja or d.doc_id_en))
+    pdf_primary = pdf_ja or pdf_tdnet or pdf_en
+    title_fallback = normalize_spaces(d.title_en) or normalize_spaces(d.title_ja)
     return {
         "id": d.id,
         "code": d.code,
         "company": d.company,
-        "title": d.title_en,
+        "title": title_fallback,
         "title_en": d.title_en,
         "title_ja": d.title_ja,
         "points_ja": d.points_ja,
         "datetime_jst": d.datetime_jst,
         "tags": d.tags,
+        "doc_id_family": d.doc_id_family,
+        "doc_id_ja": d.doc_id_ja,
+        "doc_id_en": d.doc_id_en,
         # Primary PDF link used by UI/Slack.
         "pdf_url": pdf_primary,
         # Explicit fields (for UI buttons / future enrichment).
-        "pdf_url_kabutan": pdf_kabutan,
+        "pdf_url_kabutan": pdf_ja,
         "pdf_url_tdnet": pdf_tdnet,
         # Backward compatible fields (older UI expects these).
-        "pdf_url_ja": pdf_tdnet or pdf_kabutan,
-        "pdf_url_en": pdf_kabutan,
+        "pdf_url_ja": pdf_ja or pdf_tdnet or pdf_primary,
+        "pdf_url_en": pdf_en,
         "source_url": d.source_url,
     }
 
@@ -501,7 +757,7 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         item["company"] = company
         changed = True
 
-    # PDFs: prefer official TDnet PDF (Japanese) as primary.
+    # PDFs (JP preferred; keep EN optional). Backfill only missing fields.
     pdf_url = normalize_spaces(item.get("pdf_url") or "")
     pdf_kabutan = normalize_spaces(item.get("pdf_url_kabutan") or "")
     pdf_tdnet = normalize_spaces(item.get("pdf_url_tdnet") or "")
@@ -516,39 +772,37 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         return "release.tdnet.info/inbs/" in normalize_spaces(u)
 
     if not pdf_kabutan:
-        if is_kabutan(pdf_url_en):
+        if is_kabutan(pdf_url_ja):
+            pdf_kabutan = pdf_url_ja
+        elif is_kabutan(pdf_url_en):
             pdf_kabutan = pdf_url_en
         elif is_kabutan(pdf_url):
             pdf_kabutan = pdf_url
         elif is_kabutan(item_id):
             pdf_kabutan = item_id
 
-    if pdf_kabutan and normalize_spaces(item.get("pdf_url_kabutan") or "") != pdf_kabutan:
+    if pdf_kabutan and not normalize_spaces(item.get("pdf_url_kabutan") or ""):
         item["pdf_url_kabutan"] = pdf_kabutan
         changed = True
 
     if not pdf_tdnet:
-        candidate = pdf_url_ja if is_tdnet(pdf_url_ja) else pdf_url if is_tdnet(pdf_url) else ""
-        pdf_tdnet = candidate or build_tdnet_pdf_url(pdf_kabutan or pdf_url or item_id)
+        doc_id = extract_tdnet_doc_id(pdf_url_ja or pdf_url_en or pdf_kabutan or pdf_url or item_id)
+        candidate = build_tdnet_pdf_url(doc_id) if doc_id else ""
+        if candidate:
+            pdf_tdnet = candidate
 
-    if pdf_tdnet and normalize_spaces(item.get("pdf_url_tdnet") or "") != pdf_tdnet:
+    if pdf_tdnet and not normalize_spaces(item.get("pdf_url_tdnet") or ""):
         item["pdf_url_tdnet"] = pdf_tdnet
         changed = True
 
-    # Backward compatible aliases.
-    if pdf_kabutan and normalize_spaces(item.get("pdf_url_en") or "") != pdf_kabutan:
-        item["pdf_url_en"] = pdf_kabutan
-        changed = True
+    if not pdf_url_ja:
+        pdf_url_ja = pdf_kabutan or pdf_tdnet or pdf_url
+        if pdf_url_ja:
+            item["pdf_url_ja"] = pdf_url_ja
+            changed = True
 
-    pdf_ja_final = pdf_tdnet or pdf_url_ja or pdf_kabutan or pdf_url
-    if pdf_ja_final and normalize_spaces(item.get("pdf_url_ja") or "") != pdf_ja_final:
-        item["pdf_url_ja"] = pdf_ja_final
-        changed = True
-
-    # Official TDnet PDF sometimes returns 404; prefer Kabutan mirror for primary action links.
-    pdf_primary = pdf_kabutan or pdf_ja_final or pdf_url
-    if pdf_primary and normalize_spaces(item.get("pdf_url") or "") != pdf_primary:
-        item["pdf_url"] = pdf_primary
+    if not pdf_url and (pdf_url_ja or pdf_tdnet or pdf_url_en or pdf_kabutan):
+        item["pdf_url"] = pdf_url_ja or pdf_tdnet or pdf_url_en or pdf_kabutan
         changed = True
 
     return changed
@@ -641,19 +895,45 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
         tag_part = f"【{tag}】" if tag else ""
         summary = truncate(summary_core, 20) + tag_part
 
-        # Official TDnet PDF sometimes returns 404; include Kabutan mirror as primary, and official as optional.
+        # Prefer Japanese PDF; include EN/official as optional.
         pdf_parts: list[str] = []
-        pdf_mirror = normalize_spaces(d.pdf_url_en)
-        pdf_official = normalize_spaces(d.pdf_url_ja)
-        if pdf_mirror:
-            pdf_parts.append(f"<{pdf_mirror}|PDF>")
-        if pdf_official and pdf_official != pdf_mirror:
+        pdf_ja = normalize_spaces(d.pdf_url_ja)
+        pdf_en = normalize_spaces(d.pdf_url_en)
+        pdf_official = normalize_spaces(build_tdnet_pdf_url(d.doc_id_ja or d.doc_id_en))
+        if pdf_ja:
+            pdf_parts.append(f"<{pdf_ja}|PDF>")
+        if pdf_en and pdf_en != pdf_ja:
+            pdf_parts.append(f"<{pdf_en}|英訳>")
+        if pdf_official and pdf_official not in (pdf_ja, pdf_en):
             pdf_parts.append(f"<{pdf_official}|公式>")
         pdf_part = f" {' '.join(pdf_parts)}" if pdf_parts else ""
         lines.append(f"- *{display}*: {summary}{pdf_part} · <{item_link}|株探>")
     if len(new_items) > 10:
         lines.append(f"- 他{len(new_items) - 10}件（続きはログ参照）")
     return "\n".join(lines)
+
+
+def item_family_key(item: dict[str, Any]) -> str:
+    raw_id = normalize_spaces(item.get("id") or "")
+    if raw_id.startswith("kabutan:"):
+        return raw_id
+    code = normalize_spaces(item.get("code") or "")
+    if not code:
+        return raw_id or normalize_spaces(item.get("pdf_url") or "")
+    doc_id = normalize_spaces(item.get("doc_id_ja") or item.get("doc_id_en") or "")
+    if not doc_id:
+        doc_id = extract_tdnet_doc_id(
+            normalize_spaces(
+                item.get("pdf_url_ja")
+                or item.get("pdf_url_en")
+                or item.get("pdf_url_kabutan")
+                or item.get("pdf_url")
+                or raw_id,
+            )
+        )
+    if doc_id:
+        return make_kabutan_family_key(code, doc_id)
+    return raw_id or normalize_spaces(item.get("pdf_url") or "")
 
 
 def main() -> int:
@@ -666,13 +946,15 @@ def main() -> int:
 
     store_path = Path(args.data)
     store = normalize_store(load_tdnet_json(store_path))
-    existing_ids = {str(it.get("id") or it.get("pdf_url") or "") for it in store["items"] if isinstance(it, dict)}
+    existing_items: list[dict[str, Any]] = [it for it in store["items"] if isinstance(it, dict)]
+    existing_keys = {item_family_key(it) for it in existing_items if item_family_key(it)}
+    existing_by_key = {item_family_key(it): it for it in existing_items if item_family_key(it)}
 
     html = fetch_html(KABUTAN_DISCLOSURES_URL)
     latest = parse_disclosures(html)
 
-    is_bootstrap = len(existing_ids) == 0
-    new_items = [d for d in latest if d.id not in existing_ids]
+    is_bootstrap = len(existing_keys) == 0
+    new_items = [d for d in latest if d.id not in existing_keys]
     has_changes = False
     should_notify = False
 
@@ -683,29 +965,43 @@ def main() -> int:
         store["items"] = [disclosure_to_item(d) for d in latest[:MAX_ITEMS]]
         has_changes = True
         new_items = []
-    elif new_items:
-        items: list[dict[str, Any]] = []
-        # Prepend new items.
-        for d in new_items:
-            items.append(disclosure_to_item(d))
-        # Keep existing items.
-        for it in store["items"]:
-            if isinstance(it, dict):
-                items.append(it)
-        # Dedup by id while keeping order.
-        seen: set[str] = set()
-        deduped: list[dict[str, Any]] = []
-        for it in items:
-            key = str(it.get("id") or it.get("pdf_url") or "")
-            if not key or key in seen:
+    elif latest:
+        store_changed = False
+        for d in latest[:200]:
+            new_it = disclosure_to_item(d)
+            old_it = existing_by_key.get(new_it.get("id") or "")
+            if not old_it:
                 continue
-            seen.add(key)
-            deduped.append(it)
-        store["items"] = deduped[:MAX_ITEMS]
-        has_changes = True
-        should_notify = True
-        name_map = load_watchlist_name_map(Path(args.watchlist))
-        message = build_message(new_items, "", name_map)
+            for k in ("company", "title_ja", "title_en", "pdf_url_ja", "pdf_url_en", "pdf_url_tdnet", "pdf_url"):
+                if normalize_spaces(old_it.get(k) or "") != normalize_spaces(new_it.get(k) or ""):
+                    store_changed = True
+                    break
+            if store_changed:
+                break
+
+        if new_items or store_changed:
+            merged: list[dict[str, Any]] = []
+            seen: set[str] = set()
+            for d in latest:
+                it = disclosure_to_item(d)
+                key = normalize_spaces(it.get("id") or "")
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                merged.append(it)
+            for it in existing_items:
+                key = item_family_key(it)
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                merged.append(it)
+            store["items"] = merged[:MAX_ITEMS]
+            has_changes = True
+
+        if new_items:
+            should_notify = True
+            name_map = load_watchlist_name_map(Path(args.watchlist))
+            message = build_message(new_items, "", name_map)
 
     # Backfill / migrate existing items (JP title + points, company split, etc.)
     backfilled = False

@@ -491,11 +491,10 @@ ${tags}`;
         const companyJa = codeRaw && nameMap ? String(nameMap.get(codeRaw) || "").trim() : "";
         const company = escapeHtml(companyJa || String(it.company || ""));
         const title = escapeHtml(String(it.title_ja || it.title_en || it.title || ""));
-        const pdfTdnetRaw = String(it.pdf_url_tdnet || it.pdf_url_ja || "").trim();
-        const pdfKabutanRaw = String(it.pdf_url_kabutan || it.pdf_url_en || "").trim();
-        // Official TDnet PDF sometimes returns 404; prefer Kabutan mirror for reliability.
-        const pdfPrimaryRaw = String(pdfKabutanRaw || pdfTdnetRaw || it.pdf_url || "").trim();
-        const pdfTdnet = escapeHtml(pdfTdnetRaw);
+        const pdfJaRaw = String(it.pdf_url_ja || it.pdf_url_kabutan || it.pdf_url || "").trim();
+        const pdfEnRaw = String(it.pdf_url_en || "").trim();
+        const pdfTdnetRaw = String(it.pdf_url_tdnet || "").trim();
+        const pdfPrimaryRaw = String(pdfJaRaw || it.pdf_url || pdfEnRaw || pdfTdnetRaw || "").trim();
         const pdfPrimary = escapeHtml(pdfPrimaryRaw);
         const points = asArray(it.points_ja).filter(Boolean).slice(0, 2);
         const pointsHtml =
