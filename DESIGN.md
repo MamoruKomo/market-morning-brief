@@ -1,77 +1,68 @@
-# Design System Strategy: The Financial Atelier
-
-Source: user-provided design note (stored for ongoing UI/UX improvements).
+# The Design System: Tactical Precision & Tonal Depth
 
 ## 1. Overview & Creative North Star
-This design system moves away from the "data-dense spreadsheet" aesthetic typical of fintech. Our Creative North Star is **"The Precision Curator."** We treat financial data not as a wall of noise, but as a high-end editorial experience.
+**Creative North Star: "The Obsidian Command"**
 
-By combining the high-contrast authority of editorial typography (Manrope) with the functional clarity of Swiss-style UI (Inter), we create an environment that feels both sophisticated and effortless. We break the traditional grid through **Intentional Asymmetry**—utilizing generous white space and overlapping layers to guide the user’s eye to what matters most: the trade.
+This design system is engineered for the high-frequency environment of professional day trading. Unlike consumer fintech apps that prioritize "friendliness," this system focuses on **Executive Authority** and **Tactical Precision**. We move beyond the "template" look by treating the interface as a physical dashboard of dark, layered glass—minimizing visual noise to ensure that the user’s cognitive load is reserved entirely for market fluctuations.
 
-## 2. Color & Atmospheric Depth
-We do not use lines to define space; we use light and tone. The palette is anchored in a vibrant, trustworthy blue, supported by a sophisticated range of "Surface" tokens that allow for organic layering.
+To achieve this, we employ **Organic Brutalism**: a philosophy that utilizes sharp, technical edges (4px radius) paired with sophisticated tonal layering. We avoid the "flat" look of standard web apps by using a density-first approach where information hierarchy is defined by light and depth rather than lines and boxes.
+
+## 2. Colors: The Tonal Spectrum
+The palette is rooted in an ultra-dark `#0e0e0e` foundation, designed to make the high-contrast data accents "pop" without causing ocular fatigue during 12-hour sessions.
 
 ### The "No-Line" Rule
-**Explicit Instruction:** Designers are prohibited from using 1px solid borders to section off content. Traditional dividers feel restrictive and "cheap." Instead, boundaries must be defined solely through background color shifts.
-* *Example:* A `surface-container-low` section sitting on a `surface` background provides all the separation necessary for the human eye.
+**Borders are a relic of low-density design.** In this system, explicit 1px solid borders for sectioning are strictly prohibited. Boundaries between the Order Book, Charting, and Watchlist must be defined solely through background color shifts. Use `surface-container-low` for secondary panels against the `surface` background to create a "recessed" or "elevated" feel without a single line of stroke.
 
 ### Surface Hierarchy & Nesting
-Treat the UI as a series of physical layers—like stacked sheets of fine paper.
-* **Base:** Use `surface` (#f5f7f9) for the primary application background.
-* **Nesting:** Use `surface-container-lowest` (#ffffff) for high-priority cards or "floating" modules to create a natural lift.
-* **Recessing:** Use `surface-container-high` (#dfe3e6) for utility bars or secondary navigation to "sink" them into the background.
+Treat the UI as a series of stacked, precision-cut plates.
+*   **Base Layer:** `surface` (#0e0e0e) for the global background.
+*   **Secondary Panels:** `surface-container-low` (#131313) for large layout blocks.
+*   **Active Interaction Areas:** `surface-container-high` (#20201f) for focused modules.
+*   **Popovers/Floating Menus:** `surface-container-highest` (#262626) to bring elements into the foreground.
 
-### The Glass & Gradient Rule
-To ensure the app feels "energetic" and "vibrant":
-* **CTAs:** Use a subtle linear gradient from `primary` (#0052d0) to `primary_container` (#799dff) at a 135-degree angle. This adds a "soul" to buttons that flat colors cannot achieve.
-* **Floating Elements:** For overlays (Modals, Hover states), use `surface_container_lowest` with a 80% opacity and a 20px `backdrop-blur`.
+### The "Glass & Gradient" Rule
+To add a premium, "High-End Editorial" feel to a technical tool, primary actions and active states should utilize subtle gradients. A transition from `primary` (#89acff) to `primary-dim` (#0f6df3) provides a sense of depth that feels "machined" rather than "drawn." For floating panels, apply `backdrop-blur: 12px` to semi-transparent surface tokens to allow the pulse of the market charts to bleed through the UI subtly.
 
-## 3. Typography
-Our typography is a dialogue between **Authority (Manrope)** and **Utility (Inter).**
+## 3. Typography: Data as Narrative
+We utilize **Inter** specifically for its technical neutrality and superior legibility at small sizes.
 
-* **Display & Headlines (Manrope):** These are used for portfolio balances, stock symbols, and section headers. The wider aperture of Manrope conveys a modern, premium feel. Use `headline-lg` for the primary portfolio balance to make it feel like a statement.
-* **Body & Labels (Inter):** Reserved for financial data, ticker descriptions, and transactional details. Inter’s tall x-height ensures that even at `body-sm` (12px), a complex trade execution remains legible.
-* **Tonal Emphasis:** Avoid "Black" (#000000) for text. Use `on_surface` (#2c2f31) for primary text and `on_surface_variant` (#595c5e) for metadata to create a softer, more professional contrast.
+*   **Display & Headline (The Narrative):** Use `display-sm` to `headline-lg` for portfolio totals. These should feel authoritative and immovable.
+*   **The Data Core (Tabular Figures):** All numerical data—prices, deltas, and volumes—**must** use tabular lining figures (`font-variant-numeric: tabular-nums`). This prevents the horizontal "shiver" of numbers as they tick up and down.
+*   **Labels:** `label-sm` (#0.6875rem) is used extensively in this dense layout. To maintain readability, increase letter-spacing by 0.02em for all uppercase labels.
 
-## 4. Elevation & Depth: Tonal Layering
-Traditional shadows are often a crutch for poor spatial design. This system prioritizes **Tonal Layering** first.
+## 4. Elevation & Depth: Tonal Stacking
+We reject traditional drop shadows in favor of **Tonal Layering**.
 
-* **The Layering Principle:** Depth is achieved by stacking. A card using `surface-container-lowest` placed atop a `surface` background creates a "Ghost Lift" that feels cleaner than a shadow.
-* **Ambient Shadows:** When a true float is required (e.g., a "Buy" button bar), use a multi-layered shadow: `0px 4px 20px rgba(44, 47, 49, 0.04), 0px 8px 40px rgba(44, 47, 49, 0.08)`. The shadow must be tinted with the `on_surface` color to feel natural.
-* **The "Ghost Border" Fallback:** If a border is required for accessibility in data tables, use the `outline_variant` token at **10% opacity**. It should be felt, not seen.
+*   **The Layering Principle:** Depth is achieved by placing `surface-container-lowest` cards onto a `surface-container-low` section. This creates a "milled" effect, as if the UI has been carved out of a single block of obsidian.
+*   **Ambient Shadows:** For critical floating elements (like a Trade Confirmation modal), use a highly diffused shadow: `box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5)`. The shadow should feel like a soft glow of darkness rather than a hard edge.
+*   **The "Ghost Border" Fallback:** If a separation is required for accessibility in complex data tables, use the `outline-variant` token at **15% opacity**. This creates a "Ghost Border" that guides the eye without cluttering the technical density.
 
-## 5. Components
+## 5. Components: Engineered for Performance
 
-### Buttons
-* **Primary:** Gradient from `primary` to `primary_container`. Radius: `md` (0.75rem). No shadow, unless hovered.
-* **Secondary:** `surface-container-highest` background with `primary` text. This creates a "soft" button that doesn't compete with the main action.
-* **Tertiary:** No background. Bold `primary` text with a subtle underline appearing only on hover.
+### Buttons (Tactical Trigger)
+*   **Primary:** A gradient of `primary` to `primary-dim`. 4px radius. No border. Text is `on-primary-fixed` (Black) for maximum contrast.
+*   **Secondary/Ghost:** `surface-bright` background with no border. This keeps the focus on the primary execution buttons.
 
-### The "Trade Card" (Custom Component)
-Forbid the use of dividers between the stock name, the sparkline, and the price. Use `surface-container-low` for the card background and `surface-container-lowest` for the "Action" area within the card. Use `tertiary` (Emerald) for positive trends and `error` (Coral) for negative.
+### Cards & Modules (The "No-Divider" List)
+*   **Execution:** Forbid the use of horizontal dividers in watchlists. Instead, use a 4px vertical margin (`spacing-sm`) or a subtle background hover state using `surface-container-highest`.
+*   **Density:** Maximize data. A single list item should utilize `body-sm` for secondary data (Volume/Cap) and `title-sm` for the Ticker symbol.
 
-### Input Fields
-* **Style:** Minimalist. No bottom line. A soft `surface-container-low` fill with a `md` (0.75rem) corner radius.
-* **Focus State:** The background shifts to `surface-container-lowest` and gains a 2px "Ghost Border" of `primary` at 40% opacity.
+### High-Contrast Indicators (The Pulse)
+*   **Gains:** Use `secondary` (#9df197) for positive movement. In "Heatmap" components, use a subtle glow (`primary-container` at 20% opacity) to highlight top performers.
+*   **Losses:** Use `error` (#ff716c) for negative movement. Avoid heavy blocks of red; use "sharp" red text or thin 2px indicators to keep the UI from feeling "bloody."
 
-### Sparklines & Charts
-Charts should not have visible X/Y axis lines. Use a `surface-variant` fill for the area under the curve with a 20% opacity gradient. This emphasizes the *shape* of the data over the *grid* of the data.
+### Input Fields (Technical Entry)
+*   **Style:** `surface-container-lowest` backgrounds with a "Ghost Border" that becomes `primary` on focus.
+*   **Data Entry:** Use `body-lg` for price entry inputs to ensure no mistakes are made during high-volatility execution.
 
-## 6. Do’s and Don’ts
+## 6. Do's and Don'ts
 
-### Do
-* **Do** use `xl` (1.5rem) corner radius for large dashboard containers to emphasize the "friendly" and "accessible" mood.
-* **Do** use "Optical Centering"—sometimes financial figures need to be shifted 1-2px to the left to account for currency symbols.
-* **Do** leverage `tertiary_container` for positive price changes to provide a soft, legible background for emerald text.
+### Do:
+*   **Use Asymmetry:** Place the most critical "Buy/Sell" module off-center or in a primary visual "anchor" position to break the monotony of a standard grid.
+*   **Prioritize Scan-ability:** Use `on-surface-variant` (gray) for labels and `on-surface` (white) for the actual data. The eye should hit the numbers first, labels second.
+*   **Maintain 4px Discipline:** Every corner, button, and input must adhere to the `DEFAULT` roundedness (4px). Any deviation breaks the "technical tool" illusion.
 
-### Don’t
-* **Don’t** use pure black for text or pure grey for shadows; it kills the "vibrant" and "refreshing" intent.
-* **Don’t** use a divider line to separate list items. Use 16px or 24px of vertical whitespace (`spacing-md/lg`) instead.
-* **Don’t** cram data. If a screen feels full, increase the `surface` area and move secondary data to a "Details" disclosure.
-
-## 7. Token Summary Reference
-* **Core Roundness:** `md` (0.75rem) for buttons/inputs; `xl` (1.5rem) for main cards.
-* **Primary Action:** `primary` (#0052d0).
-* **Positive Sentiment:** `tertiary` (#006a34) on `tertiary_container` (#86fea7).
-* **Negative Sentiment:** `error` (#b31b25) on `error_container` (#fb5151).
-* **Main Background:** `surface` (#f5f7f9).
-
+### Don't:
+*   **Never use 100% white (#FFFFFF) for large text blocks.** It causes "halation" (glowing effect) against the dark background. Use `on-surface` which is slightly dialed back.
+*   **Avoid standard 1px Dividers.** If you feel the need to add a line, try adding 8px of whitespace instead.
+*   **No Rounded UI:** Avoid `lg`, `xl`, or `full` roundedness for any structural components. This is a high-performance machine, not a social app.

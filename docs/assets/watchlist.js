@@ -313,7 +313,7 @@
         else if (dirCls === "down") counts.down += 1;
         else counts.flat += 1;
 
-        const nameHtml = escapeHtml(name || "—");
+        const nameHtml = escapeHtml(name || code || "—");
         const codeHtml = escapeHtml(code);
 
         if (singlePhase) {

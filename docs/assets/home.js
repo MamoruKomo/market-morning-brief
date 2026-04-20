@@ -635,7 +635,9 @@ ${tags}`;
 
             return `<div class="watch-mini-row${rowClass ? ` ${rowClass}` : ""}">
   <a class="watch-mini-code" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(code)}</a>
-  <a class="watch-mini-name" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(name || "—")}</a>
+  <a class="watch-mini-name" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(
+    name || code || "—",
+  )}</a>
   <div class="watch-mini-last">${lastHtmlColored}</div>
   <div class="watch-mini-delta">${renderDeltaPill(ch)}</div>
   <div class="watch-mini-vol">${volHtml}</div>
@@ -709,8 +711,8 @@ ${tags}`;
 
   function renderWatchOverview(container, ctx) {
     if (!container) return;
-    if (!ctx?.hasMy) {
-      container.innerHTML = `<div class="empty">マイウォッチが未設定です。<a href="watchlist/manage.html">追加</a></div>`;
+    if (!ctx?.hasWatch) {
+      container.innerHTML = `<div class="empty">ウォッチが未設定です。<a href="watchlist/manage.html">追加</a></div>`;
       return;
     }
     const { stamp, breadth, sectorAvgs } = ctx;
@@ -741,6 +743,26 @@ ${tags}`;
             .join("")}</div>`
         : "";
 
+    const watchTickers = asArray(ctx?.tickers)
+      .map((t) => ({
+        code: normalizeText(t?.code),
+        name: normalizeText(t?.name),
+      }))
+      .filter((t) => t.code);
+    const shown = watchTickers.slice(0, 14);
+    const moreCount = Math.max(0, watchTickers.length - shown.length);
+    const tickersChips =
+      shown.length > 0
+        ? `<div class="chips" style="margin-top:10px">${shown
+            .map((t) => {
+              const code = escapeHtml(t.code);
+              const name = escapeHtml(t.name || t.code || "—");
+              const url = escapeHtml(`https://kabutan.jp/stock/?code=${encodeURIComponent(t.code)}`);
+              return `<a class="chip" href="${url}" target="_blank" rel="noreferrer"><span class="muted" style="font-size:11px; font-variant-numeric:tabular-nums">${code}</span> <span style="font-weight:700">${name}</span></a>`;
+            })
+            .join("")}${moreCount ? `<span class="chip chip-muted">＋${moreCount}</span>` : ""}</div>`
+        : "";
+
     const fmtPick = (p) => {
       if (!p) return "—";
       const cls = p.pct > 0 ? "tone-up" : p.pct < 0 ? "tone-down" : "tone-flat";
@@ -750,6 +772,10 @@ ${tags}`;
     };
 
     const chartsHtml = normalizeText(ctx?.charts_html);
+    const scopeLabel = normalizeText(ctx?.scopeLabel);
+    const scopeLine = scopeLabel
+      ? `<div class="meta-line" style="margin-top:8px">表示: ${escapeHtml(scopeLabel)}</div>`
+      : "";
 
     const kpisHtml = `<div class="watch-overview">
   <div class="watch-kpi"><span class="label">更新</span><span class="value">${stampHtml}</span></div>
@@ -757,7 +783,7 @@ ${tags}`;
   <div class="watch-kpi"><span class="label">下落</span><span class="value tone-down">${down}</span></div>
   <div class="watch-kpi"><span class="label">横ばい</span><span class="value">${flat}</span></div>
   <div class="watch-kpi"><span class="label">平均</span><span class="value">${avgHtml}</span></div>
-</div>${sectorChips}`;
+</div>${sectorChips}${tickersChips}`;
 
     const maxLine =
       maxUp || maxDown
@@ -765,8 +791,8 @@ ${tags}`;
         : "";
 
     container.innerHTML = chartsHtml
-      ? `${kpisHtml}${maxLine}<div class="watch-charts">${chartsHtml}</div>`
-      : `${kpisHtml}${maxLine}`;
+      ? `${kpisHtml}${scopeLine}${maxLine}<div class="watch-charts">${chartsHtml}</div>`
+      : `${kpisHtml}${scopeLine}${maxLine}`;
   }
 
   function svgDonut({ up, down, flat }) {
@@ -784,7 +810,7 @@ ${tags}`;
     const strokeFor = (key) => {
       if (key === "up") return "var(--up)";
       if (key === "down") return "var(--down)";
-      return "rgba(71,85,105,.55)";
+      return "var(--muted)";
     };
     const rings = segs
       .map((s) => {
@@ -807,12 +833,12 @@ ${tags}`;
       .join("");
     return `<div class="chart-wrap">
   <svg class="donut" width="112" height="112" viewBox="0 0 112 112" role="img" aria-label="上昇下落比率">
-    <circle cx="56" cy="56" r="${r}" fill="none" stroke="rgba(44,47,49,.10)" stroke-width="14"></circle>
+    <circle cx="56" cy="56" r="${r}" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="14"></circle>
     <g transform="rotate(-90 56 56)">${rings}</g>
-    <text x="56" y="58" text-anchor="middle" font-weight="900" font-size="18" fill="rgba(15,23,42,.92)">${escapeHtml(
+    <text x="56" y="58" text-anchor="middle" font-weight="900" font-size="18" fill="var(--text)">${escapeHtml(
       String(total),
     )}</text>
-    <text x="56" y="74" text-anchor="middle" font-size="11" fill="rgba(71,85,105,.9)">銘柄</text>
+    <text x="56" y="74" text-anchor="middle" font-size="11" fill="var(--muted)">銘柄</text>
   </svg>
   <div class="legend">${legend}</div>
 </div>`;
@@ -911,7 +937,7 @@ ${tags}`;
 
   function renderWatchHighlights(container, ctx) {
     if (!container) return;
-    if (!ctx?.hasMy) {
+    if (!ctx?.hasWatch) {
       container.innerHTML = "";
       return;
     }
@@ -1140,7 +1166,25 @@ ${tags}`;
         const snaps = Array.isArray(wlSnap.snapshots) ? wlSnap.snapshots : [];
         const my = loadMyWatchlist();
         const hasMy = asArray(my?.groups).some((g) => asArray(g?.tickers).length > 0);
-        const useCfg = hasMy ? my : { version: 1, groups: [] };
+        let useCfg = my;
+        let scopeLabel = "マイウォッチ";
+        if (!hasMy) {
+          try {
+            const sharedCfg = await loadJson("data/watchlist.json");
+            const hasShared = asArray(sharedCfg?.groups).some((g) => asArray(g?.tickers).length > 0);
+            if (hasShared) {
+              useCfg = sharedCfg;
+              scopeLabel = "共有ウォッチ";
+            } else {
+              useCfg = { version: 1, groups: [] };
+              scopeLabel = "";
+            }
+          } catch (e) {
+            useCfg = { version: 1, groups: [] };
+            scopeLabel = "";
+          }
+        }
+        const hasWatch = asArray(useCfg?.groups).some((g) => asArray(g?.tickers).length > 0);
 
         const cfgNameMap = new Map();
         for (const g of asArray(useCfg?.groups)) {
@@ -1153,7 +1197,7 @@ ${tags}`;
 
         if (watchMini) {
           renderWatchlistMini(watchMini, useCfg, snaps, {
-            label: "マイウォッチ",
+            label: scopeLabel || "ウォッチ",
             setupHref: "watchlist/manage.html",
             nameMap: masterNameMap,
             sectorMap: masterSectorMap,
@@ -1300,12 +1344,14 @@ ${tags}`;
         const charts_html = donut || spark ? `<div class="chart-grid">${donut ? `<div class="chart-card"><div class="chart-title">上昇/下落</div>${donut}</div>` : ""}${spark ? `<div class="chart-card"><div class="chart-title">推移</div>${spark}</div>` : ""}</div>` : "";
 
         const ctx = {
-          hasMy,
+          hasWatch,
+          scopeLabel,
           stamp,
           breadth,
           sectorAvgs,
           highlights,
           charts_html,
+          tickers: rows.map((r) => ({ code: r.code, name: r.name })),
         };
         if (watchOverview) renderWatchOverview(watchOverview, ctx);
         if (watchHighlights) renderWatchHighlights(watchHighlights, ctx);
