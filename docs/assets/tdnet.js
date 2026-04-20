@@ -203,7 +203,8 @@
     const titleEn = escapeHtml(getTitleEn(item));
     const pdfKabutanRaw = normalizeText(item.pdf_url_kabutan || item.pdf_url_en);
     const pdfTdnetRaw = normalizeText(item.pdf_url_tdnet || item.pdf_url_ja);
-    const pdfPrimaryRaw = normalizeText(pdfTdnetRaw || pdfKabutanRaw || item.pdf_url);
+    // Official TDnet PDF sometimes returns 404; prefer Kabutan mirror for reliability.
+    const pdfPrimaryRaw = normalizeText(pdfKabutanRaw || pdfTdnetRaw || item.pdf_url);
     const pdfKabutan = escapeHtml(pdfKabutanRaw);
     const pdfTdnet = escapeHtml(pdfTdnetRaw);
     const pdfPrimary = escapeHtml(pdfPrimaryRaw);

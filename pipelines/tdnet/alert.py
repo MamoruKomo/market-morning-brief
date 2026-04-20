@@ -413,7 +413,8 @@ def disclosure_to_item(d: Disclosure) -> dict[str, Any]:
     # Prefer official TDnet PDF (Japanese) while keeping Kabutan mirror as fallback.
     pdf_kabutan = normalize_spaces(d.pdf_url_en)
     pdf_tdnet = normalize_spaces(d.pdf_url_ja) or build_tdnet_pdf_url(pdf_kabutan)
-    pdf_primary = pdf_tdnet or pdf_kabutan
+    # Official TDnet PDF sometimes returns 404; use Kabutan mirror as primary for reliability.
+    pdf_primary = pdf_kabutan or pdf_tdnet
     return {
         "id": d.id,
         "code": d.code,
@@ -544,7 +545,8 @@ def backfill_item_fields(item: dict[str, Any]) -> bool:
         item["pdf_url_ja"] = pdf_ja_final
         changed = True
 
-    pdf_primary = pdf_ja_final or pdf_kabutan or pdf_url
+    # Official TDnet PDF sometimes returns 404; prefer Kabutan mirror for primary action links.
+    pdf_primary = pdf_kabutan or pdf_ja_final or pdf_url
     if pdf_primary and normalize_spaces(item.get("pdf_url") or "") != pdf_primary:
         item["pdf_url"] = pdf_primary
         changed = True
@@ -639,8 +641,15 @@ def build_message(new_items: list[Disclosure], pages_base_url: str, name_map: di
         tag_part = f"【{tag}】" if tag else ""
         summary = truncate(summary_core, 20) + tag_part
 
-        pdf = d.pdf_url_ja or d.pdf_url_en or ""
-        pdf_part = f" <{pdf}|PDF>" if pdf else ""
+        # Official TDnet PDF sometimes returns 404; include Kabutan mirror as primary, and official as optional.
+        pdf_parts: list[str] = []
+        pdf_mirror = normalize_spaces(d.pdf_url_en)
+        pdf_official = normalize_spaces(d.pdf_url_ja)
+        if pdf_mirror:
+            pdf_parts.append(f"<{pdf_mirror}|PDF>")
+        if pdf_official and pdf_official != pdf_mirror:
+            pdf_parts.append(f"<{pdf_official}|公式>")
+        pdf_part = f" {' '.join(pdf_parts)}" if pdf_parts else ""
         lines.append(f"- *{display}*: {summary}{pdf_part} · <{item_link}|株探>")
     if len(new_items) > 10:
         lines.append(f"- 他{len(new_items) - 10}件（続きはログ参照）")

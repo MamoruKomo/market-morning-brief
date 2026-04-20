@@ -493,7 +493,8 @@ ${tags}`;
         const title = escapeHtml(String(it.title_ja || it.title_en || it.title || ""));
         const pdfTdnetRaw = String(it.pdf_url_tdnet || it.pdf_url_ja || "").trim();
         const pdfKabutanRaw = String(it.pdf_url_kabutan || it.pdf_url_en || "").trim();
-        const pdfPrimaryRaw = String(pdfTdnetRaw || pdfKabutanRaw || it.pdf_url || "").trim();
+        // Official TDnet PDF sometimes returns 404; prefer Kabutan mirror for reliability.
+        const pdfPrimaryRaw = String(pdfKabutanRaw || pdfTdnetRaw || it.pdf_url || "").trim();
         const pdfTdnet = escapeHtml(pdfTdnetRaw);
         const pdfPrimary = escapeHtml(pdfPrimaryRaw);
         const points = asArray(it.points_ja).filter(Boolean).slice(0, 2);
