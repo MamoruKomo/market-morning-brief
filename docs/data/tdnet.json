@@ -1,7 +1,331 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-20T17:34:52+09:00",
+  "last_checked_jst": "2026-04-20T20:45:31+09:00",
   "items": [
+    {
+      "id": "kabutan:451A:1401202604205070",
+      "code": "451A",
+      "company": "東証Ｅ",
+      "title": "ETFの収益分配のお知らせ",
+      "title_en": "ETFの収益分配のお知らせ",
+      "title_ja": "ETFの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T19:05:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205070",
+      "doc_id_ja": "140120260420507020",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507020.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507020.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420507020.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507020.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:450A:1401202604205070",
+      "code": "450A",
+      "company": "東証Ｅ",
+      "title": "ETFの収益分配のお知らせ",
+      "title_en": "ETFの収益分配のお知らせ",
+      "title_ja": "ETFの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T19:05:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205070",
+      "doc_id_ja": "140120260420507019",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507019.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507019.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420507019.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507019.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:449A:1401202604205070",
+      "code": "449A",
+      "company": "東証Ｅ",
+      "title": "ETFの収益分配のお知らせ",
+      "title_en": "ETFの収益分配のお知らせ",
+      "title_ja": "ETFの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T19:05:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205070",
+      "doc_id_ja": "140120260420507018",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507018.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507018.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420507018.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507018.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2337:1401202604205065",
+      "code": "2337",
+      "company": "東証Ｐ",
+      "title": "Nomination of Directors",
+      "title_en": "Nomination of Directors",
+      "title_ja": "Nomination of Directors",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-20T19:05:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604205065",
+      "doc_id_ja": "140120260420506553",
+      "doc_id_en": "140120260420506554",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506553.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506553.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506553.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506553.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506554.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2127:1401202604205069",
+      "code": "2127",
+      "company": "東証Ｐ",
+      "title": "法定事前開示書類（会社分割）（株式会社J-Capital）",
+      "title_en": "法定事前開示書類（会社分割）（株式会社J-Capital）",
+      "title_ja": "法定事前開示書類（会社分割）（株式会社J-Capital）",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205069",
+      "doc_id_ja": "140120260420506997",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506997.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506997.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506997.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506997.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:265A:1401202603235869",
+      "code": "265A",
+      "company": "東証Ｇ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/20",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/20",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/20",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T18:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202603235869",
+      "doc_id_ja": "140120260323586961",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260323586961.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260323586961.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260323586961.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260323586961.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4765:1401202604105020",
+      "code": "4765",
+      "company": "東証Ｐ",
+      "title": "『ＳＢＩ オルタナティブ・ハイインカム・セレクト・ファンド（年４回決算型）』 第2回分配金170円のお知らせ",
+      "title_en": "『ＳＢＩ オルタナティブ・ハイインカム・セレクト・ファンド（年４回決算型）』 第2回分配金170円のお知らせ",
+      "title_ja": "『ＳＢＩ オルタナティブ・ハイインカム・セレクト・ファンド（年４回決算型）』 第2回分配金170円のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-20T18:40:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604105020",
+      "doc_id_ja": "140120260410502094",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260410502094.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260410502094.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410502094.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260410502094.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1495:1401202604205070",
+      "code": "1495",
+      "company": "東証Ｅ",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "title_en": "ＥＴＦの収益分配のお知らせ",
+      "title_ja": "ＥＴＦの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T18:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205070",
+      "doc_id_ja": "140120260420507024",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507024.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507024.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420507024.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507024.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2338:1401202604205070",
+      "code": "2338",
+      "company": "東証Ｓ",
+      "title": "連結子会社による資金の借入の返済の完了に関するお知らせ",
+      "title_en": "連結子会社による資金の借入の返済の完了に関するお知らせ",
+      "title_ja": "連結子会社による資金の借入の返済の完了に関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認",
+        "借入/資金調達（条件/返済）を確認"
+      ],
+      "datetime_jst": "2026-04-20T18:15:00+09:00",
+      "tags": [
+        "M&A",
+        "借入"
+      ],
+      "doc_id_family": "1401202604205070",
+      "doc_id_ja": "140120260420507012",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507012.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507012.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420507012.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420507012.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9449:1401202604205067",
+      "code": "9449",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Determination of the Selling Price, Etc. for Secondary Offering of Shares of Consolidated Subsidiary and Expected Extraordinary",
+      "title_en": "Notice Regarding Determination of the Selling Price, Etc. for Secondary Offering of Shares of Consolidated Subsidiary and Expected Extraordinary",
+      "title_ja": "Determination of the Selling Price, Etc. for Secondary Offering of Shares of Consolidated Subsidiary and Expected Extraordinaryに関するお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-04-20T18:01:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202604205067",
+      "doc_id_ja": "140120260420506745",
+      "doc_id_en": "140120260420506745",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506745.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506745.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506745.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506745.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506745.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9449:1401202604205065",
+      "code": "9449",
+      "company": "東証Ｐ",
+      "title": "連結子会社株式の売出しに伴う売出価格等の決定及び個別業績における特別利益の発生に関するお知らせ",
+      "title_en": "連結子会社株式の売出しに伴う売出価格等の決定及び個別業績における特別利益の発生に関するお知らせ",
+      "title_ja": "連結子会社株式の売出しに伴う売出価格等の決定及び個別業績における特別利益の発生に関するお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T18:01:00+09:00",
+      "tags": [
+        "増資/売出",
+        "M&A"
+      ],
+      "doc_id_family": "1401202604205065",
+      "doc_id_ja": "140120260420506529",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506529.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506529.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506529.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506529.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4784:1401202604205069",
+      "code": "4784",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Determination of Issue Price and Selling Price, etc.",
+      "title_en": "Notice Regarding Determination of Issue Price and Selling Price, etc.",
+      "title_ja": "Determination of Issue Price and Selling Price, etc.に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T18:01:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205069",
+      "doc_id_ja": "140120260420506979",
+      "doc_id_en": "140120260420506979",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506979.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506979.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506979.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506979.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506979.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4784:1401202604205068",
+      "code": "4784",
+      "company": "東証Ｐ",
+      "title": "発行価格及び売出価格等の決定に関するお知らせ",
+      "title_en": "発行価格及び売出価格等の決定に関するお知らせ",
+      "title_ja": "発行価格及び売出価格等の決定に関するお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-04-20T18:01:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202604205068",
+      "doc_id_ja": "140120260420506823",
+      "doc_id_en": "",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506823.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506823.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506823.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506823.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2160:1401202604205069",
+      "code": "2160",
+      "company": "東証Ｇ",
+      "title": "Notice Regarding Enrollment of the First Patient in a Clinical Trial of Pirfenidone for a New Indication in Cancer-Related Pulmonary Complications",
+      "title_en": "Notice Regarding Enrollment of the First Patient in a Clinical Trial of Pirfenidone for a New Indication in Cancer-Related Pulmonary Complications",
+      "title_ja": "Enrollment of the First Patient in a Clinical Trial of Pirfenidone for a New Indication in Cancer-Related Pulmonary Complicationsに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-20T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205069",
+      "doc_id_ja": "140120260420506957",
+      "doc_id_en": "140120260420506957",
+      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506957.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506957.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506957.pdf",
+      "pdf_url_ja": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506957.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260420/140120260420506957.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260414/140120260414503224.pdf",
       "code": "6361",
@@ -277,27 +601,6 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502687.pdf"
     },
     {
-      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502625.pdf",
-      "code": "6209",
-      "company": "NPR-RIKEN CORPORATION",
-      "title": "Notice Regarding the Acquisition of Shares in Hastings Holding Corp. by Riken Corporation of America, a subsidiary of NPR-RIKEN CORPORATION",
-      "title_en": "Notice Regarding the Acquisition of Shares in Hastings Holding Corp. by Riken Corporation of America, a subsidiary of NPR-RIKEN CORPORATION",
-      "title_ja": "the Acquisition of Shares in Hastings Holding Corp. by Riken Corporation of America, a subsidiary of NPR-RIKEN CORPORATIONに関するお知らせ",
-      "points_ja": [
-        "M&A/子会社化など（スキーム/条件）を確認"
-      ],
-      "datetime_jst": "2026-04-13T17:00:00+09:00",
-      "tags": [
-        "M&A"
-      ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502625.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502625.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502625.pdf",
-      "source_url": "https://kabutan.jp/disclosures/",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502625.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502625.pdf"
-    },
-    {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502911.pdf",
       "code": "7049",
       "company": "SHIKIGAKU. Co.,Ltd.",
@@ -523,25 +826,6 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502394.pdf"
     },
     {
-      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502373.pdf",
-      "code": "9418",
-      "company": "",
-      "title": "U-NEXT HOLDINGS Co.,Ltd. Summary of Second Quarter of Fiscal Year Ending August 2026",
-      "title_en": "U-NEXT HOLDINGS Co.,Ltd. Summary of Second Quarter of Fiscal Year Ending August 2026",
-      "title_ja": "U-NEXT HOLDINGS Co.,Ltd. Summary of Second Quarter of Fiscal Year Ending August 2026",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-04-13T16:00:00+09:00",
-      "tags": [],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502373.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502373.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502373.pdf",
-      "source_url": "https://kabutan.jp/disclosures/",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502373.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502373.pdf"
-    },
-    {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502234.pdf",
       "code": "6419",
       "company": "Mars Group Holdings Corporation",
@@ -710,46 +994,6 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260412502154.pdf"
     },
     {
-      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502150.pdf",
-      "code": "8167",
-      "company": "RETAIL PARTNERS CO., LTD. Reference Materials for the",
-      "title": "Financial Results for the Fiscal Year Ended February 28, 2026",
-      "title_en": "Financial Results for the Fiscal Year Ended February 28, 2026",
-      "title_ja": "決算 for the Fiscal Year Ended February 28, 2026",
-      "points_ja": [
-        "決算関連（決算短信/説明資料）を確認"
-      ],
-      "datetime_jst": "2026-04-13T15:00:00+09:00",
-      "tags": [
-        "決算"
-      ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502150.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260412502150.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502150.pdf",
-      "source_url": "https://kabutan.jp/disclosures/",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502150.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260412502150.pdf"
-    },
-    {
-      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502149.pdf",
-      "code": "8167",
-      "company": "RETAIL PARTNERS CO., LTD.",
-      "title": "Notice Regarding Decision on Matters Related to Acquisition of Treasury Stock",
-      "title_en": "Notice Regarding Decision on Matters Related to Acquisition of Treasury Stock",
-      "title_ja": "Decision on Matters Related to Acquisition of Treasury Stockに関するお知らせ",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-04-13T15:00:00+09:00",
-      "tags": [],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502149.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260412502149.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502149.pdf",
-      "source_url": "https://kabutan.jp/disclosures/",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260412502149.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260412502149.pdf"
-    },
-    {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260411501809.pdf",
       "code": "7370",
       "company": "Enjin Co.,Ltd. Summary of Consolidated",
@@ -866,25 +1110,6 @@
       "source_url": "https://kabutan.jp/disclosures/",
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502264.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502264.pdf"
-    },
-    {
-      "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502253.pdf",
-      "code": "8387",
-      "company": "",
-      "title": "The Shikoku Bank, Ltd. Formulation of Medium-Term Management Plan",
-      "title_en": "The Shikoku Bank, Ltd. Formulation of Medium-Term Management Plan",
-      "title_ja": "The Shikoku Bank, Ltd. Formulation of Medium-Term Management Plan",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-04-13T14:00:00+09:00",
-      "tags": [],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502253.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502253.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502253.pdf",
-      "source_url": "https://kabutan.jp/disclosures/",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502253.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502253.pdf"
     },
     {
       "id": "https://tdnet-pdf.kabutan.jp/20260413/140120260413502421.pdf",
@@ -1298,48 +1523,6 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501854.pdf"
     },
     {
-      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
-      "code": "7545",
-      "company": "NISHIMATSUYA CHAIN Co., Ltd.",
-      "title": "Notice of Personnel Change",
-      "datetime_jst": "2026-04-10T17:00:00+09:00",
-      "tags": [
-        "人事"
-      ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
-      "source_url": "https://kabutan.jp/disclosures/",
-      "title_en": "Notice of Personnel Change",
-      "title_ja": "Personnel Changeのお知らせ",
-      "points_ja": [
-        "役員人事/体制変更の内容を確認"
-      ],
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501852.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501852.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501852.pdf"
-    },
-    {
-      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
-      "code": "7545",
-      "company": "NISHIMATSUYA CHAIN Co., Ltd.",
-      "title": "Notice Concerning Results and Completion of Repurchase of Own Shares",
-      "datetime_jst": "2026-04-10T17:00:00+09:00",
-      "tags": [
-        "自己株"
-      ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
-      "source_url": "https://kabutan.jp/disclosures/",
-      "title_en": "Notice Concerning Results and Completion of Repurchase of Own Shares",
-      "title_ja": "Results and Completion of Repurchase of Own Sharesに関するお知らせ",
-      "points_ja": [
-        "自己株式（取得/消却/方針）の条件を確認"
-      ],
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501847.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501847.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501847.pdf"
-    },
-    {
       "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260410501721.pdf",
       "code": "6135",
       "company": "Makino Milling Machine Co.,Ltd.",
@@ -1485,27 +1668,6 @@
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260407599610.pdf",
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599610.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260407599610.pdf"
-    },
-    {
-      "id": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
-      "code": "9270",
-      "company": "Valuence Holdings Inc. Consolidated",
-      "title": "Financial Results for the Six Months Ended February 28, 2026",
-      "datetime_jst": "2026-04-10T16:00:00+09:00",
-      "tags": [
-        "決算"
-      ],
-      "pdf_url": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
-      "source_url": "https://kabutan.jp/disclosures/",
-      "title_en": "Financial Results for the Six Months Ended February 28, 2026",
-      "title_ja": "決算 for the Six Months Ended February 28, 2026",
-      "points_ja": [
-        "決算関連（決算短信/説明資料）を確認"
-      ],
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260407599607.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260410/140120260407599607.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260407599607.pdf"
     }
   ]
 }
