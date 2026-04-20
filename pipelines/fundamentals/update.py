@@ -8,6 +8,7 @@ import re
 import ssl
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime
 from html.parser import HTMLParser
@@ -228,6 +229,7 @@ def main() -> int:
     ap.add_argument("--out-json", default="docs/data/fundamentals.json")
     ap.add_argument("--cache-dir", default="", help="Optional cache directory for fetched HTML.")
     ap.add_argument("--offline", action="store_true", help="Read HTML from --cache-dir only.")
+    ap.add_argument("--max-workers", type=int, default=8, help="Max concurrent fetch workers (default: 8).")
     ap.add_argument("--out", default=os.environ.get("GITHUB_OUTPUT", ""), help="GitHub Actions output file path")
     args = ap.parse_args()
 
@@ -240,24 +242,66 @@ def main() -> int:
     fetcher = Fetcher(cache_dir=(Path(args.cache_dir).expanduser() if args.cache_dir.strip() else None), offline=bool(args.offline))
 
     now_jst = datetime.now(JST)
-    items: list[dict[str, Any]] = []
-    for t in tickers:
+    today = now_jst.strftime("%Y-%m-%d")
+
+    def fetch_one(t: dict[str, str]) -> tuple[str, dict[str, Any]]:
         code = t.get("code") or ""
         url = KABUTAN_FUNDAMENTALS_URL.format(code=urllib.parse.quote(code))
         html = fetcher.html(f"kabutan_{code}", url)
         text = html_to_text(html)
         metrics = extract_metrics(text)
-        items.append(
+        return (
+            code,
             {
                 "code": code,
                 "name": t.get("name") or "",
                 "name_en": t.get("name_en") or "",
                 "sector": t.get("sector") or "",
-                "asof_date": now_jst.strftime("%Y-%m-%d"),
+                "asof_date": today,
                 "source_url": url,
                 "metrics": metrics,
-            }
+            },
         )
+
+    by_code: dict[str, dict[str, Any]] = {}
+    max_workers = max(1, min(int(args.max_workers), max(1, len(tickers))))
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futs = {ex.submit(fetch_one, t): (t.get("code") or "") for t in tickers}
+        for fut in as_completed(futs):
+            code = futs[fut]
+            try:
+                c, item = fut.result()
+                if c:
+                    by_code[c] = item
+            except Exception:
+                # Best-effort: keep missing ticker with empty metrics.
+                if code and code not in by_code:
+                    by_code[code] = {
+                        "code": code,
+                        "name": "",
+                        "name_en": "",
+                        "sector": "",
+                        "asof_date": today,
+                        "source_url": KABUTAN_FUNDAMENTALS_URL.format(code=urllib.parse.quote(code)),
+                        "metrics": {},
+                    }
+
+    items: list[dict[str, Any]] = []
+    for t in tickers:
+        code = t.get("code") or ""
+        if not code:
+            continue
+        it = by_code.get(code)
+        if it is None:
+            continue
+        # Ensure names/sectors are filled from watchlist when fetch failed.
+        if not normalize_spaces(it.get("name") or ""):
+            it["name"] = t.get("name") or ""
+        if not normalize_spaces(it.get("name_en") or ""):
+            it["name_en"] = t.get("name_en") or ""
+        if not normalize_spaces(it.get("sector") or ""):
+            it["sector"] = t.get("sector") or ""
+        items.append(it)
 
     out_path = Path(args.out_json)
     new_data = {"version": 1, "updated_at": now_jst.isoformat(timespec="seconds"), "items": items}
@@ -278,4 +322,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

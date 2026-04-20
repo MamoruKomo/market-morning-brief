@@ -479,7 +479,12 @@ ${listHtml}`;
         const ok = await renderLive();
         if (ok) return;
       } catch (e) {
-        // ignore and fallback
+        if (err && hasEdinetDb() && window.EDINETDB.getApiKey()) {
+          const msg = String(e && e.message ? e.message : e || "").trim();
+          err.textContent = msg
+            ? `EDINET DB live 取得に失敗: ${msg}（localにフォールバック）`
+            : "EDINET DB live 取得に失敗（localにフォールバック）";
+        }
       }
       if (monthSelect) monthSelect.disabled = false;
       renderLocal();

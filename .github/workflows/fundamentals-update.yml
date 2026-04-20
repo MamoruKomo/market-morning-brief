@@ -1,0 +1,49 @@
+name: Fundamentals update (Kabutan)
+
+on:
+  schedule:
+    # 23:05 UTC on Sun-Thu == 08:05 JST on Mon-Fri
+    - cron: "5 23 * * 0-4"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fundamentals-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update fundamentals.json
+        id: fundamentals
+        run: |
+          python3 scripts/update_fundamentals.py
+
+      - name: Update rankings + hidden gems
+        id: rankings
+        run: |
+          python3 scripts/fundamentals_rankings.py
+
+      - name: Commit + push (if updates)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/fundamentals.json docs/data/fundamentals_rankings.json docs/data/hidden_gems.json
+          git diff --cached --quiet || git commit -m "Update fundamentals data"
+          git push
+
