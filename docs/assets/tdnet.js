@@ -39,16 +39,45 @@
     return s.slice(0, 16).replace("T", " ");
   }
 
+  function buildNameMap(masterJson) {
+    const items = asArray(masterJson?.items);
+    const map = new Map();
+    for (const it of items) {
+      const code = normalizeText(it?.code);
+      const name = normalizeText(it?.name);
+      if (!code || !name) continue;
+      if (!map.has(code)) map.set(code, name);
+    }
+    return map;
+  }
+
+  async function loadNameMap(path) {
+    try {
+      const json = await loadJson(path);
+      return buildNameMap(json);
+    } catch (e) {
+      return new Map();
+    }
+  }
+
+  function resolveCompanyJa(code, company, nameMap) {
+    const c = normalizeText(code);
+    const jp = c && nameMap instanceof Map ? normalizeText(nameMap.get(c)) : "";
+    return jp || normalizeText(company);
+  }
+
   const DEFAULT_FILTERS = [
     "決算",
     "業績修正",
     "配当",
     "自己株",
+    "自己株処分",
     "TOB",
     "増資/売出",
     "M&A",
     "人事",
     "借入",
+    "SO",
     "訂正",
     "遅延",
   ];
@@ -118,10 +147,12 @@
 
   function matches(item, q) {
     if (!q) return true;
+    const nameJa = normalizeText(item.company_ja);
     const hay = [
       item.datetime_jst,
       item.code,
       item.company,
+      nameJa,
       getTitleJa(item),
       getTitleEn(item),
       ...asArray(item.points_ja),
@@ -161,18 +192,25 @@
     });
   }
 
-  function renderCard(item, showEnglish) {
+  function renderCard(item, showEnglish, ctx) {
+    const nameMap = ctx?.nameMap instanceof Map ? ctx.nameMap : null;
     const dt = escapeHtml(formatDt(item.datetime_jst));
-    const code = escapeHtml(normalizeText(item.code));
-    const company = escapeHtml(normalizeText(item.company));
+    const codeRaw = normalizeText(item.code);
+    const companyRaw = resolveCompanyJa(codeRaw, item.company_ja || item.company, nameMap);
+    const code = escapeHtml(codeRaw);
+    const company = escapeHtml(companyRaw);
     const titleJa = escapeHtml(getTitleJa(item));
     const titleEn = escapeHtml(getTitleEn(item));
-    const pdfKabutan = escapeHtml(normalizeText(item.pdf_url_kabutan || item.pdf_url_en));
-    const pdfTdnet = escapeHtml(normalizeText(item.pdf_url_tdnet || item.pdf_url_ja));
-    const pdfPrimary = escapeHtml(normalizeText(pdfTdnet || pdfKabutan || item.pdf_url));
-    const source = escapeHtml(normalizeText(item.source_url));
+    const pdfKabutanRaw = normalizeText(item.pdf_url_kabutan || item.pdf_url_en);
+    const pdfTdnetRaw = normalizeText(item.pdf_url_tdnet || item.pdf_url_ja);
+    const pdfPrimaryRaw = normalizeText(pdfTdnetRaw || pdfKabutanRaw || item.pdf_url);
+    const pdfKabutan = escapeHtml(pdfKabutanRaw);
+    const pdfTdnet = escapeHtml(pdfTdnetRaw);
+    const pdfPrimary = escapeHtml(pdfPrimaryRaw);
+    const source = escapeHtml(normalizeText(item.source_url || ""));
     const tags = asArray(item.tags).map((t) => normalizeText(t)).filter(Boolean);
     const points = getPointsJa(item);
+    const itemLink = codeRaw ? `https://kabutan.jp/stock/?code=${encodeURIComponent(codeRaw)}` : "";
 
     const pointsHtml =
       points.length > 0
@@ -193,6 +231,7 @@
           ? `<a class="go" href="${pdfTdnet}" target="_blank" rel="noreferrer">公式</a>`
           : ""
       }
+      ${itemLink ? `<a class="go" href="${escapeHtml(itemLink)}" target="_blank" rel="noreferrer">株探</a>` : ""}
       ${source ? `<a class="go" href="${source}" target="_blank" rel="noreferrer">一覧</a>` : ""}
     </div>
   </div>
@@ -211,8 +250,18 @@
     const query = normalizeQuery(q);
     const limit = opts?.limit ?? items.length;
     const showEnglish = !!opts?.showEnglish;
+    const nameMap = opts?.nameMap instanceof Map ? opts.nameMap : null;
 
-    const list = items.filter((it) => matches(it, query));
+    const list = items
+      .map((it) => {
+        const obj = it && typeof it === "object" ? it : null;
+        if (!obj) return null;
+        const code = normalizeText(obj.code);
+        const company_ja = resolveCompanyJa(code, obj.company_ja || obj.company, nameMap);
+        return { ...obj, company_ja };
+      })
+      .filter(Boolean)
+      .filter((it) => matches(it, query));
     if (list.length === 0) {
       container.innerHTML = `<div class="empty">該当なし</div>`;
       return { shown: 0, total: 0, hasMore: false };
@@ -226,7 +275,7 @@
         html += `<div class="day-divider">${escapeHtml(day)}</div>`;
         lastDay = day;
       }
-      html += renderCard(item, showEnglish);
+      html += renderCard(item, showEnglish, { nameMap });
     }
     container.innerHTML = html;
     return { shown: Math.min(limit, list.length), total: list.length, hasMore: list.length > limit };
@@ -235,6 +284,7 @@
   async function main() {
     const root = document.documentElement;
     const dataPath = root.getAttribute("data-tdnet-json") || "../data/tdnet.json";
+    const masterPath = root.getAttribute("data-tickers-master") || "../data/tickers_master.json";
 
     const list = $(".js-tdnet-list");
     const input = $(".js-search");
@@ -244,6 +294,8 @@
     const filters = $(".js-filters");
     const toggleEn = $(".js-toggle-en");
     const moreBtn = $(".js-more");
+
+    const nameMap = await loadNameMap(masterPath);
 
     let items = [];
     try {
@@ -283,7 +335,7 @@
     const render = () => {
       const q = input?.value || "";
       const showEnglish = !!toggleEn?.checked;
-      const res = renderList(list, items, q, { limit, showEnglish });
+      const res = renderList(list, items, q, { limit, showEnglish, nameMap });
       if (info) info.textContent = `${res.shown}/${res.total}件表示（累計 ${items.length}件）`;
 
       if (moreBtn) {

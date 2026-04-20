@@ -765,7 +765,7 @@ ul.mini{
   font-size:12px;
   font-variant-numeric: tabular-nums;
 }
-.company{color:var(--muted); font-size:13px}
+.company{color:var(--text); font-size:13px; font-weight:700; letter-spacing:.1px}
 .tdnet-title{margin-top:8px; font-size:14px; letter-spacing:.1px}
 .title-en{margin-top:6px; font-size:12px; color:var(--muted)}
 .points{margin:10px 0 0; padding-left:1.2em; color:var(--text)}

@@ -472,7 +472,8 @@ ${tags}`;
       .join("")}</div>`;
   }
 
-  function renderTdnetMini(container, json) {
+  function renderTdnetMini(container, json, opts) {
+    const nameMap = opts?.nameMap instanceof Map ? opts.nameMap : null;
     const items = Array.isArray(json?.items) ? json.items : [];
     if (items.length === 0) {
       container.innerHTML = `<div class="empty">データなし（GitHub Actionsが更新します）</div>`;
@@ -485,27 +486,28 @@ ${tags}`;
     container.innerHTML = `<div class="mini-list">${list
       .map((it) => {
         const dt = escapeHtml(String(it.datetime_jst || "").slice(0, 16).replace("T", " "));
-        const code = escapeHtml(String(it.code || ""));
-        const company = escapeHtml(String(it.company || ""));
+        const codeRaw = String(it.code || "").trim();
+        const code = escapeHtml(codeRaw);
+        const companyJa = codeRaw && nameMap ? String(nameMap.get(codeRaw) || "").trim() : "";
+        const company = escapeHtml(companyJa || String(it.company || ""));
         const title = escapeHtml(String(it.title_ja || it.title_en || it.title || ""));
-        const pdfTdnet = escapeHtml(String(it.pdf_url_tdnet || it.pdf_url_ja || ""));
-        const pdfKabutan = escapeHtml(String(it.pdf_url_kabutan || it.pdf_url_en || ""));
-        const pdfPrimary = escapeHtml(String(pdfTdnet || pdfKabutan || it.pdf_url || ""));
+        const pdfTdnetRaw = String(it.pdf_url_tdnet || it.pdf_url_ja || "").trim();
+        const pdfKabutanRaw = String(it.pdf_url_kabutan || it.pdf_url_en || "").trim();
+        const pdfPrimaryRaw = String(pdfTdnetRaw || pdfKabutanRaw || it.pdf_url || "").trim();
+        const pdfTdnet = escapeHtml(pdfTdnetRaw);
+        const pdfPrimary = escapeHtml(pdfPrimaryRaw);
         const points = asArray(it.points_ja).filter(Boolean).slice(0, 2);
         const pointsHtml =
           points.length > 0
             ? `<ul class="points compact">${points.map((p) => `<li>${escapeHtml(p)}</li>`).join("")}</ul>`
             : "";
+        const stockUrl = codeRaw ? `https://kabutan.jp/stock/?code=${encodeURIComponent(codeRaw)}` : "";
         return `<div class="mini-card">
   <div class="row">
     <div class="date">${dt}</div>
     <div class="actions">
       ${pdfPrimary ? `<a class="go" href="${pdfPrimary}" target="_blank" rel="noreferrer">PDF</a>` : ""}
-      ${
-        pdfTdnet && pdfTdnet !== pdfPrimary
-          ? `<a class="go" href="${pdfTdnet}" target="_blank" rel="noreferrer">公式</a>`
-          : ""
-      }
+      ${stockUrl ? `<a class="go" href="${escapeHtml(stockUrl)}" target="_blank" rel="noreferrer">株探</a>` : ""}
     </div>
   </div>
   <div class="tdnet-title">${code ? `<span class="code-pill">${code}</span> ` : ""}${company ? `${company} — ` : ""}${title}</div>
@@ -1146,10 +1148,18 @@ ${tags}`;
 
     try {
       const tdnetJson = await loadJson("data/tdnet.json");
+      let tdnetNameMap = null;
+      try {
+        const master = await loadJson("data/tickers_master.json");
+        const items = Array.isArray(master?.items) ? master.items : [];
+        tdnetNameMap = new Map(items.map((it) => [String(it?.code || "").trim(), String(it?.name || "").trim()]));
+      } catch (e) {
+        tdnetNameMap = null;
+      }
       if (statsTdnet) {
         statsTdnet.textContent = tdnetJson?.last_checked_jst ? `適時開示更新: ${tdnetJson.last_checked_jst}` : "適時開示更新: —";
       }
-      if (tdnetMini) renderTdnetMini(tdnetMini, tdnetJson);
+      if (tdnetMini) renderTdnetMini(tdnetMini, tdnetJson, { nameMap: tdnetNameMap });
     } catch (e) {
       if (statsTdnet) statsTdnet.textContent = "適時開示更新: —";
       if (tdnetMini) tdnetMini.innerHTML = `<div class="empty">読み込みに失敗しました。</div>`;
