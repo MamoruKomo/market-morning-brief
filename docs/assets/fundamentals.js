@@ -120,12 +120,12 @@
       ttlMs: 60 * 60 * 1000,
     });
     return asArray(json?.data).map((r) => ({
-      code: window.EDINETDB.secCodeToShort(r?.sec_code),
+      code: window.EDINETDB.secCodeToShort(r?.sec_code ?? r?.secCode),
       name: normalizeText(r?.name),
-      sector: normalizeText(r?.industry),
+      sector: normalizeText(r?.industry ?? r?.industry_name),
       value: r?.value,
       unit: normalizeText(r?.unit),
-      fiscal_year: r?.fiscal_year,
+      fiscal_year: r?.fiscal_year ?? r?.fiscalYear,
     }));
   }
 
@@ -355,6 +355,13 @@ ${listHtml}`;
     };
     if (saveKeyBtn) saveKeyBtn.addEventListener("click", saveKey);
     if (clearKeyBtn) clearKeyBtn.addEventListener("click", clearKey);
+    if (apiKeyInput) {
+      apiKeyInput.addEventListener("keydown", (e) => {
+        if (e.key !== "Enter") return;
+        e.preventDefault();
+        saveKey();
+      });
+    }
 
     let rankings = null;
     let hiddenJson = null;
@@ -394,6 +401,9 @@ ${listHtml}`;
 
     const renderLive = async () => {
       if (!hasEdinetDb() || !window.EDINETDB.getApiKey()) return false;
+      if (err) err.textContent = "";
+      if (grid) grid.innerHTML = `<div class="empty">読み込み中…</div>`;
+      if (hidden) hidden.innerHTML = `<div class="empty">読み込み中…</div>`;
       if (monthSelect) {
         monthSelect.innerHTML = `<option value="live">LIVE</option>`;
         monthSelect.value = "live";
@@ -407,9 +417,10 @@ ${listHtml}`;
         defs.map(async (d) => {
           try {
             const rows = await loadLiveRanking(d, 5);
-            return { key: d.key, def: d, rows };
+            return { key: d.key, def: d, rows, error: "" };
           } catch (e) {
-            return { key: d.key, def: d, rows: [] };
+            const msg = String(e && e.message ? e.message : e || "").trim();
+            return { key: d.key, def: d, rows: [], error: msg || "取得失敗" };
           }
         }),
       );
@@ -424,53 +435,64 @@ ${listHtml}`;
         if (!pair) {
           hidden.innerHTML = `<div class="empty">設定がありません。</div>`;
         } else {
-          const a = pair.a;
-          const b = pair.b;
-          const params = new URLSearchParams();
-          params.set("limit", "5");
-          params.set("sort", pair.sort || a.metric);
-          params.set("order", "desc");
-          params.set(`${a.metric}_${a.op}`, String(a.value));
-          params.set(`${b.metric}_${b.op}`, String(b.value));
-          const sJson = await window.EDINETDB.fetchJson(`/screener?${params.toString()}`, {
-            auth: true,
-            cacheKey: `edinetdb_cache_screener_${pair.key}_${today}`,
-            ttlMs: 60 * 60 * 1000,
-          });
-          const data = sJson?.data && typeof sJson.data === "object" ? sJson.data : sJson;
-          const companies = asArray(data?.companies || []);
-          const list = companies.slice(0, 5).map((c) => {
-            const name = normalizeText(c?.name);
-            const code = window.EDINETDB.secCodeToShort(c?.sec_code || c?.secCode || "");
-            const industry = normalizeText(c?.industry || c?.industry_name || "");
-            const aVal = c?.[a.metric];
-            const bVal = c?.[b.metric];
-            return {
-              code,
-              name,
-              sector: industry,
-              a_value: aVal,
-              b_value: bVal,
-            };
-          });
+          try {
+            const a = pair.a;
+            const b = pair.b;
+            const params = new URLSearchParams();
+            params.set("limit", "5");
+            params.set("sort", pair.sort || a.metric);
+            params.set("order", "desc");
+            params.set(`${a.metric}_${a.op}`, String(a.value));
+            params.set(`${b.metric}_${b.op}`, String(b.value));
+            const sJson = await window.EDINETDB.fetchJson(`/screener?${params.toString()}`, {
+              auth: true,
+              cacheKey: `edinetdb_cache_screener_${pair.key}_${today}`,
+              ttlMs: 60 * 60 * 1000,
+            });
+            const data = sJson?.data && typeof sJson.data === "object" ? sJson.data : sJson;
+            const companies = asArray(data?.companies || []);
+            const list = companies.slice(0, 5).map((c) => {
+              const name = normalizeText(c?.name);
+              const code = window.EDINETDB.secCodeToShort(c?.sec_code || c?.secCode || "");
+              const industry = normalizeText(c?.industry || c?.industry_name || "");
+              const aVal = c?.[a.metric];
+              const bVal = c?.[b.metric];
+              return {
+                code,
+                name,
+                sector: industry,
+                a_value: aVal,
+                b_value: bVal,
+              };
+            });
 
-          const aDef = defMap.get(a.metric) || { label: a.label, unit: a.unit, decimals: 2 };
-          const bDef = defMap.get(b.metric) || { label: b.label, unit: b.unit, decimals: 2 };
-          const fake = {
-            latest_date: today,
-            days: {
-              [today]: {
-                date: today,
-                pair: { label: pair.label, a: a.metric, b: b.metric },
-                items: list,
+            const fake = {
+              latest_date: today,
+              days: {
+                [today]: {
+                  date: today,
+                  pair: { label: pair.label, a: a.metric, b: b.metric },
+                  items: list,
+                },
               },
-            },
-          };
-          renderHidden(hidden, fake, defMapLocal.size ? defMapLocal : defMap);
+            };
+            renderHidden(hidden, fake, defMapLocal.size ? defMapLocal : defMap);
+          } catch (e) {
+            const msg = String(e && e.message ? e.message : e || "").trim();
+            hidden.innerHTML = msg ? `<div class="empty">隠れ銘柄の取得に失敗: ${escapeHtml(msg)}</div>` : `<div class="empty">隠れ銘柄の取得に失敗</div>`;
+          }
         }
       }
 
       if (status) status.textContent = `mode: EDINET DB live / 更新: 8:00 JST (API)`;
+
+      if (err) {
+        const errors = results.map((r) => r.error).filter(Boolean);
+        const hasAnyRows = results.some((r) => asArray(r.rows).length > 0);
+        if (!hasAnyRows && errors.length) {
+          err.textContent = `EDINET DB live を取得できませんでした: ${errors[0]}（APIキー/残り回数/障害を確認）`;
+        }
+      }
       return true;
     };
 
