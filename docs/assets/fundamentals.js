@@ -574,7 +574,8 @@ ${listHtml}`;
         if (h2) h2.textContent = `${liveDef.label} ランキング`;
         return;
       } catch (e) {
-        // fallback to local
+        const msg = String(e && e.message ? e.message : e || "").trim();
+        if (err) err.textContent = msg ? `EDINET DB live 取得に失敗: ${msg}（localにフォールバック）` : "EDINET DB live 取得に失敗（localにフォールバック）";
       }
     }
 
