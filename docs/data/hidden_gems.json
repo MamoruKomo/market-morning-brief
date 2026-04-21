@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-04-21T15:02:40+09:00",
-  "latest_date": "2026-04-21",
+  "updated_at": "2026-04-22T08:48:01+09:00",
+  "latest_date": "2026-04-22",
   "days": {
     "2026-04-13": {
       "date": "2026-04-13",
@@ -22,6 +22,18 @@
         "label": "高配当×健全",
         "a": "dividend_yield",
         "b": "equity_ratio"
+      },
+      "items": [],
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    "2026-04-22": {
+      "date": "2026-04-22",
+      "generated_at": "2026-04-22T08:48:01+09:00",
+      "pair": {
+        "key": "margin_roe",
+        "label": "高利益率×ROE",
+        "a": "operating_margin",
+        "b": "roe"
       },
       "items": [],
       "error": "HTTP Error 503: Service Unavailable"
