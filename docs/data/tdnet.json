@@ -1,7 +1,119 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-22T07:51:53+09:00",
+  "last_checked_jst": "2026-04-22T08:23:50+09:00",
   "items": [
+    {
+      "id": "kabutan:558A:1401202604215075",
+      "code": "558A",
+      "company": "東証Ｇ",
+      "title": "東京証券取引所グロース市場への上場に伴う当社決算情報等のお知らせ",
+      "title_en": "東京証券取引所グロース市場への上場に伴う当社決算情報等のお知らせ",
+      "title_ja": "東京証券取引所グロース市場への上場に伴う当社決算情報等のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-22T08:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604215075",
+      "doc_id_ja": "140120260421507566",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507566.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260421507566.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507566.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507566.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:555A:1401202604165056",
+      "code": "555A",
+      "company": "",
+      "title": "東京証券取引所 TOKYO PRO Market への上場のお知らせ",
+      "title_en": "東京証券取引所 TOKYO PRO Market への上場のお知らせ",
+      "title_ja": "東京証券取引所 TOKYO PRO Market への上場のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604165056",
+      "doc_id_ja": "140120260416505631",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260416505631.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260416505631.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260416505631.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260416505631.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5531:1401202604215073",
+      "code": "5531",
+      "company": "",
+      "title": "第17回定時株主総会議案の一部撤回に関するお知らせ",
+      "title_en": "第17回定時株主総会議案の一部撤回に関するお知らせ",
+      "title_ja": "第17回定時株主総会議案の一部撤回に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215073",
+      "doc_id_ja": "140120260421507381",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507381.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260421507381.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507381.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507381.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3382:1401202604215074",
+      "code": "3382",
+      "company": "東証Ｐ",
+      "title": "2026年定時株主総会招集ご通知",
+      "title_en": "2026年定時株主総会招集ご通知",
+      "title_ja": "2026年定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215074",
+      "doc_id_ja": "140120260421507430",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507430.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260421507430.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507430.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507430.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3333:1401202604215071",
+      "code": "3333",
+      "company": "東証Ｐ",
+      "title": "Notice of The 51TH Ordinary General Meeting of Shareholders 2026",
+      "title_en": "Notice of The 51TH Ordinary General Meeting of Shareholders 2026",
+      "title_ja": "The 51TH Ordinary General Meeting of Shareholders 2026のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215071",
+      "doc_id_ja": "140120260421507135",
+      "doc_id_en": "140120260421507136",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507135.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260421507135.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507135.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507135.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260422/140120260421507136.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3391:1401202604215078",
       "code": "3391",
