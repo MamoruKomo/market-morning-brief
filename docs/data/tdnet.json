@@ -1,7 +1,251 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-21T08:26:45+09:00",
+  "last_checked_jst": "2026-04-21T09:03:46+09:00",
   "items": [
+    {
+      "id": "kabutan:7419:1401202604215071",
+      "code": "7419",
+      "company": "東証Ｐ",
+      "title": "Regarding Today's Media Report",
+      "title_en": "Regarding Today's Media Report",
+      "title_ja": "Regarding Today's Media Report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T09:02:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215071",
+      "doc_id_ja": "140120260421507128",
+      "doc_id_en": "140120260421507128",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507128.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507128.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507128.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507128.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507128.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8283:1401202604215070",
+      "code": "8283",
+      "company": "東証Ｐ",
+      "title": "共同配送コンソーシアム「CODE」を発足 ～業界横断の荷主連合により、物流データに基づいた支線配送の効率化に挑戦～",
+      "title_en": "共同配送コンソーシアム「CODE」を発足 ～業界横断の荷主連合により、物流データに基づいた支線配送の効率化に挑戦～",
+      "title_ja": "共同配送コンソーシアム「CODE」を発足 ～業界横断の荷主連合により、物流データに基づいた支線配送の効率化に挑戦～",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215070",
+      "doc_id_ja": "140120260421507097",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507097.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507097.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507097.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507097.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:554A:1401202604175062",
+      "code": "554A",
+      "company": "東証Ｇ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-21T09:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604175062",
+      "doc_id_ja": "140120260417506288",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506288.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260417506288.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260417506288.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260417506288.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2733:1401202604205063",
+      "code": "2733",
+      "company": "東証Ｐ",
+      "title": "共同配送コンソーシアム「CODE」を発足 ～業界横断の荷主連合により、物流データに基づいた支線配送の効率化に挑戦～",
+      "title_en": "共同配送コンソーシアム「CODE」を発足 ～業界横断の荷主連合により、物流データに基づいた支線配送の効率化に挑戦～",
+      "title_ja": "共同配送コンソーシアム「CODE」を発足 ～業界横断の荷主連合により、物流データに基づいた支線配送の効率化に挑戦～",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205063",
+      "doc_id_ja": "140120260420506344",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506344.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260420506344.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506344.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260420506344.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3199:1401202604205064",
+      "code": "3199",
+      "company": "東証Ｐ",
+      "title": "綿半からプリックリーペアピューレ新規格「サボテンフルーツピューレ」が登場！",
+      "title_en": "綿半からプリックリーペアピューレ新規格「サボテンフルーツピューレ」が登場！",
+      "title_ja": "綿半からプリックリーペアピューレ新規格「サボテンフルーツピューレ」が登場！",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T08:59:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205064",
+      "doc_id_ja": "140120260420506402",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506402.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260420506402.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506402.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260420506402.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3498:1401202604215071",
+      "code": "3498",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning the Impact of the Earthquake",
+      "title_en": "Notice Concerning the Impact of the Earthquake",
+      "title_ja": "the Impact of the Earthquakeに関するお知らせ",
+      "points_ja": [
+        "業績への影響（定量/定性）を確認"
+      ],
+      "datetime_jst": "2026-04-21T08:57:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215071",
+      "doc_id_ja": "140120260421507108",
+      "doc_id_en": "140120260421507109",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507108.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507108.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507108.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507108.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507109.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7419:1401202604205070",
+      "code": "7419",
+      "company": "東証Ｐ",
+      "title": "本日の一部報道について",
+      "title_en": "本日の一部報道について",
+      "title_ja": "本日の一部報道について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T08:52:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205070",
+      "doc_id_ja": "140120260420507058",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420507058.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260420507058.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420507058.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260420507058.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5618:1401202604205068",
+      "code": "5618",
+      "company": "東証Ｇ",
+      "title": "ナイル、鈴与レンタカーとの提携を開始。～鈴与グループの強固な事業基盤と当社のDXを融合、柔軟なモビリティ提供を加速～",
+      "title_en": "ナイル、鈴与レンタカーとの提携を開始。～鈴与グループの強固な事業基盤と当社のDXを融合、柔軟なモビリティ提供を加速～",
+      "title_ja": "ナイル、鈴与レンタカーとの提携を開始。～鈴与グループの強固な事業基盤と当社のDXを融合、柔軟なモビリティ提供を加速～",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205068",
+      "doc_id_ja": "140120260420506888",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506888.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260420506888.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506888.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260420506888.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:554A:1401202604165054",
+      "code": "554A",
+      "company": "東証Ｇ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/21",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/21",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/21",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604165054",
+      "doc_id_ja": "140120260416505432",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260416505432.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260416505432.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260416505432.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260416505432.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4571:1401202604205069",
+      "code": "4571",
+      "company": "東証Ｇ",
+      "title": "NANO MRNA開発パイプライン 再発膠芽腫に対する新規核酸医薬「TUG1 ASO」 AACR 2026における第I相試験結果発表に関するお知らせ",
+      "title_en": "NANO MRNA開発パイプライン 再発膠芽腫に対する新規核酸医薬「TUG1 ASO」 AACR 2026における第I相試験結果発表に関するお知らせ",
+      "title_ja": "NANO MRNA開発パイプライン 再発膠芽腫に対する新規核酸医薬「TUG1 ASO」 AACR 2026における第I相試験結果発表に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205069",
+      "doc_id_ja": "140120260420506921",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506921.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260420506921.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506921.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260420506921.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1672:1401202604215071",
+      "code": "1672",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215071",
+      "doc_id_ja": "140120260421507103",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507103.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507103.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507103.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507103.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3479:1401202604215071",
       "code": "3479",
