@@ -6,12 +6,15 @@ import json
 import os
 import re
 import ssl
+import time
 import urllib.parse
 import urllib.request
+from json import JSONDecodeError
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
 from zoneinfo import ZoneInfo
 
 try:
@@ -68,23 +71,45 @@ def make_ssl_context() -> ssl.SSLContext:
 
 
 def fetch_json(url: str, api_key: str, timeout: int) -> Any:
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "market-morning-brief/1.0 (+GitHub Actions)",
-            "Accept": "application/json",
-            "Accept-Language": "ja,en;q=0.8",
-            "X-API-Key": api_key,
-        },
-    )
-    with urllib.request.urlopen(req, timeout=int(timeout), context=make_ssl_context()) as res:
-        raw = res.read()
+    headers = {
+        "User-Agent": "market-morning-brief/1.0 (+GitHub Actions)",
+        "Accept": "application/json",
+        "Accept-Language": "ja,en;q=0.8",
+        "X-API-Key": api_key,
+    }
+
+    retry_statuses = {429, 500, 502, 503, 504}
+    max_attempts = 4
+    base_sleep = 1.2
+
+    last_err: Exception | None = None
+    for attempt in range(max_attempts):
+        req = urllib.request.Request(url, headers=headers)
         try:
-            charset = res.headers.get_content_charset()  # type: ignore[attr-defined]
-        except Exception:
-            charset = None
-    text = raw.decode(charset or "utf-8", errors="replace")
-    return json.loads(text)
+            with urllib.request.urlopen(req, timeout=int(timeout), context=make_ssl_context()) as res:
+                raw = res.read()
+                try:
+                    charset = res.headers.get_content_charset()  # type: ignore[attr-defined]
+                except Exception:
+                    charset = None
+            text = raw.decode(charset or "utf-8", errors="replace")
+            return json.loads(text)
+        except HTTPError as e:
+            last_err = e
+            if int(getattr(e, "code", 0) or 0) in retry_statuses and attempt < (max_attempts - 1):
+                time.sleep(base_sleep * (2**attempt))
+                continue
+            raise
+        except (URLError, JSONDecodeError) as e:
+            last_err = e
+            if attempt < (max_attempts - 1):
+                time.sleep(base_sleep * (2**attempt))
+                continue
+            raise
+
+    if last_err:
+        raise last_err
+    raise RuntimeError("Failed to fetch JSON")
 
 
 def as_list(value: Any) -> list[Any]:
@@ -293,43 +318,57 @@ def main() -> int:
     pair = pick_pair_for_date(date_iso) or PAIR_DEFS[0]
     a = as_dict(pair.get("a"))
     b = as_dict(pair.get("b"))
-    params = urllib.parse.urlencode(
-        {
-            "limit": 5,
-            "sort": normalize_spaces(pair.get("sort") or a.get("metric") or "roe") or "roe",
-            "order": "desc",
-            f"{normalize_spaces(a.get('metric'))}_{normalize_spaces(a.get('op'))}": str(a.get("value")),
-            f"{normalize_spaces(b.get('metric'))}_{normalize_spaces(b.get('op'))}": str(b.get("value")),
-        }
-    )
-    s_url = f"{api_base}/screener?{params}"
-    s_json = fetch_json(s_url, api_key=api_key, timeout=int(args.timeout))
-    s_data = as_dict(s_json).get("data")
-    payload_root = as_dict(s_data) if isinstance(s_data, dict) else as_dict(s_json)
-    companies = as_list(payload_root.get("companies"))
-    items = []
-    for c in companies[:5]:
-        if not isinstance(c, dict):
-            continue
-        code, industry = resolve_company_meta(api_base, api_key=api_key, company=c, timeout=int(args.timeout))
-        if not code:
-            continue
-        items.append(
+
+    hidden_error = ""
+    items: list[dict[str, Any]] = []
+    try:
+        params = urllib.parse.urlencode(
             {
-                "code": code,
-                "name": normalize_spaces(c.get("name") or ""),
-                "sector": industry,
-                "a_value": c.get(normalize_spaces(a.get("metric"))),
-                "b_value": c.get(normalize_spaces(b.get("metric"))),
+                "limit": 5,
+                "sort": normalize_spaces(pair.get("sort") or a.get("metric") or "roe") or "roe",
+                "order": "desc",
+                f"{normalize_spaces(a.get('metric'))}_{normalize_spaces(a.get('op'))}": str(a.get("value")),
+                f"{normalize_spaces(b.get('metric'))}_{normalize_spaces(b.get('op'))}": str(b.get("value")),
             }
         )
+        s_url = f"{api_base}/screener?{params}"
+        s_json = fetch_json(s_url, api_key=api_key, timeout=int(args.timeout))
+        s_data = as_dict(s_json).get("data")
+        payload_root = as_dict(s_data) if isinstance(s_data, dict) else as_dict(s_json)
+        companies = as_list(payload_root.get("companies"))
+        for c in companies[:5]:
+            if not isinstance(c, dict):
+                continue
+            code, industry = resolve_company_meta(api_base, api_key=api_key, company=c, timeout=int(args.timeout))
+            if not code:
+                continue
+            items.append(
+                {
+                    "code": code,
+                    "name": normalize_spaces(c.get("name") or ""),
+                    "sector": industry,
+                    "a_value": c.get(normalize_spaces(a.get("metric"))),
+                    "b_value": c.get(normalize_spaces(b.get("metric"))),
+                }
+            )
+    except Exception as e:
+        # EDINET DB 側の一時障害（503等）で workflow 全体を落とさない。
+        hidden_error = normalize_spaces(str(e))
+        items = []
 
-    hidden_payload = {
+    hidden_payload: dict[str, Any] = {
         "date": date_iso,
         "generated_at": now.isoformat(timespec="seconds"),
-        "pair": {"key": normalize_spaces(pair.get("key")), "label": normalize_spaces(pair.get("label")), "a": normalize_spaces(a.get("key")), "b": normalize_spaces(b.get("key"))},
+        "pair": {
+            "key": normalize_spaces(pair.get("key")),
+            "label": normalize_spaces(pair.get("label")),
+            "a": normalize_spaces(a.get("key")),
+            "b": normalize_spaces(b.get("key")),
+        },
         "items": items,
     }
+    if hidden_error:
+        hidden_payload["error"] = hidden_error
 
     old_hidden_store = load_json(hidden_path, {})
     new_hidden_store = update_hidden_store(as_dict(old_hidden_store), date_iso=date_iso, now=now, payload=hidden_payload, max_days=int(args.max_days))
@@ -349,4 +388,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
