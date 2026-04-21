@@ -391,12 +391,22 @@ ${listHtml}`;
 
     const renderLocal = () => {
       const m = monthSelect?.value || month;
+      if (err) err.textContent = "";
       if (grid) renderGrid(grid, rankings, m);
       if (status) {
         const updated = normalizeText(rankings?.updated_at) || "—";
         status.textContent = `mode: local / 更新: ${updated}`;
       }
       if (hidden) renderHidden(hidden, hiddenJson, defMapLocal);
+      if (err) {
+        const monthsObj = rankings?.months && typeof rankings.months === "object" ? rankings.months : {};
+        const snap = monthsObj?.[m] || null;
+        const metrics = snap?.metrics && typeof snap.metrics === "object" ? snap.metrics : {};
+        const hasAnyRows = Object.values(metrics).some((rows) => Array.isArray(rows) && rows.length > 0);
+        if (!hasAnyRows) {
+          err.textContent = "ランキングデータがまだありません。EDINET DB APIキーでLIVE表示するか、GitHub Actionsのfundamentals-updateを確認してください。";
+        }
+      }
     };
 
     const renderLive = async () => {
