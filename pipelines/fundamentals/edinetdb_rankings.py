@@ -289,31 +289,43 @@ def main() -> int:
     top_n = max(1, min(int(args.top), 500))
 
     metrics_payload: dict[str, Any] = {}
+    metric_errors: dict[str, str] = {}
     for m in METRICS:
         url = f"{api_base}/rankings/{urllib.parse.quote(m.ranking_slug)}?limit={top_n}"
-        j = fetch_json(url, api_key=api_key, timeout=int(args.timeout))
-        rows = []
-        for r in as_list(as_dict(j).get("data")):
-            if not isinstance(r, dict):
-                continue
-            code = sec_code_to_short(r.get("sec_code") or r.get("secCode") or "")
-            if not code:
-                continue
-            rows.append(
-                {
-                    "code": code,
-                    "name": normalize_spaces(r.get("name") or ""),
-                    "sector": normalize_spaces(r.get("industry") or ""),
-                    "value": r.get("value"),
-                }
-            )
-        metrics_payload[m.key] = rows
+        try:
+            j = fetch_json(url, api_key=api_key, timeout=int(args.timeout))
+            rows = []
+            for r in as_list(as_dict(j).get("data")):
+                if not isinstance(r, dict):
+                    continue
+                code = sec_code_to_short(r.get("sec_code") or r.get("secCode") or "")
+                if not code:
+                    continue
+                rows.append(
+                    {
+                        "code": code,
+                        "name": normalize_spaces(r.get("name") or ""),
+                        "sector": normalize_spaces(r.get("industry") or ""),
+                        "value": r.get("value"),
+                    }
+                )
+            metrics_payload[m.key] = rows
+        except Exception as e:
+            metrics_payload[m.key] = []
+            metric_errors[m.key] = normalize_spaces(str(e))
 
     rankings_path = Path(args.rankings)
     hidden_path = Path(args.hidden)
 
     old_rank_store = load_json(rankings_path, {})
     new_rank_store = update_rankings_store(as_dict(old_rank_store), month=month, now=now, top_n=5, metrics=metrics_payload, max_months=int(args.max_months))
+    try:
+        if metric_errors:
+            month_obj = new_rank_store.get("months", {}).get(str(month))
+            if isinstance(month_obj, dict):
+                month_obj["errors"] = metric_errors
+    except Exception:
+        pass
 
     pair = pick_pair_for_date(date_iso) or PAIR_DEFS[0]
     a = as_dict(pair.get("a"))
