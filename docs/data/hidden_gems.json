@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-04-13T15:42:09+09:00",
-  "latest_date": "2026-04-13",
+  "updated_at": "2026-04-21T15:02:40+09:00",
+  "latest_date": "2026-04-21",
   "days": {
     "2026-04-13": {
       "date": "2026-04-13",
@@ -13,6 +13,18 @@
         "b": "sales_growth_yoy"
       },
       "items": []
+    },
+    "2026-04-21": {
+      "date": "2026-04-21",
+      "generated_at": "2026-04-21T15:02:40+09:00",
+      "pair": {
+        "key": "div_health",
+        "label": "高配当×健全",
+        "a": "dividend_yield",
+        "b": "equity_ratio"
+      },
+      "items": [],
+      "error": "HTTP Error 503: Service Unavailable"
     }
   },
   "pair_defs": [
@@ -36,9 +48,9 @@
     },
     {
       "key": "quality_value",
-      "label": "高ROE×低PBR",
+      "label": "高ROE×割安PER",
       "a": "roe",
-      "b": "pbr"
+      "b": "per"
     }
   ]
 }
