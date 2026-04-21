@@ -395,7 +395,8 @@ ${listHtml}`;
       if (grid) renderGrid(grid, rankings, m);
       if (status) {
         const updated = normalizeText(rankings?.updated_at) || "—";
-        status.textContent = `mode: local / 更新: ${updated}`;
+        const keyState = hasEdinetDb() ? (window.EDINETDB.getApiKey() ? "設定済み" : "未設定") : "—";
+        status.textContent = `表示: 保存データ / 更新: ${updated} / APIキー: ${keyState}`;
       }
       if (hidden) renderHidden(hidden, hiddenJson, defMapLocal);
       if (err) {
@@ -404,7 +405,8 @@ ${listHtml}`;
         const metrics = snap?.metrics && typeof snap.metrics === "object" ? snap.metrics : {};
         const hasAnyRows = Object.values(metrics).some((rows) => Array.isArray(rows) && rows.length > 0);
         if (!hasAnyRows) {
-          err.textContent = "ランキングデータがまだありません。EDINET DB APIキーでLIVE表示するか、GitHub Actionsのfundamentals-updateを確認してください。";
+          err.textContent =
+            "ランキングデータがまだありません。右の「EDINET DB APIキー」を設定して表示するか、GitHub Actions のファンダ更新（EDINET DB）を実行してください。";
         }
       }
     };
@@ -415,12 +417,12 @@ ${listHtml}`;
       if (grid) grid.innerHTML = `<div class="empty">読み込み中…</div>`;
       if (hidden) hidden.innerHTML = `<div class="empty">読み込み中…</div>`;
       if (monthSelect) {
-        monthSelect.innerHTML = `<option value="live">LIVE</option>`;
+        monthSelect.innerHTML = `<option value="live">リアルタイム</option>`;
         monthSelect.value = "live";
         monthSelect.disabled = true;
       }
 
-      const defs = LIVE_METRICS.map((d) => ({ ...d, description: "EDINET DB API" }));
+      const defs = LIVE_METRICS.map((d) => ({ ...d, description: "EDINET DB（API）" }));
       const defMap = metricDefMap(defs);
 
       const results = await Promise.all(
@@ -494,13 +496,13 @@ ${listHtml}`;
         }
       }
 
-      if (status) status.textContent = `mode: EDINET DB live / 更新: 8:00 JST (API)`;
+      if (status) status.textContent = `表示: EDINET DB（API） / 更新: 8:00 JST / APIキー: 設定済み`;
 
       if (err) {
         const errors = results.map((r) => r.error).filter(Boolean);
         const hasAnyRows = results.some((r) => asArray(r.rows).length > 0);
         if (!hasAnyRows && errors.length) {
-          err.textContent = `EDINET DB live を取得できませんでした: ${errors[0]}（APIキー/残り回数/障害を確認）`;
+          err.textContent = `EDINET DB を取得できませんでした: ${errors[0]}（APIキー/残り回数/障害を確認）`;
         }
       }
       return true;
@@ -513,9 +515,7 @@ ${listHtml}`;
       } catch (e) {
         if (err && hasEdinetDb() && window.EDINETDB.getApiKey()) {
           const msg = String(e && e.message ? e.message : e || "").trim();
-          err.textContent = msg
-            ? `EDINET DB live 取得に失敗: ${msg}（localにフォールバック）`
-            : "EDINET DB live 取得に失敗（localにフォールバック）";
+          err.textContent = msg ? `EDINET DB の取得に失敗: ${msg}（保存データを表示）` : "EDINET DB の取得に失敗（保存データを表示）";
         }
       }
       if (monthSelect) monthSelect.disabled = false;
@@ -569,14 +569,14 @@ ${listHtml}`;
           metric_defs: [{ key: metricKey, label: liveDef.label, unit: liveDef.unit, decimals: liveDef.decimals }],
         };
         if (monthSelect) {
-          monthSelect.innerHTML = `<option value="live">LIVE</option>`;
+          monthSelect.innerHTML = `<option value="live">リアルタイム</option>`;
           monthSelect.value = "live";
           monthSelect.disabled = true;
         }
         const doRender = () => {
           const q = search?.value || "";
           const res = renderMetricDetail(list, fake, metricKey, "live", q);
-          if (status) status.textContent = `${res.shown}/${res.total}件表示（EDINET DB live）`;
+          if (status) status.textContent = `${res.shown}/${res.total}件表示（EDINET DB）`;
         };
         if (search) search.addEventListener("input", doRender);
         doRender();
@@ -585,7 +585,7 @@ ${listHtml}`;
         return;
       } catch (e) {
         const msg = String(e && e.message ? e.message : e || "").trim();
-        if (err) err.textContent = msg ? `EDINET DB live 取得に失敗: ${msg}（localにフォールバック）` : "EDINET DB live 取得に失敗（localにフォールバック）";
+        if (err) err.textContent = msg ? `EDINET DB の取得に失敗: ${msg}（保存データを表示）` : "EDINET DB の取得に失敗（保存データを表示）";
       }
     }
 

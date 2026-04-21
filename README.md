@@ -87,6 +87,7 @@ EDINET DB の APIキーは **git に入れません**。
 
 - ブラウザで使う（推奨）: `docs/fundamentals/index.html` / `docs/watchlist/manage.html` / `docs/watchlist/fundamentals.html` の画面で入力すると、キーは **ブラウザの localStorage にのみ保存**されます（リポジトリには保存されません）。
 - GitHub Actions で使う: `Settings → Secrets and variables → Actions` に `EDINETDB_API_KEY` のような名前で登録して、workflow から環境変数として参照してください。
+  - ファンダランキング（`docs/data/fundamentals_rankings.json` / `docs/data/hidden_gems.json`）は `.github/workflows/fundamentals-update.yml` が `EDINETDB_API_KEY` を使って自動更新します。
 
 ## Design system（ナレッジ）
 
@@ -97,3 +98,17 @@ EDINET DB の APIキーは **git に入れません**。
 - このプロジェクトでは、適時開示のPDFリンクは **公式TDnet**（`https://www.release.tdnet.info/inbs/...`）を優先して保存/表示します（通常は日本語PDF）。
 - 公式が閲覧できない場合に備えて、**KabutanのPDFミラー**（`https://tdnet-pdf.kabutan.jp/...`）も併記用に保持します。
 - 一部の開示（統合報告書など）は、元PDFが英語のみの場合があります（その場合は日本語リンクにしても英語になります）。
+
+## 8) Slack点呼メッセージへの✅自動リアクション（GitHub Actions）
+
+`#03_rooms`（`C0AFD5SKDG9`）に毎日 21:00 ちょうどに投稿される点呼メッセージへ、**自分のSlackアカウントとして** `:white_check_mark:` リアクションを付けるためのワークフローです。
+
+- Workflow: `.github/workflows/rollcall-reaction.yml`（毎日 21:01 JST = 12:01 UTC）
+- Script: `scripts/slack_rollcall_react.py`
+
+有効化に必要な設定:
+
+1. Slack でアプリを作成し、User OAuth（あなた自身のトークン）を発行してワークスペースへインストールします。
+   - 必要スコープの目安: `reactions:write` +（メッセージ検索用に）`channels:history`（チャンネルがprivateなら `groups:history` も）
+2. GitHub repo の `Settings → Secrets and variables → Actions` に `SLACK_USER_TOKEN` を追加します（**このトークンは漏洩すると危険**なので、共有/ログ出力しないでください）。
+3. Actions の `Rollcall reaction` を `workflow_dispatch` で手動実行して動作確認できます。

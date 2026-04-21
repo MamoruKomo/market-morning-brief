@@ -1,4 +1,4 @@
-name: Fundamentals update (Kabutan)
+name: Fundamentals update (EDINET DB)
 
 on:
   schedule:
@@ -29,21 +29,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Update fundamentals.json
-        id: fundamentals
+      - name: Update rankings + hidden gems (EDINET DB)
+        if: ${{ secrets.EDINETDB_API_KEY != '' }}
+        env:
+          EDINETDB_API_KEY: ${{ secrets.EDINETDB_API_KEY }}
         run: |
-          python3 scripts/update_fundamentals.py
-
-      - name: Update rankings + hidden gems
-        id: rankings
+          python3 scripts/fundamentals_edinetdb_rankings.py
+      
+      - name: Skip (EDINETDB_API_KEY missing)
+        if: ${{ secrets.EDINETDB_API_KEY == '' }}
         run: |
-          python3 scripts/fundamentals_rankings.py
+          echo "EDINETDB_API_KEY が未設定のため、ファンダランキングの自動更新をスキップしました。"
 
       - name: Commit + push (if updates)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/fundamentals.json docs/data/fundamentals_rankings.json docs/data/hidden_gems.json
+          git add docs/data/fundamentals_rankings.json docs/data/hidden_gems.json
           git diff --cached --quiet || git commit -m "Update fundamentals data"
           git push
-
