@@ -1,7 +1,319 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-21T09:03:46+09:00",
+  "last_checked_jst": "2026-04-21T12:37:39+09:00",
   "items": [
+    {
+      "id": "kabutan:5845:1401202604175062",
+      "code": "5845",
+      "company": "東証Ｓ",
+      "title": "2026年3月期通期業績予想の上方修正に関するお知らせ",
+      "title_en": "2026年3月期通期業績予想の上方修正に関するお知らせ",
+      "title_ja": "2026年3月期通期業績予想の上方修正に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:30:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202604175062",
+      "doc_id_ja": "140120260417506270",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506270.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260417506270.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260417506270.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260417506270.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4261:1401202604205069",
+      "code": "4261",
+      "company": "東証Ｇ",
+      "title": "アジアクエスト、HubSpot「Rookie of the Year」受賞",
+      "title_en": "アジアクエスト、HubSpot「Rookie of the Year」受賞",
+      "title_ja": "アジアクエスト、HubSpot「Rookie of the Year」受賞",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205069",
+      "doc_id_ja": "140120260420506933",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506933.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260420506933.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506933.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260420506933.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2127:1401202604215073",
+      "code": "2127",
+      "company": "東証Ｐ",
+      "title": "法定事後開示書類（会社分割）（株式会社J-Capital）",
+      "title_en": "法定事後開示書類（会社分割）（株式会社J-Capital）",
+      "title_ja": "法定事後開示書類（会社分割）（株式会社J-Capital）",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215073",
+      "doc_id_ja": "140120260421507361",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507361.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507361.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507361.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507361.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7112:1401202604215072",
+      "code": "7112",
+      "company": "東証Ｇ",
+      "title": "【MARK & LONA × ASICS】ハイパフォーマンス・シューズ「GEL-KAYANO ACE 3 - LEO PACE」が誕生",
+      "title_en": "【MARK & LONA × ASICS】ハイパフォーマンス・シューズ「GEL-KAYANO ACE 3 - LEO PACE」が誕生",
+      "title_ja": "【MARK & LONA × ASICS】ハイパフォーマンス・シューズ「GEL-KAYANO ACE 3 - LEO PACE」が誕生",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:25:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215072",
+      "doc_id_ja": "140120260421507284",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507284.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507284.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507284.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507284.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9067:1401202604215071",
+      "code": "9067",
+      "company": "東証Ｓ",
+      "title": "法定事前開示書類（株式併合）",
+      "title_en": "法定事前開示書類（株式併合）",
+      "title_ja": "法定事前開示書類（株式併合）",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215071",
+      "doc_id_ja": "140120260421507146",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507146.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507146.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507146.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507146.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5532:1401202604215072",
+      "code": "5532",
+      "company": "東証Ｇ",
+      "title": "リアルゲイト、世田谷・三宿エリアへ初進出。アートギャラリーが街と施設を繋ぐ、複合拠点「unframe」を2026年5月に開業。",
+      "title_en": "リアルゲイト、世田谷・三宿エリアへ初進出。アートギャラリーが街と施設を繋ぐ、複合拠点「unframe」を2026年5月に開業。",
+      "title_ja": "リアルゲイト、世田谷・三宿エリアへ初進出。アートギャラリーが街と施設を繋ぐ、複合拠点「unframe」を2026年5月に開業。",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215072",
+      "doc_id_ja": "140120260421507283",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507283.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507283.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507283.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507283.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4419:1401202604215072",
+      "code": "4419",
+      "company": "東証Ｇ",
+      "title": "機関投資家・アナリスト向け 2026年3月期通期決算説明会のご案内（Webライブ配信）",
+      "title_en": "機関投資家・アナリスト向け 2026年3月期通期決算説明会のご案内（Webライブ配信）",
+      "title_ja": "機関投資家・アナリスト向け 2026年3月期通期決算説明会のご案内（Webライブ配信）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604215072",
+      "doc_id_ja": "140120260421507276",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507276.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507276.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507276.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507276.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3976:1401202604215071",
+      "code": "3976",
+      "company": "東証Ｇ",
+      "title": "【シャノン活用事例】NECグループからの独立に伴う「サイト基盤消失」から独自の「会員サイト」立ち上げまで。",
+      "title_en": "【シャノン活用事例】NECグループからの独立に伴う「サイト基盤消失」から独自の「会員サイト」立ち上げまで。",
+      "title_ja": "【シャノン活用事例】NECグループからの独立に伴う「サイト基盤消失」から独自の「会員サイト」立ち上げまで。",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215071",
+      "doc_id_ja": "140120260421507138",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507138.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507138.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507138.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507138.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3967:1401202604205069",
+      "code": "3967",
+      "company": "東証Ｇ",
+      "title": "従業員持株会の奨励金付与率の引き上げに関するお知らせ",
+      "title_en": "従業員持株会の奨励金付与率の引き上げに関するお知らせ",
+      "title_ja": "従業員持株会の奨励金付与率の引き上げに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205069",
+      "doc_id_ja": "140120260420506937",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506937.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260420506937.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506937.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260420506937.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:259A:1401202604215071",
+      "code": "259A",
+      "company": "名証Ｎ",
+      "title": "選べる刻印のラインナップ17種類追加！全28種類【忍たま乱太郎】シンプルリング（指輪）。手裏剣モチーフから連なる3つのストーンが煌めくデザイン",
+      "title_en": "選べる刻印のラインナップ17種類追加！全28種類【忍たま乱太郎】シンプルリング（指輪）。手裏剣モチーフから連なる3つのストーンが煌めくデザイン",
+      "title_ja": "選べる刻印のラインナップ17種類追加！全28種類【忍たま乱太郎】シンプルリング（指輪）。手裏剣モチーフから連なる3つのストーンが煌めくデザイン",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215071",
+      "doc_id_ja": "140120260421507151",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507151.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507151.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507151.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507151.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:153A:1401202604215073",
+      "code": "153A",
+      "company": "東証Ｇ",
+      "title": "中小事業者向け貸出に特化したデジタルバンキング事業を提供する０１銀行が「Fraud Alert 入出金検知」追加導入を決定",
+      "title_en": "中小事業者向け貸出に特化したデジタルバンキング事業を提供する０１銀行が「Fraud Alert 入出金検知」追加導入を決定",
+      "title_ja": "中小事業者向け貸出に特化したデジタルバンキング事業を提供する０１銀行が「Fraud Alert 入出金検知」追加導入を決定",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T12:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215073",
+      "doc_id_ja": "140120260421507305",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507305.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507305.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507305.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507305.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9326:1401202604215072",
+      "code": "9326",
+      "company": "東証Ｇ",
+      "title": "法定事後開示書類（会社分割）（Cyber Governance Lab 株式会社）",
+      "title_en": "法定事後開示書類（会社分割）（Cyber Governance Lab 株式会社）",
+      "title_ja": "法定事後開示書類（会社分割）（Cyber Governance Lab 株式会社）",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T11:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215072",
+      "doc_id_ja": "140120260421507281",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507281.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507281.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507281.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507281.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6890:1401202604215073",
+      "code": "6890",
+      "company": "東証Ｓ",
+      "title": "三陸沖の地震による当社グループの被害状況について",
+      "title_en": "三陸沖の地震による当社グループの被害状況について",
+      "title_ja": "三陸沖の地震による当社グループの被害状況について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T11:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215073",
+      "doc_id_ja": "140120260421507303",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507303.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507303.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507303.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507303.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1326:1401202604215072",
+      "code": "1326",
+      "company": "東証Ｅ",
+      "title": "SPDRゴールド・シェアに関する日々の開示事項",
+      "title_en": "SPDRゴールド・シェアに関する日々の開示事項",
+      "title_ja": "SPDRゴールド・シェアに関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-21T11:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215072",
+      "doc_id_ja": "140120260421507274",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507274.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260421/140120260421507274.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507274.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507274.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7419:1401202604215071",
       "code": "7419",
