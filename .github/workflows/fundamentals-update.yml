@@ -20,6 +20,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      EDINETDB_API_KEY: ${{ secrets.EDINETDB_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,14 +32,12 @@ jobs:
           python-version: "3.12"
 
       - name: Update rankings + hidden gems (EDINET DB)
-        if: ${{ secrets.EDINETDB_API_KEY != '' }}
-        env:
-          EDINETDB_API_KEY: ${{ secrets.EDINETDB_API_KEY }}
+        if: ${{ env.EDINETDB_API_KEY != '' }}
         run: |
           python3 scripts/fundamentals_edinetdb_rankings.py
       
       - name: Skip (EDINETDB_API_KEY missing)
-        if: ${{ secrets.EDINETDB_API_KEY == '' }}
+        if: ${{ env.EDINETDB_API_KEY == '' }}
         run: |
           echo "EDINETDB_API_KEY が未設定のため、ファンダランキングの自動更新をスキップしました。"
 
