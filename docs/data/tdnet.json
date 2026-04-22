@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-22T19:51:25+09:00",
+  "last_checked_jst": "2026-04-22T20:46:23+09:00",
   "items": [
+    {
+      "id": "kabutan:8715:1401202604215076",
+      "code": "8715",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding the Nomination of New Candidate for Outside Director",
+      "title_en": "Notice Regarding the Nomination of New Candidate for Outside Director",
+      "title_ja": "the Nomination of New Candidate for Outside Directorに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-22T20:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604215076",
+      "doc_id_ja": "140120260421507661",
+      "doc_id_en": "140120260421507666",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507661.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260421507661.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507661.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507661.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260422/140120260421507666.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:2499:1401202604225085",
       "code": "2499",
