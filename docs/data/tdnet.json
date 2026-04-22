@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-22T23:23:20+09:00",
+  "last_checked_jst": "2026-04-23T00:45:55+09:00",
   "items": [
+    {
+      "id": "kabutan:4826:1401202604225085",
+      "code": "4826",
+      "company": "東証Ｐ",
+      "title": "[Delayed]CIJ REPORT 2025",
+      "title_en": "[Delayed]CIJ REPORT 2025",
+      "title_ja": "（遅延）CIJ REPORT 2025",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-04-23T00:30:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "doc_id_family": "1401202604225085",
+      "doc_id_ja": "140120260422508523",
+      "doc_id_en": "140120260422508523",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508523.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508523.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508523.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508523.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508523.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8715:1401202604215076",
       "code": "8715",
