@@ -1,7 +1,275 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-22T10:19:11+09:00",
+  "last_checked_jst": "2026-04-22T13:20:40+09:00",
   "items": [
+    {
+      "id": "kabutan:325A:1401202604225082",
+      "code": "325A",
+      "company": "東証Ｇ",
+      "title": "TENTIAL 「BAKUNE 掛け布団 ウォーム」等に採用された「多層布地及び被覆品」に関する発明について特許を取得",
+      "title_en": "TENTIAL 「BAKUNE 掛け布団 ウォーム」等に採用された「多層布地及び被覆品」に関する発明について特許を取得",
+      "title_ja": "TENTIAL 「BAKUNE 掛け布団 ウォーム」等に採用された「多層布地及び被覆品」に関する発明について特許を取得",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225082",
+      "doc_id_ja": "140120260422508224",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508224.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508224.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508224.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508224.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9644:1401202604225081",
+      "code": "9644",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Partial Revision of Shareholder Benefit Program（Change to Digital Gift）",
+      "title_en": "Notice Concerning Partial Revision of Shareholder Benefit Program（Change to Digital Gift）",
+      "title_ja": "Partial 修正 of Shareholder Benefit Program（Change to Digital Gift）に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225081",
+      "doc_id_ja": "140120260422508175",
+      "doc_id_en": "140120260422508175",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508175.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508175.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508175.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508175.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508175.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9342:1401202604225079",
+      "code": "9342",
+      "company": "東証Ｇ",
+      "title": "入居者アプリ「totono」、人々の暮らしを豊かにする新しいサービスを提供するGood不動産グループにて導入開始",
+      "title_en": "入居者アプリ「totono」、人々の暮らしを豊かにする新しいサービスを提供するGood不動産グループにて導入開始",
+      "title_ja": "入居者アプリ「totono」、人々の暮らしを豊かにする新しいサービスを提供するGood不動産グループにて導入開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225079",
+      "doc_id_ja": "140120260422507970",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422507970.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422507970.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422507970.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422507970.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8304:1401202604225080",
+      "code": "8304",
+      "company": "東証Ｐ",
+      "title": "Aozora Announces Performance-Linked Restricted Stock Remuneration Plan for Directors",
+      "title_en": "Aozora Announces Performance-Linked Restricted Stock Remuneration Plan for Directors",
+      "title_ja": "Aozora Announces Performance-Linked Restricted Stock Remuneration Plan for Directors",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604225080",
+      "doc_id_ja": "140120260422508003",
+      "doc_id_en": "140120260422508099",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508003.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508003.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508003.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508003.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508099.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7164:1401202604225080",
+      "code": "7164",
+      "company": "東証Ｐ",
+      "title": "コーポレートベンチャーキャピタルファンドを通じた株式会社モノクロームへの出資について",
+      "title_en": "コーポレートベンチャーキャピタルファンドを通じた株式会社モノクロームへの出資について",
+      "title_ja": "コーポレートベンチャーキャピタルファンドを通じた株式会社モノクロームへの出資について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225080",
+      "doc_id_ja": "140120260422508065",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508065.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508065.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508065.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508065.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7059:1401202604225079",
+      "code": "7059",
+      "company": "東証Ｐ",
+      "title": "「マイナビ・日経 2027年卒大学生就職企業人気ランキング」 人材サービス部門で9位を獲得 ～2年連続でトップ10入りを達成～",
+      "title_en": "「マイナビ・日経 2027年卒大学生就職企業人気ランキング」 人材サービス部門で9位を獲得 ～2年連続でトップ10入りを達成～",
+      "title_ja": "「マイナビ・日経 2027年卒大学生就職企業人気ランキング」 人材サービス部門で9位を獲得 ～2年連続でトップ10入りを達成～",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225079",
+      "doc_id_ja": "140120260422507929",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422507929.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422507929.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422507929.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422507929.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6037:1401202604225081",
+      "code": "6037",
+      "company": "東証Ｓ",
+      "title": "社員の約99%が「毎日AIを活用」！ 約6割が業務時間50%以上の短縮を実現",
+      "title_en": "社員の約99%が「毎日AIを活用」！ 約6割が業務時間50%以上の短縮を実現",
+      "title_ja": "社員の約99%が「毎日AIを活用」！ 約6割が業務時間50%以上の短縮を実現",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225081",
+      "doc_id_ja": "140120260422508142",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508142.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508142.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508142.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508142.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5243:1401202604225080",
+      "code": "5243",
+      "company": "東証Ｇ",
+      "title": "note Launches Full-Scale Automated Multilingual Support to Deliver Japanese Content Globally",
+      "title_en": "note Launches Full-Scale Automated Multilingual Support to Deliver Japanese Content Globally",
+      "title_ja": "note Launches Full-Scale Automated Multilingual Support to Deliver Japanese Content Globally",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225080",
+      "doc_id_ja": "140120260422508035",
+      "doc_id_en": "140120260422508038",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508035.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508035.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508035.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508035.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508038.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4375:1401202604225081",
+      "code": "4375",
+      "company": "東証Ｇ",
+      "title": "2026年5月21日（木）開催 個人投資家向け説明会開催のお知らせ",
+      "title_en": "2026年5月21日（木）開催 個人投資家向け説明会開催のお知らせ",
+      "title_ja": "2026年5月21日（木）開催 個人投資家向け説明会開催のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225081",
+      "doc_id_ja": "140120260422508195",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508195.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508195.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508195.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508195.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4016:1401202604225079",
+      "code": "4016",
+      "company": "東証Ｓ",
+      "title": "デジタルブック制作・配信プラットフォーム「Wisebook」バージョン8.1リリース（機能拡充）のお知らせ",
+      "title_en": "デジタルブック制作・配信プラットフォーム「Wisebook」バージョン8.1リリース（機能拡充）のお知らせ",
+      "title_ja": "デジタルブック制作・配信プラットフォーム「Wisebook」バージョン8.1リリース（機能拡充）のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225079",
+      "doc_id_ja": "140120260422507962",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422507962.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422507962.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422507962.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422507962.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2798:1401202604225080",
+      "code": "2798",
+      "company": "東証Ｓ",
+      "title": "2026年２月期 決算説明資料",
+      "title_en": "2026年２月期 決算説明資料",
+      "title_ja": "2026年２月期 決算説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604225080",
+      "doc_id_ja": "140120260422508092",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508092.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508092.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508092.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508092.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:173A:1401202604215077",
+      "code": "173A",
+      "company": "東証Ｇ",
+      "title": "「ホットプロファイル」が「企業データベース」を主要プランで標準提供開始",
+      "title_en": "「ホットプロファイル」が「企業データベース」を主要プランで標準提供開始",
+      "title_ja": "「ホットプロファイル」が「企業データベース」を主要プランで標準提供開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215077",
+      "doc_id_ja": "140120260421507754",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507754.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260421507754.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507754.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507754.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:9636:1401202603315947",
       "code": "9636",
