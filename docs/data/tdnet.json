@@ -1,7 +1,303 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-22T13:20:40+09:00",
+  "last_checked_jst": "2026-04-22T15:14:00+09:00",
   "items": [
+    {
+      "id": "kabutan:3675:1401202604225079",
+      "code": "3675",
+      "company": "東証Ｓ",
+      "title": "連結子会社DIGITALIOによるデジタルギフトサービス「デジコ」の「銀行振込」対応開始のお知らせ",
+      "title_en": "連結子会社DIGITALIOによるデジタルギフトサービス「デジコ」の「銀行振込」対応開始のお知らせ",
+      "title_ja": "連結子会社DIGITALIOによるデジタルギフトサービス「デジコ」の「銀行振込」対応開始のお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T15:10:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202604225079",
+      "doc_id_ja": "140120260422507983",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422507983.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422507983.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422507983.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422507983.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7908:1401202604225082",
+      "code": "7908",
+      "company": "東証Ｓ",
+      "title": "2026年３月期決算説明会開催のお知らせ",
+      "title_en": "2026年３月期決算説明会開催のお知らせ",
+      "title_ja": "2026年３月期決算説明会開催のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-22T15:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604225082",
+      "doc_id_ja": "140120260422508255",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508255.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508255.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508255.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508255.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6969:1401202604095010",
+      "code": "6969",
+      "company": "東証Ｓ",
+      "title": "役員の異動に関するお知らせ",
+      "title_en": "役員の異動に関するお知らせ",
+      "title_ja": "役員の異動に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-22T15:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604095010",
+      "doc_id_ja": "140120260409501003",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260409501003.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260409501003.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260409501003.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260409501003.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6620:1401202604225080",
+      "code": "6620",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Change of Accounting Auditor",
+      "title_en": "Notice Regarding Change of Accounting Auditor",
+      "title_ja": "Change of Accounting Auditorに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225080",
+      "doc_id_ja": "140120260422508010",
+      "doc_id_en": "140120260422508015",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508010.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508010.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508010.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508010.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508015.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4496:1401202604225079",
+      "code": "4496",
+      "company": "東証Ｇ",
+      "title": "ログミーファイナンス主催「決算説明会」登壇のお知らせ",
+      "title_en": "ログミーファイナンス主催「決算説明会」登壇のお知らせ",
+      "title_ja": "ログミーファイナンス主催「決算説明会」登壇のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-22T15:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604225079",
+      "doc_id_ja": "140120260422507975",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422507975.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422507975.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422507975.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422507975.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3912:1401202604225081",
+      "code": "3912",
+      "company": "東証Ｓ",
+      "title": "ＪＲ東海×「駅メモ！」シリーズ コラボキャンペーン第5弾開催決定",
+      "title_en": "ＪＲ東海×「駅メモ！」シリーズ コラボキャンペーン第5弾開催決定",
+      "title_ja": "ＪＲ東海×「駅メモ！」シリーズ コラボキャンペーン第5弾開催決定",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225081",
+      "doc_id_ja": "140120260422508101",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508101.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508101.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508101.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508101.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3172:1401202604225082",
+      "code": "3172",
+      "company": "東証Ｓ",
+      "title": "ティーライフ、米国料理学校「CIA」にて次世代のシェフへ「日本茶と抹茶の魅力」を伝える講義を実施",
+      "title_en": "ティーライフ、米国料理学校「CIA」にて次世代のシェフへ「日本茶と抹茶の魅力」を伝える講義を実施",
+      "title_ja": "ティーライフ、米国料理学校「CIA」にて次世代のシェフへ「日本茶と抹茶の魅力」を伝える講義を実施",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225082",
+      "doc_id_ja": "140120260422508238",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508238.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508238.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508238.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508238.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3138:1401202604225082",
+      "code": "3138",
+      "company": "東証Ｓ",
+      "title": "Fujisan Academia Group 東京都進出及びグループ初の医学部専門校舎を開校 ― 医学部志望者向け指導とオンライン１：１授業の実証を開始 ―",
+      "title_en": "Fujisan Academia Group 東京都進出及びグループ初の医学部専門校舎を開校 ― 医学部志望者向け指導とオンライン１：１授業の実証を開始 ―",
+      "title_ja": "Fujisan Academia Group 東京都進出及びグループ初の医学部専門校舎を開校 ― 医学部志望者向け指導とオンライン１：１授業の実証を開始 ―",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225082",
+      "doc_id_ja": "140120260422508246",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508246.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508246.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508246.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508246.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2986:1401202604225082",
+      "code": "2986",
+      "company": "東証Ｇ",
+      "title": "ラジオ NIKKEI主催 金融文筆家田代昌之のマーケット・コンパス注目企業ＩＲセミナー(沖縄)参加のお知らせ",
+      "title_en": "ラジオ NIKKEI主催 金融文筆家田代昌之のマーケット・コンパス注目企業ＩＲセミナー(沖縄)参加のお知らせ",
+      "title_ja": "ラジオ NIKKEI主催 金融文筆家田代昌之のマーケット・コンパス注目企業ＩＲセミナー(沖縄)参加のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225082",
+      "doc_id_ja": "140120260422508207",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508207.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508207.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508207.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508207.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6941:1401202604225083",
+      "code": "6941",
+      "company": "東証Ｐ",
+      "title": "Notice of Ransomware Incident at Consolidated Subsidiary in Philippines",
+      "title_en": "Notice of Ransomware Incident at Consolidated Subsidiary in Philippines",
+      "title_ja": "Ransomware Incident at Consolidated Subsidiary in Philippinesのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T14:50:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225083",
+      "doc_id_ja": "140120260422508322",
+      "doc_id_en": "140120260422508322",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508322.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508322.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508322.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508322.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508322.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6941:1401202604225082",
+      "code": "6941",
+      "company": "東証Ｐ",
+      "title": "当社グループのフィリピン子会社におけるランサムウェア被害発生のお知らせ",
+      "title_en": "当社グループのフィリピン子会社におけるランサムウェア被害発生のお知らせ",
+      "title_ja": "当社グループのフィリピン子会社におけるランサムウェア被害発生のお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T14:50:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202604225082",
+      "doc_id_ja": "140120260422508264",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508264.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508264.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508264.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508264.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3269:1401202604225082",
+      "code": "3269",
+      "company": "東証Ｒ",
+      "title": "Notice Concerning Extension of Commitment Line Agreement",
+      "title_en": "Notice Concerning Extension of Commitment Line Agreement",
+      "title_ja": "Extension of Commitment Line Agreementに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T14:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225082",
+      "doc_id_ja": "140120260422508229",
+      "doc_id_en": "140120260422508239",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508229.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508229.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508229.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508229.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508239.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3181:1401202604225080",
+      "code": "3181",
+      "company": "東証Ｓ",
+      "title": "「買取七福 お片づけなんでも相談所」への事業名称の変更",
+      "title_en": "「買取七福 お片づけなんでも相談所」への事業名称の変更",
+      "title_ja": "「買取七福 お片づけなんでも相談所」への事業名称の変更",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-22T14:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225080",
+      "doc_id_ja": "140120260422508021",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508021.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260422/140120260422508021.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508021.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508021.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:325A:1401202604225082",
       "code": "325A",
