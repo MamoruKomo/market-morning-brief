@@ -1,7 +1,257 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-23T08:09:37+09:00",
+  "last_checked_jst": "2026-04-23T08:58:02+09:00",
   "items": [
+    {
+      "id": "kabutan:556A:1401202604175061",
+      "code": "556A",
+      "company": "東証Ｇ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:50:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604175061",
+      "doc_id_ja": "140120260417506155",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506155.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260417506155.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260417506155.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260417506155.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5246:1401202604225080",
+      "code": "5246",
+      "company": "東証Ｇ",
+      "title": "2026年11月期第１四半期決算説明ログミーFinance書き起こし記事掲載のお知らせ",
+      "title_en": "2026年11月期第１四半期決算説明ログミーFinance書き起こし記事掲載のお知らせ",
+      "title_ja": "2026年11月期第１四半期決算説明ログミーFinance書き起こし記事掲載のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:50:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604225080",
+      "doc_id_ja": "140120260422508051",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508051.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508051.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508051.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508051.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6191:1401202604225085",
+      "code": "6191",
+      "company": "東証Ｐ",
+      "title": "国内最大級の旅行情報サイト「トラベルjp」の事業譲り受けのお知らせ～新たに「エアトリ経済圏」の22事業目*となる「ポータルサイト事業」を開始～",
+      "title_en": "国内最大級の旅行情報サイト「トラベルjp」の事業譲り受けのお知らせ～新たに「エアトリ経済圏」の22事業目*となる「ポータルサイト事業」を開始～",
+      "title_ja": "国内最大級の旅行情報サイト「トラベルjp」の事業譲り受けのお知らせ～新たに「エアトリ経済圏」の22事業目*となる「ポータルサイト事業」を開始～",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225085",
+      "doc_id_ja": "140120260422508548",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508548.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508548.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508548.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508548.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:556A:1401202604165054",
+      "code": "556A",
+      "company": "東証Ｇ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/23",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/23",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/23",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:44:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604165054",
+      "doc_id_ja": "140120260416505424",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260416505424.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260416505424.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260416505424.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260416505424.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6135:1401202604235086",
+      "code": "6135",
+      "company": "東証Ｐ",
+      "title": "（開示事項の経過）MMホールディングス株式会社による当社株式に対する公開買付け実施に向けた進捗状況等のお知らせ",
+      "title_en": "（開示事項の経過）MMホールディングス株式会社による当社株式に対する公開買付け実施に向けた進捗状況等のお知らせ",
+      "title_ja": "（開示事項の経過）MMホールディングス株式会社による当社株式に対する公開買付け実施に向けた進捗状況等のお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:40:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202604235086",
+      "doc_id_ja": "140120260423508647",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508647.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508647.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508647.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508647.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4374:1401202604225083",
+      "code": "4374",
+      "company": "東証Ｇ",
+      "title": "株式会社クルカ、 督促・回収のデジタルインフラ「債権回収ロボ」を導入",
+      "title_en": "株式会社クルカ、 督促・回収のデジタルインフラ「債権回収ロボ」を導入",
+      "title_ja": "株式会社クルカ、 督促・回収のデジタルインフラ「債権回収ロボ」を導入",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225083",
+      "doc_id_ja": "140120260422508301",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508301.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508301.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508301.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508301.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4166:1401202604225083",
+      "code": "4166",
+      "company": "東証Ｇ",
+      "title": "野原工芸が不正検知サービス「O-PLUX」を導入",
+      "title_en": "野原工芸が不正検知サービス「O-PLUX」を導入",
+      "title_ja": "野原工芸が不正検知サービス「O-PLUX」を導入",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225083",
+      "doc_id_ja": "140120260422508375",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508375.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508375.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508375.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508375.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9241:1401202604225084",
+      "code": "9241",
+      "company": "東証Ｇ",
+      "title": "2026年8月期第2四半期決算説明会 書き起こし",
+      "title_en": "2026年8月期第2四半期決算説明会 書き起こし",
+      "title_ja": "2026年8月期第2四半期決算説明会 書き起こし",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604225084",
+      "doc_id_ja": "140120260422508431",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508431.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508431.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508431.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508431.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3461:1401202604225079",
+      "code": "3461",
+      "company": "東証Ｓ",
+      "title": "株式会社JBサステナブルとの業務提携に関するお知らせ",
+      "title_en": "株式会社JBサステナブルとの業務提携に関するお知らせ",
+      "title_ja": "株式会社JBサステナブルとの業務提携に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225079",
+      "doc_id_ja": "140120260422507946",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422507946.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422507946.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422507946.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422507946.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3070:1401202604225081",
+      "code": "3070",
+      "company": "東証Ｇ",
+      "title": "株式会社パルマ（東証スタンダード：3461）との業務提携に関するお知らせ",
+      "title_en": "株式会社パルマ（東証スタンダード：3461）との業務提携に関するお知らせ",
+      "title_ja": "株式会社パルマ（東証スタンダード：3461）との業務提携に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225081",
+      "doc_id_ja": "140120260422508106",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508106.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508106.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508106.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508106.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1672:1401202604235086",
+      "code": "1672",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235086",
+      "doc_id_ja": "140120260423508626",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508626.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508626.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508626.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508626.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8227:1401202604225080",
       "code": "8227",
@@ -65,30 +315,6 @@
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422507939.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422507939.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422507939.pdf",
-      "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:556A:1401202604175061",
-      "code": "556A",
-      "company": "東証Ｇ",
-      "title": "東京証券取引所グロース市場への上場に伴う当社決算情報等のお知らせ",
-      "title_en": "東京証券取引所グロース市場への上場に伴う当社決算情報等のお知らせ",
-      "title_ja": "東京証券取引所グロース市場への上場に伴う当社決算情報等のお知らせ",
-      "points_ja": [
-        "決算関連（決算短信/説明資料）を確認"
-      ],
-      "datetime_jst": "2026-04-23T08:00:00+09:00",
-      "tags": [
-        "決算"
-      ],
-      "doc_id_family": "1401202604175061",
-      "doc_id_ja": "140120260417506182",
-      "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506182.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260417506182.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260417506182.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260417506182.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
