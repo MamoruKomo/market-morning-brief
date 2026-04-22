@@ -1,7 +1,165 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-23T07:24:21+09:00",
+  "last_checked_jst": "2026-04-23T08:09:37+09:00",
   "items": [
+    {
+      "id": "kabutan:8227:1401202604225080",
+      "code": "8227",
+      "company": "東証Ｐ",
+      "title": "Notice of the 73rd Annual General Meeting of Shareholders",
+      "title_en": "Notice of the 73rd Annual General Meeting of Shareholders",
+      "title_ja": "the 73rd Annual General Meeting of Shareholdersのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225080",
+      "doc_id_ja": "140120260422508041",
+      "doc_id_en": "140120260422508044",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508041.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508041.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508041.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508041.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508044.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7624:1401202604225078",
+      "code": "7624",
+      "company": "東証Ｓ",
+      "title": "第75期定時株主総会招集ご通知",
+      "title_en": "第75期定時株主総会招集ご通知",
+      "title_ja": "第75期定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225078",
+      "doc_id_ja": "140120260422507893",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422507893.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422507893.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422507893.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422507893.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7229:1401202604225079",
+      "code": "7229",
+      "company": "東証Ｓ",
+      "title": "臨時株主総会招集ご通知",
+      "title_en": "臨時株主総会招集ご通知",
+      "title_ja": "臨時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225079",
+      "doc_id_ja": "140120260422507939",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422507939.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422507939.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422507939.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422507939.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:556A:1401202604175061",
+      "code": "556A",
+      "company": "東証Ｇ",
+      "title": "東京証券取引所グロース市場への上場に伴う当社決算情報等のお知らせ",
+      "title_en": "東京証券取引所グロース市場への上場に伴う当社決算情報等のお知らせ",
+      "title_ja": "東京証券取引所グロース市場への上場に伴う当社決算情報等のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604175061",
+      "doc_id_ja": "140120260417506182",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506182.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260417506182.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260417506182.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260417506182.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5243:1401202604235086",
+      "code": "5243",
+      "company": "東証Ｇ",
+      "title": "Notice Regarding Sale of the Company's Shares by the Founder & CEO",
+      "title_en": "Notice Regarding Sale of the Company's Shares by the Founder & CEO",
+      "title_ja": "Sale of the Company's Shares by the Founder & CEOに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604235086",
+      "doc_id_ja": "140120260423508643",
+      "doc_id_en": "140120260423508644",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508643.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508643.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508643.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508643.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508644.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:329A:1401202604175062",
+      "code": "329A",
+      "company": "",
+      "title": "臨時株主総会招集ご通知",
+      "title_en": "臨時株主総会招集ご通知",
+      "title_ja": "臨時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604175062",
+      "doc_id_ja": "140120260417506206",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506206.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260417506206.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260417506206.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260417506206.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1726:1401202604225083",
+      "code": "1726",
+      "company": "東証Ｐ",
+      "title": "Notice of Convocation of the Extraordinary General Meeting of Shareholders",
+      "title_en": "Notice of Convocation of the Extraordinary General Meeting of Shareholders",
+      "title_ja": "Convocation of the Extraordinary General Meeting of Shareholdersのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225083",
+      "doc_id_ja": "140120260422508304",
+      "doc_id_en": "140120260422508305",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508304.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508304.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508304.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508304.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508305.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4826:1401202604225085",
       "code": "4826",
