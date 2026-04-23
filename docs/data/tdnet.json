@@ -1,7 +1,55 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-23T23:22:58+09:00",
+  "last_checked_jst": "2026-04-24T01:13:29+09:00",
   "items": [
+    {
+      "id": "kabutan:4934:1401202604235091",
+      "code": "4934",
+      "company": "東証Ｇ",
+      "title": "[Delayed] Corporate Report 2026",
+      "title_en": "[Delayed] Corporate Report 2026",
+      "title_ja": "（遅延）Corporate Report 2026",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-04-24T00:30:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "doc_id_family": "1401202604235091",
+      "doc_id_ja": "140120260423509128",
+      "doc_id_en": "140120260423509128",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509128.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260423509128.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509128.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509128.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260423509128.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8267:1401202604235096",
+      "code": "8267",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-24T00:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604235096",
+      "doc_id_ja": "140120260423509625",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509625.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260423509625.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509625.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509625.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3465:1401202604235095",
       "code": "3465",
