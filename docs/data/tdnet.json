@@ -1,7 +1,283 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-23T16:09:08+09:00",
+  "last_checked_jst": "2026-04-23T18:01:06+09:00",
   "items": [
+    {
+      "id": "kabutan:9369:1401202604235087",
+      "code": "9369",
+      "company": "東証Ｓ",
+      "title": "インドに拠点を置く低温物流会社 Coldrush Logistics Private Limited の株式取得（子会社化）に関するお知らせ",
+      "title_en": "インドに拠点を置く低温物流会社 Coldrush Logistics Private Limited の株式取得（子会社化）に関するお知らせ",
+      "title_ja": "インドに拠点を置く低温物流会社 Coldrush Logistics Private Limited の株式取得（子会社化）に関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T18:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202604235087",
+      "doc_id_ja": "140120260423508750",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508750.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508750.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508750.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508750.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8698:1401202604235094",
+      "code": "8698",
+      "company": "東証Ｐ",
+      "title": "Announcement of Board Member Candidates",
+      "title_en": "Announcement of Board Member Candidates",
+      "title_ja": "Board Member Candidatesの発表",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235094",
+      "doc_id_ja": "140120260423509480",
+      "doc_id_en": "140120260423509480",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509480.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509480.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509480.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509480.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509480.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8698:1401202604235092",
+      "code": "8698",
+      "company": "東証Ｐ",
+      "title": "取締役候補者の決定に関するお知らせ",
+      "title_en": "取締役候補者の決定に関するお知らせ",
+      "title_ja": "取締役候補者の決定に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235092",
+      "doc_id_ja": "140120260423509223",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509223.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509223.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509223.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509223.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7371:1401202604235090",
+      "code": "7371",
+      "company": "東証Ｇ",
+      "title": "株式会社鹿児島銀行との業務提携に関するお知らせ",
+      "title_en": "株式会社鹿児島銀行との業務提携に関するお知らせ",
+      "title_ja": "株式会社鹿児島銀行との業務提携に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235090",
+      "doc_id_ja": "140120260423509022",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509022.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509022.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509022.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509022.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7095:1401202604235094",
+      "code": "7095",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Repurchase of Treasury Shares",
+      "title_en": "Notice Regarding Repurchase of Treasury Shares",
+      "title_ja": "Repurchase of 自己株式に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T18:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202604235094",
+      "doc_id_ja": "140120260423509452",
+      "doc_id_en": "140120260423509456",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509452.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509452.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509452.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509452.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509456.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4082:1401202604235090",
+      "code": "4082",
+      "company": "東証Ｐ",
+      "title": "業績予想の修正及び営業外収益並びに営業外費用の計上に関するお知らせ",
+      "title_en": "業績予想の修正及び営業外収益並びに営業外費用の計上に関するお知らせ",
+      "title_ja": "業績予想の修正及び営業外収益並びに営業外費用の計上に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-04-23T18:00:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202604235090",
+      "doc_id_ja": "140120260423509074",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509074.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509074.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509074.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509074.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:520A:1401202604235094",
+      "code": "520A",
+      "company": "東証Ｇ",
+      "title": "日経CNBC「～攻めのIR～Market Breakthrough」アーカイブ配信開始のお知らせ",
+      "title_en": "日経CNBC「～攻めのIR～Market Breakthrough」アーカイブ配信開始のお知らせ",
+      "title_ja": "日経CNBC「～攻めのIR～Market Breakthrough」アーカイブ配信開始のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T17:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235094",
+      "doc_id_ja": "140120260423509490",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509490.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509490.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509490.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509490.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8967:1401202604235094",
+      "code": "8967",
+      "company": "東証Ｒ",
+      "title": "規約 2026/04/23",
+      "title_en": "規約 2026/04/23",
+      "title_ja": "規約 2026/04/23",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T17:32:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235094",
+      "doc_id_ja": "140120260423509450",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509450.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509450.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509450.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509450.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6332:1401202604235089",
+      "code": "6332",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding the Delay in the Execution of the Final Agreement for the Integration of JFE Engineering Corporation's Water Supply SteelPipeBusiness",
+      "title_en": "Notice Regarding the Delay in the Execution of the Final Agreement for the Integration of JFE Engineering Corporation's Water Supply SteelPipeBusiness",
+      "title_ja": "the Delay in the Execution of the Final Agreement for the Integration of JFE Engineering Corporation's Water Supply SteelPipeBusinessに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T17:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235089",
+      "doc_id_ja": "140120260423508904",
+      "doc_id_en": "140120260423508911",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508904.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508904.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508904.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508904.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508911.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3465:1401202604235094",
+      "code": "3465",
+      "company": "東証Ｐ",
+      "title": "配当予想の修正（増配）に関するお知らせ",
+      "title_en": "配当予想の修正（増配）に関するお知らせ",
+      "title_ja": "配当予想の修正（増配）に関するお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-04-23T17:30:00+09:00",
+      "tags": [
+        "配当"
+      ],
+      "doc_id_family": "1401202604235094",
+      "doc_id_ja": "140120260423509467",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509467.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509467.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509467.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509467.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2667:1401202604215077",
+      "code": "2667",
+      "company": "東証Ｓ",
+      "title": "（開示事項の経過）「資本金及び資本準備金の額の減少並びに剰余金の処分に関するお知らせ」の一部訂正について",
+      "title_en": "（開示事項の経過）「資本金及び資本準備金の額の減少並びに剰余金の処分に関するお知らせ」の一部訂正について",
+      "title_ja": "（訂正）（開示事項の経過）「資本金及び資本準備金の額の減少並びに剰余金の処分に関するお知らせ」の一部訂正について",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-04-23T17:30:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202604215077",
+      "doc_id_ja": "140120260421507795",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507795.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260421507795.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507795.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507795.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2667:1401202604215076",
+      "code": "2667",
+      "company": "東証Ｓ",
+      "title": "取締役の異動に関するお知らせ",
+      "title_en": "取締役の異動に関するお知らせ",
+      "title_ja": "取締役の異動に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T17:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215076",
+      "doc_id_ja": "140120260421507651",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507651.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260421507651.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507651.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507651.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:6432:1401202604215074",
       "code": "6432",
