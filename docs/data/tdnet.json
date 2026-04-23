@@ -1,7 +1,307 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-23T11:23:18+09:00",
+  "last_checked_jst": "2026-04-23T14:13:55+09:00",
   "items": [
+    {
+      "id": "kabutan:5031:1401202604155048",
+      "code": "5031",
+      "company": "東証Ｇ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/23",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/23",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/23",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:10:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604155048",
+      "doc_id_ja": "140120260415504854",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260415504854.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260415504854.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260415504854.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260415504854.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9818:1401202604235087",
+      "code": "9818",
+      "company": "東証Ｓ",
+      "title": "人事異動に関するお知らせ",
+      "title_en": "人事異動に関するお知らせ",
+      "title_ja": "人事異動に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604235087",
+      "doc_id_ja": "140120260423508756",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508756.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508756.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508756.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508756.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9119:1401202604235086",
+      "code": "9119",
+      "company": "東証Ｐ",
+      "title": "役員人事内定および組織変更に関する件",
+      "title_en": "役員人事内定および組織変更に関する件",
+      "title_ja": "役員人事内定および組織変更に関する件",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604235086",
+      "doc_id_ja": "140120260423508698",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508698.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508698.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508698.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508698.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8061:1401202604235091",
+      "code": "8061",
+      "company": "東証Ｐ",
+      "title": "日経CNBC「ビズ・レコ」出演に関するお知らせ",
+      "title_en": "日経CNBC「ビズ・レコ」出演に関するお知らせ",
+      "title_ja": "日経CNBC「ビズ・レコ」出演に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235091",
+      "doc_id_ja": "140120260423509141",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509141.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509141.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509141.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509141.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7971:1401202604225080",
+      "code": "7971",
+      "company": "東証Ｓ",
+      "title": "業績予想及び配当予想の修正に関するお知らせ",
+      "title_en": "業績予想及び配当予想の修正に関するお知らせ",
+      "title_ja": "業績予想及び配当予想の修正に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認",
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [
+        "業績修正",
+        "配当"
+      ],
+      "doc_id_family": "1401202604225080",
+      "doc_id_ja": "140120260422508071",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508071.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508071.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508071.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508071.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4519:1401202604215074",
+      "code": "4519",
+      "company": "東証Ｐ",
+      "title": "F. Hoffmann-La Roche Announces First Quarter Sales 2026",
+      "title_en": "F. Hoffmann-La Roche Announces First Quarter Sales 2026",
+      "title_ja": "F. Hoffmann-La Roche Announces First Quarter Sales 2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604215074",
+      "doc_id_ja": "140120260421507420",
+      "doc_id_en": "140120260421507452",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507420.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260421507420.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507420.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507420.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260421507452.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4249:1401202604235086",
+      "code": "4249",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Revision of Full-Year Financial Forecast (Upward Revision)",
+      "title_en": "Notice Regarding Revision of Full-Year Financial Forecast (Upward Revision)",
+      "title_ja": "修正 of Full-Year Financial 予想 (Upward 修正)に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202604235086",
+      "doc_id_ja": "140120260423508633",
+      "doc_id_en": "140120260423508633",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508633.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508633.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508633.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508633.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508633.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4249:1401202604225084",
+      "code": "4249",
+      "company": "東証Ｐ",
+      "title": "業績予想の修正（上方修正）に関するお知らせ",
+      "title_en": "業績予想の修正（上方修正）に関するお知らせ",
+      "title_ja": "業績予想の修正（上方修正）に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202604225084",
+      "doc_id_ja": "140120260422508466",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508466.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508466.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508466.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508466.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3928:1401202604225085",
+      "code": "3928",
+      "company": "東証Ｓ",
+      "title": "『J.LEAGUE FANTASY CARD』で直筆サインカードやＪ2・Ｊ3選手が初登場！新カードシリーズ「Edition2」開始",
+      "title_en": "『J.LEAGUE FANTASY CARD』で直筆サインカードやＪ2・Ｊ3選手が初登場！新カードシリーズ「Edition2」開始",
+      "title_ja": "『J.LEAGUE FANTASY CARD』で直筆サインカードやＪ2・Ｊ3選手が初登場！新カードシリーズ「Edition2」開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225085",
+      "doc_id_ja": "140120260422508534",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508534.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260422508534.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508534.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508534.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2780:1401202604235086",
+      "code": "2780",
+      "company": "東証Ｓ",
+      "title": "「KOMEHYO買取センター シャオ西尾」出店のお知らせ",
+      "title_en": "「KOMEHYO買取センター シャオ西尾」出店のお知らせ",
+      "title_ja": "「KOMEHYO買取センター シャオ西尾」出店のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235086",
+      "doc_id_ja": "140120260423508677",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508677.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508677.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508677.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508677.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2304:1401202604235091",
+      "code": "2304",
+      "company": "東証Ｓ",
+      "title": "戦略的パートナーシップ合意による調理ロボ実装食堂「MAGIC CHEF」をオープン",
+      "title_en": "戦略的パートナーシップ合意による調理ロボ実装食堂「MAGIC CHEF」をオープン",
+      "title_ja": "戦略的パートナーシップ合意による調理ロボ実装食堂「MAGIC CHEF」をオープン",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235091",
+      "doc_id_ja": "140120260423509168",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509168.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509168.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509168.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509168.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2195:1401202604235088",
+      "code": "2195",
+      "company": "東証Ｇ",
+      "title": "アミタHD、NTTドコモビジネスと共同で、「MEGURU STATION(r)」における使用済みプラスチック資源のトレーサビリティ運用成立を確認（福岡県大刀洗町）",
+      "title_en": "アミタHD、NTTドコモビジネスと共同で、「MEGURU STATION(r)」における使用済みプラスチック資源のトレーサビリティ運用成立を確認（福岡県大刀洗町）",
+      "title_ja": "アミタHD、NTTドコモビジネスと共同で、「MEGURU STATION(r)」における使用済みプラスチック資源のトレーサビリティ運用成立を確認（福岡県大刀洗町）",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235088",
+      "doc_id_ja": "140120260423508845",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508845.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423508845.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423508845.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423508845.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2163:1401202604235090",
+      "code": "2163",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Summary of Evaluation Results of the Effectiveness of the Board of Directors",
+      "title_en": "Notice Concerning Summary of Evaluation Results of the Effectiveness of the Board of Directors",
+      "title_ja": "Summary of Evaluation Results of the Effectiveness of the Board of Directorsに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-23T14:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604235090",
+      "doc_id_ja": "140120260423509025",
+      "doc_id_en": "140120260423509041",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509025.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509025.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509025.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509025.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260423/140120260423509041.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4396:1401202604225084",
       "code": "4396",
