@@ -1,7 +1,321 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-24T08:51:48+09:00",
+  "last_checked_jst": "2026-04-24T10:14:34+09:00",
   "items": [
+    {
+      "id": "kabutan:9331:1401202604245098",
+      "code": "9331",
+      "company": "東証Ｇ",
+      "title": "キャスター、Slackの指示だけでAIが会計処理を実行する「NEO Accounting」を提供開始。経理はAIが完結する時代へ",
+      "title_en": "キャスター、Slackの指示だけでAIが会計処理を実行する「NEO Accounting」を提供開始。経理はAIが完結する時代へ",
+      "title_ja": "キャスター、Slackの指示だけでAIが会計処理を実行する「NEO Accounting」を提供開始。経理はAIが完結する時代へ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245098",
+      "doc_id_ja": "140120260424509831",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509831.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424509831.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509831.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509831.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7685:1401202604245097",
+      "code": "7685",
+      "company": "東証Ｇ",
+      "title": "執行役員人事に関するお知らせ",
+      "title_en": "執行役員人事に関するお知らせ",
+      "title_ja": "執行役員人事に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-24T10:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604245097",
+      "doc_id_ja": "140120260424509775",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509775.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424509775.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509775.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509775.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7501:1401202604245097",
+      "code": "7501",
+      "company": "東証Ｓ",
+      "title": "当社株式に対する公開買付けに関する当社からの質問に対する対質問回答報告書提出のお知らせ",
+      "title_en": "当社株式に対する公開買付けに関する当社からの質問に対する対質問回答報告書提出のお知らせ",
+      "title_ja": "当社株式に対する公開買付けに関する当社からの質問に対する対質問回答報告書提出のお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-04-24T10:00:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202604245097",
+      "doc_id_ja": "140120260424509748",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509748.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424509748.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509748.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509748.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6736:1401202604245097",
+      "code": "6736",
+      "company": "東証Ｓ",
+      "title": "4対4のリアルタイム戦術カードバトル「Hard Edge - War Zone」2026年内に発売！体験版の配信も決定",
+      "title_en": "4対4のリアルタイム戦術カードバトル「Hard Edge - War Zone」2026年内に発売！体験版の配信も決定",
+      "title_ja": "4対4のリアルタイム戦術カードバトル「Hard Edge - War Zone」2026年内に発売！体験版の配信も決定",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245097",
+      "doc_id_ja": "140120260424509756",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509756.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424509756.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509756.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509756.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5588:1401202604245098",
+      "code": "5588",
+      "company": "東証Ｇ",
+      "title": "味の素フィナンシャル・ソリューションズとファーストアカウンティング、共同開発した経理AIエージェントが本番稼働",
+      "title_en": "味の素フィナンシャル・ソリューションズとファーストアカウンティング、共同開発した経理AIエージェントが本番稼働",
+      "title_ja": "味の素フィナンシャル・ソリューションズとファーストアカウンティング、共同開発した経理AIエージェントが本番稼働",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245098",
+      "doc_id_ja": "140120260424509825",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509825.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424509825.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509825.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509825.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5302:1401202604235094",
+      "code": "5302",
+      "company": "東証Ｐ",
+      "title": "(Delayed)FY2025 Financial Information",
+      "title_en": "(Delayed)FY2025 Financial Information",
+      "title_ja": "（遅延）(Delayed)FY2025 Financial Information",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-04-24T10:00:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "doc_id_family": "1401202604235094",
+      "doc_id_ja": "140120260423509443",
+      "doc_id_en": "140120260423509443",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509443.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260423509443.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509443.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509443.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260423509443.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4341:1401202604245097",
+      "code": "4341",
+      "company": "東証Ｓ",
+      "title": "奈良県大和郡山市へ携帯電話回線を活用した防災無線「IP同報無線システム」を納入",
+      "title_en": "奈良県大和郡山市へ携帯電話回線を活用した防災無線「IP同報無線システム」を納入",
+      "title_ja": "奈良県大和郡山市へ携帯電話回線を活用した防災無線「IP同報無線システム」を納入",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245097",
+      "doc_id_ja": "140120260424509759",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509759.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424509759.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509759.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509759.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3665:1401202604225085",
+      "code": "3665",
+      "company": "東証Ｐ",
+      "title": "Matters Concerning Controlling Shareholder, etc.",
+      "title_en": "Matters Concerning Controlling Shareholder, etc.",
+      "title_ja": "Matters Concerning Controlling Shareholder, etc.",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225085",
+      "doc_id_ja": "140120260422508524",
+      "doc_id_en": "140120260422508528",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508524.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260422508524.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508524.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508524.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260422508528.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1671:1401202604245097",
+      "code": "1671",
+      "company": "東証Ｅ",
+      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_en": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_ja": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245097",
+      "doc_id_ja": "140120260424509778",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509778.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424509778.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509778.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509778.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4884:1401202604235093",
+      "code": "4884",
+      "company": "東証Ｇ",
+      "title": "脊髄損傷急性期を対象とする組換えヒトHGFタンパク質「oremepermin alpha」の欧州における希少疾病用医薬品指定の取得のお知らせ",
+      "title_en": "脊髄損傷急性期を対象とする組換えヒトHGFタンパク質「oremepermin alpha」の欧州における希少疾病用医薬品指定の取得のお知らせ",
+      "title_ja": "脊髄損傷急性期を対象とする組換えヒトHGFタンパク質「oremepermin alpha」の欧州における希少疾病用医薬品指定の取得のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T09:50:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235093",
+      "doc_id_ja": "140120260423509388",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509388.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260423509388.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509388.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509388.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:460A:1401202604235095",
+      "code": "460A",
+      "company": "東証Ｇ",
+      "title": "東北エリア進出の取り組みとして、仙台市と立地表明式を実施",
+      "title_en": "東北エリア進出の取り組みとして、仙台市と立地表明式を実施",
+      "title_ja": "東北エリア進出の取り組みとして、仙台市と立地表明式を実施",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T09:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604235095",
+      "doc_id_ja": "140120260423509587",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509587.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260423509587.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509587.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509587.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9743:1401202604155045",
+      "code": "9743",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T09:28:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604155045",
+      "doc_id_ja": "140120260415504572",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260415504572.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260415504572.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260415504572.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260415504572.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5075:1401202603135814",
+      "code": "5075",
+      "company": "名証Ｎ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T09:26:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202603135814",
+      "doc_id_ja": "140120260313581461",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260313581461.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260313581461.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260313581461.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260313581461.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3246:1401202603165829",
+      "code": "3246",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T09:24:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202603165829",
+      "doc_id_ja": "140120260316582947",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260316582947.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260316582947.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260316582947.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260316582947.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8601:1401202604235094",
       "code": "8601",
