@@ -1,7 +1,121 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-25T07:43:13+09:00",
+  "last_checked_jst": "2026-04-25T08:25:29+09:00",
   "items": [
+    {
+      "id": "kabutan:8968:1401202604245103",
+      "code": "8968",
+      "company": "東証Ｒ",
+      "title": "第12回投資主総会招集ご通知",
+      "title_en": "第12回投資主総会招集ご通知",
+      "title_ja": "第12回投資主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-25T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245103",
+      "doc_id_ja": "140120260424510306",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510306.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260425/140120260424510306.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510306.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510306.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8203:1401202604245098",
+      "code": "8203",
+      "company": "東証Ｐ",
+      "title": "Notice of the 77th Ordinary General Meeting of Shareholders",
+      "title_en": "Notice of the 77th Ordinary General Meeting of Shareholders",
+      "title_ja": "the 77th Ordinary General Meeting of Shareholdersのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-25T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245098",
+      "doc_id_ja": "140120260424509802",
+      "doc_id_en": "140120260424509803",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509802.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260425/140120260424509802.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509802.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509802.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260425/140120260424509803.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8198:1401202604245101",
+      "code": "8198",
+      "company": "東証Ｓ",
+      "title": "NOTICE OF THE 64TH ORDINARY GENERAL MEETING OF SHAREHOLDERS",
+      "title_en": "NOTICE OF THE 64TH ORDINARY GENERAL MEETING OF SHAREHOLDERS",
+      "title_ja": "THE 64TH ORDINARY GENERAL MEETING OF SHAREHOLDERSのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-25T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245101",
+      "doc_id_ja": "140120260424510146",
+      "doc_id_en": "140120260424510146",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510146.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260425/140120260424510146.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510146.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510146.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260425/140120260424510146.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7098:1401202604245106",
+      "code": "7098",
+      "company": "",
+      "title": "「第 22回 定時株主総会招集ご通知」の一部訂正に関するお知らせ",
+      "title_en": "「第 22回 定時株主総会招集ご通知」の一部訂正に関するお知らせ",
+      "title_ja": "（訂正）「第 22回 定時株主総会招集ご通知」の一部訂正に関するお知らせ",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-04-25T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202604245106",
+      "doc_id_ja": "140120260424510601",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510601.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260425/140120260424510601.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510601.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510601.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7098:1401202604245105",
+      "code": "7098",
+      "company": "",
+      "title": "(訂正)第22回定時株主総会招集ご通知",
+      "title_en": "(訂正)第22回定時株主総会招集ご通知",
+      "title_ja": "（訂正）(訂正)第22回定時株主総会招集ご通知",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-04-25T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202604245105",
+      "doc_id_ja": "140120260424510599",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510599.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260425/140120260424510599.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510599.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510599.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:6503:1401202604245107",
       "code": "6503",
@@ -69,6 +183,30 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
+      "id": "kabutan:3548:1401202604245108",
+      "code": "3548",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Introduction of a Performance-Based Restricted Stock Compensation System for Directors",
+      "title_en": "Notice Regarding Introduction of a Performance-Based Restricted Stock Compensation System for Directors",
+      "title_ja": "Introduction of a Performance-Based Restricted Stock Compensation System for Directorsに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-24T19:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604245108",
+      "doc_id_ja": "140120260424510801",
+      "doc_id_en": "140120260424510801",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510801.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510801.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510801.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510801.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510801.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
       "id": "kabutan:184A:1401202604245105",
       "code": "184A",
       "company": "東証Ｇ",
@@ -117,28 +255,6 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
-      "id": "kabutan:8358:1401202604245108",
-      "code": "8358",
-      "company": "東証Ｐ",
-      "title": "Formulation of the Mid-Term Business Plan (FY2026-FY2028)",
-      "title_en": "Formulation of the Mid-Term Business Plan (FY2026-FY2028)",
-      "title_ja": "Formulation of the Mid-Term Business Plan (FY2026-FY2028)",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-04-24T18:40:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202604245108",
-      "doc_id_ja": "140120260424510837",
-      "doc_id_en": "140120260424510837",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510837.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510837.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510837.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510837.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510837.pdf",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
       "id": "kabutan:4832:1401202604245107",
       "code": "4832",
       "company": "東証Ｓ",
@@ -163,32 +279,25 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
-      "id": "kabutan:3548:1401202604245108",
-      "code": "3548",
+      "id": "kabutan:8358:1401202604245108",
+      "code": "8358",
       "company": "東証Ｐ",
-      "title": "Notice Regarding Introduction of a Performance-Based Restricted Stock Compensation System for Directors",
-      "title_en": "Notice Regarding Introduction of a Performance-Based Restricted Stock Compensation System for Directors",
-      "title_ja": "Introduction of a Performance-Based Restricted Stock Compensation System for Directorsに関するお知らせ",
+      "title": "Formulation of the Mid-Term Business Plan (FY2026-FY2028)",
+      "title_en": "Formulation of the Mid-Term Business Plan (FY2026-FY2028)",
+      "title_ja": "Formulation of the Mid-Term Business Plan (FY2026-FY2028)",
       "points_ja": [
-        "自己株式（取得/消却/方針）の条件を確認",
-        "自己株式の処分（需給/希薄化）を確認",
-        "増資/売出（希薄化・需給インパクト）を確認"
+        "PDFで重要点（数字/条件）を確認"
       ],
-      "datetime_jst": "2026-04-24T18:30:00+09:00",
-      "tags": [
-        "自己株",
-        "自己株処分",
-        "増資/売出",
-        "人事"
-      ],
+      "datetime_jst": "2026-04-24T18:40:00+09:00",
+      "tags": [],
       "doc_id_family": "1401202604245108",
-      "doc_id_ja": "140120260424510805",
-      "doc_id_en": "140120260424510801",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510805.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510805.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510805.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510805.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510801.pdf",
+      "doc_id_ja": "140120260424510837",
+      "doc_id_en": "140120260424510837",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510837.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510837.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510837.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510837.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510837.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
