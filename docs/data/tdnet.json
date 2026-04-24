@@ -1,7 +1,121 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-24T18:59:57+09:00",
+  "last_checked_jst": "2026-04-24T20:07:13+09:00",
   "items": [
+    {
+      "id": "kabutan:6503:1401202604245107",
+      "code": "6503",
+      "company": "東証Ｐ",
+      "title": "Mitsubishi Electric Considering Alliance with Hon Hai Precision Industry for Joint Operation of Automotive Equipment Business",
+      "title_en": "Mitsubishi Electric Considering Alliance with Hon Hai Precision Industry for Joint Operation of Automotive Equipment Business",
+      "title_ja": "Mitsubishi Electric Considering Alliance with Hon Hai Precision Industry for Joint Operation of Automotive Equipment Business",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245107",
+      "doc_id_ja": "140120260424510745",
+      "doc_id_en": "140120260424510745",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510745.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510745.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510745.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510745.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510745.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6503:1401202604245106",
+      "code": "6503",
+      "company": "東証Ｐ",
+      "title": "鴻海精密工業と自動車機器事業の共同運営を通じた戦略的提携の検討開始に合意",
+      "title_en": "鴻海精密工業と自動車機器事業の共同運営を通じた戦略的提携の検討開始に合意",
+      "title_ja": "鴻海精密工業と自動車機器事業の共同運営を通じた戦略的提携の検討開始に合意",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245106",
+      "doc_id_ja": "140120260424510662",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510662.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510662.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510662.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510662.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3930:1401202604245108",
+      "code": "3930",
+      "company": "東証Ｇ",
+      "title": "資金流出事案の発生に関するお知らせ",
+      "title_en": "資金流出事案の発生に関するお知らせ",
+      "title_ja": "資金流出事案の発生に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245108",
+      "doc_id_ja": "140120260424510809",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510809.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510809.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510809.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510809.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:184A:1401202604245105",
+      "code": "184A",
+      "company": "東証Ｇ",
+      "title": "ＮＯＶＡホールディングス株式会社による株式会社学びエイド株券等（証券コード：184A）に対する公開買付けの開始等に関するお知らせ",
+      "title_en": "ＮＯＶＡホールディングス株式会社による株式会社学びエイド株券等（証券コード：184A）に対する公開買付けの開始等に関するお知らせ",
+      "title_ja": "ＮＯＶＡホールディングス株式会社による株式会社学びエイド株券等（証券コード：184A）に対する公開買付けの開始等に関するお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-04-24T19:00:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202604245105",
+      "doc_id_ja": "140120260424510588",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510588.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510588.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510588.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510588.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:184A:1401202604245104",
+      "code": "184A",
+      "company": "東証Ｇ",
+      "title": "株式の売出しに関するお知らせ",
+      "title_en": "株式の売出しに関するお知らせ",
+      "title_ja": "株式の売出しに関するお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-04-24T19:00:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202604245104",
+      "doc_id_ja": "140120260424510486",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510486.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510486.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510486.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510486.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8358:1401202604245108",
       "code": "8358",
@@ -49,6 +163,57 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
+      "id": "kabutan:3548:1401202604245108",
+      "code": "3548",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Introduction of a Performance-Based Restricted Stock Compensation System for Directors",
+      "title_en": "Notice Regarding Introduction of a Performance-Based Restricted Stock Compensation System for Directors",
+      "title_ja": "Introduction of a Performance-Based Restricted Stock Compensation System for Directorsに関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "自己株式の処分（需給/希薄化）を確認",
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-04-24T18:30:00+09:00",
+      "tags": [
+        "自己株",
+        "自己株処分",
+        "増資/売出",
+        "人事"
+      ],
+      "doc_id_family": "1401202604245108",
+      "doc_id_ja": "140120260424510805",
+      "doc_id_en": "140120260424510801",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510805.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510805.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510805.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510805.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510801.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3548:1401202604245107",
+      "code": "3548",
+      "company": "東証Ｐ",
+      "title": "取締役等に対する業績連動型譲渡制限付株式報酬制度導入に関するお知らせ",
+      "title_en": "取締役等に対する業績連動型譲渡制限付株式報酬制度導入に関するお知らせ",
+      "title_ja": "取締役等に対する業績連動型譲渡制限付株式報酬制度導入に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T18:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245107",
+      "doc_id_ja": "140120260424510798",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510798.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510798.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510798.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510798.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
       "id": "kabutan:8060:1401202604215075",
       "code": "8060",
       "company": "東証Ｐ",
@@ -70,58 +235,6 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507585.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507585.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260421507589.pdf",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:3548:1401202604245108",
-      "code": "3548",
-      "company": "東証Ｐ",
-      "title": "従業員に対する株式給付信託（J-ESOP-RS）の導入及び 第三者割当による自己株式の処分に関するお知らせ",
-      "title_en": "従業員に対する株式給付信託（J-ESOP-RS）の導入及び 第三者割当による自己株式の処分に関するお知らせ",
-      "title_ja": "従業員に対する株式給付信託（J-ESOP-RS）の導入及び 第三者割当による自己株式の処分に関するお知らせ",
-      "points_ja": [
-        "自己株式（取得/消却/方針）の条件を確認",
-        "自己株式の処分（需給/希薄化）を確認",
-        "増資/売出（希薄化・需給インパクト）を確認"
-      ],
-      "datetime_jst": "2026-04-24T18:30:00+09:00",
-      "tags": [
-        "自己株",
-        "自己株処分",
-        "増資/売出"
-      ],
-      "doc_id_family": "1401202604245108",
-      "doc_id_ja": "140120260424510805",
-      "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510805.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510805.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510805.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510805.pdf",
-      "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:3548:1401202604245107",
-      "code": "3548",
-      "company": "東証Ｐ",
-      "title": "Notice Regarding Changes in the Responsibilities of Directors and Executive Officers",
-      "title_en": "Notice Regarding Changes in the Responsibilities of Directors and Executive Officers",
-      "title_ja": "Changes in the Responsibilities of Directors and Executive Officersに関するお知らせ",
-      "points_ja": [
-        "役員人事/体制変更の内容を確認"
-      ],
-      "datetime_jst": "2026-04-24T18:30:00+09:00",
-      "tags": [
-        "人事"
-      ],
-      "doc_id_family": "1401202604245107",
-      "doc_id_ja": "140120260424510792",
-      "doc_id_en": "140120260424510796",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510792.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510792.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510792.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510792.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510796.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
