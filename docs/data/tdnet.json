@@ -1,7 +1,215 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-24T15:23:42+09:00",
+  "last_checked_jst": "2026-04-24T17:26:24+09:00",
   "items": [
+    {
+      "id": "kabutan:4341:1401202604245107",
+      "code": "4341",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/24",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T17:23:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245107",
+      "doc_id_ja": "140120260424510723",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510723.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510723.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510723.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510723.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3915:1401202604245107",
+      "code": "3915",
+      "company": "東証Ｐ",
+      "title": "日経CNBC「トップに聞く」にテラスカイ代表取締役社長の佐藤が出演",
+      "title_en": "日経CNBC「トップに聞く」にテラスカイ代表取締役社長の佐藤が出演",
+      "title_ja": "日経CNBC「トップに聞く」にテラスカイ代表取締役社長の佐藤が出演",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-24T17:05:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604245107",
+      "doc_id_ja": "140120260424510739",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510739.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510739.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510739.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510739.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4519:1401202604235096",
+      "code": "4519",
+      "company": "東証Ｐ",
+      "title": "Supplementary Materials Consolidated Financial Statements for the three months ended March 31, 2026 (IFRS)",
+      "title_en": "Supplementary Materials Consolidated Financial Statements for the three months ended March 31, 2026 (IFRS)",
+      "title_ja": "Supplementary Materials Consolidated Financial Statements for the three months ended March 31, 2026 (IFRS)",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T17:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202604235096",
+      "doc_id_ja": "140120260423509689",
+      "doc_id_en": "140120260423509687",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509689.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260423509689.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509689.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509689.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260423509687.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4374:1401202604245101",
+      "code": "4374",
+      "company": "東証Ｇ",
+      "title": "株式会社ROBOT PAYMENT 5月18日（月）にオンラインにて個人投資家向け質問会を開催",
+      "title_en": "株式会社ROBOT PAYMENT 5月18日（月）にオンラインにて個人投資家向け質問会を開催",
+      "title_ja": "株式会社ROBOT PAYMENT 5月18日（月）にオンラインにて個人投資家向け質問会を開催",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T17:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245101",
+      "doc_id_ja": "140120260424510136",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510136.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510136.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510136.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510136.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3681:1401202604245105",
+      "code": "3681",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Establishment of Special Investigation Committee",
+      "title_en": "Notice Concerning Establishment of Special Investigation Committee",
+      "title_ja": "Establishment of Special Investigation Committeeに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T17:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245105",
+      "doc_id_ja": "140120260424510576",
+      "doc_id_en": "140120260424510584",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510576.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510576.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510576.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510576.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510584.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3557:1401202604245105",
+      "code": "3557",
+      "company": "東証Ｇ",
+      "title": "取締役候補者及び補欠監査役候補者の選任に関するお知らせ",
+      "title_en": "取締役候補者及び補欠監査役候補者の選任に関するお知らせ",
+      "title_ja": "取締役候補者及び補欠監査役候補者の選任に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T17:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245105",
+      "doc_id_ja": "140120260424510502",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510502.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510502.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510502.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510502.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3445:1401202604245104",
+      "code": "3445",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Issuance of New Shares as Restricted Stock Compensation",
+      "title_en": "Notice Concerning Issuance of New Shares as Restricted Stock Compensation",
+      "title_ja": "Issuance of New Shares as Restricted Stock Compensationに関するお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-04-24T17:00:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202604245104",
+      "doc_id_ja": "140120260424510435",
+      "doc_id_en": "140120260424510447",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510435.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510435.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510435.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510435.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510447.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3405:1401202604215076",
+      "code": "3405",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Completion of Payment for Disposal of Treasury Shares as Restricted Stock Compensation",
+      "title_en": "Notice Regarding Completion of Payment for Disposal of Treasury Shares as Restricted Stock Compensation",
+      "title_ja": "Completion of Payment for 自己株式処分 as Restricted Stock Compensationに関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "自己株式の処分（需給/希薄化）を確認"
+      ],
+      "datetime_jst": "2026-04-24T17:00:00+09:00",
+      "tags": [
+        "自己株",
+        "自己株処分"
+      ],
+      "doc_id_family": "1401202604215076",
+      "doc_id_ja": "140120260421507667",
+      "doc_id_en": "140120260421507672",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507667.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260421507667.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260421507667.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260421507667.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260424/140120260421507672.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:180A:1401202604245107",
+      "code": "180A",
+      "company": "東証Ｅ",
+      "title": "約款 2026/04/01",
+      "title_en": "約款 2026/04/01",
+      "title_ja": "約款 2026/04/01",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-24T17:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245107",
+      "doc_id_ja": "140120260424510742",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510742.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260424/140120260424510742.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510742.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510742.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3931:1401202604245105",
       "code": "3931",
