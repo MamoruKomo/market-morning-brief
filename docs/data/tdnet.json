@@ -1,7 +1,187 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-27T07:35:50+09:00",
+  "last_checked_jst": "2026-04-27T08:21:28+09:00",
   "items": [
+    {
+      "id": "kabutan:7520:1401202604245099",
+      "code": "7520",
+      "company": "東証Ｐ",
+      "title": "NOTICE OF THE 61th ANNUAL GENERAL MEETING OF SHAREHOLDERS",
+      "title_en": "NOTICE OF THE 61th ANNUAL GENERAL MEETING OF SHAREHOLDERS",
+      "title_ja": "THE 61th ANNUAL GENERAL MEETING OF SHAREHOLDERSのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245099",
+      "doc_id_ja": "140120260424509975",
+      "doc_id_en": "140120260424509976",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509975.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260424509975.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509975.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509975.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260427/140120260424509976.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3391:1401202604265109",
+      "code": "3391",
+      "company": "東証Ｐ",
+      "title": "NOTICE OF THE 64th ORDINARY GENERAL MEETING OF SHAREHOLDERS",
+      "title_en": "NOTICE OF THE 64th ORDINARY GENERAL MEETING OF SHAREHOLDERS",
+      "title_ja": "THE 64th ORDINARY GENERAL MEETING OF SHAREHOLDERSのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604265109",
+      "doc_id_ja": "140120260426510954",
+      "doc_id_en": "140120260426510956",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260426510954.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260426510954.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260426510954.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260426510954.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260427/140120260426510956.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3281:1401202604205065",
+      "code": "3281",
+      "company": "東証Ｒ",
+      "title": "第11回投資主総会招集ご通知",
+      "title_en": "第11回投資主総会招集ご通知",
+      "title_ja": "第11回投資主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604205065",
+      "doc_id_ja": "140120260420506568",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506568.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260420506568.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260420506568.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260420506568.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3093:1401202604245099",
+      "code": "3093",
+      "company": "東証Ｐ",
+      "title": "Notice of Convocation of the 31st Ordinary General Meeting of Shareholders",
+      "title_en": "Notice of Convocation of the 31st Ordinary General Meeting of Shareholders",
+      "title_ja": "Convocation of the 31st Ordinary General Meeting of Shareholdersのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245099",
+      "doc_id_ja": "140120260424509980",
+      "doc_id_en": "140120260424509982",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424509980.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260424509980.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424509980.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424509980.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260427/140120260424509982.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2789:1401202604235091",
+      "code": "2789",
+      "company": "東証Ｓ",
+      "title": "招集通知記載事項の一部訂正に関するお知らせ",
+      "title_en": "招集通知記載事項の一部訂正に関するお知らせ",
+      "title_ja": "（訂正）招集通知記載事項の一部訂正に関するお知らせ",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-04-27T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202604235091",
+      "doc_id_ja": "140120260423509195",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509195.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260423509195.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509195.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509195.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2789:1401202604105019",
+      "code": "2789",
+      "company": "東証Ｓ",
+      "title": "第54期定時株主総会招集通知及び株主総会資料",
+      "title_en": "第54期定時株主総会招集通知及び株主総会資料",
+      "title_ja": "第54期定時株主総会招集通知及び株主総会資料",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604105019",
+      "doc_id_ja": "140120260410501913",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260410501913.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260410501913.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260410501913.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260410501913.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:244A:1401202604265109",
+      "code": "244A",
+      "company": "東証Ｇ",
+      "title": "Graat、au PAYの内製アジャイル開発でAIを活用した 企画・要件定義改革を支援",
+      "title_en": "Graat、au PAYの内製アジャイル開発でAIを活用した 企画・要件定義改革を支援",
+      "title_ja": "Graat、au PAYの内製アジャイル開発でAIを活用した 企画・要件定義改革を支援",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604265109",
+      "doc_id_ja": "140120260426510949",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260426510949.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260426510949.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260426510949.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260426510949.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:186A:1401202604245101",
+      "code": "186A",
+      "company": "東証Ｇ",
+      "title": "Notice Regarding the Appointment of Executive Officer",
+      "title_en": "Notice Regarding the Appointment of Executive Officer",
+      "title_ja": "the Appointment of Executive Officerに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-27T08:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604245101",
+      "doc_id_ja": "140120260424510104",
+      "doc_id_en": "140120260424510112",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510104.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260424510104.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510104.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510104.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260427/140120260424510112.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8968:1401202604245103",
       "code": "8968",
