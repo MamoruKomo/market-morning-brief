@@ -1,7 +1,95 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-27T19:05:16+09:00",
+  "last_checked_jst": "2026-04-27T20:55:19+09:00",
   "items": [
+    {
+      "id": "kabutan:3231:1401202604275118",
+      "code": "3231",
+      "company": "東証Ｐ",
+      "title": "Corporate Governance Report",
+      "title_en": "Corporate Governance Report",
+      "title_ja": "Corporate Governance Report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T20:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275118",
+      "doc_id_ja": "140120260427511819",
+      "doc_id_en": "140120260427511819",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511819.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260427511819.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511819.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511819.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260427/140120260427511819.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7138:1401202604275111",
+      "code": "7138",
+      "company": "東証Ｇ",
+      "title": "【「彩香ちゃんは弘子先輩に恋してる 2nd Stage」ドラマ＆原作 ポップアップストア】 マンガ展×FirstMoverStudio の共同企画で中国・上海で開催決定！",
+      "title_en": "【「彩香ちゃんは弘子先輩に恋してる 2nd Stage」ドラマ＆原作 ポップアップストア】 マンガ展×FirstMoverStudio の共同企画で中国・上海で開催決定！",
+      "title_ja": "【「彩香ちゃんは弘子先輩に恋してる 2nd Stage」ドラマ＆原作 ポップアップストア】 マンガ展×FirstMoverStudio の共同企画で中国・上海で開催決定！",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T19:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275111",
+      "doc_id_ja": "140120260427511104",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511104.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260427511104.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511104.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511104.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:471A:1401202604275122",
+      "code": "471A",
+      "company": "東証Ｐ",
+      "title": "(Disclosure Progress) Notice Concerning Change in Controlling Shareholder Other than Parent Company",
+      "title_en": "(Disclosure Progress) Notice Concerning Change in Controlling Shareholder Other than Parent Company",
+      "title_ja": "(Disclosure Progress) Notice Concerning Change in Controlling Shareholder Other than Parent Company",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T19:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275122",
+      "doc_id_ja": "140120260427512253",
+      "doc_id_en": "140120260427512253",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512253.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260427512253.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427512253.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427512253.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260427/140120260427512253.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:471A:1401202604275114",
+      "code": "471A",
+      "company": "東証Ｐ",
+      "title": "（開示事項の経過）親会社以外の支配株主の異動に関するお知らせ",
+      "title_en": "（開示事項の経過）親会社以外の支配株主の異動に関するお知らせ",
+      "title_ja": "（開示事項の経過）親会社以外の支配株主の異動に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T19:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275114",
+      "doc_id_ja": "140120260427511476",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511476.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260427511476.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511476.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511476.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3231:1401202604105014",
       "code": "3231",
