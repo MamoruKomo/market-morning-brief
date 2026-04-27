@@ -1,7 +1,313 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-27T08:58:39+09:00",
+  "last_checked_jst": "2026-04-27T11:38:14+09:00",
   "items": [
+    {
+      "id": "kabutan:1349:1401202604275113",
+      "code": "1349",
+      "company": "東証Ｅ",
+      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
+      "title_en": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
+      "title_ja": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:35:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275113",
+      "doc_id_ja": "140120260427511322",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511322.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260427511322.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511322.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511322.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7326:1401202604245107",
+      "code": "7326",
+      "company": "東証Ｇ",
+      "title": "役員の異動に関するお知らせ",
+      "title_en": "役員の異動に関するお知らせ",
+      "title_ja": "役員の異動に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604245107",
+      "doc_id_ja": "140120260424510716",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510716.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260424510716.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510716.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510716.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7326:1401202604245106",
+      "code": "7326",
+      "company": "東証Ｇ",
+      "title": "2026年３月期 決算速報及び期末配当予想の修正のお知らせ",
+      "title_en": "2026年３月期 決算速報及び期末配当予想の修正のお知らせ",
+      "title_ja": "2026年３月期 決算速報及び期末配当予想の修正のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [
+        "決算",
+        "配当"
+      ],
+      "doc_id_family": "1401202604245106",
+      "doc_id_ja": "140120260424510632",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510632.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260424510632.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510632.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510632.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7161:1401202604245107",
+      "code": "7161",
+      "company": "東証Ｓ",
+      "title": "当社子会社における債権の取立不能又は取立遅延のおそれに関するお知らせ",
+      "title_en": "当社子会社における債権の取立不能又は取立遅延のおそれに関するお知らせ",
+      "title_ja": "（遅延）当社子会社における債権の取立不能又は取立遅延のおそれに関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認",
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [
+        "M&A",
+        "遅延"
+      ],
+      "doc_id_family": "1401202604245107",
+      "doc_id_ja": "140120260424510734",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510734.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260424510734.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510734.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510734.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6484:1401202604275110",
+      "code": "6484",
+      "company": "東証Ｓ",
+      "title": "役員の異動に関するお知らせ",
+      "title_en": "役員の異動に関するお知らせ",
+      "title_ja": "役員の異動に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604275110",
+      "doc_id_ja": "140120260427511072",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511072.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260427511072.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511072.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511072.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4506:1401202604245109",
+      "code": "4506",
+      "company": "東証Ｐ",
+      "title": "Notice regarding Withdrawal of Shelf Registration Statement for Issuance of New Shares",
+      "title_en": "Notice regarding Withdrawal of Shelf Registration Statement for Issuance of New Shares",
+      "title_ja": "Withdrawal of Shelf Registration Statement for Issuance of New Sharesに関するお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202604245109",
+      "doc_id_ja": "140120260424510920",
+      "doc_id_en": "140120260424510923",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510920.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260424510920.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510920.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510920.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260427/140120260424510923.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4317:1401202604275113",
+      "code": "4317",
+      "company": "東証Ｓ",
+      "title": "剰余金の配当（期末配当）に関するお知らせ",
+      "title_en": "剰余金の配当（期末配当）に関するお知らせ",
+      "title_ja": "剰余金の配当（期末配当）に関するお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [
+        "配当"
+      ],
+      "doc_id_family": "1401202604275113",
+      "doc_id_ja": "140120260427511357",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511357.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260427511357.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511357.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511357.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3747:1401202604225083",
+      "code": "3747",
+      "company": "東証Ｓ",
+      "title": "主要株主である筆頭株主の異動に関するお知らせ",
+      "title_en": "主要株主である筆頭株主の異動に関するお知らせ",
+      "title_ja": "主要株主である筆頭株主の異動に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225083",
+      "doc_id_ja": "140120260422508377",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508377.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260422508377.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508377.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508377.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3003:1401202604245108",
+      "code": "3003",
+      "company": "東証Ｐ",
+      "title": "Consolidated Financial Results for 1Q FY2026 (January 1, 2026 - March 31, 2026) [under Japanese GAAP]",
+      "title_en": "Consolidated Financial Results for 1Q FY2026 (January 1, 2026 - March 31, 2026) [under Japanese GAAP]",
+      "title_ja": "連結決算 for 1Q FY2026 (January 1, 2026 - March 31, 2026) [under Japanese GAAP]",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604245108",
+      "doc_id_ja": "140120260424510850",
+      "doc_id_en": "140120260424510850",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510850.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260424510850.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510850.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510850.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260427/140120260424510850.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3003:1401202604235090",
+      "code": "3003",
+      "company": "東証Ｐ",
+      "title": "2026年12月期第１四半期決算短信〔日本基準〕(連結)",
+      "title_en": "2026年12月期第１四半期決算短信〔日本基準〕(連結)",
+      "title_ja": "2026年12月期第１四半期決算短信〔日本基準〕(連結)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604235090",
+      "doc_id_ja": "140120260423509097",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509097.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260423509097.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260423509097.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260423509097.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:228A:1401202604275110",
+      "code": "228A",
+      "company": "東証Ｇ",
+      "title": "就労証明書などの発行業務を約8割自動化したMIXIの事例を公開 「帳票DX for SmartHR」導入で転記作業・繁忙期の工数を大幅削減",
+      "title_en": "就労証明書などの発行業務を約8割自動化したMIXIの事例を公開 「帳票DX for SmartHR」導入で転記作業・繁忙期の工数を大幅削減",
+      "title_ja": "就労証明書などの発行業務を約8割自動化したMIXIの事例を公開 「帳票DX for SmartHR」導入で転記作業・繁忙期の工数を大幅削減",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275110",
+      "doc_id_ja": "140120260427511042",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511042.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260427511042.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511042.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511042.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2070:1401202604025977",
+      "code": "2070",
+      "company": "東証EN",
+      "title": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
+      "title_en": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
+      "title_ja": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604025977",
+      "doc_id_ja": "140120260402597725",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260402597725.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260402597725.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260402597725.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260402597725.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1557:1401202604275113",
+      "code": "1557",
+      "company": "東証Ｅ",
+      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
+      "title_en": "State Street SPDR S&P500 ETFに関する日々の開示事項",
+      "title_ja": "State Street SPDR S&P500 ETFに関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-27T11:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275113",
+      "doc_id_ja": "140120260427511311",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511311.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260427/140120260427511311.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511311.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511311.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:6963:1401202604275110",
       "code": "6963",
