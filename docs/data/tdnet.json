@@ -1,7 +1,237 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-28T08:29:13+09:00",
+  "last_checked_jst": "2026-04-28T09:11:59+09:00",
   "items": [
+    {
+      "id": "kabutan:9793:1401202604285125",
+      "code": "9793",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-28T09:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604285125",
+      "doc_id_ja": "140120260428512511",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428512511.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260428512511.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260428512511.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260428512511.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4043:1401202604275116",
+      "code": "4043",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Changes of Directors and Selection of Substitutes for Directors who are Audit & Supervisory Committee Members",
+      "title_en": "Notice Concerning Changes of Directors and Selection of Substitutes for Directors who are Audit & Supervisory Committee Members",
+      "title_ja": "Changes of Directors and Selection of Substitutes for Directors who are Audit & Supervisory Committee Membersに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-28T09:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604275116",
+      "doc_id_ja": "140120260427511630",
+      "doc_id_en": "140120260427511640",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511630.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260427511630.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511630.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511630.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260428/140120260427511640.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4043:1401202604155046",
+      "code": "4043",
+      "company": "東証Ｐ",
+      "title": "Summary of Consolidated Financial Statements for Fiscal 2025 (JPGAAP)",
+      "title_en": "Summary of Consolidated Financial Statements for Fiscal 2025 (JPGAAP)",
+      "title_ja": "Summary of Consolidated Financial Statements for Fiscal 2025 (JPGAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-28T09:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604155046",
+      "doc_id_ja": "140120260415504665",
+      "doc_id_en": "140120260415504674",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260415504665.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260415504665.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260415504665.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260415504665.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260428/140120260415504674.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4041:1401202604275116",
+      "code": "4041",
+      "company": "東証Ｐ",
+      "title": "Acquisition of License for Therapeutic Antibody for Feline Inflammatory Diseases from MabGenesis Inc.",
+      "title_en": "Acquisition of License for Therapeutic Antibody for Feline Inflammatory Diseases from MabGenesis Inc.",
+      "title_ja": "Acquisition of License for Therapeutic Antibody for Feline Inflammatory Diseases from MabGenesis Inc.",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-28T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275116",
+      "doc_id_ja": "140120260427511638",
+      "doc_id_en": "140120260427511638",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511638.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260427511638.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511638.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511638.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260428/140120260427511638.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4041:1401202604245100",
+      "code": "4041",
+      "company": "東証Ｐ",
+      "title": "MabGenesis株式会社よりネコの炎症性疾患治療用抗体のライセンスを取得",
+      "title_en": "MabGenesis株式会社よりネコの炎症性疾患治療用抗体のライセンスを取得",
+      "title_ja": "MabGenesis株式会社よりネコの炎症性疾患治療用抗体のライセンスを取得",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-28T09:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202604245100",
+      "doc_id_ja": "140120260424510020",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510020.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260424510020.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510020.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510020.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:350A:1401202604275110",
+      "code": "350A",
+      "company": "東証Ｇ",
+      "title": "系統用蓄電池の取扱量が100MWを突破 サービス開始から約1年4カ月で達成",
+      "title_en": "系統用蓄電池の取扱量が100MWを突破 サービス開始から約1年4カ月で達成",
+      "title_ja": "系統用蓄電池の取扱量が100MWを突破 サービス開始から約1年4カ月で達成",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-28T08:59:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275110",
+      "doc_id_ja": "140120260427511060",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511060.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260427511060.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511060.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511060.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3199:1401202604275110",
+      "code": "3199",
+      "company": "東証Ｐ",
+      "title": "保護犬・保護猫の譲渡活動が拡大中！2026年５月 綿半店舗開催の譲渡会スケジュールが決定！",
+      "title_en": "保護犬・保護猫の譲渡活動が拡大中！2026年５月 綿半店舗開催の譲渡会スケジュールが決定！",
+      "title_ja": "保護犬・保護猫の譲渡活動が拡大中！2026年５月 綿半店舗開催の譲渡会スケジュールが決定！",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-28T08:59:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275110",
+      "doc_id_ja": "140120260427511056",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511056.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260427511056.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511056.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511056.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4102:1401202604275120",
+      "code": "4102",
+      "company": "東証Ｓ",
+      "title": "配当予想の修正(創業100周年記念配当）に関するお知らせ",
+      "title_en": "配当予想の修正(創業100周年記念配当）に関するお知らせ",
+      "title_ja": "配当予想の修正(創業100周年記念配当）に関するお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-04-28T08:55:00+09:00",
+      "tags": [
+        "配当"
+      ],
+      "doc_id_family": "1401202604275120",
+      "doc_id_ja": "140120260427512090",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512090.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260427512090.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427512090.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427512090.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:443A:1401202604275122",
+      "code": "443A",
+      "company": "東証Ｅ",
+      "title": "iFreeETFの収益分配金見込額のお知らせ",
+      "title_en": "iFreeETFの収益分配金見込額のお知らせ",
+      "title_ja": "iFreeETFの収益分配金見込額のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-28T08:50:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275122",
+      "doc_id_ja": "140120260427512298",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512298.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260427512298.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427512298.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427512298.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2523:1401202604285125",
+      "code": "2523",
+      "company": "東証Ｅ",
+      "title": "「ＭＡＸＩＳトピックス（除く金融）上場投信」の 基準価額と市場価格の重要な乖離に関するお知らせ",
+      "title_en": "「ＭＡＸＩＳトピックス（除く金融）上場投信」の 基準価額と市場価格の重要な乖離に関するお知らせ",
+      "title_ja": "「ＭＡＸＩＳトピックス（除く金融）上場投信」の 基準価額と市場価格の重要な乖離に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-28T08:50:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604285125",
+      "doc_id_ja": "140120260428512528",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428512528.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260428512528.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260428512528.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260428512528.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:293A:1401202604275111",
       "code": "293A",
