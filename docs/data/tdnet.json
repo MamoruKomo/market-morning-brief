@@ -1,7 +1,125 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-28T09:11:59+09:00",
+  "last_checked_jst": "2026-04-28T13:04:01+09:00",
   "items": [
+    {
+      "id": "kabutan:1942:1401202604275118",
+      "code": "1942",
+      "company": "東証Ｐ",
+      "title": "[Summary] Consolidated Financial Results for the Fiscal Year Ended March 31, 2026(Based on Japanese GAAP)",
+      "title_en": "[Summary] Consolidated Financial Results for the Fiscal Year Ended March 31, 2026(Based on Japanese GAAP)",
+      "title_ja": "[Summary] 連結決算 for the Fiscal Year Ended March 31, 2026(Based on Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-28T13:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604275118",
+      "doc_id_ja": "140120260427511828",
+      "doc_id_en": "140120260427511844",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511828.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260427511828.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511828.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511828.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260428/140120260427511844.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1928:1401202604285131",
+      "code": "1928",
+      "company": "東証Ｐ",
+      "title": "Corporate Governance Report",
+      "title_en": "Corporate Governance Report",
+      "title_ja": "Corporate Governance Report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-28T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604285131",
+      "doc_id_ja": "140120260428513119",
+      "doc_id_en": "140120260428513119",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428513119.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260428513119.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260428513119.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260428513119.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260428/140120260428513119.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1777:1401202604285127",
+      "code": "1777",
+      "company": "名証Ｍ",
+      "title": "Non-consolidated Financial Results for the Fiscal Year Ended March 31, 2026 (Under Japanese GAAP)",
+      "title_en": "Non-consolidated Financial Results for the Fiscal Year Ended March 31, 2026 (Under Japanese GAAP)",
+      "title_ja": "Non-連結決算 for the Fiscal Year Ended March 31, 2026 (Under Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-28T13:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604285127",
+      "doc_id_ja": "140120260428512734",
+      "doc_id_en": "140120260428512734",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428512734.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260428512734.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260428512734.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260428512734.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260428/140120260428512734.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1777:1401202604275121",
+      "code": "1777",
+      "company": "名証Ｍ",
+      "title": "2026年３月期決算参考資料",
+      "title_en": "2026年３月期決算参考資料",
+      "title_ja": "2026年３月期決算参考資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-28T13:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604275121",
+      "doc_id_ja": "140120260427512108",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512108.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260427512108.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427512108.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427512108.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1777:1401202604275120",
+      "code": "1777",
+      "company": "名証Ｍ",
+      "title": "2026年３月期決算短信〔日本基準〕(非連結)",
+      "title_en": "2026年３月期決算短信〔日本基準〕(非連結)",
+      "title_ja": "2026年３月期決算短信〔日本基準〕(非連結)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-28T13:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604275120",
+      "doc_id_ja": "140120260427512057",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512057.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260428/140120260427512057.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427512057.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427512057.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:9793:1401202604285125",
       "code": "9793",
