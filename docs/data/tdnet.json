@@ -1,7 +1,309 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-30T12:57:17+09:00",
+  "last_checked_jst": "2026-04-30T15:23:57+09:00",
   "items": [
+    {
+      "id": "kabutan:4188:1401202604305144",
+      "code": "4188",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Change in Specified Subsidiary",
+      "title_en": "Notice Regarding Change in Specified Subsidiary",
+      "title_ja": "Change in Specified Subsidiaryに関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202604305144",
+      "doc_id_ja": "140120260430514442",
+      "doc_id_en": "140120260430514455",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514442.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514442.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514442.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514442.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514455.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4098:1401202604285127",
+      "code": "4098",
+      "company": "東証Ｓ",
+      "title": "繰延税金資産の計上、通期連結業績予想及び配当予想の修正（増配）に関するお知らせ",
+      "title_en": "繰延税金資産の計上、通期連結業績予想及び配当予想の修正（増配）に関するお知らせ",
+      "title_ja": "繰延税金資産の計上、通期連結業績予想及び配当予想の修正（増配）に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認",
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [
+        "業績修正",
+        "配当"
+      ],
+      "doc_id_family": "1401202604285127",
+      "doc_id_ja": "140120260428512785",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428512785.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260428512785.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260428512785.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260428512785.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4091:1401202604305143",
+      "code": "4091",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Changes in Specified Subsidiaries",
+      "title_en": "Notice Regarding Changes in Specified Subsidiaries",
+      "title_ja": "Changes in Specified Subsidiariesに関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202604305143",
+      "doc_id_ja": "140120260430514340",
+      "doc_id_en": "140120260430514358",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514340.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514340.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514340.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514340.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514358.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4020:1401202604285137",
+      "code": "4020",
+      "company": "東証Ｇ",
+      "title": "ビートレンド、AIエージェント時代に向けた『betrend Agent-Readyプロジェクト』を始動。PoCパートナーの募集を開始。",
+      "title_en": "ビートレンド、AIエージェント時代に向けた『betrend Agent-Readyプロジェクト』を始動。PoCパートナーの募集を開始。",
+      "title_ja": "ビートレンド、AIエージェント時代に向けた『betrend Agent-Readyプロジェクト』を始動。PoCパートナーの募集を開始。",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202604285137",
+      "doc_id_ja": "140120260428513724",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428513724.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260428513724.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260428513724.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260428513724.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3665:1401202604305144",
+      "code": "3665",
+      "company": "東証Ｐ",
+      "title": "[Summary] Progress Report on the Plan to Meet Listing Maintenance Criteria",
+      "title_en": "[Summary] Progress Report on the Plan to Meet Listing Maintenance Criteria",
+      "title_ja": "[Summary] Progress Report on the Plan to Meet Listing Maintenance Criteria",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604305144",
+      "doc_id_ja": "140120260430514434",
+      "doc_id_en": "140120260430514434",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514434.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514434.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514434.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514434.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514434.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3665:1401202604275123",
+      "code": "3665",
+      "company": "東証Ｐ",
+      "title": "上場維持基準の適合に向けた計画に基づく進捗状況（改善期間入り）について",
+      "title_en": "上場維持基準の適合に向けた計画に基づく進捗状況（改善期間入り）について",
+      "title_ja": "上場維持基準の適合に向けた計画に基づく進捗状況（改善期間入り）について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275123",
+      "doc_id_ja": "140120260427512354",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512354.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260427512354.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427512354.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427512354.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3300:1401202604305152",
+      "code": "3300",
+      "company": "東証Ｇ",
+      "title": "プロ野球独立リーグ「石川ミリオンスターズ」へのスポンサーシップを締結",
+      "title_en": "プロ野球独立リーグ「石川ミリオンスターズ」へのスポンサーシップを締結",
+      "title_ja": "プロ野球独立リーグ「石川ミリオンスターズ」へのスポンサーシップを締結",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604305152",
+      "doc_id_ja": "140120260430515214",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515214.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430515214.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430515214.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430515214.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2982:1401202604305150",
+      "code": "2982",
+      "company": "東証Ｐ",
+      "title": "エー・ディー・ワークス、りそな銀行のカーボンオフセットサポート融資を利用 資金調達の多様化と社会課題解決に繋げる",
+      "title_en": "エー・ディー・ワークス、りそな銀行のカーボンオフセットサポート融資を利用 資金調達の多様化と社会課題解決に繋げる",
+      "title_ja": "エー・ディー・ワークス、りそな銀行のカーボンオフセットサポート融資を利用 資金調達の多様化と社会課題解決に繋げる",
+      "points_ja": [
+        "借入/資金調達（条件/返済）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [
+        "借入"
+      ],
+      "doc_id_family": "1401202604305150",
+      "doc_id_ja": "140120260430515023",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515023.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430515023.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430515023.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430515023.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2345:1401202604305152",
+      "code": "2345",
+      "company": "東証Ｓ",
+      "title": "Notice Regarding Participation in the Canton Network as a Valid ator in Collaboration with Next Finance Tech Co., Ltd.",
+      "title_en": "Notice Regarding Participation in the Canton Network as a Valid ator in Collaboration with Next Finance Tech Co., Ltd.",
+      "title_ja": "Participation in the Canton Network as a Valid ator in Collaboration with Next Finance Tech Co., Ltd.に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604305152",
+      "doc_id_ja": "140120260430515243",
+      "doc_id_en": "140120260430515243",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515243.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430515243.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430515243.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430515243.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260430/140120260430515243.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1967:1401202604285131",
+      "code": "1967",
+      "company": "東証Ｓ",
+      "title": "定款一部変更に関するお知らせ",
+      "title_en": "定款一部変更に関するお知らせ",
+      "title_ja": "定款一部変更に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604285131",
+      "doc_id_ja": "140120260428513130",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428513130.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260428513130.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260428513130.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260428513130.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1826:1401202604305149",
+      "code": "1826",
+      "company": "東証Ｓ",
+      "title": "業績予想の修正および特別損失の計上に関するお知らせ",
+      "title_en": "業績予想の修正および特別損失の計上に関するお知らせ",
+      "title_ja": "業績予想の修正および特別損失の計上に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202604305149",
+      "doc_id_ja": "140120260430514983",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514983.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514983.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514983.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514983.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1447:1401202604305141",
+      "code": "1447",
+      "company": "東証Ｇ",
+      "title": "SAAFHDグループ AIマネジメントシステム国際規格『ISO/IEC 42001』認証を取得―信頼されるAIの社会実装に向け、AIMS導入支援を本格展開―",
+      "title_en": "SAAFHDグループ AIマネジメントシステム国際規格『ISO/IEC 42001』認証を取得―信頼されるAIの社会実装に向け、AIMS導入支援を本格展開―",
+      "title_ja": "SAAFHDグループ AIマネジメントシステム国際規格『ISO/IEC 42001』認証を取得―信頼されるAIの社会実装に向け、AIMS導入支援を本格展開―",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604305141",
+      "doc_id_ja": "140120260430514192",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514192.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514192.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514192.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514192.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1420:1401202604305148",
+      "code": "1420",
+      "company": "東証Ｓ",
+      "title": "役員人事異動に関するお知らせ",
+      "title_en": "役員人事異動に関するお知らせ",
+      "title_ja": "役員人事異動に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-04-30T15:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202604305148",
+      "doc_id_ja": "140120260430514826",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514826.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514826.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514826.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514826.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7064:1401202604035980",
       "code": "7064",
