@@ -1,7 +1,261 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-04-30T09:04:54+09:00",
+  "last_checked_jst": "2026-04-30T12:57:17+09:00",
   "items": [
+    {
+      "id": "kabutan:7064:1401202604035980",
+      "code": "7064",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/04/30",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/04/30",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/04/30",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:39:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604035980",
+      "doc_id_ja": "140120260403598010",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260403598010.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260403598010.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260403598010.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260403598010.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9201:1401202604305147",
+      "code": "9201",
+      "company": "東証Ｐ",
+      "title": "Q&A regarding Series 1 Bond-Type Class Shares",
+      "title_en": "Q&A regarding Series 1 Bond-Type Class Shares",
+      "title_ja": "Q&A regarding Series 1 Bond-Type Class Shares",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604305147",
+      "doc_id_ja": "140120260430514706",
+      "doc_id_en": "140120260430514706",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514706.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514706.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514706.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514706.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514706.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9201:1401202604305146",
+      "code": "9201",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Issuance of Series 1 Bond-Type Class Stock and Reduction of Stated Capital and Additional Capital Reserves",
+      "title_en": "Notice Regarding Issuance of Series 1 Bond-Type Class Stock and Reduction of Stated Capital and Additional Capital Reserves",
+      "title_ja": "Issuance of Series 1 Bond-Type Class Stock and Reduction of Stated Capital and Additional Capital Reservesに関するお知らせ",
+      "points_ja": [
+        "借入/資金調達（条件/返済）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [
+        "借入"
+      ],
+      "doc_id_family": "1401202604305146",
+      "doc_id_ja": "140120260430514624",
+      "doc_id_en": "140120260430514645",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514624.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514624.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514624.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514624.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514645.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8705:1401202604275119",
+      "code": "8705",
+      "company": "東証Ｓ",
+      "title": "定時株主総会決議ご通知の郵送廃止及び株主通信の郵送廃止に関するお知らせ",
+      "title_en": "定時株主総会決議ご通知の郵送廃止及び株主通信の郵送廃止に関するお知らせ",
+      "title_ja": "定時株主総会決議ご通知の郵送廃止及び株主通信の郵送廃止に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604275119",
+      "doc_id_ja": "140120260427511994",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511994.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260427511994.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260427511994.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260427511994.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8705:1401202604245103",
+      "code": "8705",
+      "company": "東証Ｓ",
+      "title": "法人税等調整額の計上及び2026年３月期の連結業績見通しに関するお知らせ",
+      "title_en": "法人税等調整額の計上及び2026年３月期の連結業績見通しに関するお知らせ",
+      "title_ja": "法人税等調整額の計上及び2026年３月期の連結業績見通しに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245103",
+      "doc_id_ja": "140120260424510336",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510336.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260424510336.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510336.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510336.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:475A:1401202604305143",
+      "code": "475A",
+      "company": "東証Ｓ",
+      "title": "6割超の開業医が2026年度診療報酬改定を不安視",
+      "title_en": "6割超の開業医が2026年度診療報酬改定を不安視",
+      "title_ja": "6割超の開業医が2026年度診療報酬改定を不安視",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604305143",
+      "doc_id_ja": "140120260430514377",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514377.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514377.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514377.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514377.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4221:1401202604305146",
+      "code": "4221",
+      "company": "東証Ｐ",
+      "title": "Consolidated Financial Results for the Three Months Ended March 31, 2026 [Japanese GAAP]",
+      "title_en": "Consolidated Financial Results for the Three Months Ended March 31, 2026 [Japanese GAAP]",
+      "title_ja": "連結決算 for the Three Months Ended March 31, 2026 [Japanese GAAP]",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604305146",
+      "doc_id_ja": "140120260430514603",
+      "doc_id_en": "140120260430514603",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514603.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514603.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514603.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514603.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514603.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4221:1401202604305145",
+      "code": "4221",
+      "company": "東証Ｐ",
+      "title": "2026年12月期第1四半期決算短信〔日本基準〕(連結)",
+      "title_en": "2026年12月期第1四半期決算短信〔日本基準〕(連結)",
+      "title_ja": "2026年12月期第1四半期決算短信〔日本基準〕(連結)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604305145",
+      "doc_id_ja": "140120260430514570",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514570.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514570.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514570.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514570.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3776:1401202604305144",
+      "code": "3776",
+      "company": "東証Ｓ",
+      "title": "2026年12月期第１四半期決算短信〔日本基準〕(連結)",
+      "title_en": "2026年12月期第１四半期決算短信〔日本基準〕(連結)",
+      "title_ja": "2026年12月期第１四半期決算短信〔日本基準〕(連結)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604305144",
+      "doc_id_ja": "140120260430514429",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514429.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514429.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514429.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514429.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2972:1401202604305148",
+      "code": "2972",
+      "company": "東証Ｒ",
+      "title": "2026年２月期（第14期）決算説明資料",
+      "title_en": "2026年２月期（第14期）決算説明資料",
+      "title_ja": "2026年２月期（第14期）決算説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604305148",
+      "doc_id_ja": "140120260430514857",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514857.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260430514857.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514857.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514857.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2892:1401202604285133",
+      "code": "2892",
+      "company": "東証Ｓ",
+      "title": "2026年3月期 決算短信〔日本基準〕（連結）",
+      "title_en": "2026年3月期 決算短信〔日本基準〕（連結）",
+      "title_ja": "2026年3月期 決算短信〔日本基準〕（連結）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-04-30T12:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604285133",
+      "doc_id_ja": "140120260428513333",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428513333.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260430/140120260428513333.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260428513333.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260428513333.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:9236:1401202604285137",
       "code": "9236",
