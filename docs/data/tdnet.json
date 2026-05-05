@@ -1,7 +1,117 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-06T07:12:23+09:00",
+  "last_checked_jst": "2026-05-06T08:10:22+09:00",
   "items": [
+    {
+      "id": "kabutan:9842:1401202605055172",
+      "code": "9842",
+      "company": "東証Ｐ",
+      "title": "Notice of Convocation Annual General Meeting 2026",
+      "title_en": "Notice of Convocation Annual General Meeting 2026",
+      "title_ja": "Convocation Annual General Meeting 2026のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-06T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605055172",
+      "doc_id_ja": "140120260505517265",
+      "doc_id_en": "140120260505517267",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260505517265.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260506/140120260505517265.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260505517265.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260505517265.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260506/140120260505517267.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8181:1401202604245106",
+      "code": "8181",
+      "company": "東証Ｓ",
+      "title": "第70回定時株主総会に際しての電子提供措置事項",
+      "title_en": "第70回定時株主総会に際しての電子提供措置事項",
+      "title_ja": "第70回定時株主総会に際しての電子提供措置事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-06T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604245106",
+      "doc_id_ja": "140120260424510616",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510616.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260506/140120260424510616.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260424510616.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260424510616.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7610:1401202605015165",
+      "code": "7610",
+      "company": "東証Ｓ",
+      "title": "第36期（2026年2月期）定時株主総会招集ご通知及び株主総会資料",
+      "title_en": "第36期（2026年2月期）定時株主総会招集ご通知及び株主総会資料",
+      "title_ja": "第36期（2026年2月期）定時株主総会招集ご通知及び株主総会資料",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-06T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605015165",
+      "doc_id_ja": "140120260501516559",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260501516559.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260506/140120260501516559.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260501516559.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260501516559.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6323:1401202605015169",
+      "code": "6323",
+      "company": "東証Ｐ",
+      "title": "Notice of the 41st Annual General Meeting of Shareholders",
+      "title_en": "Notice of the 41st Annual General Meeting of Shareholders",
+      "title_ja": "the 41st Annual General Meeting of Shareholdersのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-06T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605015169",
+      "doc_id_ja": "140120260501516960",
+      "doc_id_en": "140120260501516962",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260501516960.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260506/140120260501516960.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260501516960.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260501516960.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260506/140120260501516962.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4645:1401202605015161",
+      "code": "4645",
+      "company": "東証Ｓ",
+      "title": "第52回定時株主総会招集ご通知",
+      "title_en": "第52回定時株主総会招集ご通知",
+      "title_ja": "第52回定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-06T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605015161",
+      "doc_id_ja": "140120260501516171",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260501516171.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260506/140120260501516171.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260501516171.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260501516171.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:2659:1401202604285135",
       "code": "2659",
