@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-05-04T08:57:54+09:00",
-  "latest_date": "2026-05-04",
+  "updated_at": "2026-05-05T09:02:42+09:00",
+  "latest_date": "2026-05-05",
   "days": {
     "2026-04-13": {
       "date": "2026-04-13",
@@ -411,6 +411,53 @@
           "sector": "食料品",
           "a_value": null,
           "b_value": null
+        }
+      ]
+    },
+    "2026-05-05": {
+      "date": "2026-05-05",
+      "generated_at": "2026-05-05T09:02:42+09:00",
+      "pair": {
+        "key": "margin_roe",
+        "label": "高利益率×ROE",
+        "a": "operating_margin",
+        "b": "roe"
+      },
+      "items": [
+        {
+          "code": "2337",
+          "name": "",
+          "sector": "サービス業",
+          "a_value": null,
+          "b_value": 12.71
+        },
+        {
+          "code": "2148",
+          "name": "",
+          "sector": "サービス業",
+          "a_value": null,
+          "b_value": 15.6
+        },
+        {
+          "code": "3920",
+          "name": "",
+          "sector": "情報・通信業",
+          "a_value": null,
+          "b_value": 19.26
+        },
+        {
+          "code": "3565",
+          "name": "",
+          "sector": "卸売業",
+          "a_value": null,
+          "b_value": 39.57
+        },
+        {
+          "code": "5075",
+          "name": "",
+          "sector": "建設業",
+          "a_value": null,
+          "b_value": 17.92
         }
       ]
     }
