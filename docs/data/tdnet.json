@@ -1,7 +1,215 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-07T18:16:48+09:00",
+  "last_checked_jst": "2026-05-07T20:20:12+09:00",
   "items": [
+    {
+      "id": "kabutan:485A:1401202605075183",
+      "code": "485A",
+      "company": "東証Ｇ",
+      "title": "Announcement of Memorandum of Understanding (MOU) with Montenegro’s National Utility EPCG for Strategic Cooperation for Battery Energy Storage",
+      "title_en": "Announcement of Memorandum of Understanding (MOU) with Montenegro’s National Utility EPCG for Strategic Cooperation for Battery Energy Storage",
+      "title_ja": "Memorandum of Understanding (MOU) with Montenegro’s National Utility EPCG for Strategic Cooperation for Battery Energy Storageの発表",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-07T20:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605075183",
+      "doc_id_ja": "140120260507518382",
+      "doc_id_en": "140120260507518388",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518382.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518382.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518382.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518382.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518388.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9878:1401202605075187",
+      "code": "9878",
+      "company": "東証Ｓ",
+      "title": "株主優待制度の一部変更に関するお知らせ",
+      "title_en": "株主優待制度の一部変更に関するお知らせ",
+      "title_ja": "株主優待制度の一部変更に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-07T19:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605075187",
+      "doc_id_ja": "140120260507518719",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518719.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518719.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518719.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518719.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9878:1401202605075186",
+      "code": "9878",
+      "company": "東証Ｓ",
+      "title": "2026年３月期決算短信〔日本基準〕（非連結）",
+      "title_en": "2026年３月期決算短信〔日本基準〕（非連結）",
+      "title_ja": "2026年３月期決算短信〔日本基準〕（非連結）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-07T19:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605075186",
+      "doc_id_ja": "140120260507518660",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518660.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518660.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518660.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518660.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8012:1401202605075187",
+      "code": "8012",
+      "company": "東証Ｐ",
+      "title": "FY2025 Financial Briefing",
+      "title_en": "FY2025 Financial Briefing",
+      "title_ja": "FY2025 Financial Briefing",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-07T19:20:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605075187",
+      "doc_id_ja": "140120260507518752",
+      "doc_id_en": "140120260507518752",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518752.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518752.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518752.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518752.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518752.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8012:1401202605075178",
+      "code": "8012",
+      "company": "東証Ｐ",
+      "title": "中期経営計画 Walk the Talk 2028 策定に関するお知らせ",
+      "title_en": "中期経営計画 Walk the Talk 2028 策定に関するお知らせ",
+      "title_ja": "中期経営計画 Walk the Talk 2028 策定に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-07T19:03:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605075178",
+      "doc_id_ja": "140120260507517835",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507517835.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507517835.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507517835.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507517835.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8012:1401202605075177",
+      "code": "8012",
+      "company": "東証Ｐ",
+      "title": "2026年3月期 決算説明資料",
+      "title_en": "2026年3月期 決算説明資料",
+      "title_ja": "2026年3月期 決算説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-07T19:03:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605075177",
+      "doc_id_ja": "140120260507517775",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507517775.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507517775.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507517775.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507517775.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4765:1401202605075186",
+      "code": "4765",
+      "company": "東証Ｐ",
+      "title": "「ＳＢＩ・Ｊ－ＲＥＩＴ（分配）ファンド（年４回決算型）」第8回分配金のお知らせ",
+      "title_en": "「ＳＢＩ・Ｊ－ＲＥＩＴ（分配）ファンド（年４回決算型）」第8回分配金のお知らせ",
+      "title_ja": "「ＳＢＩ・Ｊ－ＲＥＩＴ（分配）ファンド（年４回決算型）」第8回分配金のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-07T18:45:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605075186",
+      "doc_id_ja": "140120260507518686",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518686.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518686.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518686.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518686.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6877:1401202605075187",
+      "code": "6877",
+      "company": "東証Ｓ",
+      "title": "Revision on consolidated forecast for the fiscal year ending 30 September 2026",
+      "title_en": "Revision on consolidated forecast for the fiscal year ending 30 September 2026",
+      "title_ja": "修正 on consolidated 予想 for the fiscal year ending 30 September 2026",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-07T18:30:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605075187",
+      "doc_id_ja": "140120260507518703",
+      "doc_id_en": "140120260507518703",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518703.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518703.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518703.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518703.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518703.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6877:1401202605075186",
+      "code": "6877",
+      "company": "東証Ｓ",
+      "title": "業績予想の修正に関するお知らせ",
+      "title_en": "業績予想の修正に関するお知らせ",
+      "title_ja": "業績予想の修正に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-07T18:30:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605075186",
+      "doc_id_ja": "140120260507518604",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518604.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518604.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518604.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518604.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:2864:1401202605075186",
       "code": "2864",
@@ -21,6 +229,28 @@
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518631.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518631.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518631.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1447:1401202605075184",
+      "code": "1447",
+      "company": "東証Ｇ",
+      "title": "株主による臨時株主総会に係る株主提案に対する当社取締役会の反対意見に関するお知らせ",
+      "title_en": "株主による臨時株主総会に係る株主提案に対する当社取締役会の反対意見に関するお知らせ",
+      "title_ja": "株主による臨時株主総会に係る株主提案に対する当社取締役会の反対意見に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-07T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605075184",
+      "doc_id_ja": "140120260507518470",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518470.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518470.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518470.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518470.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
@@ -87,28 +317,6 @@
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518558.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518558.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518558.pdf",
-      "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:1447:1401202605075184",
-      "code": "1447",
-      "company": "東証Ｇ",
-      "title": "株主による臨時株主総会に係る株主提案に対する当社取締役会の反対意見に関するお知らせ",
-      "title_en": "株主による臨時株主総会に係る株主提案に対する当社取締役会の反対意見に関するお知らせ",
-      "title_ja": "株主による臨時株主総会に係る株主提案に対する当社取締役会の反対意見に関するお知らせ",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-05-07T18:00:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202605075184",
-      "doc_id_ja": "140120260507518470",
-      "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518470.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260507/140120260507518470.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518470.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518470.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
