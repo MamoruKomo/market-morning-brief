@@ -1,7 +1,29 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-08T20:43:02+09:00",
+  "last_checked_jst": "2026-05-08T21:58:59+09:00",
   "items": [
+    {
+      "id": "kabutan:9412:1401202605085209",
+      "code": "9412",
+      "company": "東証Ｐ",
+      "title": "Notice of Publication of \"Transcript with Q&A session at the video conference for FY2025\"",
+      "title_en": "Notice of Publication of \"Transcript with Q&A session at the video conference for FY2025\"",
+      "title_ja": "Publication of \"Transcript with Q&A session at the video conference for FY2025\"のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T21:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085209",
+      "doc_id_ja": "140120260508520977",
+      "doc_id_en": "140120260508520977",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520977.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520977.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520977.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520977.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520977.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7267:1401202605085209",
       "code": "7267",
@@ -247,12 +269,12 @@
         "決算"
       ],
       "doc_id_family": "1401202605085207",
-      "doc_id_ja": "140120260508520749",
+      "doc_id_ja": "140120260508520751",
       "doc_id_en": "140120260508520751",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520749.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520751.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520751.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520751.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520751.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520751.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
