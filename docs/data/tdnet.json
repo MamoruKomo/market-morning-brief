@@ -1,7 +1,75 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-08T19:09:36+09:00",
+  "last_checked_jst": "2026-05-08T20:43:02+09:00",
   "items": [
+    {
+      "id": "kabutan:7267:1401202605085209",
+      "code": "7267",
+      "company": "東証Ｐ",
+      "title": "Regarding Media Reports concerning Honda's Business Performance",
+      "title_en": "Regarding Media Reports concerning Honda's Business Performance",
+      "title_ja": "Regarding Media Reports concerning Honda's Business Performance",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T19:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085209",
+      "doc_id_ja": "140120260508520937",
+      "doc_id_en": "140120260508520937",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520937.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520937.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520937.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520937.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520937.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9412:1401202605085208",
+      "code": "9412",
+      "company": "東証Ｐ",
+      "title": "2026年３月期通期 決算説明会書き起こし掲載のおしらせ",
+      "title_en": "2026年３月期通期 決算説明会書き起こし掲載のおしらせ",
+      "title_ja": "2026年３月期通期 決算説明会書き起こし掲載のおしらせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-08T19:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605085208",
+      "doc_id_ja": "140120260508520821",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520821.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520821.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520821.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520821.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4071:1401202605085208",
+      "code": "4071",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Change of Major Shareholder",
+      "title_en": "Notice Concerning Change of Major Shareholder",
+      "title_ja": "Change of Major Shareholderに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T19:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085208",
+      "doc_id_ja": "140120260508520865",
+      "doc_id_en": "140120260508520868",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520865.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520865.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520865.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520865.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520868.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7267:1401202605085208",
       "code": "7267",
@@ -165,6 +233,30 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
+      "id": "kabutan:2678:1401202605085207",
+      "code": "2678",
+      "company": "東証Ｐ",
+      "title": "Announcement of Financial Results by Other Affiliated Company",
+      "title_en": "Announcement of Financial Results by Other Affiliated Company",
+      "title_ja": "決算 by Other Affiliated Companyの発表",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-08T18:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605085207",
+      "doc_id_ja": "140120260508520749",
+      "doc_id_en": "140120260508520751",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520749.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520751.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
       "id": "kabutan:6549:1401202605085205",
       "code": "6549",
       "company": "東証Ｓ",
@@ -228,30 +320,6 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520392.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520392.pdf",
       "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:2678:1401202605085207",
-      "code": "2678",
-      "company": "東証Ｐ",
-      "title": "Announcement of Financial Results by Other Affiliated Company",
-      "title_en": "Announcement of Financial Results by Other Affiliated Company",
-      "title_ja": "決算 by Other Affiliated Companyの発表",
-      "points_ja": [
-        "決算関連（決算短信/説明資料）を確認"
-      ],
-      "datetime_jst": "2026-05-08T18:00:00+09:00",
-      "tags": [
-        "決算"
-      ],
-      "doc_id_family": "1401202605085207",
-      "doc_id_ja": "140120260508520749",
-      "doc_id_en": "140120260508520751",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520749.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520751.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
