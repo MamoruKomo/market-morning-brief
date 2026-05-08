@@ -1,7 +1,285 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-08T17:47:00+09:00",
+  "last_checked_jst": "2026-05-08T19:09:36+09:00",
   "items": [
+    {
+      "id": "kabutan:7267:1401202605085208",
+      "code": "7267",
+      "company": "東証Ｐ",
+      "title": "当社業績等に関する一部報道について",
+      "title_en": "当社業績等に関する一部報道について",
+      "title_ja": "当社業績等に関する一部報道について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085208",
+      "doc_id_ja": "140120260508520853",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520853.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520853.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520853.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520853.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3681:1401202605085207",
+      "code": "3681",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning the Status of Negotiations for a Definitive Agreement Based on the Sponsor Basic Agreement",
+      "title_en": "Notice Concerning the Status of Negotiations for a Definitive Agreement Based on the Sponsor Basic Agreement",
+      "title_ja": "the Status of Negotiations for a Definitive Agreement Based on the Sponsor Basic Agreementに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085207",
+      "doc_id_ja": "140120260508520752",
+      "doc_id_en": "140120260508520779",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520752.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520752.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520752.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520752.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520779.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1345:1401202605085208",
+      "code": "1345",
+      "company": "東証Ｅ",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "title_en": "ＥＴＦの収益分配のお知らせ",
+      "title_ja": "ＥＴＦの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T18:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085208",
+      "doc_id_ja": "140120260508520826",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520826.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520826.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520826.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520826.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9238:1401202605085208",
+      "code": "9238",
+      "company": "東証Ｇ",
+      "title": "取引先との取引停止に関するお知らせ",
+      "title_en": "取引先との取引停止に関するお知らせ",
+      "title_ja": "取引先との取引停止に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T18:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085208",
+      "doc_id_ja": "140120260508520801",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520801.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520801.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520801.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520801.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9238:1401202605085207",
+      "code": "9238",
+      "company": "東証Ｇ",
+      "title": "特別調査委員会の調査報告書（公表版）の公表及び今後の対応に関するお知らせ",
+      "title_en": "特別調査委員会の調査報告書（公表版）の公表及び今後の対応に関するお知らせ",
+      "title_ja": "特別調査委員会の調査報告書（公表版）の公表及び今後の対応に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T18:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085207",
+      "doc_id_ja": "140120260508520799",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520799.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520799.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520799.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520799.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9799:1401202605085207",
+      "code": "9799",
+      "company": "東証Ｓ",
+      "title": "[Delayed]Notice Concerning Dividends of Surplus (Dividend Increase)",
+      "title_en": "[Delayed]Notice Concerning Dividends of Surplus (Dividend Increase)",
+      "title_ja": "（遅延）Dividends of Surplus (配当 Increase)に関するお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認",
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-05-08T18:10:00+09:00",
+      "tags": [
+        "配当",
+        "遅延"
+      ],
+      "doc_id_family": "1401202605085207",
+      "doc_id_ja": "140120260508520756",
+      "doc_id_en": "140120260508520756",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520756.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520756.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520756.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520756.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520756.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9799:1401202605085206",
+      "code": "9799",
+      "company": "東証Ｓ",
+      "title": "[Delayed]Notice Concerning Personnel Change",
+      "title_en": "[Delayed]Notice Concerning Personnel Change",
+      "title_ja": "（遅延）Personnel Changeに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認",
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-05-08T18:10:00+09:00",
+      "tags": [
+        "人事",
+        "遅延"
+      ],
+      "doc_id_family": "1401202605085206",
+      "doc_id_ja": "140120260508520650",
+      "doc_id_en": "140120260508520650",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520650.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520650.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520650.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520650.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520650.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6549:1401202605085205",
+      "code": "6549",
+      "company": "東証Ｓ",
+      "title": "東京タワー内IPコラボレーションレストラン事業を開始 ～既存事業の新規顧客獲得チャネル拡大に向けて～",
+      "title_en": "東京タワー内IPコラボレーションレストラン事業を開始 ～既存事業の新規顧客獲得チャネル拡大に向けて～",
+      "title_ja": "東京タワー内IPコラボレーションレストラン事業を開始 ～既存事業の新規顧客獲得チャネル拡大に向けて～",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085205",
+      "doc_id_ja": "140120260508520506",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520506.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520506.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520506.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520506.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6549:1401202605085204",
+      "code": "6549",
+      "company": "東証Ｓ",
+      "title": "Adoなどが所属するクラウドナインの全国7ヶ所のタワーコラボイベント「CLOUD NINE TOWER」へ参画しイベント物流を担う",
+      "title_en": "Adoなどが所属するクラウドナインの全国7ヶ所のタワーコラボイベント「CLOUD NINE TOWER」へ参画しイベント物流を担う",
+      "title_ja": "Adoなどが所属するクラウドナインの全国7ヶ所のタワーコラボイベント「CLOUD NINE TOWER」へ参画しイベント物流を担う",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085204",
+      "doc_id_ja": "140120260508520475",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520475.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520475.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520475.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520475.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3758:1401202605085203",
+      "code": "3758",
+      "company": "東証Ｓ",
+      "title": "株式会社リベル・エンタテインメント 近未来おもてなしアドベンチャー『18TRIP』２周年記念キャンペーンの詳細を公開！",
+      "title_en": "株式会社リベル・エンタテインメント 近未来おもてなしアドベンチャー『18TRIP』２周年記念キャンペーンの詳細を公開！",
+      "title_ja": "株式会社リベル・エンタテインメント 近未来おもてなしアドベンチャー『18TRIP』２周年記念キャンペーンの詳細を公開！",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085203",
+      "doc_id_ja": "140120260508520392",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520392.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520392.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520392.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520392.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2678:1401202605085207",
+      "code": "2678",
+      "company": "東証Ｐ",
+      "title": "Announcement of Financial Results by Other Affiliated Company",
+      "title_en": "Announcement of Financial Results by Other Affiliated Company",
+      "title_ja": "決算 by Other Affiliated Companyの発表",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-08T18:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605085207",
+      "doc_id_ja": "140120260508520749",
+      "doc_id_en": "140120260508520751",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520749.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520749.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520751.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8158:1401202605085207",
+      "code": "8158",
+      "company": "東証Ｐ",
+      "title": "（訂正）「2026年3月期 決算説明資料」の一部訂正",
+      "title_en": "（訂正）「2026年3月期 決算説明資料」の一部訂正",
+      "title_ja": "（訂正）（訂正）「2026年3月期 決算説明資料」の一部訂正",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-05-08T17:50:00+09:00",
+      "tags": [
+        "決算",
+        "訂正"
+      ],
+      "doc_id_family": "1401202605085207",
+      "doc_id_ja": "140120260508520719",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520719.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508520719.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520719.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520719.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4574:1401202605085207",
       "code": "4574",
