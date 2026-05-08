@@ -1,7 +1,293 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-08T08:12:53+09:00",
+  "last_checked_jst": "2026-05-08T09:05:32+09:00",
   "items": [
+    {
+      "id": "kabutan:4765:1401202605075187",
+      "code": "4765",
+      "company": "東証Ｐ",
+      "title": "「次世代AI株式戦略ファンド」800億円突破のお知らせ",
+      "title_en": "「次世代AI株式戦略ファンド」800億円突破のお知らせ",
+      "title_ja": "「次世代AI株式戦略ファンド」800億円突破のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605075187",
+      "doc_id_ja": "140120260507518788",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518788.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518788.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518788.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518788.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3042:1401202605075189",
+      "code": "3042",
+      "company": "東証Ｓ",
+      "title": "Notice: Revision of Consolidated Financial Forecasts",
+      "title_en": "Notice: Revision of Consolidated Financial Forecasts",
+      "title_ja": "Notice: 修正 of Consolidated Financial Forecasts",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-08T09:00:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605075189",
+      "doc_id_ja": "140120260507518917",
+      "doc_id_en": "140120260507518917",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518917.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518917.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518917.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518917.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518917.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3042:1401202605075185",
+      "code": "3042",
+      "company": "東証Ｓ",
+      "title": "2026年3月期通期連結業績予想の修正に関するお知らせ",
+      "title_en": "2026年3月期通期連結業績予想の修正に関するお知らせ",
+      "title_ja": "2026年3月期通期連結業績予想の修正に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-08T09:00:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605075185",
+      "doc_id_ja": "140120260507518524",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518524.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518524.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518524.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518524.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1762:1401202605075174",
+      "code": "1762",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Revisions to the Financial Forecast and Dividend Forecast for the Fiscal Year ending March 31,2026",
+      "title_en": "Notice Regarding Revisions to the Financial Forecast and Dividend Forecast for the Fiscal Year ending March 31,2026",
+      "title_ja": "修正 to the Financial 予想 and 配当予想 for the Fiscal Year ending March 31,2026に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認",
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-05-08T09:00:00+09:00",
+      "tags": [
+        "業績修正",
+        "配当"
+      ],
+      "doc_id_family": "1401202605075174",
+      "doc_id_ja": "140120260507517428",
+      "doc_id_en": "140120260507517488",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507517428.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260507517428.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507517428.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507517428.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260507517488.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:350A:1401202605075176",
+      "code": "350A",
+      "company": "東証Ｇ",
+      "title": "浪花食品「短期×一部固定」で柔軟な電力調達 不透明な市場環境の中、リスク分散へ",
+      "title_en": "浪花食品「短期×一部固定」で柔軟な電力調達 不透明な市場環境の中、リスク分散へ",
+      "title_ja": "浪花食品「短期×一部固定」で柔軟な電力調達 不透明な市場環境の中、リスク分散へ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T08:59:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605075176",
+      "doc_id_ja": "140120260507517627",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507517627.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260507517627.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507517627.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507517627.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9412:1401202605085190",
+      "code": "9412",
+      "company": "東証Ｐ",
+      "title": "(Correction) Partial Correction to \"Presentation Material For FY2025\"",
+      "title_en": "(Correction) Partial Correction to \"Presentation Material For FY2025\"",
+      "title_ja": "（訂正）Partial 訂正 to \"Presentation Material For FY2025\"",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-05-08T08:55:00+09:00",
+      "tags": [
+        "決算",
+        "訂正"
+      ],
+      "doc_id_family": "1401202605085190",
+      "doc_id_ja": "140120260508519022",
+      "doc_id_en": "140120260508519026",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508519022.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508519022.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508519022.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508519022.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508519026.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3921:1401202605075188",
+      "code": "3921",
+      "company": "東証Ｐ",
+      "title": "[Delayed] Notice Regarding Change in Other Affiliated Company",
+      "title_en": "[Delayed] Notice Regarding Change in Other Affiliated Company",
+      "title_ja": "（遅延）Change in Other Affiliated Companyに関するお知らせ",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-05-08T08:50:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "doc_id_family": "1401202605075188",
+      "doc_id_ja": "140120260507518817",
+      "doc_id_en": "140120260507518817",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518817.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518817.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518817.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518817.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518817.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1803:1401202605075188",
+      "code": "1803",
+      "company": "東証Ｐ",
+      "title": "〔Delayed〕Notice Concerning Change (Resignation) of Representative Director",
+      "title_en": "〔Delayed〕Notice Concerning Change (Resignation) of Representative Director",
+      "title_ja": "（遅延）〔Delayed〕Notice Concerning Change (Resignation) of Representative Director",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認",
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-05-08T08:45:00+09:00",
+      "tags": [
+        "人事",
+        "遅延"
+      ],
+      "doc_id_family": "1401202605075188",
+      "doc_id_ja": "140120260507518815",
+      "doc_id_en": "140120260507518815",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518815.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518815.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518815.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518815.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518815.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7972:1401202605085189",
+      "code": "7972",
+      "company": "東証Ｐ",
+      "title": "2026年12月期 第１四半期決算報告 質疑応答要旨掲載のお知らせ",
+      "title_en": "2026年12月期 第１四半期決算報告 質疑応答要旨掲載のお知らせ",
+      "title_ja": "2026年12月期 第１四半期決算報告 質疑応答要旨掲載のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-08T08:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605085189",
+      "doc_id_ja": "140120260508518977",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508518977.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508518977.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508518977.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508518977.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4499:1401202605075183",
+      "code": "4499",
+      "company": "東証Ｓ",
+      "title": "「トークン化国債・オンチェーンレポ ワーキング・グループ」への参加について",
+      "title_en": "「トークン化国債・オンチェーンレポ ワーキング・グループ」への参加について",
+      "title_ja": "「トークン化国債・オンチェーンレポ ワーキング・グループ」への参加について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605075183",
+      "doc_id_ja": "140120260507518367",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518367.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260507518367.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518367.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518367.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3681:1401202605085189",
+      "code": "3681",
+      "company": "東証Ｐ",
+      "title": "[Delayed]Notice Regarding Disclaimer of Audit Opinion on Non-Consolidated Financial Statements and Consolidated Financial Statements",
+      "title_en": "[Delayed]Notice Regarding Disclaimer of Audit Opinion on Non-Consolidated Financial Statements and Consolidated Financial Statements",
+      "title_ja": "（遅延）Disclaimer of Audit Opinion on Non-Consolidated Financial Statements and Consolidated Financial Statementsに関するお知らせ",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-05-08T08:30:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "doc_id_family": "1401202605085189",
+      "doc_id_ja": "140120260508518958",
+      "doc_id_en": "140120260508518958",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508518958.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508518958.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508518958.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508518958.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260508/140120260508518958.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1672:1401202605085189",
+      "code": "1672",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-08T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085189",
+      "doc_id_ja": "140120260508518971",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508518971.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260508/140120260508518971.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508518971.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508518971.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8005:1401202605075186",
       "code": "8005",
