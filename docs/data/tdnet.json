@@ -1,7 +1,335 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-11T08:45:03+09:00",
+  "last_checked_jst": "2026-05-11T10:30:25+09:00",
   "items": [
+    {
+      "id": "kabutan:3492:1401202605115215",
+      "code": "3492",
+      "company": "東証Ｒ",
+      "title": "不動産投資信託証券に関する発行者等の運用体制に関する報告書 2026/05/11",
+      "title_en": "不動産投資信託証券に関する発行者等の運用体制に関する報告書 2026/05/11",
+      "title_ja": "不動産投資信託証券に関する発行者等の運用体制に関する報告書 2026/05/11",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:24:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115215",
+      "doc_id_ja": "140120260511521516",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521516.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521516.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521516.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521516.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9238:1401202605115213",
+      "code": "9238",
+      "company": "東証Ｇ",
+      "title": "(訂正)取引先との取引停止に関するお知らせ",
+      "title_en": "(訂正)取引先との取引停止に関するお知らせ",
+      "title_ja": "（訂正）(訂正)取引先との取引停止に関するお知らせ",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:15:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202605115213",
+      "doc_id_ja": "140120260511521394",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521394.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521394.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521394.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521394.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6413:1401202605115214",
+      "code": "6413",
+      "company": "東証Ｐ",
+      "title": "人事異動に関するお知らせ",
+      "title_en": "人事異動に関するお知らせ",
+      "title_ja": "人事異動に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605115214",
+      "doc_id_ja": "140120260511521411",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521411.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521411.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521411.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521411.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6232:1401202605115213",
+      "code": "6232",
+      "company": "東証Ｇ",
+      "title": "U.S. Subsidiary ACSL, Inc. Commences Full-Scale Expansion in the Canadian Market―SOTEN Sales and Technical Collaboration with Draganfly―",
+      "title_en": "U.S. Subsidiary ACSL, Inc. Commences Full-Scale Expansion in the Canadian Market―SOTEN Sales and Technical Collaboration with Draganfly―",
+      "title_ja": "U.S. Subsidiary ACSL, Inc. Commences Full-Scale Expansion in the Canadian Market―SOTEN Sales and Technical Collaboration with Draganfly―",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605115213",
+      "doc_id_ja": "140120260511521384",
+      "doc_id_en": "140120260511521387",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521384.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521384.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521384.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521384.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521387.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6054:1401202605115213",
+      "code": "6054",
+      "company": "東証Ｓ",
+      "title": "転職ドラフト、累計6,700本以上も無償提供したビールを刷新",
+      "title_en": "転職ドラフト、累計6,700本以上も無償提供したビールを刷新",
+      "title_ja": "転職ドラフト、累計6,700本以上も無償提供したビールを刷新",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115213",
+      "doc_id_ja": "140120260511521383",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521383.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521383.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521383.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521383.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4765:1401202605115214",
+      "code": "4765",
+      "company": "東証Ｐ",
+      "title": "地方創生と高配当で拓く日本株投資の新潮流 『SBI地方創生・日本高配当株式ファンド（成長型）／（年4回決算型）』 募集設定のお知らせ",
+      "title_en": "地方創生と高配当で拓く日本株投資の新潮流 『SBI地方創生・日本高配当株式ファンド（成長型）／（年4回決算型）』 募集設定のお知らせ",
+      "title_ja": "地方創生と高配当で拓く日本株投資の新潮流 『SBI地方創生・日本高配当株式ファンド（成長型）／（年4回決算型）』 募集設定のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "配当予想/方針（増配/減配/無配）を確認",
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [
+        "決算",
+        "配当",
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202605115214",
+      "doc_id_ja": "140120260511521449",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521449.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521449.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521449.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521449.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4461:1401202605115212",
+      "code": "4461",
+      "company": "東証Ｐ",
+      "title": "人協働ロボットが切り拓く研究現場の新常識 ラボラトリーオートメーションをテーマにオンライン講演",
+      "title_en": "人協働ロボットが切り拓く研究現場の新常識 ラボラトリーオートメーションをテーマにオンライン講演",
+      "title_ja": "人協働ロボットが切り拓く研究現場の新常識 ラボラトリーオートメーションをテーマにオンライン講演",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115212",
+      "doc_id_ja": "140120260511521256",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521256.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521256.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521256.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521256.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4401:1401202605115213",
+      "code": "4401",
+      "company": "東証Ｐ",
+      "title": "Notice regarding Progress of Acquisition of Own Shares",
+      "title_en": "Notice regarding Progress of Acquisition of Own Shares",
+      "title_ja": "Progress of Acquisition of Own Sharesに関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605115213",
+      "doc_id_ja": "140120260511521323",
+      "doc_id_en": "140120260511521323",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521323.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521323.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521323.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521323.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521323.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4401:1401202605115212",
+      "code": "4401",
+      "company": "東証Ｐ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "title_en": "自己株式の取得状況に関するお知らせ",
+      "title_ja": "自己株式の取得状況に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605115212",
+      "doc_id_ja": "140120260511521253",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521253.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521253.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521253.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521253.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4005:1401202605085207",
+      "code": "4005",
+      "company": "東証Ｐ",
+      "title": "法定事前開示資料（会社分割）（株式会社プライムポリマー）",
+      "title_en": "法定事前開示資料（会社分割）（株式会社プライムポリマー）",
+      "title_ja": "法定事前開示資料（会社分割）（株式会社プライムポリマー）",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085207",
+      "doc_id_ja": "140120260508520748",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520748.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260508520748.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520748.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520748.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3069:1401202605085192",
+      "code": "3069",
+      "company": "東証Ｓ",
+      "title": "とろけるクレープの MOMI&TOY'S は、ミント派もチョコミント派も大満足の、ミントの魅力を詰め込んだクレープ３種とフロート２種を期間限定で販売します",
+      "title_en": "とろけるクレープの MOMI&TOY'S は、ミント派もチョコミント派も大満足の、ミントの魅力を詰め込んだクレープ３種とフロート２種を期間限定で販売します",
+      "title_ja": "とろけるクレープの MOMI&TOY'S は、ミント派もチョコミント派も大満足の、ミントの魅力を詰め込んだクレープ３種とフロート２種を期間限定で販売します",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085192",
+      "doc_id_ja": "140120260508519209",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508519209.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260508519209.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508519209.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508519209.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3032:1401202605085190",
+      "code": "3032",
+      "company": "名証Ｎ",
+      "title": "2026年4月度 ゴルフドゥ！店舗売上高前年対比に関するお知らせ",
+      "title_en": "2026年4月度 ゴルフドゥ！店舗売上高前年対比に関するお知らせ",
+      "title_ja": "2026年4月度 ゴルフドゥ！店舗売上高前年対比に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085190",
+      "doc_id_ja": "140120260508519035",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508519035.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260508519035.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508519035.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508519035.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2926:1401202605085205",
+      "code": "2926",
+      "company": "東証Ｓ",
+      "title": "2026年９月期 ４月度月次店舗売上のお知らせ",
+      "title_en": "2026年９月期 ４月度月次店舗売上のお知らせ",
+      "title_ja": "2026年９月期 ４月度月次店舗売上のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605085205",
+      "doc_id_ja": "140120260508520596",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260508520596.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260508520596.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260508520596.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260508520596.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1671:1401202605115213",
+      "code": "1671",
+      "company": "東証Ｅ",
+      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_en": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_ja": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115213",
+      "doc_id_ja": "140120260511521335",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521335.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521335.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521335.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521335.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:9235:1401202605115211",
       "code": "9235",
