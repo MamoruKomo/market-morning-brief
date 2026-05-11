@@ -1,7 +1,195 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-11T10:30:25+09:00",
+  "last_checked_jst": "2026-05-11T14:34:19+09:00",
   "items": [
+    {
+      "id": "kabutan:2810:1401202605115219",
+      "code": "2810",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Revisions to the Eighth Medium-term Business Plan",
+      "title_en": "Notice Regarding Revisions to the Eighth Medium-term Business Plan",
+      "title_ja": "修正 to the Eighth Medium-term Business Planに関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認",
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-11T14:30:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A",
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605115219",
+      "doc_id_ja": "140120260511521956",
+      "doc_id_en": "140120260511521986",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521956.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521956.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521956.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521956.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521986.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2588:1401202605115223",
+      "code": "2588",
+      "company": "東証Ｓ",
+      "title": "通期連結業績予想（IFRS）の修正に関するお知らせ",
+      "title_en": "通期連結業績予想（IFRS）の修正に関するお知らせ",
+      "title_ja": "通期連結業績予想（IFRS）の修正に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-11T14:30:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605115223",
+      "doc_id_ja": "140120260511522339",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522339.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522339.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522339.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522339.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2093:1401202605115225",
+      "code": "2093",
+      "company": "東証Ｅ",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "title_en": "ＥＴＦの収益分配のお知らせ",
+      "title_ja": "ＥＴＦの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T14:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115225",
+      "doc_id_ja": "140120260511522526",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522526.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522526.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522526.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522526.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1795:1401202605115211",
+      "code": "1795",
+      "company": "東証Ｓ",
+      "title": "2026年9月期第２四半期（中間期）業績予想の修正に関するお知らせ",
+      "title_en": "2026年9月期第２四半期（中間期）業績予想の修正に関するお知らせ",
+      "title_ja": "2026年9月期第２四半期（中間期）業績予想の修正に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-11T14:30:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605115211",
+      "doc_id_ja": "140120260511521195",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521195.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521195.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521195.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521195.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1783:1401202605115218",
+      "code": "1783",
+      "company": "東証Ｓ",
+      "title": "（開示事項の経過）株式会社アモティの株式取得（子会社化）に関する払込完了のお知らせ",
+      "title_en": "（開示事項の経過）株式会社アモティの株式取得（子会社化）に関する払込完了のお知らせ",
+      "title_ja": "（開示事項の経過）株式会社アモティの株式取得（子会社化）に関する払込完了のお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T14:30:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605115218",
+      "doc_id_ja": "140120260511521880",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521880.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511521880.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521880.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521880.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1677:1401202605115225",
+      "code": "1677",
+      "company": "東証Ｅ",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "title_en": "ＥＴＦの収益分配のお知らせ",
+      "title_ja": "ＥＴＦの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T14:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115225",
+      "doc_id_ja": "140120260511522525",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522525.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522525.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522525.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522525.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1566:1401202605115225",
+      "code": "1566",
+      "company": "東証Ｅ",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "title_en": "ＥＴＦの収益分配のお知らせ",
+      "title_ja": "ＥＴＦの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T14:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115225",
+      "doc_id_ja": "140120260511522524",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522524.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522524.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522524.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522524.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1555:1401202605115225",
+      "code": "1555",
+      "company": "東証Ｅ",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "title_en": "ＥＴＦの収益分配のお知らせ",
+      "title_ja": "ＥＴＦの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T14:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115225",
+      "doc_id_ja": "140120260511522523",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522523.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522523.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522523.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522523.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3492:1401202605115215",
       "code": "3492",
