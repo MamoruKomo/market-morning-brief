@@ -1,7 +1,123 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-11T20:46:37+09:00",
+  "last_checked_jst": "2026-05-11T23:10:19+09:00",
   "items": [
+    {
+      "id": "kabutan:7490:1401202605115237",
+      "code": "7490",
+      "company": "東証Ｓ",
+      "title": "株式会社 EDIAND による日新商事株式会社（証券コード：7490）の株式に対する公開買付けの開始に関するお知らせ",
+      "title_en": "株式会社 EDIAND による日新商事株式会社（証券コード：7490）の株式に対する公開買付けの開始に関するお知らせ",
+      "title_ja": "株式会社 EDIAND による日新商事株式会社（証券コード：7490）の株式に対する公開買付けの開始に関するお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-05-11T21:00:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202605115237",
+      "doc_id_ja": "140120260511523728",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523728.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523728.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523728.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523728.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7490:1401202605115230",
+      "code": "7490",
+      "company": "東証Ｓ",
+      "title": "ＭＢＯの実施及び応募の推奨に関するお知らせ",
+      "title_en": "ＭＢＯの実施及び応募の推奨に関するお知らせ",
+      "title_ja": "ＭＢＯの実施及び応募の推奨に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T21:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115230",
+      "doc_id_ja": "140120260511523032",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523032.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523032.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523032.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523032.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7490:1401202605115229",
+      "code": "7490",
+      "company": "東証Ｓ",
+      "title": "株主優待制度の廃止に関するお知らせ",
+      "title_en": "株主優待制度の廃止に関するお知らせ",
+      "title_ja": "株主優待制度の廃止に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T21:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115229",
+      "doc_id_ja": "140120260511522986",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522986.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522986.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522986.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522986.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7490:1401202604305155",
+      "code": "7490",
+      "company": "東証Ｓ",
+      "title": "2026年３月期 決算短信［日本基準］（連結）",
+      "title_en": "2026年３月期 決算短信［日本基準］（連結）",
+      "title_ja": "2026年３月期 決算短信［日本基準］（連結）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-11T21:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604305155",
+      "doc_id_ja": "140120260430515521",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515521.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260430515521.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430515521.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430515521.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7490:1401202604305154",
+      "code": "7490",
+      "company": "東証Ｓ",
+      "title": "通期連結業績予想と実績値との差異に関するお知らせ",
+      "title_en": "通期連結業績予想と実績値との差異に関するお知らせ",
+      "title_ja": "通期連結業績予想と実績値との差異に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-11T21:00:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202604305154",
+      "doc_id_ja": "140120260430515496",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515496.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260430515496.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430515496.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430515496.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:5031:1401202604155050",
       "code": "5031",
@@ -187,6 +303,28 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
+      "id": "kabutan:4765:1401202605115233",
+      "code": "4765",
+      "company": "東証Ｐ",
+      "title": "『ＳＢＩ・全世界株式インデックス・ファンド』純資産残高4,000億円突破のお知らせ～設定から101ヵ月連続で純資金流入～",
+      "title_en": "『ＳＢＩ・全世界株式インデックス・ファンド』純資産残高4,000億円突破のお知らせ～設定から101ヵ月連続で純資金流入～",
+      "title_ja": "『ＳＢＩ・全世界株式インデックス・ファンド』純資産残高4,000億円突破のお知らせ～設定から101ヵ月連続で純資金流入～",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T18:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115233",
+      "doc_id_ja": "140120260511523391",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523391.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523391.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523391.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523391.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
       "id": "kabutan:9237:1401202605115233",
       "code": "9237",
       "company": "東証Ｇ",
@@ -209,28 +347,6 @@
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523342.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523342.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523342.pdf",
-      "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:4765:1401202605115233",
-      "code": "4765",
-      "company": "東証Ｐ",
-      "title": "『ＳＢＩ・全世界株式インデックス・ファンド』純資産残高4,000億円突破のお知らせ～設定から101ヵ月連続で純資金流入～",
-      "title_en": "『ＳＢＩ・全世界株式インデックス・ファンド』純資産残高4,000億円突破のお知らせ～設定から101ヵ月連続で純資金流入～",
-      "title_ja": "『ＳＢＩ・全世界株式インデックス・ファンド』純資産残高4,000億円突破のお知らせ～設定から101ヵ月連続で純資金流入～",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-05-11T18:30:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202605115233",
-      "doc_id_ja": "140120260511523391",
-      "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523391.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523391.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523391.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523391.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
