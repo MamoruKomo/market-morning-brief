@@ -1,7 +1,285 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-11T14:34:19+09:00",
+  "last_checked_jst": "2026-05-11T17:43:26+09:00",
   "items": [
+    {
+      "id": "kabutan:8869:1401202605115232",
+      "code": "8869",
+      "company": "東証Ｓ",
+      "title": "「クリオ レジダンス大船シーズンテラス」がLICC 2025においてShortlistに選出",
+      "title_en": "「クリオ レジダンス大船シーズンテラス」がLICC 2025においてShortlistに選出",
+      "title_ja": "「クリオ レジダンス大船シーズンテラス」がLICC 2025においてShortlistに選出",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115232",
+      "doc_id_ja": "140120260511523241",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523241.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523241.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523241.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523241.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9757:1401202605115230",
+      "code": "9757",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Finalization of Details of Stock Options for Stock-linked Compensation",
+      "title_en": "Notice Regarding Finalization of Details of Stock Options for Stock-linked Compensation",
+      "title_ja": "Finalization of Details of Stock Options for Stock-linked Compensationに関するお知らせ",
+      "points_ja": [
+        "ストックオプション（希薄化/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:30:00+09:00",
+      "tags": [
+        "SO"
+      ],
+      "doc_id_family": "1401202605115230",
+      "doc_id_ja": "140120260511523006",
+      "doc_id_en": "140120260511523034",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523006.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523006.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523006.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523006.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523034.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6772:1401202605115231",
+      "code": "6772",
+      "company": "東証Ｓ",
+      "title": "2026年３月期 決算短信〔日本基準〕（連結）",
+      "title_en": "2026年３月期 決算短信〔日本基準〕（連結）",
+      "title_ja": "2026年３月期 決算短信〔日本基準〕（連結）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605115231",
+      "doc_id_ja": "140120260511523116",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523116.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523116.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523116.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523116.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6772:1401202605115230",
+      "code": "6772",
+      "company": "東証Ｓ",
+      "title": "Notice Regarding Differences Between Forecast and Actual Results",
+      "title_en": "Notice Regarding Differences Between Forecast and Actual Results",
+      "title_ja": "Differences Between 予想 and Actual Resultsに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認",
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:30:00+09:00",
+      "tags": [
+        "人事",
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605115230",
+      "doc_id_ja": "140120260511523033",
+      "doc_id_en": "140120260511523038",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523033.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523033.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523033.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523033.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523038.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6772:1401202605115229",
+      "code": "6772",
+      "company": "東証Ｓ",
+      "title": "業績予想と実績の差異に関するお知らせ",
+      "title_en": "業績予想と実績の差異に関するお知らせ",
+      "title_ja": "業績予想と実績の差異に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:30:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605115229",
+      "doc_id_ja": "140120260511522933",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522933.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522933.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522933.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522933.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5534:1401202605115230",
+      "code": "5534",
+      "company": "",
+      "title": "当社連結子会社運営施設における食中毒事故発生に関するお詫びとお知らせ",
+      "title_en": "当社連結子会社運営施設における食中毒事故発生に関するお詫びとお知らせ",
+      "title_ja": "当社連結子会社運営施設における食中毒事故発生に関するお詫びとお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:30:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605115230",
+      "doc_id_ja": "140120260511523047",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523047.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523047.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523047.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523047.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3775:1401202605115230",
+      "code": "3775",
+      "company": "名証Ｎ",
+      "title": "ガイアックス、事業者向け「ステーブルコイン決済導入支援サービス」を提供開始",
+      "title_en": "ガイアックス、事業者向け「ステーブルコイン決済導入支援サービス」を提供開始",
+      "title_ja": "ガイアックス、事業者向け「ステーブルコイン決済導入支援サービス」を提供開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115230",
+      "doc_id_ja": "140120260511523016",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523016.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523016.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523016.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523016.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3445:1401202605115231",
+      "code": "3445",
+      "company": "東証Ｐ",
+      "title": "LE System’s Power Conditioning System Obtains German VDE Prototype Certification",
+      "title_en": "LE System’s Power Conditioning System Obtains German VDE Prototype Certification",
+      "title_ja": "LE System’s Power Conditioning System Obtains German VDE Prototype Certification",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115231",
+      "doc_id_ja": "140120260511523145",
+      "doc_id_en": "140120260511523145",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523145.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523145.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523145.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523145.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260511/140120260511523145.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6613:1401202604155048",
+      "code": "6613",
+      "company": "東証Ｇ",
+      "title": "定款 2026/04/15",
+      "title_en": "定款 2026/04/15",
+      "title_ja": "定款 2026/04/15",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:03:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604155048",
+      "doc_id_ja": "140120260415504826",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260415504826.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260415504826.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260415504826.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260415504826.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3939:1401202605115222",
+      "code": "3939",
+      "company": "東証Ｐ",
+      "title": "当社子会社のアーバンフィットが「全日本シニアバドミントン選手権大会」の大会冠パートナーに決定！挑戦を続けるシニアアスリートを支援！",
+      "title_en": "当社子会社のアーバンフィットが「全日本シニアバドミントン選手権大会」の大会冠パートナーに決定！挑戦を続けるシニアアスリートを支援！",
+      "title_ja": "当社子会社のアーバンフィットが「全日本シニアバドミントン選手権大会」の大会冠パートナーに決定！挑戦を続けるシニアアスリートを支援！",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:01:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605115222",
+      "doc_id_ja": "140120260511522250",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522250.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522250.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522250.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522250.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4890:1401202605115228",
+      "code": "4890",
+      "company": "東証Ｇ",
+      "title": "ARVO2026において7報の研究成果を発表",
+      "title_en": "ARVO2026において7報の研究成果を発表",
+      "title_ja": "ARVO2026において7報の研究成果を発表",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115228",
+      "doc_id_ja": "140120260511522837",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522837.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522837.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522837.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522837.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4493:1401202605115229",
+      "code": "4493",
+      "company": "東証Ｇ",
+      "title": "株式会社サイバーセキュリティクラウド「機関・個人投資家向け 2026年12月期 第１四半期 オンライン説明会」を開催いたします",
+      "title_en": "株式会社サイバーセキュリティクラウド「機関・個人投資家向け 2026年12月期 第１四半期 オンライン説明会」を開催いたします",
+      "title_ja": "株式会社サイバーセキュリティクラウド「機関・個人投資家向け 2026年12月期 第１四半期 オンライン説明会」を開催いたします",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-11T17:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115229",
+      "doc_id_ja": "140120260511522945",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522945.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260511/140120260511522945.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522945.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522945.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:2810:1401202605115219",
       "code": "2810",
