@@ -1,7 +1,29 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-12T21:07:11+09:00",
+  "last_checked_jst": "2026-05-12T23:46:28+09:00",
   "items": [
+    {
+      "id": "kabutan:4894:1401202605125274",
+      "code": "4894",
+      "company": "東証Ｇ",
+      "title": "Nakanoshima Qross Innovation Challenge 採択のお知らせ",
+      "title_en": "Nakanoshima Qross Innovation Challenge 採択のお知らせ",
+      "title_ja": "Nakanoshima Qross Innovation Challenge 採択のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T21:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125274",
+      "doc_id_ja": "140120260512527428",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512527428.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512527428.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512527428.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512527428.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:1447:1401202605125269",
       "code": "1447",
@@ -239,28 +261,6 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
-      "id": "kabutan:9517:1401202605125269",
-      "code": "9517",
-      "company": "東証Ｐ",
-      "title": "Notice Regarding Partial Amendments to the Articles of Incorporation",
-      "title_en": "Notice Regarding Partial Amendments to the Articles of Incorporation",
-      "title_ja": "Partial Amendments to the Articles of Incorporationに関するお知らせ",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-05-12T18:30:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202605125269",
-      "doc_id_ja": "140120260512526930",
-      "doc_id_en": "140120260512526930",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512526930.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526930.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512526930.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512526930.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526930.pdf",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
       "id": "kabutan:7925:1401202605125269",
       "code": "7925",
       "company": "東証Ｐ",
@@ -282,6 +282,28 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512526913.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512526913.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526945.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9517:1401202605125269",
+      "code": "9517",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Partial Amendments to the Articles of Incorporation",
+      "title_en": "Notice Regarding Partial Amendments to the Articles of Incorporation",
+      "title_ja": "Partial Amendments to the Articles of Incorporationに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T18:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125269",
+      "doc_id_ja": "140120260512526930",
+      "doc_id_en": "140120260512526930",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512526930.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526930.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512526930.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512526930.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526930.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
