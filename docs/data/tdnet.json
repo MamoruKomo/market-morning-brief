@@ -1,7 +1,147 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-12T19:07:18+09:00",
+  "last_checked_jst": "2026-05-12T21:07:11+09:00",
   "items": [
+    {
+      "id": "kabutan:1447:1401202605125269",
+      "code": "1447",
+      "company": "東証Ｇ",
+      "title": "臨時株主総会決議ご通知および当社の対応に関するお知らせ",
+      "title_en": "臨時株主総会決議ご通知および当社の対応に関するお知らせ",
+      "title_ja": "臨時株主総会決議ご通知および当社の対応に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T21:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125269",
+      "doc_id_ja": "140120260512526916",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512526916.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526916.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512526916.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512526916.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7183:1401202605125265",
+      "code": "7183",
+      "company": "東証Ｓ",
+      "title": "その他の関係会社の親会社であるムニノバホールディングス株式会社による当社株式等に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "title_en": "その他の関係会社の親会社であるムニノバホールディングス株式会社による当社株式等に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "title_ja": "その他の関係会社の親会社であるムニノバホールディングス株式会社による当社株式等に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-05-12T20:30:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202605125265",
+      "doc_id_ja": "140120260512526561",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512526561.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526561.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512526561.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512526561.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7183:1401202605125251",
+      "code": "7183",
+      "company": "東証Ｓ",
+      "title": "剰余金の配当（無配）に関するお知らせ",
+      "title_en": "剰余金の配当（無配）に関するお知らせ",
+      "title_ja": "剰余金の配当（無配）に関するお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-05-12T20:30:00+09:00",
+      "tags": [
+        "配当"
+      ],
+      "doc_id_family": "1401202605125251",
+      "doc_id_ja": "140120260512525123",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512525123.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512525123.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512525123.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512525123.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7183:1401202605115214",
+      "code": "7183",
+      "company": "東証Ｓ",
+      "title": "2026年３月期決算短信〔日本基準〕(非連結)",
+      "title_en": "2026年３月期決算短信〔日本基準〕(非連結)",
+      "title_ja": "2026年３月期決算短信〔日本基準〕(非連結)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-12T20:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605115214",
+      "doc_id_ja": "140120260511521428",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511521428.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260511521428.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511521428.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511521428.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:547A:1401202605115230",
+      "code": "547A",
+      "company": "東証Ｐ",
+      "title": "あんしん保証株式会社株券（証券コード7183）に対する公開買付けの開始に関するお知らせ",
+      "title_en": "あんしん保証株式会社株券（証券コード7183）に対する公開買付けの開始に関するお知らせ",
+      "title_ja": "あんしん保証株式会社株券（証券コード7183）に対する公開買付けの開始に関するお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-05-12T20:30:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202605115230",
+      "doc_id_ja": "140120260511523064",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523064.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260511523064.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523064.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523064.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2523:1401202605125271",
+      "code": "2523",
+      "company": "東証Ｅ",
+      "title": "「ＭＡＸＩＳトピックス（除く金融）上場投信」の 基準価額と市場価格の重要な乖離に関するお知らせ",
+      "title_en": "「ＭＡＸＩＳトピックス（除く金融）上場投信」の 基準価額と市場価格の重要な乖離に関するお知らせ",
+      "title_ja": "「ＭＡＸＩＳトピックス（除く金融）上場投信」の 基準価額と市場価格の重要な乖離に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T19:20:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125271",
+      "doc_id_ja": "140120260512527129",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512527129.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512527129.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512527129.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512527129.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7717:1401202605125270",
       "code": "7717",
@@ -111,12 +251,12 @@
       "datetime_jst": "2026-05-12T18:30:00+09:00",
       "tags": [],
       "doc_id_family": "1401202605125269",
-      "doc_id_ja": "140120260512526922",
+      "doc_id_ja": "140120260512526930",
       "doc_id_en": "140120260512526930",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512526922.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526922.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512526922.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512526922.pdf",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512526930.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526930.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512526930.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512526930.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260512/140120260512526930.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
