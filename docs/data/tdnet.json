@@ -1,7 +1,335 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-12T08:34:19+09:00",
+  "last_checked_jst": "2026-05-12T10:19:22+09:00",
   "items": [
+    {
+      "id": "kabutan:5576:1401202605115234",
+      "code": "5576",
+      "company": "東証Ｓ",
+      "title": "（訂正）「2026年３月期 通期 決算補足説明資料」の一部訂正について",
+      "title_en": "（訂正）「2026年３月期 通期 決算補足説明資料」の一部訂正について",
+      "title_ja": "（訂正）（訂正）「2026年３月期 通期 決算補足説明資料」の一部訂正について",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [
+        "決算",
+        "訂正"
+      ],
+      "doc_id_family": "1401202605115234",
+      "doc_id_ja": "140120260511523479",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523479.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260511523479.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523479.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523479.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4484:1401202605115228",
+      "code": "4484",
+      "company": "東証Ｇ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "title_en": "自己株式の取得状況に関するお知らせ",
+      "title_ja": "自己株式の取得状況に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605115228",
+      "doc_id_ja": "140120260511522847",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522847.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260511522847.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522847.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522847.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4019:1401202605125241",
+      "code": "4019",
+      "company": "東証Ｇ",
+      "title": "愛知県内1,300社以上のDXを加速。株式会社スタメン、あいち産業振興機構より「会員間交流プラットフォーム提供・活用促進業務」を受託",
+      "title_en": "愛知県内1,300社以上のDXを加速。株式会社スタメン、あいち産業振興機構より「会員間交流プラットフォーム提供・活用促進業務」を受託",
+      "title_ja": "愛知県内1,300社以上のDXを加速。株式会社スタメン、あいち産業振興機構より「会員間交流プラットフォーム提供・活用促進業務」を受託",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125241",
+      "doc_id_ja": "140120260512524166",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512524166.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512524166.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512524166.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512524166.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3796:1401202605125241",
+      "code": "3796",
+      "company": "東証Ｓ",
+      "title": "名古屋市の宝コミュニティサービスが「いい生活Square」で賃貸住宅の情報流通を開始",
+      "title_en": "名古屋市の宝コミュニティサービスが「いい生活Square」で賃貸住宅の情報流通を開始",
+      "title_ja": "名古屋市の宝コミュニティサービスが「いい生活Square」で賃貸住宅の情報流通を開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125241",
+      "doc_id_ja": "140120260512524148",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512524148.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512524148.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512524148.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512524148.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3580:1401202604305143",
+      "code": "3580",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding the Status of the Acquisition of Treasury Shares",
+      "title_en": "Notice Regarding the Status of the Acquisition of Treasury Shares",
+      "title_ja": "the Status of the Acquisition of 自己株式に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202604305143",
+      "doc_id_ja": "140120260430514392",
+      "doc_id_en": "140120260430514395",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514392.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260430514392.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260430514392.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260430514392.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260512/140120260430514395.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:330A:1401202605125240",
+      "code": "330A",
+      "company": "東証Ｇ",
+      "title": "三井情報、AIネイティブ採用を実現する「MyTalent Platform」を活用し、人的資本経営を加速",
+      "title_en": "三井情報、AIネイティブ採用を実現する「MyTalent Platform」を活用し、人的資本経営を加速",
+      "title_ja": "三井情報、AIネイティブ採用を実現する「MyTalent Platform」を活用し、人的資本経営を加速",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125240",
+      "doc_id_ja": "140120260512524070",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512524070.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512524070.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512524070.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512524070.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3134:1401202605125240",
+      "code": "3134",
+      "company": "東証Ｓ",
+      "title": "Notice of Parallel Plastics’ Web Launch of “Material Library,” an Upcycled Material Swatch Book",
+      "title_en": "Notice of Parallel Plastics’ Web Launch of “Material Library,” an Upcycled Material Swatch Book",
+      "title_ja": "Parallel Plastics’ Web Launch of “Material Library,” an Upcycled Material Swatch Bookのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125240",
+      "doc_id_ja": "140120260512524042",
+      "doc_id_en": "140120260512524042",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512524042.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512524042.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512524042.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512524042.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260512/140120260512524042.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3134:1401202605125239",
+      "code": "3134",
+      "company": "東証Ｓ",
+      "title": "Parallel Plastics、プラスチックリサイクル素材の“見本帳”『Material Library』をWeb公開",
+      "title_en": "Parallel Plastics、プラスチックリサイクル素材の“見本帳”『Material Library』をWeb公開",
+      "title_ja": "Parallel Plastics、プラスチックリサイクル素材の“見本帳”『Material Library』をWeb公開",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125239",
+      "doc_id_ja": "140120260512523998",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512523998.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512523998.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512523998.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512523998.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:303A:1401202605075182",
+      "code": "303A",
+      "company": "東証Ｇ",
+      "title": "visumo、「BEAMS公式オンラインショップ」にReviCoの提供を開始！",
+      "title_en": "visumo、「BEAMS公式オンラインショップ」にReviCoの提供を開始！",
+      "title_ja": "visumo、「BEAMS公式オンラインショップ」にReviCoの提供を開始！",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605075182",
+      "doc_id_ja": "140120260507518237",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518237.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260507518237.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260507518237.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260507518237.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:298A:1401202605115231",
+      "code": "298A",
+      "company": "東証Ｇ",
+      "title": "GVA TECH、弁護士向けAIサービスを「ベンパル」シリーズへブランド統一",
+      "title_en": "GVA TECH、弁護士向けAIサービスを「ベンパル」シリーズへブランド統一",
+      "title_ja": "GVA TECH、弁護士向けAIサービスを「ベンパル」シリーズへブランド統一",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115231",
+      "doc_id_ja": "140120260511523115",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523115.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260511523115.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523115.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523115.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2903:1401202605125242",
+      "code": "2903",
+      "company": "東証Ｓ",
+      "title": "自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の取得結果に関するお知らせ",
+      "title_en": "自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の取得結果に関するお知らせ",
+      "title_ja": "自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の取得結果に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605125242",
+      "doc_id_ja": "140120260512524274",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512524274.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512524274.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512524274.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512524274.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1717:1401202605125243",
+      "code": "1717",
+      "company": "東証Ｓ",
+      "title": "葛飾区「新庁舎移転準備業務支援委託」の公募型プロポーザルに応募し、最優秀提案者に選定されました",
+      "title_en": "葛飾区「新庁舎移転準備業務支援委託」の公募型プロポーザルに応募し、最優秀提案者に選定されました",
+      "title_ja": "葛飾区「新庁舎移転準備業務支援委託」の公募型プロポーザルに応募し、最優秀提案者に選定されました",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202605125243",
+      "doc_id_ja": "140120260512524307",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512524307.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512524307.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512524307.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512524307.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1717:1401202605125242",
+      "code": "1717",
+      "company": "東証Ｓ",
+      "title": "墨田区「庁舎リニューアルプラン工事の進捗管理等支援業務委託」の公募型プロポーザルに応募し、業務委託予定者に選定されました",
+      "title_en": "墨田区「庁舎リニューアルプラン工事の進捗管理等支援業務委託」の公募型プロポーザルに応募し、業務委託予定者に選定されました",
+      "title_ja": "墨田区「庁舎リニューアルプラン工事の進捗管理等支援業務委託」の公募型プロポーザルに応募し、業務委託予定者に選定されました",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202605125242",
+      "doc_id_ja": "140120260512524279",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512524279.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512524279.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512524279.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512524279.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1671:1401202605125242",
+      "code": "1671",
+      "company": "東証Ｅ",
+      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_en": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_ja": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-12T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605125242",
+      "doc_id_ja": "140120260512524221",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512524221.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260512/140120260512524221.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512524221.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512524221.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:9166:1401202605115237",
       "code": "9166",
