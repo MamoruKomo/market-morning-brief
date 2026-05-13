@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-14T00:24:38+09:00",
+  "last_checked_jst": "2026-05-14T02:29:59+09:00",
   "items": [
+    {
+      "id": "kabutan:4047:1401202605135306",
+      "code": "4047",
+      "company": "東証Ｐ",
+      "title": "INTEGRATED REPORT 2025",
+      "title_en": "INTEGRATED REPORT 2025",
+      "title_ja": "INTEGRATED REPORT 2025",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605135306",
+      "doc_id_ja": "140120260513530678",
+      "doc_id_en": "140120260513530678",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513530678.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260513530678.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513530678.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513530678.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260513530678.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2811:1401202605135278",
+      "code": "2811",
+      "company": "東証Ｐ",
+      "title": "（Delayed）KAGOME Integrated Report 2026",
+      "title_en": "（Delayed）KAGOME Integrated Report 2026",
+      "title_ja": "（遅延）（Delayed）KAGOME Integrated Report 2026",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-05-14T00:30:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "doc_id_family": "1401202605135278",
+      "doc_id_ja": "140120260513527854",
+      "doc_id_en": "140120260513527854",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513527854.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260513527854.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513527854.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513527854.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260513527854.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:9341:1401202605135314",
       "code": "9341",
@@ -125,54 +171,6 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
-      "id": "kabutan:2331:1401202605135291",
-      "code": "2331",
-      "company": "東証Ｐ",
-      "title": "中期経営計画「ALSOK STAGE 2028」策定に関するお知らせ",
-      "title_en": "中期経営計画「ALSOK STAGE 2028」策定に関するお知らせ",
-      "title_ja": "中期経営計画「ALSOK STAGE 2028」策定に関するお知らせ",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-05-13T19:15:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202605135291",
-      "doc_id_ja": "140120260513529191",
-      "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529191.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529191.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529191.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529191.pdf",
-      "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:2331:1401202605135290",
-      "code": "2331",
-      "company": "東証Ｐ",
-      "title": "自己株式取得に係る事項の決定に関するお知らせ",
-      "title_en": "自己株式取得に係る事項の決定に関するお知らせ",
-      "title_ja": "自己株式取得に係る事項の決定に関するお知らせ",
-      "points_ja": [
-        "自己株式（取得/消却/方針）の条件を確認",
-        "M&A/子会社化など（スキーム/条件）を確認"
-      ],
-      "datetime_jst": "2026-05-13T19:15:00+09:00",
-      "tags": [
-        "自己株",
-        "M&A"
-      ],
-      "doc_id_family": "1401202605135290",
-      "doc_id_ja": "140120260513529083",
-      "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529083.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529083.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529083.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529083.pdf",
-      "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
       "id": "kabutan:1909:1401202605135302",
       "code": "1909",
       "company": "東証Ｓ",
@@ -263,6 +261,54 @@
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260503517154.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260503517154.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260503517154.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2331:1401202605135291",
+      "code": "2331",
+      "company": "東証Ｐ",
+      "title": "中期経営計画「ALSOK STAGE 2028」策定に関するお知らせ",
+      "title_en": "中期経営計画「ALSOK STAGE 2028」策定に関するお知らせ",
+      "title_ja": "中期経営計画「ALSOK STAGE 2028」策定に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T19:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605135291",
+      "doc_id_ja": "140120260513529191",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529191.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529191.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529191.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529191.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2331:1401202605135290",
+      "code": "2331",
+      "company": "東証Ｐ",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "title_en": "自己株式取得に係る事項の決定に関するお知らせ",
+      "title_ja": "自己株式取得に係る事項の決定に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T19:15:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605135290",
+      "doc_id_ja": "140120260513529083",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529083.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529083.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529083.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529083.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
