@@ -1,7 +1,197 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-13T08:42:26+09:00",
+  "last_checked_jst": "2026-05-13T10:27:57+09:00",
   "items": [
+    {
+      "id": "kabutan:8783:1401202605135282",
+      "code": "8783",
+      "company": "東証Ｓ",
+      "title": "テレンス・クロフォード氏との共同記者会見の開催に関するお知らせ",
+      "title_en": "テレンス・クロフォード氏との共同記者会見の開催に関するお知らせ",
+      "title_ja": "テレンス・クロフォード氏との共同記者会見の開催に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T10:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605135282",
+      "doc_id_ja": "140120260513528254",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513528254.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528254.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513528254.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513528254.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7184:1401202605135280",
+      "code": "7184",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Results of Purchase of Treasury Shares through Off-Auction Treasury Share Repurchase Trading System (ToSTNeT-3)",
+      "title_en": "Notice Concerning Results of Purchase of Treasury Shares through Off-Auction Treasury Share Repurchase Trading System (ToSTNeT-3)",
+      "title_ja": "Results of Purchase of 自己株式 through Off-Auction Treasury 自己株式取得 Trading System (ToSTNeT-3)に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認"
+      ],
+      "datetime_jst": "2026-05-13T10:15:00+09:00",
+      "tags": [
+        "自己株"
+      ],
+      "doc_id_family": "1401202605135280",
+      "doc_id_ja": "140120260513528072",
+      "doc_id_en": "140120260513528072",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513528072.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528072.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513528072.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513528072.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528072.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7184:1401202605135277",
+      "code": "7184",
+      "company": "東証Ｐ",
+      "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果に関するお知らせ",
+      "title_en": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果に関するお知らせ",
+      "title_ja": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T10:15:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605135277",
+      "doc_id_ja": "140120260513527768",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513527768.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513527768.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513527768.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513527768.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:307A:1401202605135276",
+      "code": "307A",
+      "company": "",
+      "title": "「ファーストキャビン松江」グランドオープンのお知らせ",
+      "title_en": "「ファーストキャビン松江」グランドオープンのお知らせ",
+      "title_ja": "「ファーストキャビン松江」グランドオープンのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605135276",
+      "doc_id_ja": "140120260513527676",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513527676.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513527676.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513527676.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513527676.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2815:1401202605135276",
+      "code": "2815",
+      "company": "東証Ｐ",
+      "title": "Notice of Resolution Regarding the Acquisition of Treasury Shares",
+      "title_en": "Notice of Resolution Regarding the Acquisition of Treasury Shares",
+      "title_ja": "Resolution Regarding the Acquisition of 自己株式のお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T10:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605135276",
+      "doc_id_ja": "140120260513527658",
+      "doc_id_en": "140120260513527658",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513527658.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513527658.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513527658.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513527658.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513527658.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2815:1401202605125272",
+      "code": "2815",
+      "company": "東証Ｐ",
+      "title": "創業６０周年記念配当実施のお知らせ",
+      "title_en": "創業６０周年記念配当実施のお知らせ",
+      "title_ja": "創業６０周年記念配当実施のお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-05-13T10:00:00+09:00",
+      "tags": [
+        "配当"
+      ],
+      "doc_id_family": "1401202605125272",
+      "doc_id_ja": "140120260512527203",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512527203.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260512527203.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512527203.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512527203.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2815:1401202605125271",
+      "code": "2815",
+      "company": "東証Ｐ",
+      "title": "自己株式取得に係る事項の決定のお知らせ （会社法第１６５条第２項の規定による定款の定めに基づく自己株式の取得）",
+      "title_en": "自己株式取得に係る事項の決定のお知らせ （会社法第１６５条第２項の規定による定款の定めに基づく自己株式の取得）",
+      "title_ja": "自己株式取得に係る事項の決定のお知らせ （会社法第１６５条第２項の規定による定款の定めに基づく自己株式の取得）",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T10:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605125271",
+      "doc_id_ja": "140120260512527106",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260512527106.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260512527106.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260512527106.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260512527106.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1671:1401202605135278",
+      "code": "1671",
+      "company": "東証Ｅ",
+      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_en": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_ja": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605135278",
+      "doc_id_ja": "140120260513527874",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513527874.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513527874.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513527874.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513527874.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7357:1401202605115215",
       "code": "7357",
