@@ -1,7 +1,251 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-13T14:06:26+09:00",
+  "last_checked_jst": "2026-05-13T17:07:38+09:00",
   "items": [
+    {
+      "id": "kabutan:4552:1401202605135306",
+      "code": "4552",
+      "company": "東証Ｐ",
+      "title": "Partial Correction: “Consolidated Financial Results for the Three Months ended June 30, 2025 (FY2025)” (Japanese standard)",
+      "title_en": "Partial Correction: “Consolidated Financial Results for the Three Months ended June 30, 2025 (FY2025)” (Japanese standard)",
+      "title_ja": "（訂正）Partial 訂正: “連結決算 for the Three Months ended June 30, 2025 (FY2025)” (Japanese standard)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-05-13T17:05:00+09:00",
+      "tags": [
+        "決算",
+        "訂正"
+      ],
+      "doc_id_family": "1401202605135306",
+      "doc_id_ja": "140120260513530603",
+      "doc_id_en": "140120260513530603",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513530603.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530603.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513530603.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513530603.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530603.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4552:1401202605135305",
+      "code": "4552",
+      "company": "東証Ｐ",
+      "title": "Partial Correction: “Consolidated Financial Results for the Full Year ended March 31, 2025 (FY2024)” (Japanese standard)",
+      "title_en": "Partial Correction: “Consolidated Financial Results for the Full Year ended March 31, 2025 (FY2024)” (Japanese standard)",
+      "title_ja": "（訂正）Partial 訂正: “連結決算 for the Full Year ended March 31, 2025 (FY2024)” (Japanese standard)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-05-13T17:05:00+09:00",
+      "tags": [
+        "決算",
+        "訂正"
+      ],
+      "doc_id_family": "1401202605135305",
+      "doc_id_ja": "140120260513530576",
+      "doc_id_en": "140120260513530576",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513530576.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530576.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513530576.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513530576.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530576.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2332:1401202605135302",
+      "code": "2332",
+      "company": "東証Ｓ",
+      "title": "Consolidated Financial Results for the Fiscal Year Ended March 31, 2026 (Under Japanese GAAP)",
+      "title_en": "Consolidated Financial Results for the Fiscal Year Ended March 31, 2026 (Under Japanese GAAP)",
+      "title_ja": "連結決算 for the Fiscal Year Ended March 31, 2026 (Under Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-13T17:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605135302",
+      "doc_id_ja": "140120260513530213",
+      "doc_id_en": "140120260513530213",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513530213.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530213.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513530213.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513530213.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530213.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2332:1401202605135300",
+      "code": "2332",
+      "company": "東証Ｓ",
+      "title": "2026年３月期決算短信〔日本基準〕(連結)",
+      "title_en": "2026年３月期決算短信〔日本基準〕(連結)",
+      "title_ja": "2026年３月期決算短信〔日本基準〕(連結)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-13T17:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605135300",
+      "doc_id_ja": "140120260513530026",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513530026.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530026.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513530026.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513530026.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2332:1401202605135295",
+      "code": "2332",
+      "company": "東証Ｓ",
+      "title": "Notice Regarding Distribution of Dividends from Surplus (Dividend Increase)",
+      "title_en": "Notice Regarding Distribution of Dividends from Surplus (Dividend Increase)",
+      "title_ja": "Distribution of Dividends from Surplus (配当 Increase)に関するお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-05-13T17:00:00+09:00",
+      "tags": [
+        "配当"
+      ],
+      "doc_id_family": "1401202605135295",
+      "doc_id_ja": "140120260513529504",
+      "doc_id_en": "140120260513529504",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529504.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529504.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529504.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529504.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529504.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2332:1401202605135294",
+      "code": "2332",
+      "company": "東証Ｓ",
+      "title": "Notice Concerning Change of Representative Directors",
+      "title_en": "Notice Concerning Change of Representative Directors",
+      "title_ja": "Change of Representative Directorsに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-13T17:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605135294",
+      "doc_id_ja": "140120260513529422",
+      "doc_id_en": "140120260513529497",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529422.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529422.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529422.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529422.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529497.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2332:1401202605135293",
+      "code": "2332",
+      "company": "東証Ｓ",
+      "title": "定款の一部変更に関するお知らせ",
+      "title_en": "定款の一部変更に関するお知らせ",
+      "title_ja": "定款の一部変更に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T17:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605135293",
+      "doc_id_ja": "140120260513529398",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529398.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529398.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529398.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529398.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2122:1401202605135304",
+      "code": "2122",
+      "company": "東証Ｓ",
+      "title": "[Delayed] Consolidated Financial Results for the Six Months Ended March 31, 2026 (Under Japanese GAAP)",
+      "title_en": "[Delayed] Consolidated Financial Results for the Six Months Ended March 31, 2026 (Under Japanese GAAP)",
+      "title_ja": "（遅延）連結決算 for the Six Months Ended March 31, 2026 (Under Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-05-13T17:00:00+09:00",
+      "tags": [
+        "決算",
+        "遅延"
+      ],
+      "doc_id_family": "1401202605135304",
+      "doc_id_ja": "140120260513530409",
+      "doc_id_en": "140120260513530409",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513530409.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530409.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513530409.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513530409.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530409.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2122:1401202605135302",
+      "code": "2122",
+      "company": "東証Ｓ",
+      "title": "2026年9月期 第２四半期決算説明会資料",
+      "title_en": "2026年9月期 第２四半期決算説明会資料",
+      "title_ja": "2026年9月期 第２四半期決算説明会資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-13T17:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605135302",
+      "doc_id_ja": "140120260513530293",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513530293.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530293.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513530293.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513530293.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:203A:1401202605135302",
+      "code": "203A",
+      "company": "",
+      "title": "通期個別業績予想の修正に関するお知らせ",
+      "title_en": "通期個別業績予想の修正に関するお知らせ",
+      "title_ja": "通期個別業績予想の修正に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-05-13T17:00:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202605135302",
+      "doc_id_ja": "140120260513530258",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513530258.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513530258.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513530258.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513530258.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:1867:1401202605135279",
       "code": "1867",
