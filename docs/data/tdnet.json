@@ -1,7 +1,175 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-13T10:27:57+09:00",
+  "last_checked_jst": "2026-05-13T14:06:26+09:00",
   "items": [
+    {
+      "id": "kabutan:1867:1401202605135279",
+      "code": "1867",
+      "company": "東証Ｓ",
+      "title": "2026年3月期 決算補足説明資料",
+      "title_en": "2026年3月期 決算補足説明資料",
+      "title_ja": "2026年3月期 決算補足説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-13T14:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605135279",
+      "doc_id_ja": "140120260513527919",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513527919.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513527919.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513527919.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513527919.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1662:1401202605135293",
+      "code": "1662",
+      "company": "東証Ｐ",
+      "title": "Consolidated Financial Results for the Fiscal Ended March 31, 2026",
+      "title_en": "Consolidated Financial Results for the Fiscal Ended March 31, 2026",
+      "title_ja": "連結決算 for the Fiscal Ended March 31, 2026",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-13T14:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605135293",
+      "doc_id_ja": "140120260513529332",
+      "doc_id_en": "140120260513529332",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529332.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529332.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529332.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529332.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529332.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1662:1401202605135292",
+      "code": "1662",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Differences between Non-Consolidated Financial Results for the Year ended March 31, 2026, and those for the Previous Fiscal Year",
+      "title_en": "Notice Regarding Differences between Non-Consolidated Financial Results for the Year ended March 31, 2026, and those for the Previous Fiscal Year",
+      "title_ja": "Differences between Non-連結決算 for the Year ended March 31, 2026, and those for the Previous Fiscal Yearに関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-13T14:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605135292",
+      "doc_id_ja": "140120260513529228",
+      "doc_id_en": "140120260513529261",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529228.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529228.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529228.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529228.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529261.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1662:1401202605135291",
+      "code": "1662",
+      "company": "東証Ｐ",
+      "title": "[Explanatory]Financial Results for the Fiscal Year Ended March 31, 2026",
+      "title_en": "[Explanatory]Financial Results for the Fiscal Year Ended March 31, 2026",
+      "title_ja": "[Explanatory]決算 for the Fiscal Year Ended March 31, 2026",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-13T14:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605135291",
+      "doc_id_ja": "140120260513529137",
+      "doc_id_en": "140120260513529148",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529137.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529137.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529137.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529137.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529148.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1662:1401202605135290",
+      "code": "1662",
+      "company": "東証Ｐ",
+      "title": "(Progress of Disclosed Matters) Notice Regarding Recognition of Extraordinary Income with Transfer of Gas Manufacturing, Sales, and Gas Pipeline Busi",
+      "title_en": "(Progress of Disclosed Matters) Notice Regarding Recognition of Extraordinary Income with Transfer of Gas Manufacturing, Sales, and Gas Pipeline Busi",
+      "title_ja": "(Progress of Disclosed Matters) Notice Regarding Recognition of Extraordinary Income with Transfer of Gas Manufacturing, Sales, and Gas Pipeline Busi",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T14:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605135290",
+      "doc_id_ja": "140120260513529034",
+      "doc_id_en": "140120260513529034",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513529034.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529034.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513529034.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513529034.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513529034.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1662:1401202605135289",
+      "code": "1662",
+      "company": "東証Ｐ",
+      "title": "Notice regarding Changes of Representative Director, Directors, and Audit & Supervisory Board Members",
+      "title_en": "Notice regarding Changes of Representative Director, Directors, and Audit & Supervisory Board Members",
+      "title_ja": "Changes of Representative Director, Directors, and Audit & Supervisory Board Membersに関するお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認",
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-13T14:00:00+09:00",
+      "tags": [
+        "配当",
+        "人事"
+      ],
+      "doc_id_family": "1401202605135289",
+      "doc_id_ja": "140120260513528968",
+      "doc_id_en": "140120260513528938",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513528968.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528968.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513528968.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513528968.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528938.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1662:1401202605135288",
+      "code": "1662",
+      "company": "東証Ｐ",
+      "title": "Renewal of the Measures to Prevent Large-scale Acquisition of Our Company Shares (Takeover Response Policy)",
+      "title_en": "Renewal of the Measures to Prevent Large-scale Acquisition of Our Company Shares (Takeover Response Policy)",
+      "title_ja": "Renewal of the Measures to Prevent Large-scale Acquisition of Our Company Shares (Takeover Response Policy)",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-13T14:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605135288",
+      "doc_id_ja": "140120260513528808",
+      "doc_id_en": "140120260513528888",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513528808.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528808.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513528808.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513528808.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260513/140120260513528888.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8783:1401202605135282",
       "code": "8783",
