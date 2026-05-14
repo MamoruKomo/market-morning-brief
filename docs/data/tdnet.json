@@ -1,7 +1,189 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-15T07:44:17+09:00",
+  "last_checked_jst": "2026-05-15T08:37:23+09:00",
   "items": [
+    {
+      "id": "kabutan:3185:1401202605145318",
+      "code": "3185",
+      "company": "東証Ｇ",
+      "title": "夢展望、中国・成都に新規出店 次世代型商業施設での拠点拡大",
+      "title_en": "夢展望、中国・成都に新規出店 次世代型商業施設での拠点拡大",
+      "title_ja": "夢展望、中国・成都に新規出店 次世代型商業施設での拠点拡大",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-15T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605145318",
+      "doc_id_ja": "140120260514531872",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514531872.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260515/140120260514531872.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514531872.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514531872.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1672:1401202605155360",
+      "code": "1672",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-15T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605155360",
+      "doc_id_ja": "140120260515536063",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260515536063.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260515/140120260515536063.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260515536063.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260515536063.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8624:1401202605145349",
+      "code": "8624",
+      "company": "東証Ｐ",
+      "title": "Notice of 84th Annual Meeting of Shareholders(including matters omitted from documents for delivery)",
+      "title_en": "Notice of 84th Annual Meeting of Shareholders(including matters omitted from documents for delivery)",
+      "title_ja": "84th Annual Meeting of Shareholders(including matters omitted from documents for delivery)のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-15T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605145349",
+      "doc_id_ja": "140120260514534913",
+      "doc_id_en": "140120260514534913",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514534913.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260515/140120260514534913.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514534913.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514534913.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260515/140120260514534913.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8595:1401202605145350",
+      "code": "8595",
+      "company": "東証Ｐ",
+      "title": "Notice of Convocation of the 54th Annual General Meeting of Shareholders",
+      "title_en": "Notice of Convocation of the 54th Annual General Meeting of Shareholders",
+      "title_ja": "Convocation of the 54th Annual General Meeting of Shareholdersのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-15T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605145350",
+      "doc_id_ja": "140120260514535032",
+      "doc_id_en": "140120260514535034",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535032.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260515/140120260514535032.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535032.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535032.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260515/140120260514535034.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5254:1401202605145357",
+      "code": "5254",
+      "company": "東証Ｇ",
+      "title": "2026年6月期 第3四半期決算説明会 質疑応答の書き起こし及びアーカイブ動画公開のお知らせ",
+      "title_en": "2026年6月期 第3四半期決算説明会 質疑応答の書き起こし及びアーカイブ動画公開のお知らせ",
+      "title_ja": "2026年6月期 第3四半期決算説明会 質疑応答の書き起こし及びアーカイブ動画公開のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-15T08:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605145357",
+      "doc_id_ja": "140120260514535717",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535717.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260515/140120260514535717.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535717.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535717.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4997:1401202605145354",
+      "code": "4997",
+      "company": "東証Ｐ",
+      "title": "第127回定時株主総会招集ご通知",
+      "title_en": "第127回定時株主総会招集ご通知",
+      "title_ja": "第127回定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-15T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605145354",
+      "doc_id_ja": "140120260514535446",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535446.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260515/140120260514535446.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535446.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535446.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4875:1401202605145332",
+      "code": "4875",
+      "company": "東証Ｓ",
+      "title": "2026年12月期 第1四半期決算短信〔米国基準〕（連結）",
+      "title_en": "2026年12月期 第1四半期決算短信〔米国基準〕（連結）",
+      "title_ja": "2026年12月期 第1四半期決算短信〔米国基準〕（連結）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-15T08:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605145332",
+      "doc_id_ja": "140120260514533272",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514533272.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260515/140120260514533272.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514533272.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514533272.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:241A:1401202605115233",
+      "code": "241A",
+      "company": "東証Ｇ",
+      "title": "2026年９月期第２四半期 決算説明会 Q&Aの公開に関するお知らせ",
+      "title_en": "2026年９月期第２四半期 決算説明会 Q&Aの公開に関するお知らせ",
+      "title_ja": "2026年９月期第２四半期 決算説明会 Q&Aの公開に関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-15T08:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605115233",
+      "doc_id_ja": "140120260511523313",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523313.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260515/140120260511523313.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511523313.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511523313.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:1911:1401202605145347",
       "code": "1911",
