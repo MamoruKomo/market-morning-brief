@@ -1,7 +1,255 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-14T13:12:49+09:00",
+  "last_checked_jst": "2026-05-14T16:20:19+09:00",
   "items": [
+    {
+      "id": "kabutan:545A:1401202605145341",
+      "code": "545A",
+      "company": "東証Ｐ",
+      "title": "Consolidated Financial Results for the Fiscal Year Ended March 31, 2026 (Under Japanese GAAP)(R&D COMPUTER CO., LTD. Division)",
+      "title_en": "Consolidated Financial Results for the Fiscal Year Ended March 31, 2026 (Under Japanese GAAP)(R&D COMPUTER CO., LTD. Division)",
+      "title_ja": "連結決算 for the Fiscal Year Ended March 31, 2026 (Under Japanese GAAP)(R&D COMPUTER CO., LTD. Division)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:15:00+09:00",
+      "tags": [
+        "決算",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605145341",
+      "doc_id_ja": "140120260514534146",
+      "doc_id_en": "140120260514534169",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514534146.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534146.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514534146.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514534146.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534169.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:545A:1401202605145326",
+      "code": "545A",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning the Introduction of a Shareholder Benefit Plan",
+      "title_en": "Notice Concerning the Introduction of a Shareholder Benefit Plan",
+      "title_ja": "the Introduction of a Shareholder Benefit Planに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605145326",
+      "doc_id_ja": "140120260514532618",
+      "doc_id_en": "140120260514532618",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514532618.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514532618.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514532618.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514532618.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260514532618.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:545A:1401202605145325",
+      "code": "545A",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Consolidated Earnings Forecast and Dividend Forecast for the Fiscal Year Ending March 2027",
+      "title_en": "Notice Concerning Consolidated Earnings Forecast and Dividend Forecast for the Fiscal Year Ending March 2027",
+      "title_ja": "Consolidated Earnings 予想 and 配当予想 for the Fiscal Year Ending March 2027に関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認",
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:15:00+09:00",
+      "tags": [
+        "決算",
+        "業績修正",
+        "配当"
+      ],
+      "doc_id_family": "1401202605145325",
+      "doc_id_ja": "140120260514532541",
+      "doc_id_en": "140120260514532527",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514532541.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514532541.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514532541.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514532541.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260514532527.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:545A:1401202605145324",
+      "code": "545A",
+      "company": "東証Ｐ",
+      "title": "2027年３月期連結業績予想及び配当予想に関するお知らせ",
+      "title_en": "2027年３月期連結業績予想及び配当予想に関するお知らせ",
+      "title_ja": "2027年３月期連結業績予想及び配当予想に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認",
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:15:00+09:00",
+      "tags": [
+        "業績修正",
+        "配当"
+      ],
+      "doc_id_family": "1401202605145324",
+      "doc_id_ja": "140120260514532431",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514532431.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514532431.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514532431.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514532431.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:545A:1401202605145322",
+      "code": "545A",
+      "company": "東証Ｐ",
+      "title": "Non-consolidated Financial Results for the Fiscal Year Ended March 31, 2026(Under Japanese GAAP)(TOHO SYSTEM SCIENCE CO.,LTD. Division)",
+      "title_en": "Non-consolidated Financial Results for the Fiscal Year Ended March 31, 2026(Under Japanese GAAP)(TOHO SYSTEM SCIENCE CO.,LTD. Division)",
+      "title_ja": "Non-連結決算 for the Fiscal Year Ended March 31, 2026(Under Japanese GAAP)(TOHO SYSTEM SCIENCE CO.,LTD. Division)",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認",
+        "M&A/子会社化など（スキーム/条件）を確認",
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:15:00+09:00",
+      "tags": [
+        "配当",
+        "M&A",
+        "決算"
+      ],
+      "doc_id_family": "1401202605145322",
+      "doc_id_ja": "140120260514532258",
+      "doc_id_en": "140120260514532245",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514532258.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514532258.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514532258.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514532258.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260514532245.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:545A:1401202605145321",
+      "code": "545A",
+      "company": "東証Ｐ",
+      "title": "上場廃止となった子会社（株式会社東邦システムサイエンス）に関する決算開示について",
+      "title_en": "上場廃止となった子会社（株式会社東邦システムサイエンス）に関する決算開示について",
+      "title_ja": "上場廃止となった子会社（株式会社東邦システムサイエンス）に関する決算開示について",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:15:00+09:00",
+      "tags": [
+        "決算",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605145321",
+      "doc_id_ja": "140120260514532187",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514532187.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514532187.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514532187.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514532187.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4619:1401202605145344",
+      "code": "4619",
+      "company": "東証Ｓ",
+      "title": "2026年３月期 決算短信〔日本基準〕（連結）",
+      "title_en": "2026年３月期 決算短信〔日本基準〕（連結）",
+      "title_ja": "2026年３月期 決算短信〔日本基準〕（連結）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:15:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605145344",
+      "doc_id_ja": "140120260514534435",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514534435.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534435.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514534435.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514534435.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8358:1401202605135282",
+      "code": "8358",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/05/14",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/05/14",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/05/14",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:13:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605135282",
+      "doc_id_ja": "140120260513528296",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513528296.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260513528296.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513528296.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513528296.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3242:1401202605145348",
+      "code": "3242",
+      "company": "東証Ｓ",
+      "title": "都市型賃貸マンション「ステージグランデ亀有アジールコート」竣工のお知らせ",
+      "title_en": "都市型賃貸マンション「ステージグランデ亀有アジールコート」竣工のお知らせ",
+      "title_ja": "都市型賃貸マンション「ステージグランデ亀有アジールコート」竣工のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:05:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605145348",
+      "doc_id_ja": "140120260514534899",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514534899.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534899.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514534899.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514534899.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:334A:1401202605135309",
+      "code": "334A",
+      "company": "東証Ｇ",
+      "title": "2026年12月期第1四半期決算説明資料",
+      "title_en": "2026年12月期第1四半期決算説明資料",
+      "title_ja": "2026年12月期第1四半期決算説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-14T16:03:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605135309",
+      "doc_id_ja": "140120260513530933",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513530933.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260513530933.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513530933.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513530933.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:5139:1401202605145337",
       "code": "5139",
