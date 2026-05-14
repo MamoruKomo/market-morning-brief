@@ -1,7 +1,241 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-14T18:41:29+09:00",
+  "last_checked_jst": "2026-05-14T20:28:12+09:00",
   "items": [
+    {
+      "id": "kabutan:8739:1401202605145342",
+      "code": "8739",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Gerbera holdings' Tender Offer for METALART (TSE Standard: 5644) Common Stock",
+      "title_en": "Notice Regarding Gerbera holdings' Tender Offer for METALART (TSE Standard: 5644) Common Stock",
+      "title_ja": "Gerbera holdings' 公開買付（TOB） for METALART (TSE Standard: 5644) Common Stockに関するお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-05-14T20:00:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202605145342",
+      "doc_id_ja": "140120260514534229",
+      "doc_id_en": "140120260514534229",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514534229.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534229.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514534229.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514534229.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534229.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8739:1401202605145341",
+      "code": "8739",
+      "company": "東証Ｐ",
+      "title": "「日本モノづくり未来２号ファンド」株式会社メタルアート（証券コード：5644）の普通株式に対する公開買付けの開始に関するお知らせ",
+      "title_en": "「日本モノづくり未来２号ファンド」株式会社メタルアート（証券コード：5644）の普通株式に対する公開買付けの開始に関するお知らせ",
+      "title_ja": "「日本モノづくり未来２号ファンド」株式会社メタルアート（証券コード：5644）の普通株式に対する公開買付けの開始に関するお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-05-14T20:00:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202605145341",
+      "doc_id_ja": "140120260514534149",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514534149.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534149.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514534149.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514534149.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2268:1401202602165626",
+      "code": "2268",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/05/15",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/05/15",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/05/15",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T19:43:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202602165626",
+      "doc_id_ja": "140120260216562680",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260216562680.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260216562680.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260216562680.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260216562680.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5644:1401202605145356",
+      "code": "5644",
+      "company": "東証Ｓ",
+      "title": "Gerbera holdings株式会社による当社株式に対する公開買い付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "title_en": "Gerbera holdings株式会社による当社株式に対する公開買い付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "title_ja": "Gerbera holdings株式会社による当社株式に対する公開買い付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T19:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605145356",
+      "doc_id_ja": "140120260514535605",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535605.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535605.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535605.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535605.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5644:1401202605145319",
+      "code": "5644",
+      "company": "東証Ｓ",
+      "title": "2027年3月期の剰余金の配当（無配）に関するお知らせ",
+      "title_en": "2027年3月期の剰余金の配当（無配）に関するお知らせ",
+      "title_ja": "2027年3月期の剰余金の配当（無配）に関するお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-05-14T19:30:00+09:00",
+      "tags": [
+        "配当"
+      ],
+      "doc_id_family": "1401202605145319",
+      "doc_id_ja": "140120260514531908",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514531908.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514531908.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514531908.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514531908.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5644:1401202605145318",
+      "code": "5644",
+      "company": "東証Ｓ",
+      "title": "2026年３月期決算補足説明資料",
+      "title_en": "2026年３月期決算補足説明資料",
+      "title_ja": "2026年３月期決算補足説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-14T19:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605145318",
+      "doc_id_ja": "140120260514531812",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514531812.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514531812.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514531812.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514531812.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5644:1401202605145317",
+      "code": "5644",
+      "company": "東証Ｓ",
+      "title": "2026年３月期 決算短信［日本基準］（連結）",
+      "title_en": "2026年３月期 決算短信［日本基準］（連結）",
+      "title_ja": "2026年３月期 決算短信［日本基準］（連結）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-14T19:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605145317",
+      "doc_id_ja": "140120260514531741",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514531741.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514531741.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514531741.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514531741.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5162:1401202605145355",
+      "code": "5162",
+      "company": "東証Ｓ",
+      "title": "主要株主の異動に関するお知らせ",
+      "title_en": "主要株主の異動に関するお知らせ",
+      "title_ja": "主要株主の異動に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T19:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605145355",
+      "doc_id_ja": "140120260514535583",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535583.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535583.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535583.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535583.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6457:1401202605145356",
+      "code": "6457",
+      "company": "東証Ｐ",
+      "title": "Completion of Acquisition of Own Shares and Number of Treasury Shares to be Cancelled",
+      "title_en": "Completion of Acquisition of Own Shares and Number of Treasury Shares to be Cancelled",
+      "title_ja": "Completion of Acquisition of Own Shares and Number of 自己株式 to be Cancelled",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T19:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605145356",
+      "doc_id_ja": "140120260514535614",
+      "doc_id_en": "140120260514535645",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535614.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535614.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535614.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535614.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535645.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1786:1401202605145354",
+      "code": "1786",
+      "company": "東証Ｐ",
+      "title": "[Summary] Announcement Regarding the Formulation of the Medium-Term Management Plan (FY2026-2028)",
+      "title_en": "[Summary] Announcement Regarding the Formulation of the Medium-Term Management Plan (FY2026-2028)",
+      "title_ja": "[Summary] Announcement Regarding the Formulation of the Medium-Term Management Plan (FY2026-2028)",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605145354",
+      "doc_id_ja": "140120260514535420",
+      "doc_id_en": "140120260514535420",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535420.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535420.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535420.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535420.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535420.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4378:1401202605145354",
       "code": "4378",
