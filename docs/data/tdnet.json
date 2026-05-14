@@ -1,7 +1,33 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-14T20:28:12+09:00",
+  "last_checked_jst": "2026-05-14T22:13:22+09:00",
   "items": [
+    {
+      "id": "kabutan:8275:1401202605145358",
+      "code": "8275",
+      "company": "東証Ｓ",
+      "title": "子会社フォーバル・リアルストレートの通期連結業績予想と実績値との差異及び通期業績と前期実績値との差異に関するお知らせ",
+      "title_en": "子会社フォーバル・リアルストレートの通期連結業績予想と実績値との差異及び通期業績と前期実績値との差異に関するお知らせ",
+      "title_ja": "子会社フォーバル・リアルストレートの通期連結業績予想と実績値との差異及び通期業績と前期実績値との差異に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T21:15:00+09:00",
+      "tags": [
+        "業績修正",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605145358",
+      "doc_id_ja": "140120260514535804",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535804.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535804.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535804.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535804.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8739:1401202605145342",
       "code": "8739",
@@ -205,12 +231,12 @@
         "M&A"
       ],
       "doc_id_family": "1401202605145356",
-      "doc_id_ja": "140120260514535614",
+      "doc_id_ja": "140120260514535645",
       "doc_id_en": "140120260514535645",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535614.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535614.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535614.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535614.pdf",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514535645.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535645.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514535645.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514535645.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260514535645.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
