@@ -1,7 +1,55 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-14T22:13:22+09:00",
+  "last_checked_jst": "2026-05-15T00:31:50+09:00",
   "items": [
+    {
+      "id": "kabutan:1911:1401202605145347",
+      "code": "1911",
+      "company": "東証Ｐ",
+      "title": "Update on Disclosed Matter: Notice Regarding the Completion of the Acquisition of Shares (Subsidiarization) of Tri Pointe Homes, Inc.",
+      "title_en": "Update on Disclosed Matter: Notice Regarding the Completion of the Acquisition of Shares (Subsidiarization) of Tri Pointe Homes, Inc.",
+      "title_ja": "Update on Disclosed Matter: Notice Regarding the Completion of the Acquisition of Shares (Subsidiarization) of Tri Pointe Homes, Inc.",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T22:30:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605145347",
+      "doc_id_ja": "140120260514534719",
+      "doc_id_en": "140120260514534719",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514534719.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534719.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514534719.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514534719.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534719.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1911:1401202605145346",
+      "code": "1911",
+      "company": "東証Ｐ",
+      "title": "(開示事項の経過)米国Tri Pointe Homes, Inc.の株式取得(子会社化)完了に関するお知らせ",
+      "title_en": "(開示事項の経過)米国Tri Pointe Homes, Inc.の株式取得(子会社化)完了に関するお知らせ",
+      "title_ja": "(開示事項の経過)米国Tri Pointe Homes, Inc.の株式取得(子会社化)完了に関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-14T22:30:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605145346",
+      "doc_id_ja": "140120260514534610",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514534610.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260514/140120260514534610.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514534610.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514534610.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8275:1401202605145358",
       "code": "8275",
