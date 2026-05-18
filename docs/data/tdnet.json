@@ -1,7 +1,281 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-18T08:05:21+09:00",
+  "last_checked_jst": "2026-05-18T09:04:48+09:00",
   "items": [
+    {
+      "id": "kabutan:3333:1401202604225083",
+      "code": "3333",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/05/18",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/05/18",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/05/18",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T09:01:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604225083",
+      "doc_id_ja": "140120260422508388",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508388.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260422508388.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260422508388.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260422508388.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6551:1401202605155391",
+      "code": "6551",
+      "company": "東証Ｓ",
+      "title": "2026年９月期 第２四半期決算説明動画_書き起こし",
+      "title_en": "2026年９月期 第２四半期決算説明動画_書き起こし",
+      "title_ja": "2026年９月期 第２四半期決算説明動画_書き起こし",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-18T09:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605155391",
+      "doc_id_ja": "140120260515539103",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260515539103.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260515539103.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260515539103.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260515539103.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4765:1401202605185392",
+      "code": "4765",
+      "company": "東証Ｐ",
+      "title": "「アメリカ国家戦略関連株ファンド」純資産総額300億円を突破",
+      "title_en": "「アメリカ国家戦略関連株ファンド」純資産総額300億円を突破",
+      "title_ja": "「アメリカ国家戦略関連株ファンド」純資産総額300億円を突破",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605185392",
+      "doc_id_ja": "140120260518539239",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539239.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539239.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539239.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539239.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4167:1401202605175392",
+      "code": "4167",
+      "company": "東証Ｇ",
+      "title": "玉島信用金庫、飯能信用金庫にて、海外ビジネスマッチングプラットフォーム「BIG ADVANCE GLOBAL」利用開始",
+      "title_en": "玉島信用金庫、飯能信用金庫にて、海外ビジネスマッチングプラットフォーム「BIG ADVANCE GLOBAL」利用開始",
+      "title_ja": "玉島信用金庫、飯能信用金庫にて、海外ビジネスマッチングプラットフォーム「BIG ADVANCE GLOBAL」利用開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605175392",
+      "doc_id_ja": "140120260517539205",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260517539205.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260517539205.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260517539205.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260517539205.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3660:1401202605185392",
+      "code": "3660",
+      "company": "東証Ｐ",
+      "title": "倉庫移転に伴う「@cosme SHOPPING」発送業務の正常化に関するお知らせ",
+      "title_en": "倉庫移転に伴う「@cosme SHOPPING」発送業務の正常化に関するお知らせ",
+      "title_ja": "倉庫移転に伴う「@cosme SHOPPING」発送業務の正常化に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605185392",
+      "doc_id_ja": "140120260518539248",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539248.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539248.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539248.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539248.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3077:1401202605155380",
+      "code": "3077",
+      "company": "東証Ｓ",
+      "title": "AIオペレーター「miraio」を実店舗で利用開始",
+      "title_en": "AIオペレーター「miraio」を実店舗で利用開始",
+      "title_ja": "AIオペレーター「miraio」を実店舗で利用開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605155380",
+      "doc_id_ja": "140120260515538055",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260515538055.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260515538055.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260515538055.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260515538055.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5246:1401202605155388",
+      "code": "5246",
+      "company": "東証Ｇ",
+      "title": "「ELEMENTSグループの株式会社Liquid・株式会社ポラリファイeKYC市場シェア７年連続No.1獲得、グループ契約数約700社に」に関する発表",
+      "title_en": "「ELEMENTSグループの株式会社Liquid・株式会社ポラリファイeKYC市場シェア７年連続No.1獲得、グループ契約数約700社に」に関する発表",
+      "title_ja": "「ELEMENTSグループの株式会社Liquid・株式会社ポラリファイeKYC市場シェア７年連続No.1獲得、グループ契約数約700社に」に関する発表",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T08:59:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605155388",
+      "doc_id_ja": "140120260515538842",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260515538842.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260515538842.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260515538842.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260515538842.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:350A:1401202605175391",
+      "code": "350A",
+      "company": "東証Ｇ",
+      "title": "国内外に出荷する宮崎牛を支える電力戦略 - 固定価格調達でミヤチクが価格変動リスクを抑制 -",
+      "title_en": "国内外に出荷する宮崎牛を支える電力戦略 - 固定価格調達でミヤチクが価格変動リスクを抑制 -",
+      "title_ja": "国内外に出荷する宮崎牛を支える電力戦略 - 固定価格調達でミヤチクが価格変動リスクを抑制 -",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T08:59:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605175391",
+      "doc_id_ja": "140120260517539164",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260517539164.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260517539164.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260517539164.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260517539164.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6240:1401202605185392",
+      "code": "6240",
+      "company": "東証Ｐ",
+      "title": "[Delayed]Announcement of Conclusion of a Joint Research Agreement with Shinshu University",
+      "title_en": "[Delayed]Announcement of Conclusion of a Joint Research Agreement with Shinshu University",
+      "title_ja": "（遅延）Conclusion of a Joint Research Agreement with Shinshu Universityの発表",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-05-18T08:50:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "doc_id_family": "1401202605185392",
+      "doc_id_ja": "140120260518539241",
+      "doc_id_en": "140120260518539241",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539241.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539241.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539241.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539241.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539241.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3778:1401202605155389",
+      "code": "3778",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Award of Contract for“Cloud Services for R&D of Large Language Models in fiscal 2026 1 Set”",
+      "title_en": "Notice Regarding Award of Contract for“Cloud Services for R&D of Large Language Models in fiscal 2026 1 Set”",
+      "title_ja": "Award of Contract for“Cloud Services for R&D of Large Language Models in fiscal 2026 1 Set”に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T08:50:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605155389",
+      "doc_id_ja": "140120260515538974",
+      "doc_id_en": "140120260515538982",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260515538974.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260515538974.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260515538974.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260515538974.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260515538982.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9502:1401202605185392",
+      "code": "9502",
+      "company": "東証Ｐ",
+      "title": "(Amendment) Notice Regarding Amendment of ”Notice Regarding Commencement of Tender Offer for Shares of RYOMO SYSTEMS CO., LTD.",
+      "title_en": "(Amendment) Notice Regarding Amendment of ”Notice Regarding Commencement of Tender Offer for Shares of RYOMO SYSTEMS CO., LTD.",
+      "title_ja": "(Amendment) Notice Regarding Amendment of ”Notice Regarding Commencement of 公開買付（TOB） for Shares of RYOMO SYSTEMS CO., LTD.",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-05-18T08:45:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202605185392",
+      "doc_id_ja": "140120260518539237",
+      "doc_id_en": "140120260518539237",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539237.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539237.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539237.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539237.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539237.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7280:1401202605185392",
+      "code": "7280",
+      "company": "東証Ｐ",
+      "title": "(Amendment) Notice Regarding Amendment of “Notice Regarding Commencement of Tender Offer for Shares of RYOMO SYSTEMS CO., LTD.",
+      "title_en": "(Amendment) Notice Regarding Amendment of “Notice Regarding Commencement of Tender Offer for Shares of RYOMO SYSTEMS CO., LTD.",
+      "title_ja": "（訂正）(Amendment) Notice Regarding Amendment of “Notice Regarding Commencement of 公開買付（TOB） for Shares of RYOMO SYSTEMS CO., LTD.",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-05-18T08:45:00+09:00",
+      "tags": [
+        "TOB",
+        "訂正"
+      ],
+      "doc_id_family": "1401202605185392",
+      "doc_id_ja": "140120260518539234",
+      "doc_id_en": "140120260518539235",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539234.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539234.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539234.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539234.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539235.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:9211:1401202605155390",
       "code": "9211",
