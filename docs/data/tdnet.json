@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-19T00:26:32+09:00",
+  "last_checked_jst": "2026-05-19T02:38:16+09:00",
   "items": [
+    {
+      "id": "kabutan:5016:1401202605185402",
+      "code": "5016",
+      "company": "東証Ｐ",
+      "title": "[Summary]Notice Regarding Determination of Terms of Issue of Zero Coupon Convertible Bonds due 2029 and Zero Coupon Convertible Bonds due 2031",
+      "title_en": "[Summary]Notice Regarding Determination of Terms of Issue of Zero Coupon Convertible Bonds due 2029 and Zero Coupon Convertible Bonds due 2031",
+      "title_ja": "[Summary]Notice Regarding Determination of Terms of Issue of Zero Coupon Convertible Bonds due 2029 and Zero Coupon Convertible Bonds due 2031",
+      "points_ja": [
+        "借入/資金調達（条件/返済）を確認"
+      ],
+      "datetime_jst": "2026-05-19T00:30:00+09:00",
+      "tags": [
+        "借入"
+      ],
+      "doc_id_family": "1401202605185402",
+      "doc_id_ja": "140120260518540256",
+      "doc_id_en": "140120260518540258",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518540256.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260518540256.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518540256.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518540256.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260519/140120260518540258.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:6549:1401202605185402",
       "code": "6549",
