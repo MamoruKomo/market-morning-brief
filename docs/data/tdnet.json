@@ -1,7 +1,267 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-18T09:04:48+09:00",
+  "last_checked_jst": "2026-05-18T13:25:07+09:00",
   "items": [
+    {
+      "id": "kabutan:4375:1401202605185397",
+      "code": "4375",
+      "company": "東証Ｇ",
+      "title": "【地域医療DX】ドクターカー・ヘリから救急現場の状況を院内へリアルタイム共有 兵庫県立はりま姫路総合医療センターがセーフィーのウェアラブルカメラを導入",
+      "title_en": "【地域医療DX】ドクターカー・ヘリから救急現場の状況を院内へリアルタイム共有 兵庫県立はりま姫路総合医療センターがセーフィーのウェアラブルカメラを導入",
+      "title_ja": "【地域医療DX】ドクターカー・ヘリから救急現場の状況を院内へリアルタイム共有 兵庫県立はりま姫路総合医療センターがセーフィーのウェアラブルカメラを導入",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:10:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605185397",
+      "doc_id_ja": "140120260518539704",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539704.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539704.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539704.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539704.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6364:1401202605185392",
+      "code": "6364",
+      "company": "東証Ｐ",
+      "title": "[Updated]Consolidated Financial Results for the Fiscal Year Ended March 31, 2026(Under Japanese GAAP)",
+      "title_en": "[Updated]Consolidated Financial Results for the Fiscal Year Ended March 31, 2026(Under Japanese GAAP)",
+      "title_ja": "[Updated]連結決算 for the Fiscal Year Ended March 31, 2026(Under Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605185392",
+      "doc_id_ja": "140120260518539280",
+      "doc_id_en": "140120260518539280",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539280.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539280.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539280.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539280.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539280.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6104:1401202605185396",
+      "code": "6104",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning the Postponement (Further Postponement) of the Announcement of Financial Results for the Fiscal Year Ended March 31, 2026",
+      "title_en": "Notice Concerning the Postponement (Further Postponement) of the Announcement of Financial Results for the Fiscal Year Ended March 31, 2026",
+      "title_ja": "the Postponement (Further Postponement) of the Announcement of 決算 for the Fiscal Year Ended March 31, 2026に関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605185396",
+      "doc_id_ja": "140120260518539632",
+      "doc_id_en": "140120260518539638",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539632.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539632.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539632.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539632.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539638.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6104:1401202605155388",
+      "code": "6104",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Definitive Agreement Signing for Acquisition of Moore Nanotechnology Systems, LLC (to be Subsidiary)",
+      "title_en": "Notice Concerning Definitive Agreement Signing for Acquisition of Moore Nanotechnology Systems, LLC (to be Subsidiary)",
+      "title_ja": "Definitive Agreement Signing for Acquisition of Moore Nanotechnology Systems, LLC (to be Subsidiary)に関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605155388",
+      "doc_id_ja": "140120260515538806",
+      "doc_id_en": "140120260515538832",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260515538806.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260515538806.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260515538806.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260515538806.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260515538832.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5575:1401202605185393",
+      "code": "5575",
+      "company": "東証Ｇ",
+      "title": "令和8年度の学校有料会員数（前年同月比195％）に関するお知らせ",
+      "title_en": "令和8年度の学校有料会員数（前年同月比195％）に関するお知らせ",
+      "title_ja": "令和8年度の学校有料会員数（前年同月比195％）に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605185393",
+      "doc_id_ja": "140120260518539388",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539388.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539388.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539388.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539388.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4767:1401202605165391",
+      "code": "4767",
+      "company": "東証Ｓ",
+      "title": "役員人事に関するお知らせ",
+      "title_en": "役員人事に関するお知らせ",
+      "title_ja": "役員人事に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605165391",
+      "doc_id_ja": "140120260516539184",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260516539184.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260516539184.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260516539184.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260516539184.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4733:1401202605185395",
+      "code": "4733",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding the Appointment of a Candidate for Outside Director and the Retiring Officer",
+      "title_en": "Notice Regarding the Appointment of a Candidate for Outside Director and the Retiring Officer",
+      "title_ja": "the Appointment of a Candidate for Outside Director and the Retiring Officerに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605185395",
+      "doc_id_ja": "140120260518539556",
+      "doc_id_en": "140120260518539581",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539556.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539556.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539556.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539556.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539581.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4568:1401202605155390",
+      "code": "4568",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Partial Revision of the Medium-Term Performance-Based Share Compensation for Company’s Directors and Corporate Officers",
+      "title_en": "Notice Regarding Partial Revision of the Medium-Term Performance-Based Share Compensation for Company’s Directors and Corporate Officers",
+      "title_ja": "Partial 修正 of the Medium-Term Performance-Based Share Compensation for Company’s Directors and Corporate Officersに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605155390",
+      "doc_id_ja": "140120260515539092",
+      "doc_id_en": "140120260515539098",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260515539092.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260515539092.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260515539092.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260515539092.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260515539098.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4125:1401202605145334",
+      "code": "4125",
+      "company": "東証Ｓ",
+      "title": "役員等の人事異動に関するお知らせ",
+      "title_en": "役員等の人事異動に関するお知らせ",
+      "title_ja": "役員等の人事異動に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605145334",
+      "doc_id_ja": "140120260514533455",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260514533455.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260514533455.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260514533455.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260514533455.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3132:1401202605185395",
+      "code": "3132",
+      "company": "東証Ｐ",
+      "title": "【Transcript】Financial Results Briefing for FY2025 (Including Q&A)",
+      "title_en": "【Transcript】Financial Results Briefing for FY2025 (Including Q&A)",
+      "title_ja": "【Transcript】決算 Briefing for FY2025 (Including Q&A)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605185395",
+      "doc_id_ja": "140120260518539558",
+      "doc_id_en": "140120260518539558",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539558.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539558.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539558.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539558.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260518/140120260518539558.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3132:1401202605155389",
+      "code": "3132",
+      "company": "東証Ｐ",
+      "title": "【書き起こし】2026年３月期 決算説明会（Q&A含む）",
+      "title_en": "【書き起こし】2026年３月期 決算説明会（Q&A含む）",
+      "title_ja": "【書き起こし】2026年３月期 決算説明会（Q&A含む）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-18T13:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605155389",
+      "doc_id_ja": "140120260515538981",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260515538981.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260518/140120260515538981.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260515538981.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260515538981.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3333:1401202604225083",
       "code": "3333",
