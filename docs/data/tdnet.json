@@ -1,7 +1,291 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-19T08:44:59+09:00",
+  "last_checked_jst": "2026-05-19T10:35:12+09:00",
   "items": [
+    {
+      "id": "kabutan:4318:1401202605195404",
+      "code": "4318",
+      "company": "東証Ｐ",
+      "title": "2026年３月期 決算説明会 書き起こし記事公開のお知らせ",
+      "title_en": "2026年３月期 決算説明会 書き起こし記事公開のお知らせ",
+      "title_ja": "2026年３月期 決算説明会 書き起こし記事公開のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605195404",
+      "doc_id_ja": "140120260519540466",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540466.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260519540466.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260519540466.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260519540466.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:409A:1401202605195405",
+      "code": "409A",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Results of Purchase of Treasury Shares through Off-Auction Own Share Repurchase Trading System (ToSTNeT-3)",
+      "title_en": "Notice Concerning Results of Purchase of Treasury Shares through Off-Auction Own Share Repurchase Trading System (ToSTNeT-3)",
+      "title_ja": "Results of Purchase of 自己株式 through Off-Auction Own 自己株式取得 Trading System (ToSTNeT-3)に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:30:00+09:00",
+      "tags": [
+        "自己株"
+      ],
+      "doc_id_family": "1401202605195405",
+      "doc_id_ja": "140120260519540568",
+      "doc_id_en": "140120260519540568",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540568.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260519540568.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260519540568.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260519540568.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260519/140120260519540568.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:409A:1401202605185402",
+      "code": "409A",
+      "company": "東証Ｐ",
+      "title": "自己株式立会外買付取引(ToSTNeT-3)による自己株式の取得結果に関するお知らせ",
+      "title_en": "自己株式立会外買付取引(ToSTNeT-3)による自己株式の取得結果に関するお知らせ",
+      "title_ja": "自己株式立会外買付取引(ToSTNeT-3)による自己株式の取得結果に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:30:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605185402",
+      "doc_id_ja": "140120260518540246",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518540246.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260518540246.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518540246.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518540246.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4502:1401202605195403",
+      "code": "4502",
+      "company": "東証Ｐ",
+      "title": "Takeda Provides an Update regarding Jury Verdict in AMITIZA Antitrust Litigation in the U.S. and Related Revision to FY2025 Financial Results",
+      "title_en": "Takeda Provides an Update regarding Jury Verdict in AMITIZA Antitrust Litigation in the U.S. and Related Revision to FY2025 Financial Results",
+      "title_ja": "Takeda Provides an Update regarding Jury Verdict in AMITIZA Antitrust Litigation in the U.S. and Related 修正 to FY2025 決算",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:20:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605195403",
+      "doc_id_ja": "140120260519540332",
+      "doc_id_en": "140120260519540333",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540332.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260519540332.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260519540332.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260519540332.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260519/140120260519540333.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4828:1401202605185398",
+      "code": "4828",
+      "company": "東証Ｐ",
+      "title": "Release of Edited Transcript (Including Q&A Session) of FY2025 Financial Results Briefing",
+      "title_en": "Release of Edited Transcript (Including Q&A Session) of FY2025 Financial Results Briefing",
+      "title_ja": "Release of Edited Transcript (Including Q&A Session) of FY2025 決算 Briefing",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:15:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605185398",
+      "doc_id_ja": "140120260518539887",
+      "doc_id_en": "140120260518539893",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539887.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260518539887.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539887.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539887.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260519/140120260518539893.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:330A:1401202605195403",
+      "code": "330A",
+      "company": "東証Ｇ",
+      "title": "「なの花薬局」を展開するメディカルシステムネットワーク、AIネイティブ採用を実現する「MyTalent Platform」を活用し、自律的な組織づくりを推進",
+      "title_en": "「なの花薬局」を展開するメディカルシステムネットワーク、AIネイティブ採用を実現する「MyTalent Platform」を活用し、自律的な組織づくりを推進",
+      "title_ja": "「なの花薬局」を展開するメディカルシステムネットワーク、AIネイティブ採用を実現する「MyTalent Platform」を活用し、自律的な組織づくりを推進",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605195403",
+      "doc_id_ja": "140120260519540337",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540337.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260519540337.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260519540337.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260519540337.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3137:1401202605185400",
+      "code": "3137",
+      "company": "東証Ｓ",
+      "title": "株式の立会外分売終了に関するお知らせ",
+      "title_en": "株式の立会外分売終了に関するお知らせ",
+      "title_ja": "株式の立会外分売終了に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605185400",
+      "doc_id_ja": "140120260518540036",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518540036.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260518540036.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518540036.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518540036.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2917:1401202605195404",
+      "code": "2917",
+      "company": "東証Ｓ",
+      "title": "自己株式立会外買付取引(ToSTNeT-３)による自己株式の取得結果及び取得終了に関するお知らせ",
+      "title_en": "自己株式立会外買付取引(ToSTNeT-３)による自己株式の取得結果及び取得終了に関するお知らせ",
+      "title_ja": "自己株式立会外買付取引(ToSTNeT-３)による自己株式の取得結果及び取得終了に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605195404",
+      "doc_id_ja": "140120260519540427",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540427.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260519540427.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260519540427.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260519540427.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2060:1401202605135276",
+      "code": "2060",
+      "company": "東証Ｐ",
+      "title": "2026年３月期 通期決算説明資料",
+      "title_en": "2026年３月期 通期決算説明資料",
+      "title_ja": "2026年３月期 通期決算説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605135276",
+      "doc_id_ja": "140120260513527612",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260513527612.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260513527612.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260513527612.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260513527612.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:190A:1401202604135027",
+      "code": "190A",
+      "company": "東証Ｇ",
+      "title": "Chordia Therapeutics Publishes First-in-Human Phase 1 Results of CLK Inhibitor Rogocekib for Solid Tumors in Clinical Cancer Research",
+      "title_en": "Chordia Therapeutics Publishes First-in-Human Phase 1 Results of CLK Inhibitor Rogocekib for Solid Tumors in Clinical Cancer Research",
+      "title_ja": "Chordia Therapeutics Publishes First-in-Human Phase 1 Results of CLK Inhibitor Rogocekib for Solid Tumors in Clinical Cancer Research",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202604135027",
+      "doc_id_ja": "140120260413502774",
+      "doc_id_en": "140120260413502776",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502774.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260413502774.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260413502774.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260413502774.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260519/140120260413502776.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:167A:1401202605195404",
+      "code": "167A",
+      "company": "東証Ｐ",
+      "title": "2025年度 決算説明会資料",
+      "title_en": "2025年度 決算説明会資料",
+      "title_ja": "2025年度 決算説明会資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605195404",
+      "doc_id_ja": "140120260519540409",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540409.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260519540409.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260519540409.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260519540409.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1671:1401202605195403",
+      "code": "1671",
+      "company": "東証Ｅ",
+      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_en": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_ja": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-19T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605195403",
+      "doc_id_ja": "140120260519540391",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540391.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260519/140120260519540391.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260519540391.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260519540391.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7357:1401202605185394",
       "code": "7357",
