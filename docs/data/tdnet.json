@@ -1,7 +1,231 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-21T06:05:37+09:00",
+  "last_checked_jst": "2026-05-22T08:37:58+09:00",
   "items": [
+    {
+      "id": "kabutan:7073:1401202605215439",
+      "code": "7073",
+      "company": "東証Ｇ",
+      "title": "支配株主等に関する事項について",
+      "title_en": "支配株主等に関する事項について",
+      "title_ja": "支配株主等に関する事項について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-22T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605215439",
+      "doc_id_ja": "140120260521543969",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543969.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260521543969.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260521543969.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260521543969.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6420:1401202605215440",
+      "code": "6420",
+      "company": "東証Ｐ",
+      "title": "公認会計士等の異動に関するお知らせ",
+      "title_en": "公認会計士等の異動に関するお知らせ",
+      "title_ja": "公認会計士等の異動に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-22T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605215440",
+      "doc_id_ja": "140120260521544065",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521544065.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260521544065.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260521544065.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260521544065.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:429A:1401202605225441",
+      "code": "429A",
+      "company": "東証Ｐ",
+      "title": "【Delayed】Notice Concerning introduction of Performance-based Restricted Sare Unit (PSU) Plan for Directors",
+      "title_en": "【Delayed】Notice Concerning introduction of Performance-based Restricted Sare Unit (PSU) Plan for Directors",
+      "title_ja": "（遅延）【Delayed】Notice Concerning introduction of Performance-based Restricted Sare Unit (PSU) Plan for Directors",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認",
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-05-22T08:30:00+09:00",
+      "tags": [
+        "人事",
+        "遅延"
+      ],
+      "doc_id_family": "1401202605225441",
+      "doc_id_ja": "140120260522544155",
+      "doc_id_en": "140120260522544155",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260522544155.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260522544155.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260522544155.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260522544155.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260522/140120260522544155.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3491:1401202605225442",
+      "code": "3491",
+      "company": "東証Ｇ",
+      "title": "イタンジ、全国賃貸管理ビジネス協会にパートナー会員として入会",
+      "title_en": "イタンジ、全国賃貸管理ビジネス協会にパートナー会員として入会",
+      "title_ja": "イタンジ、全国賃貸管理ビジネス協会にパートナー会員として入会",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-22T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605225442",
+      "doc_id_ja": "140120260522544217",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260522544217.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260522544217.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260522544217.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260522544217.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:206A:1401202605225442",
+      "code": "206A",
+      "company": "東証Ｇ",
+      "title": "「ラジオNIKKEI ジャパンツアー」登壇のお知らせ",
+      "title_en": "「ラジオNIKKEI ジャパンツアー」登壇のお知らせ",
+      "title_ja": "「ラジオNIKKEI ジャパンツアー」登壇のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-22T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605225442",
+      "doc_id_ja": "140120260522544242",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260522544242.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260522544242.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260522544242.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260522544242.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1672:1401202605225441",
+      "code": "1672",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-22T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605225441",
+      "doc_id_ja": "140120260522544150",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260522544150.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260522544150.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260522544150.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260522544150.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3401:1401202605215436",
+      "code": "3401",
+      "company": "東証Ｐ",
+      "title": "Other Items Provided Electronically for the 160th Ordinary General Meeting of Shareholders (Items Omitted from the Paper Copy)",
+      "title_en": "Other Items Provided Electronically for the 160th Ordinary General Meeting of Shareholders (Items Omitted from the Paper Copy)",
+      "title_ja": "Other Items Provided Electronically for the 160th Ordinary General Meeting of Shareholders (Items Omitted from the Paper Copy)",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-22T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605215436",
+      "doc_id_ja": "140120260521543683",
+      "doc_id_en": "140120260521543683",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543683.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260521543683.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260521543683.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260521543683.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260522/140120260521543683.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2883:1401202605205422",
+      "code": "2883",
+      "company": "東証Ｓ",
+      "title": "2026年定時株主総会招集通知",
+      "title_en": "2026年定時株主総会招集通知",
+      "title_ja": "2026年定時株主総会招集通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-22T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605205422",
+      "doc_id_ja": "140120260520542257",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260520542257.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260520542257.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260520542257.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260520542257.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2760:1401202605215438",
+      "code": "2760",
+      "company": "東証Ｐ",
+      "title": "Notice of 2026 Annual General Meeting and Meeting Materials",
+      "title_en": "Notice of 2026 Annual General Meeting and Meeting Materials",
+      "title_ja": "2026 Annual General Meeting and Meeting Materialsのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-22T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605215438",
+      "doc_id_ja": "140120260521543876",
+      "doc_id_en": "140120260521543877",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543876.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260521543876.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260521543876.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260521543876.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260522/140120260521543877.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1719:1401202605215438",
+      "code": "1719",
+      "company": "東証Ｐ",
+      "title": "2026年３月期定時株主総会招集ご通知",
+      "title_en": "2026年３月期定時株主総会招集ご通知",
+      "title_ja": "2026年３月期定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-22T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605215438",
+      "doc_id_ja": "140120260521543802",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543802.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260522/140120260521543802.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260521543802.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260521543802.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4524:1401202605205422",
       "code": "4524",
