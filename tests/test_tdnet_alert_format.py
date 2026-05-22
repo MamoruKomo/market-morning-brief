@@ -1,8 +1,13 @@
 from __future__ import annotations
 
 import unittest
+from contextlib import redirect_stdout
+from io import StringIO
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import patch
 
-from pipelines.tdnet.alert import Disclosure, build_message, parse_disclosures
+from pipelines.tdnet.alert import Disclosure, FetchUnavailable, build_message, main, parse_disclosures
 
 
 class TestTdnetSlackMessageFormat(unittest.TestCase):
@@ -69,3 +74,32 @@ class TestTdnetKabutanListParser(unittest.TestCase):
         self.assertIn("Notice Regarding", d.title_en)
         self.assertEqual(d.pdf_url_ja, "https://tdnet-pdf.kabutan.jp/20260115/140120260115534700.pdf")
         self.assertEqual(d.pdf_url_en, "https://tdnet-pdf.kabutan.jp/20260115/140120260115534702.pdf")
+
+
+class TestTdnetFetchFailure(unittest.TestCase):
+    def test_main_skips_when_source_is_unavailable(self) -> None:
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data_path = root / "tdnet.json"
+            config_path = root / "brief.config.json"
+            watchlist_path = root / "watchlist.json"
+            data_path.write_text('{"version":1,"last_checked_jst":null,"items":[]}\n', encoding="utf-8")
+            config_path.write_text('{"pages_base_url":"https://example.com/site/"}\n', encoding="utf-8")
+            watchlist_path.write_text('{"version":1,"groups":[]}\n', encoding="utf-8")
+
+            buf = StringIO()
+            argv = [
+                "tdnet_alert.py",
+                "--data",
+                str(data_path),
+                "--config",
+                str(config_path),
+                "--watchlist",
+                str(watchlist_path),
+            ]
+            with patch("sys.argv", argv), patch(
+                "pipelines.tdnet.alert.fetch_html", side_effect=FetchUnavailable("HTTP Error 405")
+            ), redirect_stdout(buf):
+                self.assertEqual(main(), 0)
+
+            self.assertIn('"source_unavailable": true', buf.getvalue())

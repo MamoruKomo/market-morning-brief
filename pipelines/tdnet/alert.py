@@ -6,8 +6,11 @@ import json
 import os
 import re
 import ssl
+import sys
+import time
 import urllib.parse
 import urllib.request
+from urllib.error import HTTPError, URLError
 from dataclasses import dataclass
 from datetime import datetime
 from html.parser import HTMLParser
@@ -24,6 +27,11 @@ KABUTAN_DISCLOSURES_URL = "https://kabutan.jp/disclosures/"
 TDNET_PDF_BASE_URL = "https://www.release.tdnet.info/inbs/"
 JST = ZoneInfo("Asia/Tokyo")
 MAX_ITEMS = 5000
+FETCH_RETRY_DELAY_SECONDS = 2
+
+
+class FetchUnavailable(RuntimeError):
+    pass
 
 
 MONTHS = {
@@ -374,13 +382,6 @@ class KabutanDisclosureParser(HTMLParser):
 
 
 def fetch_html(url: str) -> str:
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "market-morning-brief/1.0 (+GitHub Actions)",
-            "Accept-Language": "ja-JP,ja;q=0.9",
-        },
-    )
     context = None
     if certifi is not None:
         try:
@@ -390,8 +391,34 @@ def fetch_html(url: str) -> str:
     if context is None:
         context = ssl.create_default_context()
 
-    with urllib.request.urlopen(req, timeout=30, context=context) as res:
-        return res.read().decode("utf-8", errors="replace")
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ja-JP,ja;q=0.9,en-US;q=0.7,en;q=0.6",
+        "Cache-Control": "no-cache",
+        "Referer": "https://kabutan.jp/",
+    }
+
+    last_error: Exception | None = None
+    for attempt in range(3):
+        req = urllib.request.Request(url, headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=30, context=context) as res:
+                return res.read().decode("utf-8", errors="replace")
+        except HTTPError as e:
+            last_error = e
+            if e.code not in {403, 405, 429, 500, 502, 503, 504}:
+                raise
+        except URLError as e:
+            last_error = e
+
+        if attempt < 2:
+            time.sleep(FETCH_RETRY_DELAY_SECONDS * (attempt + 1))
+
+    raise FetchUnavailable(f"failed to fetch {url}: {last_error}")
 
 
 def extract_tdnet_doc_id(value: str) -> str:
@@ -974,7 +1001,25 @@ def main() -> int:
     existing_keys = {item_family_key(it) for it in existing_items if item_family_key(it)}
     existing_by_key = {item_family_key(it): it for it in existing_items if item_family_key(it)}
 
-    html = fetch_html(KABUTAN_DISCLOSURES_URL)
+    try:
+        html = fetch_html(KABUTAN_DISCLOSURES_URL)
+    except FetchUnavailable as e:
+        print(f"[tdnet_alert] source unavailable; skipping this poll: {e}", file=sys.stderr)
+        outputs: dict[str, str] = {
+            "has_changes": "false",
+            "should_notify": "false",
+            "new_count": "0",
+            "message": "",
+        }
+        if args.out:
+            out_path = Path(args.out)
+            with out_path.open("a", encoding="utf-8") as f:
+                for k, v in outputs.items():
+                    f.write(f"{k}={v}\n")
+        else:
+            print(json.dumps({"has_changes": False, "new_count": 0, "source_unavailable": True}, ensure_ascii=False))
+        return 0
+
     latest = parse_disclosures(html)
 
     is_bootstrap = len(existing_keys) == 0
