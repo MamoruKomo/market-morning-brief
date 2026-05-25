@@ -1,7 +1,255 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-26T07:45:42+09:00",
+  "last_checked_jst": "2026-05-26T08:46:06+09:00",
   "items": [
+    {
+      "id": "kabutan:8938:1401202605255460",
+      "code": "8938",
+      "company": "東証Ｇ",
+      "title": "定款一部変更に関するお知らせ",
+      "title_en": "定款一部変更に関するお知らせ",
+      "title_ja": "定款一部変更に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605255460",
+      "doc_id_ja": "140120260525546019",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546019.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525546019.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525546019.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525546019.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:269A:1401202605255475",
+      "code": "269A",
+      "company": "東証Ｇ",
+      "title": "2026年９月期第２四半期 決算説明会 「ログミーFinance 書き起こし」公開に関するお知らせ",
+      "title_en": "2026年９月期第２四半期 決算説明会 「ログミーFinance 書き起こし」公開に関するお知らせ",
+      "title_ja": "2026年９月期第２四半期 決算説明会 「ログミーFinance 書き起こし」公開に関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:32:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605255475",
+      "doc_id_ja": "140120260525547504",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547504.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525547504.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525547504.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525547504.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9166:1401202605255470",
+      "code": "9166",
+      "company": "東証Ｇ",
+      "title": "「Hello Kitty and Friends MINI FIGURE COLLECTION ～Fruit Party～」のクレーンゲーム景品を北米拠点にて展開開始",
+      "title_en": "「Hello Kitty and Friends MINI FIGURE COLLECTION ～Fruit Party～」のクレーンゲーム景品を北米拠点にて展開開始",
+      "title_ja": "「Hello Kitty and Friends MINI FIGURE COLLECTION ～Fruit Party～」のクレーンゲーム景品を北米拠点にて展開開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605255470",
+      "doc_id_ja": "140120260525547008",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547008.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525547008.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525547008.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525547008.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7781:1401202605255473",
+      "code": "7781",
+      "company": "東証Ｓ",
+      "title": "（訂正）「当社及び子会社の商号変更に関するお知らせ」の一部訂正について",
+      "title_en": "（訂正）「当社及び子会社の商号変更に関するお知らせ」の一部訂正について",
+      "title_ja": "（訂正）（訂正）「当社及び子会社の商号変更に関するお知らせ」の一部訂正について",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:30:00+09:00",
+      "tags": [
+        "M&A",
+        "訂正"
+      ],
+      "doc_id_family": "1401202605255473",
+      "doc_id_ja": "140120260525547304",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547304.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525547304.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525547304.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525547304.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6031:1401202605255467",
+      "code": "6031",
+      "company": "東証Ｇ",
+      "title": "SynaBizが運営するインターネット卸・仕入れモール『NETSEA』にEC商品検索・サイト内検索エンジン「ZETA SEARCH」が導入",
+      "title_en": "SynaBizが運営するインターネット卸・仕入れモール『NETSEA』にEC商品検索・サイト内検索エンジン「ZETA SEARCH」が導入",
+      "title_ja": "SynaBizが運営するインターネット卸・仕入れモール『NETSEA』にEC商品検索・サイト内検索エンジン「ZETA SEARCH」が導入",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605255467",
+      "doc_id_ja": "140120260525546746",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546746.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525546746.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525546746.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525546746.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5856:1401202605255474",
+      "code": "5856",
+      "company": "東証Ｓ",
+      "title": "当社株式の上場廃止の決定及び整理銘柄の指定に関するお知らせ",
+      "title_en": "当社株式の上場廃止の決定及び整理銘柄の指定に関するお知らせ",
+      "title_ja": "当社株式の上場廃止の決定及び整理銘柄の指定に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605255474",
+      "doc_id_ja": "140120260525547462",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547462.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525547462.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525547462.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525547462.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3491:1401202605265475",
+      "code": "3491",
+      "company": "東証Ｇ",
+      "title": "イタンジ、「賃貸繁忙期・激戦区ランキング2026」（東京・大阪）を発表",
+      "title_en": "イタンジ、「賃貸繁忙期・激戦区ランキング2026」（東京・大阪）を発表",
+      "title_ja": "イタンジ、「賃貸繁忙期・激戦区ランキング2026」（東京・大阪）を発表",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265475",
+      "doc_id_ja": "140120260526547541",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526547541.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526547541.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526547541.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526547541.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1672:1401202605265475",
+      "code": "1672",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265475",
+      "doc_id_ja": "140120260526547545",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526547545.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526547545.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526547545.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526547545.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9601:1401202605265475",
+      "code": "9601",
+      "company": "東証Ｐ",
+      "title": "定款 2026/05/26",
+      "title_en": "定款 2026/05/26",
+      "title_ja": "定款 2026/05/26",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:19:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265475",
+      "doc_id_ja": "140120260526547572",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526547572.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526547572.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526547572.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526547572.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1963:1401202605255463",
+      "code": "1963",
+      "company": "東証Ｐ",
+      "title": "Notice of the 130th Ordinary General Shareholders' Meeting",
+      "title_en": "Notice of the 130th Ordinary General Shareholders' Meeting",
+      "title_ja": "the 130th Ordinary General Shareholders' Meetingのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605255463",
+      "doc_id_ja": "140120260525546355",
+      "doc_id_en": "140120260525546357",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546355.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525546355.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525546355.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525546355.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260526/140120260525546357.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1333:1401202605255470",
+      "code": "1333",
+      "company": "東証Ｐ",
+      "title": "第82期定時株主総会招集ご通知",
+      "title_en": "第82期定時株主総会招集ご通知",
+      "title_ja": "第82期定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605255470",
+      "doc_id_ja": "140120260525547041",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547041.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525547041.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525547041.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525547041.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4714:1401202605255469",
       "code": "4714",
