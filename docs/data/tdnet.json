@@ -1,7 +1,99 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-25T19:42:52+09:00",
+  "last_checked_jst": "2026-05-26T01:10:10+09:00",
   "items": [
+    {
+      "id": "kabutan:4714:1401202605255469",
+      "code": "4714",
+      "company": "東証Ｐ",
+      "title": "Regarding Matters Related to the Controlling Shareholder",
+      "title_en": "Regarding Matters Related to the Controlling Shareholder",
+      "title_ja": "Regarding Matters Related to the Controlling Shareholder",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T00:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605255469",
+      "doc_id_ja": "140120260525546955",
+      "doc_id_en": "140120260525546955",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546955.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525546955.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525546955.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525546955.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260526/140120260525546955.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4714:1401202605215431",
+      "code": "4714",
+      "company": "東証Ｐ",
+      "title": "支配株主等に関する事項について",
+      "title_en": "支配株主等に関する事項について",
+      "title_ja": "支配株主等に関する事項について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T00:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605215431",
+      "doc_id_ja": "140120260521543151",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543151.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260521543151.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260521543151.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260521543151.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4611:1401202605255466",
+      "code": "4611",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-26T00:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605255466",
+      "doc_id_ja": "140120260525546665",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546665.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260525546665.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525546665.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525546665.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:298A:1401202605255474",
+      "code": "298A",
+      "company": "東証Ｇ",
+      "title": "2026年12月期第１四半期 決算に関する質疑応答集",
+      "title_en": "2026年12月期第１四半期 決算に関する質疑応答集",
+      "title_ja": "2026年12月期第１四半期 決算に関する質疑応答集",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-25T20:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605255474",
+      "doc_id_ja": "140120260525547413",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547413.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260525/140120260525547413.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525547413.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525547413.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7743:1401202605255471",
       "code": "7743",
