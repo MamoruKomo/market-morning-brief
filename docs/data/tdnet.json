@@ -1,7 +1,287 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-26T10:30:54+09:00",
+  "last_checked_jst": "2026-05-27T04:36:57+09:00",
   "items": [
+    {
+      "id": "kabutan:256A:1401202605265484",
+      "code": "256A",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-27T00:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605265484",
+      "doc_id_ja": "140120260526548443",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548443.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260526548443.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526548443.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526548443.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4894:1401202605265492",
+      "code": "4894",
+      "company": "東証Ｇ",
+      "title": "会計監査人の異動に関するお知らせ",
+      "title_en": "会計監査人の異動に関するお知らせ",
+      "title_ja": "会計監査人の異動に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T19:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265492",
+      "doc_id_ja": "140120260526549205",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526549205.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526549205.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526549205.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526549205.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1485:1401202605265492",
+      "code": "1485",
+      "company": "東証Ｅ",
+      "title": "「ＭＡＸＩＳ ＪＡＰＡＮ 設備・人材積極投資企業２００上場投信」の基準価額と市場価格の重要な乖離に関するお知らせ",
+      "title_en": "「ＭＡＸＩＳ ＪＡＰＡＮ 設備・人材積極投資企業２００上場投信」の基準価額と市場価格の重要な乖離に関するお知らせ",
+      "title_ja": "「ＭＡＸＩＳ ＪＡＰＡＮ 設備・人材積極投資企業２００上場投信」の基準価額と市場価格の重要な乖離に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T19:10:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265492",
+      "doc_id_ja": "140120260526549260",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526549260.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526549260.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526549260.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526549260.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7578:1401202605265486",
+      "code": "7578",
+      "company": "東証Ｓ",
+      "title": "持株会社体制への移行に伴う子会社への事業譲渡、監査等委員会設置会社への移行、商号の変更及び定款の一部変更並びに子会社の商号変更に関するお知らせ",
+      "title_en": "持株会社体制への移行に伴う子会社への事業譲渡、監査等委員会設置会社への移行、商号の変更及び定款の一部変更並びに子会社の商号変更に関するお知らせ",
+      "title_ja": "持株会社体制への移行に伴う子会社への事業譲渡、監査等委員会設置会社への移行、商号の変更及び定款の一部変更並びに子会社の商号変更に関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T19:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605265486",
+      "doc_id_ja": "140120260526548632",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548632.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526548632.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526548632.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526548632.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7578:1401202605265480",
+      "code": "7578",
+      "company": "東証Ｓ",
+      "title": "役員の異動に関するお知らせ",
+      "title_en": "役員の異動に関するお知らせ",
+      "title_ja": "役員の異動に関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-26T19:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605265480",
+      "doc_id_ja": "140120260526548078",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548078.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526548078.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526548078.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526548078.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:336A:1401202605265491",
+      "code": "336A",
+      "company": "東証Ｇ",
+      "title": "役員人事について",
+      "title_en": "役員人事について",
+      "title_ja": "役員人事について",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-26T19:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605265491",
+      "doc_id_ja": "140120260526549195",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526549195.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526549195.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526549195.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526549195.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:336A:1401202605265489",
+      "code": "336A",
+      "company": "東証Ｇ",
+      "title": "資本金の額の減少（減資）に関するお知らせ",
+      "title_en": "資本金の額の減少（減資）に関するお知らせ",
+      "title_ja": "資本金の額の減少（減資）に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265489",
+      "doc_id_ja": "140120260526548947",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548947.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526548947.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526548947.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526548947.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9278:1401202605265491",
+      "code": "9278",
+      "company": "東証Ｐ",
+      "title": "（訂正）「組織変更、人事異動及び取締役・担当役員の担当変更に関するお知らせ」の追加について",
+      "title_en": "（訂正）「組織変更、人事異動及び取締役・担当役員の担当変更に関するお知らせ」の追加について",
+      "title_ja": "（訂正）（訂正）「組織変更、人事異動及び取締役・担当役員の担当変更に関するお知らせ」の追加について",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-05-26T18:30:00+09:00",
+      "tags": [
+        "人事",
+        "訂正"
+      ],
+      "doc_id_family": "1401202605265491",
+      "doc_id_ja": "140120260526549153",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526549153.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526549153.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526549153.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526549153.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2242:1401202605265491",
+      "code": "2242",
+      "company": "東証Ｅ",
+      "title": "ＭＡＸＩＳ ＥＴＦの収益分配のお知らせ",
+      "title_en": "ＭＡＸＩＳ ＥＴＦの収益分配のお知らせ",
+      "title_ja": "ＭＡＸＩＳ ＥＴＦの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T18:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265491",
+      "doc_id_ja": "140120260526549172",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526549172.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526549172.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526549172.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526549172.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2241:1401202605265491",
+      "code": "2241",
+      "company": "東証Ｅ",
+      "title": "ＭＡＸＩＳ ＥＴＦの収益分配のお知らせ",
+      "title_en": "ＭＡＸＩＳ ＥＴＦの収益分配のお知らせ",
+      "title_ja": "ＭＡＸＩＳ ＥＴＦの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T18:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265491",
+      "doc_id_ja": "140120260526549171",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526549171.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526549171.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526549171.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526549171.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2317:1401202605265489",
+      "code": "2317",
+      "company": "東証Ｐ",
+      "title": "「人とくるまのテクノロジー展 2026 YOKOHAMA」出展のお知らせ―AI基盤・開発自動化・高速通信・遠隔操作でSDV開発を支援―",
+      "title_en": "「人とくるまのテクノロジー展 2026 YOKOHAMA」出展のお知らせ―AI基盤・開発自動化・高速通信・遠隔操作でSDV開発を支援―",
+      "title_ja": "「人とくるまのテクノロジー展 2026 YOKOHAMA」出展のお知らせ―AI基盤・開発自動化・高速通信・遠隔操作でSDV開発を支援―",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T18:10:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265489",
+      "doc_id_ja": "140120260526548973",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548973.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260526548973.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526548973.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526548973.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8255:1401202605225451",
+      "code": "8255",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Purchase of Treasury Stock",
+      "title_en": "Notice Regarding Purchase of Treasury Stock",
+      "title_ja": "Purchase of Treasury Stockに関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-26T18:05:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202605225451",
+      "doc_id_ja": "140120260522545131",
+      "doc_id_en": "140120260522545133",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260522545131.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260526/140120260522545131.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260522545131.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260522545131.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260526/140120260522545133.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8051:1401202605255462",
       "code": "8051",
