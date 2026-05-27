@@ -1,7 +1,331 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-27T15:04:13+09:00",
+  "last_checked_jst": "2026-05-28T01:52:47+09:00",
   "items": [
+    {
+      "id": "kabutan:5214:1401202605275498",
+      "code": "5214",
+      "company": "東証Ｐ",
+      "title": "ESGデータブック2025",
+      "title_en": "ESGデータブック2025",
+      "title_ja": "ESGデータブック2025",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-28T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605275498",
+      "doc_id_ja": "140120260527549835",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549835.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260528/140120260527549835.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527549835.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527549835.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9025:1401202605265485",
+      "code": "9025",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-28T00:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605265485",
+      "doc_id_ja": "140120260526548522",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548522.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260528/140120260526548522.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526548522.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526548522.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8308:1401202605275508",
+      "code": "8308",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-28T00:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605275508",
+      "doc_id_ja": "140120260527550890",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550890.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260528/140120260527550890.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527550890.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527550890.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8273:1401202605225452",
+      "code": "8273",
+      "company": "東証Ｐ",
+      "title": "Corporate Governance Report 2026",
+      "title_en": "Corporate Governance Report 2026",
+      "title_ja": "Corporate Governance Report 2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-28T00:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605225452",
+      "doc_id_ja": "140120260522545200",
+      "doc_id_en": "140120260522545200",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260522545200.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260528/140120260522545200.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260522545200.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260522545200.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260528/140120260522545200.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4249:1401202605275497",
+      "code": "4249",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-28T00:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605275497",
+      "doc_id_ja": "140120260527549760",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549760.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260528/140120260527549760.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527549760.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527549760.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7719:1401202605275511",
+      "code": "7719",
+      "company": "東証Ｓ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-27T20:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605275511",
+      "doc_id_ja": "140120260527551164",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551164.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527551164.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527551164.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527551164.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4569:1401202605275514",
+      "code": "4569",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-27T20:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605275514",
+      "doc_id_ja": "140120260527551460",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551460.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527551460.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527551460.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527551460.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4763:1401202605275514",
+      "code": "4763",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/05/27",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/05/27",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/05/27",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T19:41:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605275514",
+      "doc_id_ja": "140120260527551488",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551488.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527551488.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527551488.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527551488.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4368:1401202605275513",
+      "code": "4368",
+      "company": "東証Ｐ",
+      "title": "Independent Directors/Auditors (ID/A) Notification Form",
+      "title_en": "Independent Directors/Auditors (ID/A) Notification Form",
+      "title_ja": "Independent Directors/Auditors (ID/A) Notification Form",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-27T19:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605275513",
+      "doc_id_ja": "140120260527551333",
+      "doc_id_en": "140120260527551346",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551333.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527551333.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527551333.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527551333.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260527/140120260527551346.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3678:1401202605265487",
+      "code": "3678",
+      "company": "東証Ｐ",
+      "title": "Corporate Governance Report",
+      "title_en": "Corporate Governance Report",
+      "title_ja": "Corporate Governance Report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265487",
+      "doc_id_ja": "140120260526548781",
+      "doc_id_en": "140120260526548781",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548781.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260526548781.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526548781.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526548781.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260527/140120260526548781.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4763:1401202605185393",
+      "code": "4763",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/05/28",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/05/28",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/05/28",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T18:53:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605185393",
+      "doc_id_ja": "140120260518539304",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539304.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260518539304.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260518539304.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260518539304.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9950:1401202605265489",
+      "code": "9950",
+      "company": "東証Ｓ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-27T18:45:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605265489",
+      "doc_id_ja": "140120260526548990",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548990.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260526548990.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526548990.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526548990.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2479:1401202605275512",
+      "code": "2479",
+      "company": "東証Ｓ",
+      "title": "2026年3月期 決算説明資料",
+      "title_en": "2026年3月期 決算説明資料",
+      "title_ja": "2026年3月期 決算説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-27T18:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605275512",
+      "doc_id_ja": "140120260527551264",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551264.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527551264.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527551264.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527551264.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3260:1401202605275513",
+      "code": "3260",
+      "company": "名証Ｎ",
+      "title": "2026年2月期有価証券報告書に係る監査報告書の意見不表明",
+      "title_en": "2026年2月期有価証券報告書に係る監査報告書の意見不表明",
+      "title_ja": "2026年2月期有価証券報告書に係る監査報告書の意見不表明",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T18:10:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605275513",
+      "doc_id_ja": "140120260527551358",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551358.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527551358.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527551358.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527551358.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:6897:1401202605115228",
       "code": "6897",
