@@ -1,7 +1,331 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-27T04:36:57+09:00",
+  "last_checked_jst": "2026-05-27T15:04:13+09:00",
   "items": [
+    {
+      "id": "kabutan:6897:1401202605115228",
+      "code": "6897",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/05/27",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/05/27",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/05/27",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:01:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605115228",
+      "doc_id_ja": "140120260511522849",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511522849.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260511522849.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260511522849.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260511522849.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7283:1401202605255466",
+      "code": "7283",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605255466",
+      "doc_id_ja": "140120260525546687",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546687.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260525546687.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525546687.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525546687.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7041:1401202605275502",
+      "code": "7041",
+      "company": "東証Ｇ",
+      "title": "株式会社オシエテ、三重県鳥羽市「鳥羽オーシャンハウス」の運営を開始―著名建築家が手掛けた元美術館に泊まる、唯一無二の宿泊体験を提供―",
+      "title_en": "株式会社オシエテ、三重県鳥羽市「鳥羽オーシャンハウス」の運営を開始―著名建築家が手掛けた元美術館に泊まる、唯一無二の宿泊体験を提供―",
+      "title_ja": "株式会社オシエテ、三重県鳥羽市「鳥羽オーシャンハウス」の運営を開始―著名建築家が手掛けた元美術館に泊まる、唯一無二の宿泊体験を提供―",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605275502",
+      "doc_id_ja": "140120260527550203",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550203.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527550203.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527550203.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527550203.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7040:1401202605275504",
+      "code": "7040",
+      "company": "東証Ｓ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605275504",
+      "doc_id_ja": "140120260527550481",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550481.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527550481.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527550481.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527550481.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6516:1401202605275498",
+      "code": "6516",
+      "company": "東証Ｐ",
+      "title": "[Updated] Financial Results for the Year Ended March 31, 2026",
+      "title_en": "[Updated] Financial Results for the Year Ended March 31, 2026",
+      "title_ja": "[Updated] 決算 for the Year Ended March 31, 2026",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605275498",
+      "doc_id_ja": "140120260527549824",
+      "doc_id_en": "140120260527549824",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549824.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527549824.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527549824.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527549824.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260527/140120260527549824.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6366:1401202605255474",
+      "code": "6366",
+      "company": "東証Ｓ",
+      "title": "コミットメントライン契約の締結及び劣後金銭消費貸借契約の期限前返済に関するお知らせ",
+      "title_en": "コミットメントライン契約の締結及び劣後金銭消費貸借契約の期限前返済に関するお知らせ",
+      "title_ja": "コミットメントライン契約の締結及び劣後金銭消費貸借契約の期限前返済に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605255474",
+      "doc_id_ja": "140120260525547451",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547451.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260525547451.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260525547451.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260525547451.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6173:1401202605275505",
+      "code": "6173",
+      "company": "東証Ｇ",
+      "title": "主要株主である筆頭株主の異動、(変更)「主要株主の異動(予定)及び株式会社ＳＡＩＡＳによる株式会社アクアライン株式(証券コード6173)の取得に関するお知らせ」",
+      "title_en": "主要株主である筆頭株主の異動、(変更)「主要株主の異動(予定)及び株式会社ＳＡＩＡＳによる株式会社アクアライン株式(証券コード6173)の取得に関するお知らせ」",
+      "title_ja": "主要株主である筆頭株主の異動、(変更)「主要株主の異動(予定)及び株式会社ＳＡＩＡＳによる株式会社アクアライン株式(証券コード6173)の取得に関するお知らせ」",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605275505",
+      "doc_id_ja": "140120260527550570",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550570.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527550570.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527550570.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527550570.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6165:1401202605265494",
+      "code": "6165",
+      "company": "東証Ｓ",
+      "title": "【ものづくり関連展示会】兼松KGK PRIVATE SHOW 2026出展に関するお知らせ",
+      "title_en": "【ものづくり関連展示会】兼松KGK PRIVATE SHOW 2026出展に関するお知らせ",
+      "title_ja": "【ものづくり関連展示会】兼松KGK PRIVATE SHOW 2026出展に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605265494",
+      "doc_id_ja": "140120260526549403",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526549403.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260526549403.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260526549403.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260526549403.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5726:1401202605275501",
+      "code": "5726",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605275501",
+      "doc_id_ja": "140120260527550133",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550133.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527550133.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527550133.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527550133.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4015:1401202605275496",
+      "code": "4015",
+      "company": "東証Ｇ",
+      "title": "（開示事項の経過）当社連結子会社の本店移転に関するお知らせ",
+      "title_en": "（開示事項の経過）当社連結子会社の本店移転に関するお知らせ",
+      "title_ja": "（開示事項の経過）当社連結子会社の本店移転に関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202605275496",
+      "doc_id_ja": "140120260527549620",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549620.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527549620.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527549620.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527549620.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3420:1401202605275495",
+      "code": "3420",
+      "company": "東証Ｓ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605275495",
+      "doc_id_ja": "140120260527549581",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549581.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527549581.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527549581.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527549581.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2218:1401202605275499",
+      "code": "2218",
+      "company": "札証",
+      "title": "パン for オール北海道 ファイターズ観戦チケット・グッズプレゼントキャンペーン実施のお知らせ",
+      "title_en": "パン for オール北海道 ファイターズ観戦チケット・グッズプレゼントキャンペーン実施のお知らせ",
+      "title_ja": "パン for オール北海道 ファイターズ観戦チケット・グッズプレゼントキャンペーン実施のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605275499",
+      "doc_id_ja": "140120260527549943",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549943.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527549943.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527549943.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527549943.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2148:1401202605275497",
+      "code": "2148",
+      "company": "東証Ｐ",
+      "title": "「MONOist AI Forum 2026」開催 本格実装フェーズに入った製造業AI、現場課題解決の最前線",
+      "title_en": "「MONOist AI Forum 2026」開催 本格実装フェーズに入った製造業AI、現場課題解決の最前線",
+      "title_ja": "「MONOist AI Forum 2026」開催 本格実装フェーズに入った製造業AI、現場課題解決の最前線",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605275497",
+      "doc_id_ja": "140120260527549782",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549782.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527549782.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527549782.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527549782.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1723:1401202605275498",
+      "code": "1723",
+      "company": "東証Ｓ",
+      "title": "2026年３月期 決算説明会資料のお知らせ",
+      "title_en": "2026年３月期 決算説明会資料のお知らせ",
+      "title_ja": "2026年３月期 決算説明会資料のお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-05-27T15:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202605275498",
+      "doc_id_ja": "140120260527549823",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549823.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260527/140120260527549823.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527549823.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527549823.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:256A:1401202605265484",
       "code": "256A",
