@@ -1,7 +1,29 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-05-30T08:54:01+09:00",
+  "last_checked_jst": "2026-05-30T20:42:38+09:00",
   "items": [
+    {
+      "id": "kabutan:9846:1401202605275514",
+      "code": "9846",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/05/30",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/05/30",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/05/30",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-30T13:06:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605275514",
+      "doc_id_ja": "140120260527551419",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551419.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260530/140120260527551419.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527551419.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527551419.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:1946:1401202605295545",
       "code": "1946",
@@ -22,28 +44,6 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260529554500.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260529554500.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260530/140120260529554500.pdf",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:1946:1401202605295544",
-      "code": "1946",
-      "company": "東証Ｐ",
-      "title": "第108回定時株主総会招集に際しての電子提供措置事項（交付書面省略事項）",
-      "title_en": "第108回定時株主総会招集に際しての電子提供措置事項（交付書面省略事項）",
-      "title_ja": "第108回定時株主総会招集に際しての電子提供措置事項（交付書面省略事項）",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-05-30T08:00:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202605295544",
-      "doc_id_ja": "140120260529554499",
-      "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260529554499.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260530/140120260529554499.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260529554499.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260529554499.pdf",
-      "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
@@ -154,6 +154,28 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260529553964.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260529553964.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260530/140120260529553965.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1946:1401202605295544",
+      "code": "1946",
+      "company": "東証Ｐ",
+      "title": "第108回定時株主総会招集に際しての電子提供措置事項（交付書面省略事項）",
+      "title_en": "第108回定時株主総会招集に際しての電子提供措置事項（交付書面省略事項）",
+      "title_ja": "第108回定時株主総会招集に際しての電子提供措置事項（交付書面省略事項）",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-05-30T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202605295544",
+      "doc_id_ja": "140120260529554499",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260529554499.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260530/140120260529554499.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260529554499.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260529554499.pdf",
+      "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
