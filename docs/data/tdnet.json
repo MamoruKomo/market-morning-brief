@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-04T23:16:02+09:00",
+  "last_checked_jst": "2026-06-05T02:23:49+09:00",
   "items": [
+    {
+      "id": "kabutan:6143:1401202606045628",
+      "code": "6143",
+      "company": "東証Ｐ",
+      "title": "統合レポート2025",
+      "title_en": "統合レポート2025",
+      "title_ja": "統合レポート2025",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045628",
+      "doc_id_ja": "140120260604562871",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562871.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260604562871.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604562871.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604562871.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4927:1401202606045624",
+      "code": "4927",
+      "company": "東証Ｐ",
+      "title": "統合レポート2025を発行しました",
+      "title_en": "統合レポート2025を発行しました",
+      "title_ja": "統合レポート2025を発行しました",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045624",
+      "doc_id_ja": "140120260604562454",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562454.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260604562454.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604562454.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604562454.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3083:1401202606045627",
       "code": "3083",
@@ -204,9 +248,9 @@
       "id": "kabutan:4088:1401202606045629",
       "code": "4088",
       "company": "東証Ｐ",
-      "title": "Notice Concerning the Convening of an Adjourned Session of the 26th Annual General Meeting of Shareholders",
-      "title_en": "Notice Concerning the Convening of an Adjourned Session of the 26th Annual General Meeting of Shareholders",
-      "title_ja": "the Convening of an Adjourned Session of the 26th Annual General Meeting of Shareholdersに関するお知らせ",
+      "title": "Notice Concerning Dividends from Surplus",
+      "title_en": "Notice Concerning Dividends from Surplus",
+      "title_ja": "Dividends from Surplusに関するお知らせ",
       "points_ja": [
         "配当予想/方針（増配/減配/無配）を確認"
       ],
@@ -215,13 +259,13 @@
         "配当"
       ],
       "doc_id_family": "1401202606045629",
-      "doc_id_ja": "140120260604562917",
-      "doc_id_en": "140120260604562905",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562917.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260604562917.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604562917.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604562917.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260604/140120260604562905.pdf",
+      "doc_id_ja": "140120260604562921",
+      "doc_id_en": "140120260604562921",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562921.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260604562921.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604562921.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604562921.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260604/140120260604562921.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
