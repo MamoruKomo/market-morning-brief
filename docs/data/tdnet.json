@@ -1,7 +1,301 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-04T04:47:08+09:00",
+  "last_checked_jst": "2026-06-04T09:02:54+09:00",
   "items": [
+    {
+      "id": "kabutan:8359:1401202606035611",
+      "code": "8359",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-04T09:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606035611",
+      "doc_id_ja": "140120260603561124",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603561124.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260603561124.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260603561124.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260603561124.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6961:1401202606035623",
+      "code": "6961",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Planned Relocation of Head Office Functions and Partial Amendment to the Articles of Incorporation",
+      "title_en": "Notice Concerning Planned Relocation of Head Office Functions and Partial Amendment to the Articles of Incorporation",
+      "title_ja": "Planned Relocation of Head Office Functions and Partial Amendment to the Articles of Incorporationに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-04T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606035623",
+      "doc_id_ja": "140120260603562323",
+      "doc_id_en": "140120260603562323",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603562323.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260603562323.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260603562323.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260603562323.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260604/140120260603562323.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6961:1401202606035621",
+      "code": "6961",
+      "company": "東証Ｐ",
+      "title": "本社機能の移転予定及び定款一部変更に関するお知らせ",
+      "title_en": "本社機能の移転予定及び定款一部変更に関するお知らせ",
+      "title_ja": "本社機能の移転予定及び定款一部変更に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-04T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606035621",
+      "doc_id_ja": "140120260603562146",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603562146.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260603562146.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260603562146.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260603562146.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4344:1401202606035622",
+      "code": "4344",
+      "company": "東証Ｐ",
+      "title": "次世代AIエージェント「Genspark Team」の国内での販売開始に関するお知らせ",
+      "title_en": "次世代AIエージェント「Genspark Team」の国内での販売開始に関するお知らせ",
+      "title_ja": "次世代AIエージェント「Genspark Team」の国内での販売開始に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-04T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606035622",
+      "doc_id_ja": "140120260603562243",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603562243.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260603562243.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260603562243.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260603562243.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2338:1401202606045624",
+      "code": "2338",
+      "company": "東証Ｓ",
+      "title": "当社グループ保有暗号資産ETHの一部売却方針決定に関するお知らせ",
+      "title_en": "当社グループ保有暗号資産ETHの一部売却方針決定に関するお知らせ",
+      "title_ja": "当社グループ保有暗号資産ETHの一部売却方針決定に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-04T09:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045624",
+      "doc_id_ja": "140120260604562410",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562410.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260604562410.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604562410.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604562410.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:459A:1401202606035621",
+      "code": "459A",
+      "company": "東証Ｅ",
+      "title": "ETFの約款変更に関するお知らせ",
+      "title_en": "ETFの約款変更に関するお知らせ",
+      "title_ja": "ETFの約款変更に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-04T08:59:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606035621",
+      "doc_id_ja": "140120260603562139",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603562139.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260603562139.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260603562139.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260603562139.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3199:1401202606035610",
+      "code": "3199",
+      "company": "東証Ｐ",
+      "title": "【累計9,000杯突破】あづみの茶胡蝶庵の和カフェ「茶夢」から宇治抹茶を贅沢に使用した「濃厚抹茶かき氷」が６月より販売開始",
+      "title_en": "【累計9,000杯突破】あづみの茶胡蝶庵の和カフェ「茶夢」から宇治抹茶を贅沢に使用した「濃厚抹茶かき氷」が６月より販売開始",
+      "title_ja": "【累計9,000杯突破】あづみの茶胡蝶庵の和カフェ「茶夢」から宇治抹茶を贅沢に使用した「濃厚抹茶かき氷」が６月より販売開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-04T08:59:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606035610",
+      "doc_id_ja": "140120260603561025",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603561025.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260603561025.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260603561025.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260603561025.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9408:1401202606035615",
+      "code": "9408",
+      "company": "東証Ｓ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-04T08:55:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606035615",
+      "doc_id_ja": "140120260603561540",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603561540.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260603561540.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260603561540.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260603561540.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2552:1401202606045622",
+      "code": "2552",
+      "company": "東証Ｅ",
+      "title": "ＥＴＦの収益分配金見込額のお知らせ",
+      "title_en": "ＥＴＦの収益分配金見込額のお知らせ",
+      "title_ja": "ＥＴＦの収益分配金見込額のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-04T08:55:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045622",
+      "doc_id_ja": "140120260604562286",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562286.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260604562286.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604562286.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604562286.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6890:1401202606035623",
+      "code": "6890",
+      "company": "東証Ｓ",
+      "title": "2026年３月期 アナリスト・機関投資家向け決算説明会 質疑応答に関するお知らせ",
+      "title_en": "2026年３月期 アナリスト・機関投資家向け決算説明会 質疑応答に関するお知らせ",
+      "title_ja": "2026年３月期 アナリスト・機関投資家向け決算説明会 質疑応答に関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-04T08:45:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606035623",
+      "doc_id_ja": "140120260603562372",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603562372.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260603562372.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260603562372.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260603562372.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2121:1401202605275508",
+      "code": "2121",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-04T08:30:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202605275508",
+      "doc_id_ja": "140120260527550885",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550885.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260527550885.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260527550885.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260527550885.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1672:1401202606045623",
+      "code": "1672",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-04T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045623",
+      "doc_id_ja": "140120260604562387",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562387.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260604562387.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604562387.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604562387.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2730:1401202606045623",
+      "code": "2730",
+      "company": "東証Ｐ",
+      "title": "Statement Regarding Certain Media Reports Concerning EDION Corporation",
+      "title_en": "Statement Regarding Certain Media Reports Concerning EDION Corporation",
+      "title_ja": "Statement Regarding Certain Media Reports Concerning EDION Corporation",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-04T08:10:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045623",
+      "doc_id_ja": "140120260604562381",
+      "doc_id_en": "140120260604562391",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562381.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260604/140120260604562381.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604562381.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604562381.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260604/140120260604562391.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4765:1401202606035622",
       "code": "4765",
