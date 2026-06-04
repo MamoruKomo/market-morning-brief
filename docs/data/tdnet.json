@@ -1,7 +1,251 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-05T06:14:30+09:00",
+  "last_checked_jst": "2026-06-05T08:51:32+09:00",
   "items": [
+    {
+      "id": "kabutan:7760:1401202606045635",
+      "code": "7760",
+      "company": "東証Ｓ",
+      "title": "2026年9月期（中間期）決算説明資料",
+      "title_en": "2026年9月期（中間期）決算説明資料",
+      "title_ja": "2026年9月期（中間期）決算説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:50:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606045635",
+      "doc_id_ja": "140120260604563551",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563551.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260604563551.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604563551.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604563551.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4578:1401202606055636",
+      "code": "4578",
+      "company": "東証Ｐ",
+      "title": "Otsuka Presents Positive Interim Phase 3 VISIONARY eGFR Data Showing VOYXACT Preserved Kidney Function Over 12 Months in IgA Nephropathy",
+      "title_en": "Otsuka Presents Positive Interim Phase 3 VISIONARY eGFR Data Showing VOYXACT Preserved Kidney Function Over 12 Months in IgA Nephropathy",
+      "title_ja": "Otsuka Presents Positive Interim Phase 3 VISIONARY eGFR Data Showing VOYXACT Preserved Kidney Function Over 12 Months in IgA Nephropathy",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606055636",
+      "doc_id_ja": "140120260605563661",
+      "doc_id_en": "140120260605563671",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605563661.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260605563661.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260605563661.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260605563661.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260605/140120260605563671.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1801:1401202606045635",
+      "code": "1801",
+      "company": "東証Ｐ",
+      "title": "第166回定時株主総会招集ご通知（修正）",
+      "title_en": "第166回定時株主総会招集ご通知（修正）",
+      "title_ja": "第166回定時株主総会招集ご通知（修正）",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045635",
+      "doc_id_ja": "140120260604563591",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563591.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260604563591.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604563591.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604563591.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1491:1401202606025603",
+      "code": "1491",
+      "company": "東証Ｓ",
+      "title": "第134回定時株主総会資料(電子提供措置事項のうち法令及び定款に基づく書面交付請求による交付書面に記載しない事項)",
+      "title_en": "第134回定時株主総会資料(電子提供措置事項のうち法令及び定款に基づく書面交付請求による交付書面に記載しない事項)",
+      "title_ja": "第134回定時株主総会資料(電子提供措置事項のうち法令及び定款に基づく書面交付請求による交付書面に記載しない事項)",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606025603",
+      "doc_id_ja": "140120260602560303",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260602560303.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260602560303.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260602560303.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260602560303.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1491:1401202606025602",
+      "code": "1491",
+      "company": "東証Ｓ",
+      "title": "第134回定時株主総会招集ご通知",
+      "title_en": "第134回定時株主総会招集ご通知",
+      "title_ja": "第134回定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606025602",
+      "doc_id_ja": "140120260602560296",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260602560296.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260602560296.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260602560296.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260602560296.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1447:1401202606045633",
+      "code": "1447",
+      "company": "東証Ｇ",
+      "title": "2026年 第８回定時株主総会その他の電子提供措置事項",
+      "title_en": "2026年 第８回定時株主総会その他の電子提供措置事項",
+      "title_ja": "2026年 第８回定時株主総会その他の電子提供措置事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045633",
+      "doc_id_ja": "140120260604563354",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563354.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260604563354.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604563354.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604563354.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1447:1401202606045632",
+      "code": "1447",
+      "company": "東証Ｇ",
+      "title": "2026年 第８回定時株主総会招集ご通知",
+      "title_en": "2026年 第８回定時株主総会招集ご通知",
+      "title_ja": "2026年 第８回定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045632",
+      "doc_id_ja": "140120260604563289",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563289.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260604563289.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604563289.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604563289.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1432:1401202606035618",
+      "code": "1432",
+      "company": "",
+      "title": "2026年定時株主総会招集通知及び株主総会資料",
+      "title_en": "2026年定時株主総会招集通知及び株主総会資料",
+      "title_ja": "2026年定時株主総会招集通知及び株主総会資料",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606035618",
+      "doc_id_ja": "140120260603561813",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603561813.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260603561813.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260603561813.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260603561813.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1379:1401202606045633",
+      "code": "1379",
+      "company": "東証Ｐ",
+      "title": "Notice of the 63rd Annual General Meeting of Shareholders",
+      "title_en": "Notice of the 63rd Annual General Meeting of Shareholders",
+      "title_ja": "the 63rd Annual General Meeting of Shareholdersのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045633",
+      "doc_id_ja": "140120260604563386",
+      "doc_id_en": "140120260604563388",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563386.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260604563386.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604563386.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604563386.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260605/140120260604563388.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1332:1401202606045634",
+      "code": "1332",
+      "company": "東証Ｐ",
+      "title": "Notice of the 111th Ordinary General Shareholders' Meeting",
+      "title_en": "Notice of the 111th Ordinary General Shareholders' Meeting",
+      "title_ja": "the 111th Ordinary General Shareholders' Meetingのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045634",
+      "doc_id_ja": "140120260604563414",
+      "doc_id_en": "140120260604563414",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563414.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260604563414.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604563414.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604563414.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260605/140120260604563414.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:131A:1401202606045634",
+      "code": "131A",
+      "company": "",
+      "title": "第10回定時株主総会招集ご通知",
+      "title_en": "第10回定時株主総会招集ご通知",
+      "title_ja": "第10回定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-05T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606045634",
+      "doc_id_ja": "140120260604563447",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563447.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260605/140120260604563447.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260604563447.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260604563447.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:6143:1401202606045628",
       "code": "6143",
