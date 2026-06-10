@@ -1,7 +1,287 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-11T06:32:24+09:00",
+  "last_checked_jst": "2026-06-11T08:09:24+09:00",
   "items": [
+    {
+      "id": "kabutan:6013:1401202606105677",
+      "code": "6013",
+      "company": "東証Ｐ",
+      "title": "（訂正）第122期定時株主総会招集ご通知",
+      "title_en": "（訂正）第122期定時株主総会招集ご通知",
+      "title_ja": "（訂正）（訂正）第122期定時株主総会招集ご通知",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202606105677",
+      "doc_id_ja": "140120260610567743",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567743.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567743.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567743.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567743.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4503:1401202606105677",
+      "code": "4503",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding Partial Corrections to the Notice of Convocation of the 21st Term Annual Shareholders Meeting",
+      "title_en": "Notice Regarding Partial Corrections to the Notice of Convocation of the 21st Term Annual Shareholders Meeting",
+      "title_ja": "（訂正）Partial Corrections to the Notice of Convocation of the 21st Term Annual Shareholders Meetingに関するお知らせ",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202606105677",
+      "doc_id_ja": "140120260610567726",
+      "doc_id_en": "140120260610567727",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567726.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567726.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567726.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567726.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567727.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4308:1401202606105675",
+      "code": "4308",
+      "company": "東証Ｇ",
+      "title": "「第29期定時株主総会招集ご通知」一部訂正のお知らせ",
+      "title_en": "「第29期定時株主総会招集ご通知」一部訂正のお知らせ",
+      "title_ja": "（訂正）「第29期定時株主総会招集ご通知」一部訂正のお知らせ",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202606105675",
+      "doc_id_ja": "140120260610567532",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567532.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567532.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567532.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567532.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4275:1401202606105677",
+      "code": "4275",
+      "company": "東証Ｐ",
+      "title": "Supplementary Explanation to Notice of the 13th Annual General Meeting of Shareholders",
+      "title_en": "Supplementary Explanation to Notice of the 13th Annual General Meeting of Shareholders",
+      "title_ja": "Supplementary Explanation to Notice of the 13th Annual General Meeting of Shareholders",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606105677",
+      "doc_id_ja": "140120260610567703",
+      "doc_id_en": "140120260610567703",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567703.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567703.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567703.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567703.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567703.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4231:1401202606105672",
+      "code": "4231",
+      "company": "東証Ｓ",
+      "title": "（訂正）「第84期定時株主総会招集ご通知」の一部修正について",
+      "title_en": "（訂正）「第84期定時株主総会招集ご通知」の一部修正について",
+      "title_ja": "（訂正）（訂正）「第84期定時株主総会招集ご通知」の一部修正について",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202606105672",
+      "doc_id_ja": "140120260610567231",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567231.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567231.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567231.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567231.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3611:1401202606105676",
+      "code": "3611",
+      "company": "東証Ｓ",
+      "title": "第70回定時株主総会招集ご通知の一部訂正について",
+      "title_en": "第70回定時株主総会招集ご通知の一部訂正について",
+      "title_ja": "（訂正）第70回定時株主総会招集ご通知の一部訂正について",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202606105676",
+      "doc_id_ja": "140120260610567657",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567657.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567657.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567657.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567657.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3150:1401202606105672",
+      "code": "3150",
+      "company": "東証Ｐ",
+      "title": "［Delayed］Notice of the 21st Annual General Meeting of Shareholders",
+      "title_en": "［Delayed］Notice of the 21st Annual General Meeting of Shareholders",
+      "title_ja": "（遅延）［Delayed］Notice of the 21st Annual General Meeting of Shareholders",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "doc_id_family": "1401202606105672",
+      "doc_id_ja": "140120260610567263",
+      "doc_id_en": "140120260610567263",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567263.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567263.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567263.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567263.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567263.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:255A:1401202606105673",
+      "code": "255A",
+      "company": "東証Ｓ",
+      "title": "「第２回定時株主総会招集ご通知」の一部訂正について",
+      "title_en": "「第２回定時株主総会招集ご通知」の一部訂正について",
+      "title_ja": "（訂正）「第２回定時株主総会招集ご通知」の一部訂正について",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202606105673",
+      "doc_id_ja": "140120260610567375",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567375.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567375.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567375.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567375.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1980:1401202606105673",
+      "code": "1980",
+      "company": "東証Ｐ",
+      "title": "「第97回定時株主総会招集ご通知」の一部訂正について",
+      "title_en": "「第97回定時株主総会招集ご通知」の一部訂正について",
+      "title_ja": "（訂正）「第97回定時株主総会招集ご通知」の一部訂正について",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202606105673",
+      "doc_id_ja": "140120260610567350",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567350.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567350.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567350.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567350.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1972:1401202606105671",
+      "code": "1972",
+      "company": "東証Ｓ",
+      "title": "Notice of 2026 Annual Meeting and Meeting Materials",
+      "title_en": "Notice of 2026 Annual Meeting and Meeting Materials",
+      "title_ja": "2026 Annual Meeting and Meeting Materialsのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606105671",
+      "doc_id_ja": "140120260610567117",
+      "doc_id_en": "140120260610567117",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567117.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567117.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567117.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567117.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567117.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:195A:1401202606105672",
+      "code": "195A",
+      "company": "東証Ｇ",
+      "title": "株主総会後の株主様向け事業説明会開催に関するお知らせ",
+      "title_en": "株主総会後の株主様向け事業説明会開催に関するお知らせ",
+      "title_ja": "株主総会後の株主様向け事業説明会開催に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606105672",
+      "doc_id_ja": "140120260610567256",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567256.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567256.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567256.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567256.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1828:1401202606105676",
+      "code": "1828",
+      "company": "東証Ｓ",
+      "title": "Notice of Convocation Annual General Meeting 2026",
+      "title_en": "Notice of Convocation Annual General Meeting 2026",
+      "title_ja": "Convocation Annual General Meeting 2026のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606105676",
+      "doc_id_ja": "140120260610567602",
+      "doc_id_en": "140120260610567602",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567602.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567602.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567602.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567602.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260611/140120260610567602.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7050:1401202606105677",
       "code": "7050",
