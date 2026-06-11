@@ -1,7 +1,339 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-11T15:20:51+09:00",
+  "last_checked_jst": "2026-06-12T02:54:18+09:00",
   "items": [
+    {
+      "id": "kabutan:5214:1401202606115686",
+      "code": "5214",
+      "company": "東証Ｐ",
+      "title": "[Delayed] Integrated Report 2025",
+      "title_en": "[Delayed] Integrated Report 2025",
+      "title_ja": "（遅延）Integrated Report 2025",
+      "points_ja": [
+        "開示遅延（追補の有無）に注意"
+      ],
+      "datetime_jst": "2026-06-12T00:30:00+09:00",
+      "tags": [
+        "遅延"
+      ],
+      "doc_id_family": "1401202606115686",
+      "doc_id_ja": "140120260611568694",
+      "doc_id_en": "140120260611568694",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568694.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260611568694.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568694.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568694.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260612/140120260611568694.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1972:1401202606115686",
+      "code": "1972",
+      "company": "東証Ｓ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-12T00:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606115686",
+      "doc_id_ja": "140120260611568682",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568682.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260611568682.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568682.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568682.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9605:1401202606115688",
+      "code": "9605",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-11T20:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606115688",
+      "doc_id_ja": "140120260611568848",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568848.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260611568848.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568848.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568848.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9069:1401202606115688",
+      "code": "9069",
+      "company": "東証Ｐ",
+      "title": "[Updated]Summary of Financial Statements for the Fiscal Year Ended March 31, 2026 [Japan GAAP]",
+      "title_en": "[Updated]Summary of Financial Statements for the Fiscal Year Ended March 31, 2026 [Japan GAAP]",
+      "title_ja": "[Updated]Summary of Financial Statements for the Fiscal Year Ended March 31, 2026 [Japan GAAP]",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T19:10:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606115688",
+      "doc_id_ja": "140120260611568856",
+      "doc_id_en": "140120260611568856",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568856.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260611568856.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568856.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568856.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260611/140120260611568856.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7435:1401202606095659",
+      "code": "7435",
+      "company": "東証Ｓ",
+      "title": "自己株式取得に係る事項の決定および自己株式消却に係る事項の決定に関するお知らせ",
+      "title_en": "自己株式取得に係る事項の決定および自己株式消却に係る事項の決定に関するお知らせ",
+      "title_ja": "自己株式取得に係る事項の決定および自己株式消却に係る事項の決定に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T19:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202606095659",
+      "doc_id_ja": "140120260609565903",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260609565903.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260609565903.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260609565903.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260609565903.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7435:1401202606065648",
+      "code": "7435",
+      "company": "東証Ｓ",
+      "title": "Consolidated Financial Results for the Year Ended April 30, 2026 (Under Japanese GAAP)",
+      "title_en": "Consolidated Financial Results for the Year Ended April 30, 2026 (Under Japanese GAAP)",
+      "title_ja": "連結決算 for the Year Ended April 30, 2026 (Under Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-11T19:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606065648",
+      "doc_id_ja": "140120260606564827",
+      "doc_id_en": "140120260606564825",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260606564827.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260606564827.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260606564827.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260606564827.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260611/140120260606564825.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7435:1401202604015963",
+      "code": "7435",
+      "company": "東証Ｓ",
+      "title": "2026年４月期 決算短信〔日本基準〕（連結）",
+      "title_en": "2026年４月期 決算短信〔日本基準〕（連結）",
+      "title_ja": "2026年４月期 決算短信〔日本基準〕（連結）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-11T19:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202604015963",
+      "doc_id_ja": "140120260401596375",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260401596375.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260401596375.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260401596375.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260401596375.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4894:1401202606115686",
+      "code": "4894",
+      "company": "東証Ｇ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-11T19:00:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606115686",
+      "doc_id_ja": "140120260611568615",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568615.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260611568615.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568615.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568615.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:480A:1401202606115686",
+      "code": "480A",
+      "company": "東証Ｇ",
+      "title": "臨時株主総会の招集及び資本金の額の減少に関するお知らせ",
+      "title_en": "臨時株主総会の招集及び資本金の額の減少に関するお知らせ",
+      "title_ja": "臨時株主総会の招集及び資本金の額の減少に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T18:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606115686",
+      "doc_id_ja": "140120260611568602",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568602.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260611568602.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568602.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568602.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5586:1401202606115682",
+      "code": "5586",
+      "company": "東証Ｇ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/06/11",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/06/11",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/06/11",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T18:25:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606115682",
+      "doc_id_ja": "140120260611568250",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568250.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260611568250.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568250.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568250.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6072:1401202606115687",
+      "code": "6072",
+      "company": "東証Ｓ",
+      "title": "新規事業の検討状況に関するお問い合わせに関して",
+      "title_en": "新規事業の検討状況に関するお問い合わせに関して",
+      "title_ja": "新規事業の検討状況に関するお問い合わせに関して",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T18:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606115687",
+      "doc_id_ja": "140120260611568799",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568799.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260611568799.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568799.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568799.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7095:1401202606115686",
+      "code": "7095",
+      "company": "東証Ｐ",
+      "title": "2026年４月期通期 決算説明動画を公開しました",
+      "title_en": "2026年４月期通期 決算説明動画を公開しました",
+      "title_ja": "2026年４月期通期 決算説明動画を公開しました",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-11T18:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606115686",
+      "doc_id_ja": "140120260611568690",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568690.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260611568690.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568690.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568690.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7095:1401202606115685",
+      "code": "7095",
+      "company": "東証Ｐ",
+      "title": "2026年4月期通期決算説明会資料（書き起こし）",
+      "title_en": "2026年4月期通期決算説明会資料（書き起こし）",
+      "title_ja": "2026年4月期通期決算説明会資料（書き起こし）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-11T18:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606115685",
+      "doc_id_ja": "140120260611568502",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568502.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260611568502.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568502.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568502.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6558:1401202606115678",
+      "code": "6558",
+      "company": "東証Ｇ",
+      "title": "TECH CREW株式会社の株式取得及び第三者割当増資引受による連結子会社化のお知らせ",
+      "title_en": "TECH CREW株式会社の株式取得及び第三者割当増資引受による連結子会社化のお知らせ",
+      "title_ja": "TECH CREW株式会社の株式取得及び第三者割当増資引受による連結子会社化のお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-11T18:00:00+09:00",
+      "tags": [
+        "増資/売出",
+        "M&A"
+      ],
+      "doc_id_family": "1401202606115678",
+      "doc_id_ja": "140120260611567855",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611567855.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260611/140120260611567855.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611567855.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611567855.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4076:1401202606115684",
       "code": "4076",
