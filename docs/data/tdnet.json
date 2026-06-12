@@ -1,7 +1,73 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-12T19:53:02+09:00",
+  "last_checked_jst": "2026-06-13T05:32:24+09:00",
   "items": [
+    {
+      "id": "kabutan:5957:1401202606115681",
+      "code": "5957",
+      "company": "東証Ｐ",
+      "title": "統合レポート２０２６",
+      "title_en": "統合レポート２０２６",
+      "title_ja": "統合レポート２０２６",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-13T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606115681",
+      "doc_id_ja": "140120260611568186",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568186.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260613/140120260611568186.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568186.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568186.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4958:1401202606125691",
+      "code": "4958",
+      "company": "東証Ｐ",
+      "title": "長谷川香料サステナビリティレポート2026 ESGデータブック2026",
+      "title_en": "長谷川香料サステナビリティレポート2026 ESGデータブック2026",
+      "title_ja": "長谷川香料サステナビリティレポート2026 ESGデータブック2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-13T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606125691",
+      "doc_id_ja": "140120260612569139",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569139.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260613/140120260612569139.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569139.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569139.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2220:1401202606125701",
+      "code": "2220",
+      "company": "東証Ｐ",
+      "title": "定款 2026/06/23",
+      "title_en": "定款 2026/06/23",
+      "title_ja": "定款 2026/06/23",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-12T23:17:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606125701",
+      "doc_id_ja": "140120260612570147",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570147.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612570147.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612570147.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612570147.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:365A:1401202606125701",
       "code": "365A",
@@ -219,6 +285,28 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
+      "id": "kabutan:1447:1401202606125699",
+      "code": "1447",
+      "company": "東証Ｇ",
+      "title": "（開示事項の経過）当社取締役による地位確認仮処分命令決定に対する保全異議の申立ての結果に関するお知らせ",
+      "title_en": "（開示事項の経過）当社取締役による地位確認仮処分命令決定に対する保全異議の申立ての結果に関するお知らせ",
+      "title_ja": "（開示事項の経過）当社取締役による地位確認仮処分命令決定に対する保全異議の申立ての結果に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-12T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606125699",
+      "doc_id_ja": "140120260612569975",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569975.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569975.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569975.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569975.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
       "id": "kabutan:4765:1401202606125700",
       "code": "4765",
       "company": "東証Ｐ",
@@ -309,28 +397,6 @@
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569934.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569934.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569934.pdf",
-      "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:1447:1401202606125699",
-      "code": "1447",
-      "company": "東証Ｇ",
-      "title": "（開示事項の経過）当社取締役による地位確認仮処分命令決定に対する保全異議の申立ての結果に関するお知らせ",
-      "title_en": "（開示事項の経過）当社取締役による地位確認仮処分命令決定に対する保全異議の申立ての結果に関するお知らせ",
-      "title_ja": "（開示事項の経過）当社取締役による地位確認仮処分命令決定に対する保全異議の申立ての結果に関するお知らせ",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-06-12T18:00:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202606125699",
-      "doc_id_ja": "140120260612569975",
-      "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569975.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569975.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569975.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569975.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
