@@ -1,7 +1,291 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-12T08:50:01+09:00",
+  "last_checked_jst": "2026-06-12T15:47:20+09:00",
   "items": [
+    {
+      "id": "kabutan:9251:1401202606125694",
+      "code": "9251",
+      "company": "東証Ｇ",
+      "title": "2026年10月期 第２四半期決算説明資料",
+      "title_en": "2026年10月期 第２四半期決算説明資料",
+      "title_ja": "2026年10月期 第２四半期決算説明資料",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:45:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606125694",
+      "doc_id_ja": "140120260612569496",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569496.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569496.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569496.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569496.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3779:1401202606125692",
+      "code": "3779",
+      "company": "東証Ｓ",
+      "title": "（訂正・数値データ訂正）「2026年３月期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "title_en": "（訂正・数値データ訂正）「2026年３月期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "title_ja": "（訂正）（訂正・数値データ訂正）「2026年３月期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:45:00+09:00",
+      "tags": [
+        "決算",
+        "訂正"
+      ],
+      "doc_id_family": "1401202606125692",
+      "doc_id_ja": "140120260612569250",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569250.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569250.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569250.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569250.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3444:1401202606125693",
+      "code": "3444",
+      "company": "東証Ｓ",
+      "title": "営業外費用及び特別利益の計上並びに2026年４月期における業績予想と実績との差異に関するお知らせ",
+      "title_en": "営業外費用及び特別利益の計上並びに2026年４月期における業績予想と実績との差異に関するお知らせ",
+      "title_ja": "営業外費用及び特別利益の計上並びに2026年４月期における業績予想と実績との差異に関するお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:45:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202606125693",
+      "doc_id_ja": "140120260612569303",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569303.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569303.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569303.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569303.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3444:1401202606125692",
+      "code": "3444",
+      "company": "東証Ｓ",
+      "title": "2026年４月期 決算短信〔日本基準〕(連結)",
+      "title_en": "2026年４月期 決算短信〔日本基準〕(連結)",
+      "title_ja": "2026年４月期 決算短信〔日本基準〕(連結)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:45:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606125692",
+      "doc_id_ja": "140120260612569261",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569261.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569261.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569261.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569261.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7427:1401202606125691",
+      "code": "7427",
+      "company": "東証Ｓ",
+      "title": "譲渡制限付株式報酬としての新株式の発行に関するお知らせ",
+      "title_en": "譲渡制限付株式報酬としての新株式の発行に関するお知らせ",
+      "title_ja": "譲渡制限付株式報酬としての新株式の発行に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606125691",
+      "doc_id_ja": "140120260612569110",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569110.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569110.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569110.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569110.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6666:1401202606095662",
+      "code": "6666",
+      "company": "東証Ｓ",
+      "title": "「中期経営計画 R2028」策定に関するお知らせ",
+      "title_en": "「中期経営計画 R2028」策定に関するお知らせ",
+      "title_ja": "「中期経営計画 R2028」策定に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606095662",
+      "doc_id_ja": "140120260609566230",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260609566230.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260609566230.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260609566230.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260609566230.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3974:1401202606125689",
+      "code": "3974",
+      "company": "東証Ｓ",
+      "title": "Consolidated Financial Results for the Six Months Ended April 30, 2026 (Under Japanese GAAP)",
+      "title_en": "Consolidated Financial Results for the Six Months Ended April 30, 2026 (Under Japanese GAAP)",
+      "title_ja": "連結決算 for the Six Months Ended April 30, 2026 (Under Japanese GAAP)",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:35:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606125689",
+      "doc_id_ja": "140120260612568974",
+      "doc_id_en": "140120260612568974",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612568974.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612568974.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612568974.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612568974.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260612/140120260612568974.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3974:1401202606105673",
+      "code": "3974",
+      "company": "東証Ｓ",
+      "title": "Notice Regarding Dividend of Surplus（Interim Dividend）",
+      "title_en": "Notice Regarding Dividend of Surplus（Interim Dividend）",
+      "title_ja": "配当 of Surplus（Interim 配当）に関するお知らせ",
+      "points_ja": [
+        "配当予想/方針（増配/減配/無配）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:35:00+09:00",
+      "tags": [
+        "配当"
+      ],
+      "doc_id_family": "1401202606105673",
+      "doc_id_ja": "140120260610567302",
+      "doc_id_en": "140120260610567302",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567302.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260610567302.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567302.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567302.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260612/140120260610567302.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3974:1401202606105672",
+      "code": "3974",
+      "company": "東証Ｓ",
+      "title": "FY2026 Second Quarter Financial Results（Supplementary material）",
+      "title_en": "FY2026 Second Quarter Financial Results（Supplementary material）",
+      "title_ja": "FY2026 Second Quarter 決算（Supplementary material）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:35:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606105672",
+      "doc_id_ja": "140120260610567269",
+      "doc_id_en": "140120260610567295",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567269.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260610567269.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260610567269.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260610567269.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260612/140120260610567295.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2742:1401202606115680",
+      "code": "2742",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:35:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606115680",
+      "doc_id_ja": "140120260611568017",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568017.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260611568017.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568017.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568017.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7177:1401202606125694",
+      "code": "7177",
+      "company": "東証Ｓ",
+      "title": "2026年５月の月次業績（速報）に関するお知らせ",
+      "title_en": "2026年５月の月次業績（速報）に関するお知らせ",
+      "title_ja": "2026年５月の月次業績（速報）に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:31:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606125694",
+      "doc_id_ja": "140120260612569480",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569480.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569480.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569480.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569480.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2742:1401202606125694",
+      "code": "2742",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Resignation of Director Serving as Audit and Supervisory Committee Member",
+      "title_en": "Notice Concerning Resignation of Director Serving as Audit and Supervisory Committee Member",
+      "title_ja": "Resignation of Director Serving as Audit and Supervisory Committee Memberに関するお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-12T15:31:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606125694",
+      "doc_id_ja": "140120260612569435",
+      "doc_id_en": "140120260612569435",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569435.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569435.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569435.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569435.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260612/140120260612569435.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3070:1401202606115685",
       "code": "3070",
