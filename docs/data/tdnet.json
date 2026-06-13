@@ -1,27 +1,29 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-13T10:52:14+09:00",
+  "last_checked_jst": "2026-06-13T18:29:37+09:00",
   "items": [
     {
-      "id": "kabutan:5930:1401202606125697",
-      "code": "5930",
+      "id": "kabutan:4088:1401202606135701",
+      "code": "4088",
       "company": "東証Ｐ",
-      "title": "Partial Amendments to For the Notice of the 80th Ordinary General Meeting of Shareholders Matters Subject to Measures for Electronic Provision",
-      "title_en": "Partial Amendments to For the Notice of the 80th Ordinary General Meeting of Shareholders Matters Subject to Measures for Electronic Provision",
-      "title_ja": "Partial Amendments to For the Notice of the 80th Ordinary General Meeting of Shareholders Matters Subject to Measures for Electronic Provision",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
       "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
+        "役員人事/体制変更の内容を確認"
       ],
-      "datetime_jst": "2026-06-13T08:00:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202606125697",
-      "doc_id_ja": "140120260612569789",
-      "doc_id_en": "140120260612569789",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569789.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260613/140120260612569789.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569789.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569789.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260613/140120260612569789.pdf",
+      "datetime_jst": "2026-06-13T17:30:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606135701",
+      "doc_id_ja": "140120260613570156",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260613570156.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260613/140120260613570156.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260613570156.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260613570156.pdf",
+      "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
@@ -256,6 +258,28 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569879.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569879.pdf",
       "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5930:1401202606125697",
+      "code": "5930",
+      "company": "東証Ｐ",
+      "title": "Partial Amendments to For the Notice of the 80th Ordinary General Meeting of Shareholders Matters Subject to Measures for Electronic Provision",
+      "title_en": "Partial Amendments to For the Notice of the 80th Ordinary General Meeting of Shareholders Matters Subject to Measures for Electronic Provision",
+      "title_ja": "Partial Amendments to For the Notice of the 80th Ordinary General Meeting of Shareholders Matters Subject to Measures for Electronic Provision",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-13T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606125697",
+      "doc_id_ja": "140120260612569789",
+      "doc_id_en": "140120260612569789",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569789.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260613/140120260612569789.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612569789.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612569789.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260613/140120260612569789.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
