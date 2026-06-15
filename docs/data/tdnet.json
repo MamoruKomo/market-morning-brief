@@ -1,7 +1,353 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-15T03:53:29+09:00",
+  "last_checked_jst": "2026-06-15T11:08:17+09:00",
   "items": [
+    {
+      "id": "kabutan:8107:1401202606155705",
+      "code": "8107",
+      "company": "東証Ｓ",
+      "title": "地域応援型の不動産小口化商品『TSUMUGU FUND.第4号』募集開始のお知らせ",
+      "title_en": "地域応援型の不動産小口化商品『TSUMUGU FUND.第4号』募集開始のお知らせ",
+      "title_ja": "地域応援型の不動産小口化商品『TSUMUGU FUND.第4号』募集開始のお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-06-15T11:00:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202606155705",
+      "doc_id_ja": "140120260615570503",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570503.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570503.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570503.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570503.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7590:1401202606155704",
+      "code": "7590",
+      "company": "東証Ｓ",
+      "title": "（訂正）2026年6月12日に公表したPR情報の一部訂正について",
+      "title_en": "（訂正）2026年6月12日に公表したPR情報の一部訂正について",
+      "title_ja": "（訂正）（訂正）2026年6月12日に公表したPR情報の一部訂正について",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-06-15T11:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570478",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570478.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570478.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570478.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570478.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7091:1401202606155704",
+      "code": "7091",
+      "company": "東証Ｇ",
+      "title": "保有状況報告書",
+      "title_en": "保有状況報告書",
+      "title_ja": "保有状況報告書",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-15T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570452",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570452.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570452.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570452.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570452.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6731:1401202606115688",
+      "code": "6731",
+      "company": "東証Ｓ",
+      "title": "Re・De Hairdry、台湾Costcoで販売開始 アジア展開を加速",
+      "title_en": "Re・De Hairdry、台湾Costcoで販売開始 アジア展開を加速",
+      "title_ja": "Re・De Hairdry、台湾Costcoで販売開始 アジア展開を加速",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-15T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606115688",
+      "doc_id_ja": "140120260611568877",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568877.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260611568877.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260611568877.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260611568877.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4718:1401202606155703",
+      "code": "4718",
+      "company": "東証Ｐ",
+      "title": "国立科学博物館で開催される特別展「いきもの超ワールド展国立科学博物館×ダーウィンが来た！」に、早稲田アカデミーが協賛いたします",
+      "title_en": "国立科学博物館で開催される特別展「いきもの超ワールド展国立科学博物館×ダーウィンが来た！」に、早稲田アカデミーが協賛いたします",
+      "title_ja": "国立科学博物館で開催される特別展「いきもの超ワールド展国立科学博物館×ダーウィンが来た！」に、早稲田アカデミーが協賛いたします",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-15T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606155703",
+      "doc_id_ja": "140120260615570382",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570382.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570382.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570382.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570382.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4668:1401202606155703",
+      "code": "4668",
+      "company": "東証Ｐ",
+      "title": "「やればできる」の記憶をつくる個別指導の明光義塾 2026年6月15日 新規開校のお知らせ",
+      "title_en": "「やればできる」の記憶をつくる個別指導の明光義塾 2026年6月15日 新規開校のお知らせ",
+      "title_ja": "「やればできる」の記憶をつくる個別指導の明光義塾 2026年6月15日 新規開校のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-15T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606155703",
+      "doc_id_ja": "140120260615570387",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570387.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570387.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570387.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570387.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3848:1401202606125701",
+      "code": "3848",
+      "company": "東証Ｓ",
+      "title": "投資系 YouTube チャンネル「1UP 投資部屋」の「銘柄勉強会（取材編）」が公開",
+      "title_en": "投資系 YouTube チャンネル「1UP 投資部屋」の「銘柄勉強会（取材編）」が公開",
+      "title_ja": "投資系 YouTube チャンネル「1UP 投資部屋」の「銘柄勉強会（取材編）」が公開",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-15T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606125701",
+      "doc_id_ja": "140120260612570119",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570119.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260612570119.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260612570119.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260612570119.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2437:1401202606155704",
+      "code": "2437",
+      "company": "東証Ｓ",
+      "title": "【2026年6月】WINE LIQUOR オークションの落札結果に関するお知らせ",
+      "title_en": "【2026年6月】WINE LIQUOR オークションの落札結果に関するお知らせ",
+      "title_ja": "【2026年6月】WINE LIQUOR オークションの落札結果に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-15T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570481",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570481.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570481.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570481.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570481.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:147A:1401202606155704",
+      "code": "147A",
+      "company": "東証Ｇ",
+      "title": "ソラコムグループのミソラコネクト、SIMカードを活用した無線LAN認証サービスの開発を推進",
+      "title_en": "ソラコムグループのミソラコネクト、SIMカードを活用した無線LAN認証サービスの開発を推進",
+      "title_ja": "ソラコムグループのミソラコネクト、SIMカードを活用した無線LAN認証サービスの開発を推進",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-15T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570447",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570447.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570447.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570447.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570447.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2838:1401202606155704",
+      "code": "2838",
+      "company": "東証Ｅ",
+      "title": "ＭＡＸＩＳ米国国債７－１０年上場投信（為替ヘッジなし） 決算短信（2026年5月期）",
+      "title_en": "ＭＡＸＩＳ米国国債７－１０年上場投信（為替ヘッジなし） 決算短信（2026年5月期）",
+      "title_ja": "ＭＡＸＩＳ米国国債７－１０年上場投信（為替ヘッジなし） 決算短信（2026年5月期）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-15T10:50:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570461",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570461.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570461.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570461.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570461.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2560:1401202606155704",
+      "code": "2560",
+      "company": "東証Ｅ",
+      "title": "ＭＡＸＩＳカーボン・エフィシェント日本株上場投信 決算短信（2026年5月期）",
+      "title_en": "ＭＡＸＩＳカーボン・エフィシェント日本株上場投信 決算短信（2026年5月期）",
+      "title_ja": "ＭＡＸＩＳカーボン・エフィシェント日本株上場投信 決算短信（2026年5月期）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-15T10:50:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570431",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570431.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570431.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570431.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570431.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2517:1401202606155704",
+      "code": "2517",
+      "company": "東証Ｅ",
+      "title": "ＭＡＸＩＳ Ｊリート・コア上場投信 決算短信（2026年5月期）",
+      "title_en": "ＭＡＸＩＳ Ｊリート・コア上場投信 決算短信（2026年5月期）",
+      "title_ja": "ＭＡＸＩＳ Ｊリート・コア上場投信 決算短信（2026年5月期）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-15T10:50:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570427",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570427.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570427.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570427.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570427.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:183A:1401202606155704",
+      "code": "183A",
+      "company": "東証Ｅ",
+      "title": "ＭＡＸＩＳ米国国債２０年超上場投信（為替ヘッジあり） 決算短信（2026年5月期）",
+      "title_en": "ＭＡＸＩＳ米国国債２０年超上場投信（為替ヘッジあり） 決算短信（2026年5月期）",
+      "title_ja": "ＭＡＸＩＳ米国国債２０年超上場投信（為替ヘッジあり） 決算短信（2026年5月期）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-15T10:50:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570475",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570475.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570475.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570475.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570475.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:182A:1401202606155704",
+      "code": "182A",
+      "company": "東証Ｅ",
+      "title": "ＭＡＸＩＳ米国国債２０年超上場投信（為替ヘッジなし） 決算短信（2026年5月期）",
+      "title_en": "ＭＡＸＩＳ米国国債２０年超上場投信（為替ヘッジなし） 決算短信（2026年5月期）",
+      "title_ja": "ＭＡＸＩＳ米国国債２０年超上場投信（為替ヘッジなし） 決算短信（2026年5月期）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-15T10:50:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570471",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570471.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570471.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570471.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570471.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:181A:1401202606155704",
+      "code": "181A",
+      "company": "東証Ｅ",
+      "title": "ＭＡＸＩＳ米国国債１－３年上場投信（為替ヘッジなし） 決算短信（2026年5月期）",
+      "title_en": "ＭＡＸＩＳ米国国債１－３年上場投信（為替ヘッジなし） 決算短信（2026年5月期）",
+      "title_ja": "ＭＡＸＩＳ米国国債１－３年上場投信（為替ヘッジなし） 決算短信（2026年5月期）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-15T10:50:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606155704",
+      "doc_id_ja": "140120260615570479",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570479.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260615/140120260615570479.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570479.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570479.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4088:1401202606135701",
       "code": "4088",
