@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-15T09:20:05+09:00",
-  "latest_date": "2026-06-15",
+  "updated_at": "2026-06-16T10:44:25+09:00",
+  "latest_date": "2026-06-16",
   "days": {
     "2026-04-13": {
       "date": "2026-04-13",
@@ -1820,6 +1820,53 @@
           "name": "",
           "sector": "化学",
           "a_value": 76.74,
+          "b_value": null
+        }
+      ]
+    },
+    "2026-06-16": {
+      "date": "2026-06-16",
+      "generated_at": "2026-06-16T10:44:25+09:00",
+      "pair": {
+        "key": "div_health",
+        "label": "高配当×健全",
+        "a": "dividend_yield",
+        "b": "equity_ratio"
+      },
+      "items": [
+        {
+          "code": "3076",
+          "name": "",
+          "sector": "卸売業",
+          "a_value": null,
+          "b_value": null
+        },
+        {
+          "code": "7202",
+          "name": "",
+          "sector": "輸送用機器",
+          "a_value": null,
+          "b_value": null
+        },
+        {
+          "code": "8624",
+          "name": "",
+          "sector": "証券、商品先物取引業",
+          "a_value": null,
+          "b_value": null
+        },
+        {
+          "code": "7131",
+          "name": "",
+          "sector": "機械",
+          "a_value": null,
+          "b_value": null
+        },
+        {
+          "code": "2918",
+          "name": "",
+          "sector": "食料品",
+          "a_value": null,
           "b_value": null
         }
       ]
