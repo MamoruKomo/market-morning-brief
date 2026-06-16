@@ -1,7 +1,343 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-16T16:06:41+09:00",
+  "last_checked_jst": "2026-06-17T07:23:46+09:00",
   "items": [
+    {
+      "id": "kabutan:9619:1401202606165717",
+      "code": "9619",
+      "company": "東証Ｐ",
+      "title": "統合報告書2026_第2分冊",
+      "title_en": "統合報告書2026_第2分冊",
+      "title_ja": "統合報告書2026_第2分冊",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-17T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165717",
+      "doc_id_ja": "140120260616571773",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571773.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260616571773.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616571773.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616571773.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9619:1401202606165715",
+      "code": "9619",
+      "company": "東証Ｐ",
+      "title": "統合報告書2026_第1分冊",
+      "title_en": "統合報告書2026_第1分冊",
+      "title_ja": "統合報告書2026_第1分冊",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-17T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165715",
+      "doc_id_ja": "140120260616571576",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571576.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260616571576.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616571576.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616571576.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3201:1401202606165718",
+      "code": "3201",
+      "company": "東証Ｐ",
+      "title": "ニッケグループ統合報告書2026",
+      "title_en": "ニッケグループ統合報告書2026",
+      "title_ja": "ニッケグループ統合報告書2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-17T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165718",
+      "doc_id_ja": "140120260616571896",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571896.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260616571896.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616571896.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616571896.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8566:1401202606165720",
+      "code": "8566",
+      "company": "東証Ｐ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-16T19:30:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606165720",
+      "doc_id_ja": "140120260616572054",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572054.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572054.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572054.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572054.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6493:1401202606165721",
+      "code": "6493",
+      "company": "東証Ｓ",
+      "title": "（開示事項の経過）持分法適用関連会社の異動（連結子会社化）の完了に関するお知らせ",
+      "title_en": "（開示事項の経過）持分法適用関連会社の異動（連結子会社化）の完了に関するお知らせ",
+      "title_ja": "（開示事項の経過）持分法適用関連会社の異動（連結子会社化）の完了に関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T18:49:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202606165721",
+      "doc_id_ja": "140120260616572158",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572158.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572158.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572158.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572158.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6645:1401202606165721",
+      "code": "6645",
+      "company": "東証Ｐ",
+      "title": "Results of a Tender Offer for Share Certificates, etc. of Matsuya R&D Co., Ltd. by a Subsidiary of the Company (OMRON HEALTHCARE Co., Ltd.)",
+      "title_en": "Results of a Tender Offer for Share Certificates, etc. of Matsuya R&D Co., Ltd. by a Subsidiary of the Company (OMRON HEALTHCARE Co., Ltd.)",
+      "title_ja": "Results of a 公開買付（TOB） for Share Certificates, etc. of Matsuya R&D Co., Ltd. by a Subsidiary of the Company (OMRON HEALTHCARE Co., Ltd.)",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-06-16T18:40:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202606165721",
+      "doc_id_ja": "140120260616572147",
+      "doc_id_en": "140120260616572147",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572147.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572147.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572147.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572147.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572147.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4445:1401202606165721",
+      "code": "4445",
+      "company": "東証Ｇ",
+      "title": "成約見込み度の高い案件のみを加盟店に取次ぐ『売主取次サービス』の提供を開始",
+      "title_en": "成約見込み度の高い案件のみを加盟店に取次ぐ『売主取次サービス』の提供を開始",
+      "title_ja": "成約見込み度の高い案件のみを加盟店に取次ぐ『売主取次サービス』の提供を開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T18:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165721",
+      "doc_id_ja": "140120260616572154",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572154.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572154.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572154.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572154.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4088:1401202606165721",
+      "code": "4088",
+      "company": "東証Ｐ",
+      "title": "臨時株主総会招集のための基準日設定に関するお知らせ",
+      "title_en": "臨時株主総会招集のための基準日設定に関するお知らせ",
+      "title_ja": "臨時株主総会招集のための基準日設定に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T18:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165721",
+      "doc_id_ja": "140120260616572140",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572140.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572140.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572140.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572140.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4088:1401202606165713",
+      "code": "4088",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Setting a Record Date for Voting Rights at Extraordinary General Meeting of Shareholders",
+      "title_en": "Notice Concerning Setting a Record Date for Voting Rights at Extraordinary General Meeting of Shareholders",
+      "title_ja": "Setting a Record Date for Voting Rights at Extraordinary General Meeting of Shareholdersに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T18:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165713",
+      "doc_id_ja": "140120260616571388",
+      "doc_id_en": "140120260616571388",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571388.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616571388.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616571388.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616571388.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260616/140120260616571388.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9265:1401202606165721",
+      "code": "9265",
+      "company": "東証Ｓ",
+      "title": "取締役会の実効性に関する評価結果の概要について",
+      "title_en": "取締役会の実効性に関する評価結果の概要について",
+      "title_ja": "取締役会の実効性に関する評価結果の概要について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165721",
+      "doc_id_ja": "140120260616572125",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572125.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572125.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572125.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572125.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3202:1401202606015576",
+      "code": "3202",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/06/16",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/06/16",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/06/16",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T17:48:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606015576",
+      "doc_id_ja": "140120260601557665",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601557665.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260601557665.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260601557665.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260601557665.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7256:1401202606165720",
+      "code": "7256",
+      "company": "東証Ｓ",
+      "title": "主要株主の異動に関するお知らせ",
+      "title_en": "主要株主の異動に関するお知らせ",
+      "title_ja": "主要株主の異動に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T17:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165720",
+      "doc_id_ja": "140120260616572073",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572073.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572073.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572073.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572073.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6594:1401202606165721",
+      "code": "6594",
+      "company": "東証Ｐ",
+      "title": "Consideration of an application for approval of an extension of the filing deadline of Annual Securities Report for the 53rd Fiscal Year",
+      "title_en": "Consideration of an application for approval of an extension of the filing deadline of Annual Securities Report for the 53rd Fiscal Year",
+      "title_ja": "Consideration of an application for approval of an extension of the filing deadline of Annual Securities Report for the 53rd Fiscal Year",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T17:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165721",
+      "doc_id_ja": "140120260616572124",
+      "doc_id_en": "140120260616572124",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572124.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572124.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572124.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572124.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572124.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6594:1401202606165720",
+      "code": "6594",
+      "company": "東証Ｐ",
+      "title": "第53期（2026年3月期）有価証券報告書の提出期限延長に係る承認申請の検討に関するお知らせ",
+      "title_en": "第53期（2026年3月期）有価証券報告書の提出期限延長に係る承認申請の検討に関するお知らせ",
+      "title_ja": "第53期（2026年3月期）有価証券報告書の提出期限延長に係る承認申請の検討に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T17:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165720",
+      "doc_id_ja": "140120260616572098",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572098.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572098.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572098.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572098.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7745:1401202606165720",
+      "code": "7745",
+      "company": "東証Ｐ",
+      "title": "Regarding the Notice of Hearing by the Ministry of Economy, Trade and Industry for Our Consolidated Subsidiary",
+      "title_en": "Regarding the Notice of Hearing by the Ministry of Economy, Trade and Industry for Our Consolidated Subsidiary",
+      "title_ja": "Regarding the Notice of Hearing by the Ministry of Economy, Trade and Industry for Our Consolidated Subsidiary",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-16T17:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606165720",
+      "doc_id_ja": "140120260616572065",
+      "doc_id_en": "140120260616572065",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572065.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572065.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260616572065.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260616572065.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260616/140120260616572065.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:9726:1401202605265485",
       "code": "9726",
