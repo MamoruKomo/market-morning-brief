@@ -1,7 +1,259 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-17T16:24:34+09:00",
+  "last_checked_jst": "2026-06-17T20:59:34+09:00",
   "items": [
+    {
+      "id": "kabutan:5867:1401202606175729",
+      "code": "5867",
+      "company": "東証Ｇ",
+      "title": "投資事業売上の発生及び業績予想の修正のお知らせ",
+      "title_en": "投資事業売上の発生及び業績予想の修正のお知らせ",
+      "title_ja": "投資事業売上の発生及び業績予想の修正のお知らせ",
+      "points_ja": [
+        "業績予想/ガイダンスの修正（上方/下方・理由）を確認"
+      ],
+      "datetime_jst": "2026-06-17T19:10:00+09:00",
+      "tags": [
+        "業績修正"
+      ],
+      "doc_id_family": "1401202606175729",
+      "doc_id_ja": "140120260617572996",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572996.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617572996.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617572996.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617572996.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4568:1401202606175730",
+      "code": "4568",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding the Conclusion of a Money Loan Agreement with Financial Covenants",
+      "title_en": "Notice Regarding the Conclusion of a Money Loan Agreement with Financial Covenants",
+      "title_ja": "the Conclusion of a Money Loan Agreement with Financial Covenantsに関するお知らせ",
+      "points_ja": [
+        "借入/資金調達（条件/返済）を確認"
+      ],
+      "datetime_jst": "2026-06-17T19:00:00+09:00",
+      "tags": [
+        "借入"
+      ],
+      "doc_id_family": "1401202606175730",
+      "doc_id_ja": "140120260617573095",
+      "doc_id_en": "140120260617573099",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573095.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573095.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573095.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573095.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573099.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6349:1401202606175731",
+      "code": "6349",
+      "company": "東証Ｐ",
+      "title": "Notice of Personnel Changes",
+      "title_en": "Notice of Personnel Changes",
+      "title_ja": "Personnel Changesのお知らせ",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-17T18:30:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606175731",
+      "doc_id_ja": "140120260617573111",
+      "doc_id_en": "140120260617573113",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573111.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573111.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573111.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573111.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573113.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:195A:1401202606175731",
+      "code": "195A",
+      "company": "東証Ｇ",
+      "title": "Based on the Growth-Oriented Treasury Strategy Explanatory Material on Trading Card Investment and Entry into the Oripa Business",
+      "title_en": "Based on the Growth-Oriented Treasury Strategy Explanatory Material on Trading Card Investment and Entry into the Oripa Business",
+      "title_ja": "Based on the Growth-Oriented Treasury Strategy Explanatory Material on Trading Card Investment and Entry into the Oripa Business",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-17T18:20:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606175731",
+      "doc_id_ja": "140120260617573119",
+      "doc_id_en": "140120260617573119",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573119.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573119.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573119.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573119.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573119.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7463:1401202606175730",
+      "code": "7463",
+      "company": "東証Ｓ",
+      "title": "非上場の親会社等の決算に関するお知らせ",
+      "title_en": "非上場の親会社等の決算に関するお知らせ",
+      "title_ja": "非上場の親会社等の決算に関するお知らせ",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-17T18:15:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606175730",
+      "doc_id_ja": "140120260617573016",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573016.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573016.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573016.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573016.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3803:1401202606175730",
+      "code": "3803",
+      "company": "東証Ｇ",
+      "title": "独立役員届出書",
+      "title_en": "独立役員届出書",
+      "title_ja": "独立役員届出書",
+      "points_ja": [
+        "役員人事/体制変更の内容を確認"
+      ],
+      "datetime_jst": "2026-06-17T18:15:00+09:00",
+      "tags": [
+        "人事"
+      ],
+      "doc_id_family": "1401202606175730",
+      "doc_id_ja": "140120260617573086",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573086.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573086.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573086.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573086.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9007:1401202606175730",
+      "code": "9007",
+      "company": "東証Ｐ",
+      "title": "Odakyu Electric Railway Selected as a Constituent of Sompo Sustainability Index",
+      "title_en": "Odakyu Electric Railway Selected as a Constituent of Sompo Sustainability Index",
+      "title_ja": "Odakyu Electric Railway Selected as a Constituent of Sompo Sustainability Index",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-17T18:10:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606175730",
+      "doc_id_ja": "140120260617573080",
+      "doc_id_en": "140120260617573080",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573080.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573080.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573080.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573080.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573080.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3758:1401202606175728",
+      "code": "3758",
+      "company": "東証Ｓ",
+      "title": "株式会社サイバード『イケメン王宮◆真夜中のシンデレラ』『100日間のプリンセス◆もうひとつのイケメン王宮』「Dreamoire（ドリモワ）」復活クラファン開始",
+      "title_en": "株式会社サイバード『イケメン王宮◆真夜中のシンデレラ』『100日間のプリンセス◆もうひとつのイケメン王宮』「Dreamoire（ドリモワ）」復活クラファン開始",
+      "title_ja": "株式会社サイバード『イケメン王宮◆真夜中のシンデレラ』『100日間のプリンセス◆もうひとつのイケメン王宮』「Dreamoire（ドリモワ）」復活クラファン開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-17T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606175728",
+      "doc_id_ja": "140120260617572801",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572801.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617572801.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617572801.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617572801.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3758:1401202606175727",
+      "code": "3758",
+      "company": "東証Ｓ",
+      "title": "株式会社サイバード 累計会員数4,500万人突破！「イケメンシリーズ」祝14周年 14周年キャンペーン開催 『イケメン王宮』シリーズクラファン開催決定",
+      "title_en": "株式会社サイバード 累計会員数4,500万人突破！「イケメンシリーズ」祝14周年 14周年キャンペーン開催 『イケメン王宮』シリーズクラファン開催決定",
+      "title_ja": "株式会社サイバード 累計会員数4,500万人突破！「イケメンシリーズ」祝14周年 14周年キャンペーン開催 『イケメン王宮』シリーズクラファン開催決定",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-17T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606175727",
+      "doc_id_ja": "140120260617572777",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572777.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617572777.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617572777.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617572777.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3696:1401202606175730",
+      "code": "3696",
+      "company": "東証Ｐ",
+      "title": "マーキュリーの暗号資産ステーキングサービス「CoinTrade Stake」、新規暗号資産「アルゴランド（ALGO）」の取扱いを開始",
+      "title_en": "マーキュリーの暗号資産ステーキングサービス「CoinTrade Stake」、新規暗号資産「アルゴランド（ALGO）」の取扱いを開始",
+      "title_ja": "マーキュリーの暗号資産ステーキングサービス「CoinTrade Stake」、新規暗号資産「アルゴランド（ALGO）」の取扱いを開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-17T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606175730",
+      "doc_id_ja": "140120260617573053",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573053.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573053.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573053.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573053.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:195A:1401202606175730",
+      "code": "195A",
+      "company": "東証Ｇ",
+      "title": "成長還元型トレジャリー戦略に基づくトレーディングカード投資及びオリパ事業参入に関するお知らせ",
+      "title_en": "成長還元型トレジャリー戦略に基づくトレーディングカード投資及びオリパ事業参入に関するお知らせ",
+      "title_ja": "成長還元型トレジャリー戦略に基づくトレーディングカード投資及びオリパ事業参入に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-17T18:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606175730",
+      "doc_id_ja": "140120260617573007",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573007.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260617/140120260617573007.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573007.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573007.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7241:1401202606165715",
       "code": "7241",
