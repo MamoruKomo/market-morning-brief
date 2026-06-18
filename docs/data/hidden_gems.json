@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-17T09:23:38+09:00",
-  "latest_date": "2026-06-17",
+  "updated_at": "2026-06-18T09:23:27+09:00",
+  "latest_date": "2026-06-18",
   "days": {
     "2026-04-13": {
       "date": "2026-04-13",
@@ -1915,6 +1915,53 @@
           "sector": "卸売業",
           "a_value": null,
           "b_value": 39.57
+        }
+      ]
+    },
+    "2026-06-18": {
+      "date": "2026-06-18",
+      "generated_at": "2026-06-18T09:23:27+09:00",
+      "pair": {
+        "key": "quality_value",
+        "label": "高ROE×割安PER",
+        "a": "roe",
+        "b": "per"
+      },
+      "items": [
+        {
+          "code": "8876",
+          "name": "",
+          "sector": "サービス業",
+          "a_value": 81.1,
+          "b_value": 6.5
+        },
+        {
+          "code": "9271",
+          "name": "",
+          "sector": "小売業",
+          "a_value": 77.0,
+          "b_value": 7.8
+        },
+        {
+          "code": "241A0",
+          "name": "",
+          "sector": "情報・通信業",
+          "a_value": 73.54,
+          "b_value": 5.7
+        },
+        {
+          "code": "8166",
+          "name": "",
+          "sector": "小売業",
+          "a_value": 73.26,
+          "b_value": 2.15
+        },
+        {
+          "code": "7069",
+          "name": "",
+          "sector": "サービス業",
+          "a_value": 69.86,
+          "b_value": 8.83
         }
       ]
     }
