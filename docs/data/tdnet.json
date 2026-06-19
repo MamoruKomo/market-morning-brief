@@ -1,7 +1,311 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-19T04:40:32+09:00",
+  "last_checked_jst": "2026-06-20T03:50:27+09:00",
   "items": [
+    {
+      "id": "kabutan:2296:1401202606195747",
+      "code": "2296",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/06/19",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/06/19",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/06/19",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T23:14:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606195747",
+      "doc_id_ja": "140120260619574748",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619574748.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260619574748.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619574748.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619574748.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3659:1401202606195747",
+      "code": "3659",
+      "company": "東証Ｐ",
+      "title": "Notice Concerning Change in Major Shareholder and Acquisition of Shares of the Company by way of Purchase Equivalent to Tender Offer",
+      "title_en": "Notice Concerning Change in Major Shareholder and Acquisition of Shares of the Company by way of Purchase Equivalent to Tender Offer",
+      "title_ja": "Change in Major Shareholder and Acquisition of Shares of the Company by way of Purchase Equivalent to 公開買付（TOB）に関するお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T22:00:00+09:00",
+      "tags": [
+        "TOB",
+        "M&A"
+      ],
+      "doc_id_family": "1401202606195747",
+      "doc_id_ja": "140120260619574717",
+      "doc_id_en": "140120260619574717",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619574717.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260619574717.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619574717.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619574717.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260619/140120260619574717.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3659:1401202606185733",
+      "code": "3659",
+      "company": "東証Ｐ",
+      "title": "主要株主の異動及び当社株式（証券コード 3659）の取得（公開買付けに準ずる行為として政令で定める買集め行為）に関するお知らせ",
+      "title_en": "主要株主の異動及び当社株式（証券コード 3659）の取得（公開買付けに準ずる行為として政令で定める買集め行為）に関するお知らせ",
+      "title_ja": "主要株主の異動及び当社株式（証券コード 3659）の取得（公開買付けに準ずる行為として政令で定める買集め行為）に関するお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T22:00:00+09:00",
+      "tags": [
+        "TOB",
+        "M&A"
+      ],
+      "doc_id_family": "1401202606185733",
+      "doc_id_ja": "140120260618573399",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260618573399.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260618573399.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260618573399.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260618573399.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6897:1401202606195750",
+      "code": "6897",
+      "company": "東証Ｓ",
+      "title": "株式会社ジャパネットホールディングスによる当社株式に対する公開買付けの開始予定に関するお知らせ",
+      "title_en": "株式会社ジャパネットホールディングスによる当社株式に対する公開買付けの開始予定に関するお知らせ",
+      "title_ja": "株式会社ジャパネットホールディングスによる当社株式に対する公開買付けの開始予定に関するお知らせ",
+      "points_ja": [
+        "TOB（価格/期間/目的）を確認"
+      ],
+      "datetime_jst": "2026-06-19T20:00:00+09:00",
+      "tags": [
+        "TOB"
+      ],
+      "doc_id_family": "1401202606195750",
+      "doc_id_ja": "140120260619575084",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619575084.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260619575084.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619575084.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619575084.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9474:1401202606195751",
+      "code": "9474",
+      "company": "東証Ｐ",
+      "title": "定款 2026/06/19",
+      "title_en": "定款 2026/06/19",
+      "title_ja": "定款 2026/06/19",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T19:47:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606195751",
+      "doc_id_ja": "140120260619575120",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619575120.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260619575120.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619575120.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619575120.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6330:1401202606195747",
+      "code": "6330",
+      "company": "東証Ｐ",
+      "title": "Medium-Term Management Plan (2026-2030)",
+      "title_en": "Medium-Term Management Plan (2026-2030)",
+      "title_ja": "Medium-Term Management Plan (2026-2030)",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606195747",
+      "doc_id_ja": "140120260619574736",
+      "doc_id_en": "140120260619574736",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619574736.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260619574736.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619574736.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619574736.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260619/140120260619574736.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3399:1401202606195750",
+      "code": "3399",
+      "company": "東証Ｓ",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "title_en": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "title_ja": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T19:00:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202606195750",
+      "doc_id_ja": "140120260619575083",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619575083.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260619575083.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619575083.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619575083.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7119:1401202606175731",
+      "code": "7119",
+      "company": "東証Ｇ",
+      "title": "募集新株予約権(有償ストック・オプション)の発行に関するお知らせ",
+      "title_en": "募集新株予約権(有償ストック・オプション)の発行に関するお知らせ",
+      "title_ja": "募集新株予約権(有償ストック・オプション)の発行に関するお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-06-19T18:30:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202606175731",
+      "doc_id_ja": "140120260617573188",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573188.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260617573188.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573188.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573188.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3454:1401202606195749",
+      "code": "3454",
+      "company": "東証Ｓ",
+      "title": "主要株主の異動に関するお知らせ",
+      "title_en": "主要株主の異動に関するお知らせ",
+      "title_ja": "主要株主の異動に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T18:20:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606195749",
+      "doc_id_ja": "140120260619574992",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619574992.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260619574992.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619574992.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619574992.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3088:1401202606155703",
+      "code": "3088",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/06/19",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/06/19",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/06/19",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T18:19:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606155703",
+      "doc_id_ja": "140120260615570397",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570397.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260615570397.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615570397.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615570397.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1446:1401202606195750",
+      "code": "1446",
+      "company": "東証Ｓ",
+      "title": "定款 2023/03/24",
+      "title_en": "定款 2023/03/24",
+      "title_ja": "定款 2023/03/24",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T18:18:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606195750",
+      "doc_id_ja": "140120260619575030",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619575030.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260619575030.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619575030.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619575030.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:485A:1401202606185740",
+      "code": "485A",
+      "company": "東証Ｇ",
+      "title": "Notice Concerning First Order for Large-Scale Battery Energy Storage System for the Overseas Market",
+      "title_en": "Notice Concerning First Order for Large-Scale Battery Energy Storage System for the Overseas Market",
+      "title_ja": "First Order for Large-Scale Battery Energy Storage System for the Overseas Marketに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T18:05:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606185740",
+      "doc_id_ja": "140120260618574082",
+      "doc_id_en": "140120260618574092",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260618574082.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260618574082.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260618574082.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260618574082.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260619/140120260618574092.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3222:1401202606185740",
+      "code": "3222",
+      "company": "東証Ｓ",
+      "title": "株式報酬型ストックオプションの発行内容確定に関するお知らせ",
+      "title_en": "株式報酬型ストックオプションの発行内容確定に関するお知らせ",
+      "title_ja": "株式報酬型ストックオプションの発行内容確定に関するお知らせ",
+      "points_ja": [
+        "ストックオプション（希薄化/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-19T18:00:00+09:00",
+      "tags": [
+        "SO"
+      ],
+      "doc_id_family": "1401202606185740",
+      "doc_id_ja": "140120260618574014",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260618574014.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260619/140120260618574014.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260618574014.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260618574014.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:2914:1401202606185735",
       "code": "2914",
