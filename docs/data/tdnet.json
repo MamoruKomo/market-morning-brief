@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-20T08:40:31+09:00",
+  "last_checked_jst": "2026-06-21T01:42:56+09:00",
   "items": [
     {
-      "id": "kabutan:6740:1401202606195750",
-      "code": "6740",
+      "id": "kabutan:7475:1401202605025171",
+      "code": "7475",
       "company": "東証Ｐ",
-      "title": "「第24期定時株主総会及び普通株主様による種類株主総会招集ご通知」の一部修正について",
-      "title_en": "「第24期定時株主総会及び普通株主様による種類株主総会招集ご通知」の一部修正について",
-      "title_ja": "「第24期定時株主総会及び普通株主様による種類株主総会招集ご通知」の一部修正について",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/06/20",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/06/20",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/06/20",
       "points_ja": [
         "PDFで重要点（数字/条件）を確認"
       ],
-      "datetime_jst": "2026-06-20T08:00:00+09:00",
+      "datetime_jst": "2026-06-20T09:09:00+09:00",
       "tags": [],
-      "doc_id_family": "1401202606195750",
-      "doc_id_ja": "140120260619575075",
+      "doc_id_family": "1401202605025171",
+      "doc_id_ja": "140120260502517104",
       "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619575075.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260620/140120260619575075.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619575075.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619575075.pdf",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260502517104.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260620/140120260502517104.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260502517104.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260502517104.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
@@ -299,6 +299,28 @@
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260620/140120260618573465.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260618573465.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260618573465.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6740:1401202606195750",
+      "code": "6740",
+      "company": "東証Ｐ",
+      "title": "「第24期定時株主総会及び普通株主様による種類株主総会招集ご通知」の一部修正について",
+      "title_en": "「第24期定時株主総会及び普通株主様による種類株主総会招集ご通知」の一部修正について",
+      "title_ja": "「第24期定時株主総会及び普通株主様による種類株主総会招集ご通知」の一部修正について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-20T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606195750",
+      "doc_id_ja": "140120260619575075",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619575075.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260620/140120260619575075.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619575075.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619575075.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
