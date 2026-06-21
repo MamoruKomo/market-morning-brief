@@ -1,7 +1,29 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-21T07:54:27+09:00",
+  "last_checked_jst": "2026-06-22T07:08:43+09:00",
   "items": [
+    {
+      "id": "kabutan:6407:1401202606205752",
+      "code": "6407",
+      "company": "東証Ｐ",
+      "title": "第106期定時株主総会 第6号議案に関する補足説明について",
+      "title_en": "第106期定時株主総会 第6号議案に関する補足説明について",
+      "title_ja": "第106期定時株主総会 第6号議案に関する補足説明について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-21T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606205752",
+      "doc_id_ja": "140120260620575205",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260620575205.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260621/140120260620575205.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260620575205.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260620575205.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7475:1401202605025171",
       "code": "7475",
@@ -30,21 +52,19 @@
       "company": "東証Ｐ",
       "title": "(Revised No2) Notice of 2026 Annual General Meeting and Meeting Materials",
       "title_en": "(Revised No2) Notice of 2026 Annual General Meeting and Meeting Materials",
-      "title_ja": "（訂正）(Revised No2) Notice of 2026 Annual General Meeting and Meeting Materials",
+      "title_ja": "(Revised No2) Notice of 2026 Annual General Meeting and Meeting Materials",
       "points_ja": [
-        "訂正開示（差分）を確認"
+        "PDFで重要点（数字/条件）を確認"
       ],
       "datetime_jst": "2026-06-20T08:00:00+09:00",
-      "tags": [
-        "訂正"
-      ],
+      "tags": [],
       "doc_id_family": "1401202606195748",
-      "doc_id_ja": "140120260619574858",
+      "doc_id_ja": "140120260619574859",
       "doc_id_en": "140120260619574859",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619574858.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260620/140120260619574858.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619574858.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619574858.pdf",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260619574859.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260620/140120260619574859.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260619574859.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260619574859.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260620/140120260619574859.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
