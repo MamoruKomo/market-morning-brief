@@ -1,7 +1,301 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-22T07:08:43+09:00",
+  "last_checked_jst": "2026-06-22T11:07:23+09:00",
   "items": [
+    {
+      "id": "kabutan:4681:1401202606225753",
+      "code": "4681",
+      "company": "東証Ｐ",
+      "title": "[Summary]Membership-based Resort Hotel“SANCTUARY COURT SOTOBOSUZUMEJIMA OCEAN VILLARESORT”to Launch Membership Sales from Monday, June 22",
+      "title_en": "[Summary]Membership-based Resort Hotel“SANCTUARY COURT SOTOBOSUZUMEJIMA OCEAN VILLARESORT”to Launch Membership Sales from Monday, June 22",
+      "title_ja": "[Summary]Membership-based Resort Hotel“SANCTUARY COURT SOTOBOSUZUMEJIMA OCEAN VILLARESORT”to Launch Membership Sales from Monday, June 22",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606225753",
+      "doc_id_ja": "140120260622575374",
+      "doc_id_en": "140120260622575382",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575374.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575374.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260622575374.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260622575374.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575382.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4626:1401202606215752",
+      "code": "4626",
+      "company": "東証Ｐ",
+      "title": "Corporate Governance Report",
+      "title_en": "Corporate Governance Report",
+      "title_ja": "Corporate Governance Report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606215752",
+      "doc_id_ja": "140120260621575234",
+      "doc_id_en": "140120260621575234",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260621575234.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260621575234.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260621575234.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260621575234.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260622/140120260621575234.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4419:1401202606225755",
+      "code": "4419",
+      "company": "東証Ｇ",
+      "title": "500円で救助費用まで補償。富士急行100周年を機に『富士登山お守り保険』を提供開始",
+      "title_en": "500円で救助費用まで補償。富士急行100周年を機に『富士登山お守り保険』を提供開始",
+      "title_ja": "500円で救助費用まで補償。富士急行100周年を機に『富士登山お守り保険』を提供開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606225755",
+      "doc_id_ja": "140120260622575547",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575547.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575547.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260622575547.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260622575547.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4414:1401202606085650",
+      "code": "4414",
+      "company": "東証Ｇ",
+      "title": "Matters Concerning the Controlling Shareholder, etc.",
+      "title_en": "Matters Concerning the Controlling Shareholder, etc.",
+      "title_ja": "Matters Concerning the Controlling Shareholder, etc.",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606085650",
+      "doc_id_ja": "140120260608565074",
+      "doc_id_en": "140120260608565074",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565074.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260608565074.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260608565074.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260608565074.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260622/140120260608565074.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4414:1401202606055641",
+      "code": "4414",
+      "company": "東証Ｇ",
+      "title": "支配株主等に関する事項について",
+      "title_en": "支配株主等に関する事項について",
+      "title_ja": "支配株主等に関する事項について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606055641",
+      "doc_id_ja": "140120260605564100",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564100.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260605564100.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260605564100.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260605564100.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4371:1401202606225753",
+      "code": "4371",
+      "company": "東証Ｇ",
+      "title": "Notice Regarding the Change of the Largest Shareholder Among Major Shareholders",
+      "title_en": "Notice Regarding the Change of the Largest Shareholder Among Major Shareholders",
+      "title_ja": "the Change of the Largest Shareholder Among Major Shareholdersに関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606225753",
+      "doc_id_ja": "140120260622575327",
+      "doc_id_en": "140120260622575336",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575327.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575327.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260622575327.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260622575327.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575336.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3763:1401202606225753",
+      "code": "3763",
+      "company": "東証Ｐ",
+      "title": "西日本旅客鉄道グループにおける当社ソリューションの採用について",
+      "title_en": "西日本旅客鉄道グループにおける当社ソリューションの採用について",
+      "title_ja": "西日本旅客鉄道グループにおける当社ソリューションの採用について",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606225753",
+      "doc_id_ja": "140120260622575369",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575369.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575369.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260622575369.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260622575369.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:218A:1401202606225755",
+      "code": "218A",
+      "company": "東証Ｇ",
+      "title": "Liberaware Koreaと韓国のドローンを活用した3Dインフラ管理システムを提供する企業ALTIVIONが業務提携に関する覚書を締結",
+      "title_en": "Liberaware Koreaと韓国のドローンを活用した3Dインフラ管理システムを提供する企業ALTIVIONが業務提携に関する覚書を締結",
+      "title_ja": "Liberaware Koreaと韓国のドローンを活用した3Dインフラ管理システムを提供する企業ALTIVIONが業務提携に関する覚書を締結",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606225755",
+      "doc_id_ja": "140120260622575539",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575539.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575539.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260622575539.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260622575539.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2092:1401202606225755",
+      "code": "2092",
+      "company": "東証Ｅ",
+      "title": "2026年５月期 決算短信（2025年11月16日～2026年５月15日）",
+      "title_en": "2026年５月期 決算短信（2025年11月16日～2026年５月15日）",
+      "title_ja": "2026年５月期 決算短信（2025年11月16日～2026年５月15日）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606225755",
+      "doc_id_ja": "140120260622575559",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575559.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575559.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260622575559.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260622575559.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2091:1401202606225755",
+      "code": "2091",
+      "company": "東証Ｅ",
+      "title": "2026年５月期 決算短信（2025年11月16日～2026年５月15日）",
+      "title_en": "2026年５月期 決算短信（2025年11月16日～2026年５月15日）",
+      "title_ja": "2026年５月期 決算短信（2025年11月16日～2026年５月15日）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606225755",
+      "doc_id_ja": "140120260622575554",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575554.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575554.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260622575554.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260622575554.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2090:1401202606225755",
+      "code": "2090",
+      "company": "東証Ｅ",
+      "title": "2026年５月期 決算短信（2025年11月16日～2026年５月15日）",
+      "title_en": "2026年５月期 決算短信（2025年11月16日～2026年５月15日）",
+      "title_ja": "2026年５月期 決算短信（2025年11月16日～2026年５月15日）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606225755",
+      "doc_id_ja": "140120260622575552",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575552.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575552.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260622575552.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260622575552.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2089:1401202606225755",
+      "code": "2089",
+      "company": "東証Ｅ",
+      "title": "2026年11月期 中間決算短信（2025年11月16日～2026年５月15日）",
+      "title_en": "2026年11月期 中間決算短信（2025年11月16日～2026年５月15日）",
+      "title_ja": "2026年11月期 中間決算短信（2025年11月16日～2026年５月15日）",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202606225755",
+      "doc_id_ja": "140120260622575543",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575543.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260622575543.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260622575543.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260622575543.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:173A:1401202606175730",
+      "code": "173A",
+      "company": "東証Ｇ",
+      "title": "SentinelOneと日本初のTechnology Alliance Partner契約を締結",
+      "title_en": "SentinelOneと日本初のTechnology Alliance Partner契約を締結",
+      "title_ja": "SentinelOneと日本初のTechnology Alliance Partner契約を締結",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-22T11:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606175730",
+      "doc_id_ja": "140120260617573097",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573097.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260622/140120260617573097.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260617573097.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260617573097.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:6407:1401202606205752",
       "code": "6407",
