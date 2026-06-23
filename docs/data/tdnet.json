@@ -1,7 +1,95 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-23T20:46:13+09:00",
+  "last_checked_jst": "2026-06-24T01:34:06+09:00",
   "items": [
+    {
+      "id": "kabutan:8804:1401202606235768",
+      "code": "8804",
+      "company": "東証Ｐ",
+      "title": "Sustainability Report 2026_vol3",
+      "title_en": "Sustainability Report 2026_vol3",
+      "title_ja": "Sustainability Report 2026_vol3",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-24T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606235768",
+      "doc_id_ja": "140120260623576813",
+      "doc_id_en": "140120260623576819",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576813.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260624/140120260623576813.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260623576813.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260623576813.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260624/140120260623576819.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8804:1401202606235766",
+      "code": "8804",
+      "company": "東証Ｐ",
+      "title": "Sustainability Report 2026_vol1",
+      "title_en": "Sustainability Report 2026_vol1",
+      "title_ja": "Sustainability Report 2026_vol1",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-24T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606235766",
+      "doc_id_ja": "140120260623576643",
+      "doc_id_en": "140120260623576683",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576643.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260624/140120260623576643.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260623576643.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260623576643.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260624/140120260623576683.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8070:1401202606235768",
+      "code": "8070",
+      "company": "東証Ｐ",
+      "title": "サステナビリティ経営に関する状況報告書",
+      "title_en": "サステナビリティ経営に関する状況報告書",
+      "title_ja": "サステナビリティ経営に関する状況報告書",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-24T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606235768",
+      "doc_id_ja": "140120260623576832",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576832.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260624/140120260623576832.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260623576832.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260623576832.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3656:1401202606235773",
+      "code": "3656",
+      "company": "東証Ｐ",
+      "title": "『うたの☆プリンスさまっ♪ Shining Live for Nintendo Switch』をブロッコリーと開発中、2026年12月17日に発売予定",
+      "title_en": "『うたの☆プリンスさまっ♪ Shining Live for Nintendo Switch』をブロッコリーと開発中、2026年12月17日に発売予定",
+      "title_ja": "『うたの☆プリンスさまっ♪ Shining Live for Nintendo Switch』をブロッコリーと開発中、2026年12月17日に発売予定",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-24T00:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606235773",
+      "doc_id_ja": "140120260623577392",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577392.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260624/140120260623577392.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260623577392.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260623577392.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3823:1401202606235776",
       "code": "3823",
