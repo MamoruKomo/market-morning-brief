@@ -1,7 +1,73 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-25T00:55:18+09:00",
+  "last_checked_jst": "2026-06-25T02:46:13+09:00",
   "items": [
+    {
+      "id": "kabutan:9629:1401202606085654",
+      "code": "9629",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/06/25",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/06/25",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/06/25",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-25T02:09:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606085654",
+      "doc_id_ja": "140120260608565499",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565499.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260625/140120260608565499.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260608565499.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260608565499.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2469:1401202606185736",
+      "code": "2469",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/06/25",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/06/25",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/06/25",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-25T01:19:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606185736",
+      "doc_id_ja": "140120260618573694",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260618573694.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260625/140120260618573694.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260618573694.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260618573694.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4167:1401202606255793",
+      "code": "4167",
+      "company": "東証Ｇ",
+      "title": "定款 2026/06/24",
+      "title_en": "定款 2026/06/24",
+      "title_ja": "定款 2026/06/24",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-25T00:56:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606255793",
+      "doc_id_ja": "140120260625579322",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260625579322.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260625/140120260625579322.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260625579322.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260625579322.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8255:1401202606185732",
       "code": "8255",
@@ -201,28 +267,6 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
-      "id": "kabutan:6706:1401202606245790",
-      "code": "6706",
-      "company": "東証Ｐ",
-      "title": "Change in the scheduled submission date for the securities report",
-      "title_en": "Change in the scheduled submission date for the securities report",
-      "title_ja": "Change in the scheduled submission date for the securities report",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-06-24T19:00:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202606245790",
-      "doc_id_ja": "140120260624579030",
-      "doc_id_en": "140120260624579079",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260624579030.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260624/140120260624579030.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260624579030.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260624579030.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260624/140120260624579079.pdf",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
       "id": "kabutan:4973:1401202606245789",
       "code": "4973",
       "company": "東証Ｐ",
@@ -268,6 +312,28 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260624579054.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260624579054.pdf",
       "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6706:1401202606245790",
+      "code": "6706",
+      "company": "東証Ｐ",
+      "title": "Change in the scheduled submission date for the securities report",
+      "title_en": "Change in the scheduled submission date for the securities report",
+      "title_ja": "Change in the scheduled submission date for the securities report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-24T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606245790",
+      "doc_id_ja": "140120260624579030",
+      "doc_id_en": "140120260624579079",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260624579030.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260624/140120260624579030.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260624579030.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260624579030.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260624/140120260624579079.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
