@@ -1,7 +1,139 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-06-24T20:30:11+09:00",
+  "last_checked_jst": "2026-06-25T00:55:18+09:00",
   "items": [
+    {
+      "id": "kabutan:8255:1401202606185732",
+      "code": "8255",
+      "company": "東証Ｐ",
+      "title": "CSR REPORT 2026",
+      "title_en": "CSR REPORT 2026",
+      "title_ja": "CSR REPORT 2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-25T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606185732",
+      "doc_id_ja": "140120260618573245",
+      "doc_id_en": "140120260618573245",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260618573245.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260625/140120260618573245.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260618573245.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260618573245.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260625/140120260618573245.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6157:1401202606245784",
+      "code": "6157",
+      "company": "東証Ｓ",
+      "title": "2026年３月期 ビジネスレポート",
+      "title_en": "2026年３月期 ビジネスレポート",
+      "title_ja": "2026年３月期 ビジネスレポート",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-25T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606245784",
+      "doc_id_ja": "140120260624578403",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260624578403.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260625/140120260624578403.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260624578403.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260624578403.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4502:1401202606245784",
+      "code": "4502",
+      "company": "東証Ｐ",
+      "title": "2026 ANNUAL INTEGRATED REPORT",
+      "title_en": "2026 ANNUAL INTEGRATED REPORT",
+      "title_ja": "2026 ANNUAL INTEGRATED REPORT",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-25T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606245784",
+      "doc_id_ja": "140120260624578405",
+      "doc_id_en": "140120260624578405",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260624578405.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260625/140120260624578405.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260624578405.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260624578405.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260625/140120260624578405.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4502:1401202606245783",
+      "code": "4502",
+      "company": "東証Ｐ",
+      "title": "2026年統合報告書",
+      "title_en": "2026年統合報告書",
+      "title_ja": "2026年統合報告書",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-25T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606245783",
+      "doc_id_ja": "140120260624578388",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260624578388.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260625/140120260624578388.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260624578388.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260624578388.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:368A:1401202606245792",
+      "code": "368A",
+      "company": "東証Ｐ",
+      "title": "中期経営計画の策定に関するお知らせ",
+      "title_en": "中期経営計画の策定に関するお知らせ",
+      "title_ja": "中期経営計画の策定に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-24T21:05:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606245792",
+      "doc_id_ja": "140120260624579242",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260624579242.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260624/140120260624579242.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260624579242.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260624579242.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7893:1401202606245792",
+      "code": "7893",
+      "company": "東証Ｐ",
+      "title": "定款 2026/06/24",
+      "title_en": "定款 2026/06/24",
+      "title_ja": "定款 2026/06/24",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-06-24T21:02:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606245792",
+      "doc_id_ja": "140120260624579234",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260624579234.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260624/140120260624579234.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260624579234.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260624579234.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4994:1401202606155702",
       "code": "4994",
