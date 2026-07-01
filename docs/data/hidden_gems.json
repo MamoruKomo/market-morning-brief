@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-06-30T09:14:48+09:00",
-  "latest_date": "2026-06-30",
+  "updated_at": "2026-07-01T09:16:47+09:00",
+  "latest_date": "2026-07-01",
   "days": {
     "2026-04-13": {
       "date": "2026-04-13",
@@ -2337,6 +2337,53 @@
           "name": "",
           "sector": "機械",
           "a_value": null,
+          "b_value": null
+        }
+      ]
+    },
+    "2026-07-01": {
+      "date": "2026-07-01",
+      "generated_at": "2026-07-01T09:16:47+09:00",
+      "pair": {
+        "key": "roe_growth",
+        "label": "高ROE×成長",
+        "a": "roe",
+        "b": "sales_growth_yoy"
+      },
+      "items": [
+        {
+          "code": "418A0",
+          "name": "",
+          "sector": "情報・通信業",
+          "a_value": 84.39,
+          "b_value": null
+        },
+        {
+          "code": "460A0",
+          "name": "",
+          "sector": "情報・通信業",
+          "a_value": 82.55,
+          "b_value": null
+        },
+        {
+          "code": "9271",
+          "name": "",
+          "sector": "小売業",
+          "a_value": 77.0,
+          "b_value": null
+        },
+        {
+          "code": "3628",
+          "name": "",
+          "sector": "情報・通信業",
+          "a_value": 76.77,
+          "b_value": null
+        },
+        {
+          "code": "2404",
+          "name": "",
+          "sector": "サービス業",
+          "a_value": 76.33,
           "b_value": null
         }
       ]
