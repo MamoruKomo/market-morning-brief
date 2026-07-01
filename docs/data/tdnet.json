@@ -1,7 +1,73 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-02T00:29:11+09:00",
+  "last_checked_jst": "2026-07-02T04:16:17+09:00",
   "items": [
+    {
+      "id": "kabutan:7744:1401202606305850",
+      "code": "7744",
+      "company": "東証Ｐ",
+      "title": "ノーリツ鋼機グループレポート2026",
+      "title_en": "ノーリツ鋼機グループレポート2026",
+      "title_ja": "ノーリツ鋼機グループレポート2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-02T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606305850",
+      "doc_id_ja": "140120260630585043",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260630585043.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260702/140120260630585043.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260630585043.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260630585043.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7128:1401202607015858",
+      "code": "7128",
+      "company": "東証Ｐ",
+      "title": "INTEGRATED REPORT 2025",
+      "title_en": "INTEGRATED REPORT 2025",
+      "title_ja": "INTEGRATED REPORT 2025",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-02T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607015858",
+      "doc_id_ja": "140120260701585817",
+      "doc_id_en": "140120260701585817",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260701585817.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260702/140120260701585817.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260701585817.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260701585817.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260702/140120260701585817.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5563:1401202606305842",
+      "code": "5563",
+      "company": "東証Ｐ",
+      "title": "統合報告書 2026",
+      "title_en": "統合報告書 2026",
+      "title_ja": "統合報告書 2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-02T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606305842",
+      "doc_id_ja": "140120260630584207",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260630584207.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260702/140120260630584207.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260630584207.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260630584207.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4689:1401202606265814",
       "code": "4689",
