@@ -1,7 +1,29 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-02T22:04:11+09:00",
+  "last_checked_jst": "2026-07-03T02:06:39+09:00",
   "items": [
+    {
+      "id": "kabutan:3153:1401202607025867",
+      "code": "3153",
+      "company": "東証Ｐ",
+      "title": "八洲電機グループ コーポレートレポート2026",
+      "title_en": "八洲電機グループ コーポレートレポート2026",
+      "title_ja": "八洲電機グループ コーポレートレポート2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-03T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607025867",
+      "doc_id_ja": "140120260702586780",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586780.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260703/140120260702586780.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260702586780.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260702586780.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7297:1401202606265823",
       "code": "7297",
@@ -278,21 +300,19 @@
       "title_en": "(Correction / Correction of Numerical Data) Partial Correction of “ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED MARCH 31, 2026”",
       "title_ja": "（訂正）(訂正 / 訂正 of Numerical Data) Partial 訂正 of “ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED MARCH 31, 2026”",
       "points_ja": [
-        "決算関連（決算短信/説明資料）を確認",
         "訂正開示（差分）を確認"
       ],
       "datetime_jst": "2026-07-02T18:05:00+09:00",
       "tags": [
-        "決算",
         "訂正"
       ],
       "doc_id_family": "1401202607025871",
-      "doc_id_ja": "140120260702587143",
+      "doc_id_ja": "140120260702587149",
       "doc_id_en": "140120260702587149",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260702587143.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260702/140120260702587143.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260702587143.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260702587143.pdf",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260702587149.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260702/140120260702587149.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260702587149.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260702587149.pdf",
       "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260702/140120260702587149.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
