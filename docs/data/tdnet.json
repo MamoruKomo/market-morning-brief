@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-04T07:17:21+09:00",
+  "last_checked_jst": "2026-07-04T10:07:14+09:00",
   "items": [
+    {
+      "id": "kabutan:9235:1401202607025872",
+      "code": "9235",
+      "company": "東証Ｇ",
+      "title": "臨時株主総会招集ご通知",
+      "title_en": "臨時株主総会招集ご通知",
+      "title_ja": "臨時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-04T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607025872",
+      "doc_id_ja": "140120260702587237",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260702587237.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260704/140120260702587237.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260702587237.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260702587237.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4599:1401202607035874",
+      "code": "4599",
+      "company": "東証Ｇ",
+      "title": "2026年臨時株主総会招集通知及び株主総会資料",
+      "title_en": "2026年臨時株主総会招集通知及び株主総会資料",
+      "title_ja": "2026年臨時株主総会招集通知及び株主総会資料",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-04T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607035874",
+      "doc_id_ja": "140120260703587471",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587471.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260704/140120260703587471.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260703587471.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260703587471.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7318:1401202607035878",
       "code": "7318",
