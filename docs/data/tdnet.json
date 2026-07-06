@@ -1,7 +1,207 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-07T05:18:29+09:00",
+  "last_checked_jst": "2026-07-07T08:50:31+09:00",
   "items": [
+    {
+      "id": "kabutan:4582:1401202607065885",
+      "code": "4582",
+      "company": "東証Ｇ",
+      "title": "造血幹細胞移植後アデノウイルス感染症を対象として 希少疾病用医薬品等試験研究助成金交付が決定",
+      "title_en": "造血幹細胞移植後アデノウイルス感染症を対象として 希少疾病用医薬品等試験研究助成金交付が決定",
+      "title_ja": "造血幹細胞移植後アデノウイルス感染症を対象として 希少疾病用医薬品等試験研究助成金交付が決定",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T08:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065885",
+      "doc_id_ja": "140120260706588522",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588522.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260706588522.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588522.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588522.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6031:1401202607065882",
+      "code": "6031",
+      "company": "東証Ｇ",
+      "title": "アクタスが運営する公式オンラインショップ『ACTUS online』にEC商品検索・サイト内検索エンジン「ZETA SEARCH」を導入",
+      "title_en": "アクタスが運営する公式オンラインショップ『ACTUS online』にEC商品検索・サイト内検索エンジン「ZETA SEARCH」を導入",
+      "title_ja": "アクタスが運営する公式オンラインショップ『ACTUS online』にEC商品検索・サイト内検索エンジン「ZETA SEARCH」を導入",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065882",
+      "doc_id_ja": "140120260706588242",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588242.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260706588242.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588242.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588242.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:336A:1401202607075886",
+      "code": "336A",
+      "company": "東証Ｇ",
+      "title": "機関投資家・アナリスト向け2027年３月期 第１四半期 決算説明会開催のご案内",
+      "title_en": "機関投資家・アナリスト向け2027年３月期 第１四半期 決算説明会開催のご案内",
+      "title_ja": "機関投資家・アナリスト向け2027年３月期 第１四半期 決算説明会開催のご案内",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-07-07T08:30:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202607075886",
+      "doc_id_ja": "140120260707588651",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707588651.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707588651.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707588651.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707588651.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1672:1401202607075886",
+      "code": "1672",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607075886",
+      "doc_id_ja": "140120260707588652",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707588652.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707588652.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707588652.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707588652.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3134:1401202607035875",
+      "code": "3134",
+      "company": "東証Ｓ",
+      "title": "Notice of Convocation of the 28th Ordinary General Meeting of Shareholders",
+      "title_en": "Notice of Convocation of the 28th Ordinary General Meeting of Shareholders",
+      "title_ja": "Convocation of the 28th Ordinary General Meeting of Shareholdersのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607035875",
+      "doc_id_ja": "140120260703587532",
+      "doc_id_en": "140120260703587534",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587532.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260703587532.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260703587532.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260703587532.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260707/140120260703587534.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:298A:1401202607065886",
+      "code": "298A",
+      "company": "東証Ｇ",
+      "title": "弁護士業務DX化の入り口を創る。GVA TECHが吉積情報と業務提携し、法律事務所向けに「ベンパル for Google Workspace」のサービス提供を開始",
+      "title_en": "弁護士業務DX化の入り口を創る。GVA TECHが吉積情報と業務提携し、法律事務所向けに「ベンパル for Google Workspace」のサービス提供を開始",
+      "title_ja": "弁護士業務DX化の入り口を創る。GVA TECHが吉積情報と業務提携し、法律事務所向けに「ベンパル for Google Workspace」のサービス提供を開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065886",
+      "doc_id_ja": "140120260706588632",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588632.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260706588632.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588632.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588632.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2751:1401202607035878",
+      "code": "2751",
+      "company": "東証Ｓ",
+      "title": "第34回定時株主総会招集ご通知",
+      "title_en": "第34回定時株主総会招集ご通知",
+      "title_ja": "第34回定時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607035878",
+      "doc_id_ja": "140120260703587869",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587869.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260703587869.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260703587869.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260703587869.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:215A:1401202607065882",
+      "code": "215A",
+      "company": "東証Ｇ",
+      "title": "NOTICE OF THE 10th ANNUAL GENERAL MEETING OF SHAREHOLDERS",
+      "title_en": "NOTICE OF THE 10th ANNUAL GENERAL MEETING OF SHAREHOLDERS",
+      "title_ja": "THE 10th ANNUAL GENERAL MEETING OF SHAREHOLDERSのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065882",
+      "doc_id_ja": "140120260706588273",
+      "doc_id_en": "140120260706588275",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588273.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260706588273.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588273.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588273.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260707/140120260706588275.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:147A:1401202607065883",
+      "code": "147A",
+      "company": "東証Ｇ",
+      "title": "NOTICE OF THE 13th ANNUAL GENERAL SHAREHOLDERS' MEETING",
+      "title_en": "NOTICE OF THE 13th ANNUAL GENERAL SHAREHOLDERS' MEETING",
+      "title_ja": "THE 13th ANNUAL GENERAL SHAREHOLDERS' MEETINGのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065883",
+      "doc_id_ja": "140120260706588379",
+      "doc_id_en": "140120260706588396",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588379.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260706588379.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588379.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588379.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260707/140120260706588396.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:6310:1401202607065886",
       "code": "6310",
