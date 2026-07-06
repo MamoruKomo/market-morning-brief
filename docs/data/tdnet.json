@@ -1,7 +1,299 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-06T05:55:54+09:00",
+  "last_checked_jst": "2026-07-07T01:27:51+09:00",
   "items": [
+    {
+      "id": "kabutan:6310:1401202607065886",
+      "code": "6310",
+      "company": "東証Ｐ",
+      "title": "ISEKIレポート2026",
+      "title_en": "ISEKIレポート2026",
+      "title_ja": "ISEKIレポート2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065886",
+      "doc_id_ja": "140120260706588602",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588602.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260706588602.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588602.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588602.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4985:1401202607065880",
+      "code": "4985",
+      "company": "東証Ｐ",
+      "title": "アース製薬 統合報告書2026",
+      "title_en": "アース製薬 統合報告書2026",
+      "title_ja": "アース製薬 統合報告書2026",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065880",
+      "doc_id_ja": "140120260706588036",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588036.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260706588036.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588036.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588036.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6522:1401202607035879",
+      "code": "6522",
+      "company": "東証Ｇ",
+      "title": "アスタリスク、米国市場におけるRFID ソリューション事業を本格展開",
+      "title_en": "アスタリスク、米国市場におけるRFID ソリューション事業を本格展開",
+      "title_ja": "アスタリスク、米国市場におけるRFID ソリューション事業を本格展開",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T21:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607035879",
+      "doc_id_ja": "140120260703587926",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260703587926.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260703587926.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260703587926.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260703587926.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2281:1401202607065885",
+      "code": "2281",
+      "company": "東証Ｐ",
+      "title": "Corporate Governance Report",
+      "title_en": "Corporate Governance Report",
+      "title_ja": "Corporate Governance Report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T19:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065885",
+      "doc_id_ja": "140120260706588598",
+      "doc_id_en": "140120260706588598",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588598.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588598.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588598.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588598.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588598.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3678:1401202606305845",
+      "code": "3678",
+      "company": "東証Ｐ",
+      "title": "メディアドゥ、上場企業の創業経営者だけが直接登壇する日本唯一の大規模リアルIRイベント「SC IRカンファレンス」を初開催",
+      "title_en": "メディアドゥ、上場企業の創業経営者だけが直接登壇する日本唯一の大規模リアルIRイベント「SC IRカンファレンス」を初開催",
+      "title_ja": "メディアドゥ、上場企業の創業経営者だけが直接登壇する日本唯一の大規模リアルIRイベント「SC IRカンファレンス」を初開催",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T18:55:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606305845",
+      "doc_id_ja": "140120260630584536",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260630584536.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260630584536.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260630584536.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260630584536.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9327:1401202606295837",
+      "code": "9327",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/06",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/06",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/06",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T18:43:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606295837",
+      "doc_id_ja": "140120260629583780",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260629583780.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260629583780.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260629583780.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260629583780.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4445:1401202607065886",
+      "code": "4445",
+      "company": "東証Ｇ",
+      "title": "ＡＩ上位表示実績を有する底地特化型ポータル『底地解決ナビ』にて行政区1社限定の「エリア独占型ブランディング支援サービス」を開始",
+      "title_en": "ＡＩ上位表示実績を有する底地特化型ポータル『底地解決ナビ』にて行政区1社限定の「エリア独占型ブランディング支援サービス」を開始",
+      "title_ja": "ＡＩ上位表示実績を有する底地特化型ポータル『底地解決ナビ』にて行政区1社限定の「エリア独占型ブランディング支援サービス」を開始",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T18:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065886",
+      "doc_id_ja": "140120260706588610",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588610.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588610.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588610.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588610.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7678:1401202607065885",
+      "code": "7678",
+      "company": "東証Ｓ",
+      "title": "2027年１月期６月度売上高前年対比等のお知らせ",
+      "title_en": "2027年１月期６月度売上高前年対比等のお知らせ",
+      "title_ja": "2027年１月期６月度売上高前年対比等のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T18:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065885",
+      "doc_id_ja": "140120260706588578",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588578.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588578.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588578.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588578.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4331:1401202607065885",
+      "code": "4331",
+      "company": "東証Ｐ",
+      "title": "(Second Correction) Notice of Partial Correction to the “Consolidated Financial Results for the FY2025",
+      "title_en": "(Second Correction) Notice of Partial Correction to the “Consolidated Financial Results for the FY2025",
+      "title_ja": "（訂正）(Second 訂正) Notice of Partial 訂正 to the “連結決算 for the FY2025",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-07-06T18:30:00+09:00",
+      "tags": [
+        "決算",
+        "訂正"
+      ],
+      "doc_id_family": "1401202607065885",
+      "doc_id_ja": "140120260706588553",
+      "doc_id_en": "140120260706588556",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588553.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588553.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588553.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588553.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588556.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4558:1401202607065885",
+      "code": "4558",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/06",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/06",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/06",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T18:25:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065885",
+      "doc_id_ja": "140120260706588569",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588569.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588569.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588569.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588569.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6358:1401202607065885",
+      "code": "6358",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/06",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/06",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/06",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T18:24:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065885",
+      "doc_id_ja": "140120260706588533",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588533.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588533.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588533.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588533.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5214:1401202607065881",
+      "code": "5214",
+      "company": "東証Ｐ",
+      "title": "Notice Regarding the Suspension of Production Activities at the Shelby Plant and the Transfer of the Lexington Plant",
+      "title_en": "Notice Regarding the Suspension of Production Activities at the Shelby Plant and the Transfer of the Lexington Plant",
+      "title_ja": "the Suspension of Production Activities at the Shelby Plant and the Transfer of the Lexington Plantに関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T18:20:00+09:00",
+      "tags": [
+        "M&A"
+      ],
+      "doc_id_family": "1401202607065881",
+      "doc_id_ja": "140120260706588160",
+      "doc_id_en": "140120260706588185",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588160.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588160.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588160.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588160.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260706/140120260706588185.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3287:1401202607025868",
+      "code": "3287",
+      "company": "東証Ｒ",
+      "title": "ポートフォリオ運営実績に関するお知らせ（2026年5月度）",
+      "title_en": "ポートフォリオ運営実績に関するお知らせ（2026年5月度）",
+      "title_ja": "ポートフォリオ運営実績に関するお知らせ（2026年5月度）",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-06T18:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607025868",
+      "doc_id_ja": "140120260702586855",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260702586855.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260706/140120260702586855.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260702586855.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260702586855.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:3059:1401202607025869",
       "code": "3059",
