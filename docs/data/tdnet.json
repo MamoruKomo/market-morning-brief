@@ -1,7 +1,309 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-07T08:50:31+09:00",
+  "last_checked_jst": "2026-07-07T17:50:31+09:00",
   "items": [
+    {
+      "id": "kabutan:2928:1401202607015858",
+      "code": "2928",
+      "company": "札証Ａ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "title_en": "自己株式の取得状況に関するお知らせ",
+      "title_ja": "自己株式の取得状況に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:45:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202607015858",
+      "doc_id_ja": "140120260701585858",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260701585858.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260701585858.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260701585858.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260701585858.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7735:1401202606305851",
+      "code": "7735",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/07",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/07",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/07",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:38:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606305851",
+      "doc_id_ja": "140120260630585152",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260630585152.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260630585152.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260630585152.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260630585152.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8697:1401202607075892",
+      "code": "8697",
+      "company": "東証Ｐ",
+      "title": "End of Acquisition of Own Shares",
+      "title_en": "End of Acquisition of Own Shares",
+      "title_ja": "End of Acquisition of Own Shares",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:30:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202607075892",
+      "doc_id_ja": "140120260707589202",
+      "doc_id_en": "140120260707589204",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589202.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589202.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589202.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589202.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589204.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7886:1401202607075891",
+      "code": "7886",
+      "company": "東証Ｓ",
+      "title": "一時会計監査人の選任に関するお知らせ",
+      "title_en": "一時会計監査人の選任に関するお知らせ",
+      "title_ja": "一時会計監査人の選任に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607075891",
+      "doc_id_ja": "140120260707589158",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589158.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589158.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589158.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589158.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7462:1401202607075892",
+      "code": "7462",
+      "company": "東証Ｓ",
+      "title": "（訂正）支配株主等に関する事項について",
+      "title_en": "（訂正）支配株主等に関する事項について",
+      "title_ja": "（訂正）（訂正）支配株主等に関する事項について",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:30:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202607075892",
+      "doc_id_ja": "140120260707589229",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589229.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589229.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589229.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589229.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4586:1401202607075892",
+      "code": "4586",
+      "company": "東証Ｇ",
+      "title": "第三者割当により発行された第35回新株予約権(行使価額修正条項付)の大量行使に関するお知らせ",
+      "title_en": "第三者割当により発行された第35回新株予約権(行使価額修正条項付)の大量行使に関するお知らせ",
+      "title_ja": "第三者割当により発行された第35回新株予約権(行使価額修正条項付)の大量行使に関するお知らせ",
+      "points_ja": [
+        "増資/売出（希薄化・需給インパクト）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:30:00+09:00",
+      "tags": [
+        "増資/売出"
+      ],
+      "doc_id_family": "1401202607075892",
+      "doc_id_ja": "140120260707589216",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589216.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589216.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589216.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589216.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2529:1401202607075892",
+      "code": "2529",
+      "company": "東証Ｅ",
+      "title": "ETFの収益分配のお知らせ",
+      "title_en": "ETFの収益分配のお知らせ",
+      "title_ja": "ETFの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:25:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607075892",
+      "doc_id_ja": "140120260707589236",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589236.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589236.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589236.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589236.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2084:1401202607075892",
+      "code": "2084",
+      "company": "東証Ｅ",
+      "title": "ETFの収益分配のお知らせ",
+      "title_en": "ETFの収益分配のお知らせ",
+      "title_ja": "ETFの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:25:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607075892",
+      "doc_id_ja": "140120260707589235",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589235.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589235.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589235.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589235.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2083:1401202607075892",
+      "code": "2083",
+      "company": "東証Ｅ",
+      "title": "ETFの収益分配のお知らせ",
+      "title_en": "ETFの収益分配のお知らせ",
+      "title_ja": "ETFの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:25:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607075892",
+      "doc_id_ja": "140120260707589234",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589234.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589234.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589234.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589234.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1577:1401202607075892",
+      "code": "1577",
+      "company": "東証Ｅ",
+      "title": "ETFの収益分配のお知らせ",
+      "title_en": "ETFの収益分配のお知らせ",
+      "title_ja": "ETFの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:25:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607075892",
+      "doc_id_ja": "140120260707589233",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589233.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589233.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589233.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589233.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1489:1401202607075892",
+      "code": "1489",
+      "company": "東証Ｅ",
+      "title": "ETFの収益分配のお知らせ",
+      "title_en": "ETFの収益分配のお知らせ",
+      "title_ja": "ETFの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:25:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607075892",
+      "doc_id_ja": "140120260707589232",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589232.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589232.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589232.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589232.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6875:1401202607075892",
+      "code": "6875",
+      "company": "東証Ｐ",
+      "title": "The Status and the Completion of Share Repurchases",
+      "title_en": "The Status and the Completion of Share Repurchases",
+      "title_ja": "The Status and the Completion of Share Repurchases",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:20:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202607075892",
+      "doc_id_ja": "140120260707589224",
+      "doc_id_en": "140120260707589228",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707589224.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589224.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707589224.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707589224.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260707/140120260707589228.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4998:1401202606055644",
+      "code": "4998",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/07",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/07",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/07",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-07T17:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606055644",
+      "doc_id_ja": "140120260605564491",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564491.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260707/140120260605564491.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260605564491.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260605564491.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:4582:1401202607065885",
       "code": "4582",
