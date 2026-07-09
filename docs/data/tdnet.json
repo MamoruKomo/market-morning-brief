@@ -1,7 +1,311 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-09T14:09:29+09:00",
+  "last_checked_jst": "2026-07-09T20:31:22+09:00",
   "items": [
+    {
+      "id": "kabutan:8358:1401202607095907",
+      "code": "8358",
+      "company": "東証Ｐ",
+      "title": "Notice of Change in Major Shareholder",
+      "title_en": "Notice of Change in Major Shareholder",
+      "title_ja": "Change in Major Shareholderのお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T19:15:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095907",
+      "doc_id_ja": "140120260709590796",
+      "doc_id_en": "140120260709590796",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590796.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590796.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590796.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590796.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590796.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4527:1401202607095908",
+      "code": "4527",
+      "company": "東証Ｐ",
+      "title": "（訂正）セルビア共和国の化粧品代理店「Magic Cod d.o.o.」の 持分取得（子会社化）に関するお知らせ",
+      "title_en": "（訂正）セルビア共和国の化粧品代理店「Magic Cod d.o.o.」の 持分取得（子会社化）に関するお知らせ",
+      "title_ja": "（訂正）（訂正）セルビア共和国の化粧品代理店「Magic Cod d.o.o.」の 持分取得（子会社化）に関するお知らせ",
+      "points_ja": [
+        "M&A/子会社化など（スキーム/条件）を確認",
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-07-09T19:06:00+09:00",
+      "tags": [
+        "M&A",
+        "訂正"
+      ],
+      "doc_id_family": "1401202607095908",
+      "doc_id_ja": "140120260709590803",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590803.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590803.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590803.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590803.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4763:1401202607095907",
+      "code": "4763",
+      "company": "東証Ｐ",
+      "title": "Q1 FY02/27 Financial Results Briefing Materials",
+      "title_en": "Q1 FY02/27 Financial Results Briefing Materials",
+      "title_ja": "Q1 FY02/27 決算 Briefing Materials",
+      "points_ja": [
+        "決算関連（決算短信/説明資料）を確認"
+      ],
+      "datetime_jst": "2026-07-09T18:57:00+09:00",
+      "tags": [
+        "決算"
+      ],
+      "doc_id_family": "1401202607095907",
+      "doc_id_ja": "140120260709590787",
+      "doc_id_en": "140120260709590789",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590787.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590787.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590787.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590787.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590789.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9193:1401202607085898",
+      "code": "9193",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T18:51:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607085898",
+      "doc_id_ja": "140120260708589888",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260708589888.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260708589888.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260708589888.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260708589888.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8713:1401202607095907",
+      "code": "8713",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T18:40:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095907",
+      "doc_id_ja": "140120260709590776",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590776.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590776.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590776.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590776.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:6943:1401202607095903",
+      "code": "6943",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T18:05:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095903",
+      "doc_id_ja": "140120260709590309",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590309.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590309.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590309.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590309.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8254:1401202607095906",
+      "code": "8254",
+      "company": "東証Ｓ",
+      "title": "自己株式の取得状況および消却に関するお知らせ",
+      "title_en": "自己株式の取得状況および消却に関するお知らせ",
+      "title_ja": "自己株式の取得状況および消却に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T17:45:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202607095906",
+      "doc_id_ja": "140120260709590635",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590635.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590635.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590635.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590635.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2927:1401202607095907",
+      "code": "2927",
+      "company": "東証Ｓ",
+      "title": "連結子会社株式会社さいか屋の自己株式の取得状況および消却に関するお知らせ",
+      "title_en": "連結子会社株式会社さいか屋の自己株式の取得状況および消却に関するお知らせ",
+      "title_ja": "連結子会社株式会社さいか屋の自己株式の取得状況および消却に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T17:45:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202607095907",
+      "doc_id_ja": "140120260709590704",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590704.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590704.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590704.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590704.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1885:1401202607095907",
+      "code": "1885",
+      "company": "東証Ｐ",
+      "title": "Selected for the FTSE JPX Blossom Japan Sector Relative Index for the Second Consecutive Year",
+      "title_en": "Selected for the FTSE JPX Blossom Japan Sector Relative Index for the Second Consecutive Year",
+      "title_ja": "Selected for the FTSE JPX Blossom Japan Sector Relative Index for the Second Consecutive Year",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T17:36:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095907",
+      "doc_id_ja": "140120260709590736",
+      "doc_id_en": "140120260709590742",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590736.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590736.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590736.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590736.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590742.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9170:1401202607095907",
+      "code": "9170",
+      "company": "名証Ｍ",
+      "title": "定款 2026/07/01",
+      "title_en": "定款 2026/07/01",
+      "title_ja": "定款 2026/07/01",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T17:35:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095907",
+      "doc_id_ja": "140120260709590731",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590731.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590731.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590731.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590731.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8617:1401202607085899",
+      "code": "8617",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/09",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T17:33:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607085899",
+      "doc_id_ja": "140120260708589943",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260708589943.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260708589943.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260708589943.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260708589943.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7120:1401202607095902",
+      "code": "7120",
+      "company": "東証Ｓ",
+      "title": "業績条件型譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "title_en": "業績条件型譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "title_ja": "業績条件型譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "自己株式の処分（需給/希薄化）を確認"
+      ],
+      "datetime_jst": "2026-07-09T17:30:00+09:00",
+      "tags": [
+        "自己株",
+        "自己株処分"
+      ],
+      "doc_id_family": "1401202607095902",
+      "doc_id_ja": "140120260709590250",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590250.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590250.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590250.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590250.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4503:1401202607095907",
+      "code": "4503",
+      "company": "東証Ｐ",
+      "title": "Corporate Governance Report",
+      "title_en": "Corporate Governance Report",
+      "title_ja": "Corporate Governance Report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T17:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095907",
+      "doc_id_ja": "140120260709590727",
+      "doc_id_en": "140120260709590727",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590727.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590727.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590727.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590727.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590727.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:9987:1401202607085893",
       "code": "9987",
