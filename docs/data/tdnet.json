@@ -1,7 +1,29 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-09T23:06:07+09:00",
+  "last_checked_jst": "2026-07-10T06:39:44+09:00",
   "items": [
+    {
+      "id": "kabutan:6200:1401202607095907",
+      "code": "6200",
+      "company": "東証Ｐ",
+      "title": "インソースグループ統合報告書2025",
+      "title_en": "インソースグループ統合報告書2025",
+      "title_ja": "インソースグループ統合報告書2025",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T00:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095907",
+      "doc_id_ja": "140120260709590757",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590757.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260709590757.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590757.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590757.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:8358:1401202607095907",
       "code": "8358",
@@ -259,6 +281,28 @@
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
+      "id": "kabutan:4503:1401202607095907",
+      "code": "4503",
+      "company": "東証Ｐ",
+      "title": "Corporate Governance Report",
+      "title_en": "Corporate Governance Report",
+      "title_ja": "Corporate Governance Report",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-09T17:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095907",
+      "doc_id_ja": "140120260709590727",
+      "doc_id_en": "140120260709590727",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590727.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590727.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590727.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590727.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590727.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
       "id": "kabutan:7120:1401202607095902",
       "code": "7120",
       "company": "東証Ｓ",
@@ -282,28 +326,6 @@
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590250.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590250.pdf",
       "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:4503:1401202607095907",
-      "code": "4503",
-      "company": "東証Ｐ",
-      "title": "Corporate Governance Report",
-      "title_en": "Corporate Governance Report",
-      "title_ja": "Corporate Governance Report",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-07-09T17:30:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202607095907",
-      "doc_id_ja": "140120260709590727",
-      "doc_id_en": "140120260709590727",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590727.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590727.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590727.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590727.pdf",
-      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260709/140120260709590727.pdf",
       "source_url": "https://kabutan.jp/disclosures/"
     },
     {
