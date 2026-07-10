@@ -1,7 +1,321 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-10T07:52:46+09:00",
+  "last_checked_jst": "2026-07-10T10:22:04+09:00",
   "items": [
+    {
+      "id": "kabutan:5994:1401202607105910",
+      "code": "5994",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/10",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/10",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/10",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:20:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607105910",
+      "doc_id_ja": "140120260710591001",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260710591001.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710591001.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710591001.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710591001.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:5713:1401202606155712",
+      "code": "5713",
+      "company": "東証Ｐ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/10",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/10",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/10",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:18:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202606155712",
+      "doc_id_ja": "140120260615571285",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571285.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260615571285.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260615571285.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260615571285.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:8089:1401202607065881",
+      "code": "8089",
+      "company": "東証Ｓ",
+      "title": "コーポレート・ガバナンスに関する報告書 2026/07/10",
+      "title_en": "コーポレート・ガバナンスに関する報告書 2026/07/10",
+      "title_ja": "コーポレート・ガバナンスに関する報告書 2026/07/10",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:17:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065881",
+      "doc_id_ja": "140120260706588140",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588140.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260706588140.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588140.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588140.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9560:1401202607095908",
+      "code": "9560",
+      "company": "東証Ｇ",
+      "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果及び取得終了並びに主要株主の異動に関するお知らせ",
+      "title_en": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果及び取得終了並びに主要株主の異動に関するお知らせ",
+      "title_ja": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果及び取得終了並びに主要株主の異動に関するお知らせ",
+      "points_ja": [
+        "自己株式（取得/消却/方針）の条件を確認",
+        "M&A/子会社化など（スキーム/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:05:00+09:00",
+      "tags": [
+        "自己株",
+        "M&A"
+      ],
+      "doc_id_family": "1401202607095908",
+      "doc_id_ja": "140120260709590835",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590835.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260709590835.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590835.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590835.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:9560:1401202607085900",
+      "code": "9560",
+      "company": "東証Ｇ",
+      "title": "資金借入に関するお知らせ",
+      "title_en": "資金借入に関するお知らせ",
+      "title_ja": "資金借入に関するお知らせ",
+      "points_ja": [
+        "借入/資金調達（条件/返済）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:05:00+09:00",
+      "tags": [
+        "借入"
+      ],
+      "doc_id_family": "1401202607085900",
+      "doc_id_ja": "140120260708590093",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260708590093.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260708590093.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260708590093.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260708590093.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4410:1401202607075887",
+      "code": "4410",
+      "company": "東証Ｐ",
+      "title": "(Update on Disclosed Matter) Regarding completion of the sale of shares in SunPine AB",
+      "title_en": "(Update on Disclosed Matter) Regarding completion of the sale of shares in SunPine AB",
+      "title_ja": "(Update on Disclosed Matter) Regarding completion of the sale of shares in SunPine AB",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607075887",
+      "doc_id_ja": "140120260707588713",
+      "doc_id_en": "140120260707588713",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260707588713.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260707588713.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260707588713.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260707588713.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260710/140120260707588713.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:412A:1401202607105909",
+      "code": "412A",
+      "company": "東証Ｅ",
+      "title": "「NEXT FUNDS TIP FactSet 台湾イノベイティブ・テクノロジー50指数連動型上場投信」設定・解約の停止に関するお知らせ",
+      "title_en": "「NEXT FUNDS TIP FactSet 台湾イノベイティブ・テクノロジー50指数連動型上場投信」設定・解約の停止に関するお知らせ",
+      "title_ja": "「NEXT FUNDS TIP FactSet 台湾イノベイティブ・テクノロジー50指数連動型上場投信」設定・解約の停止に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607105909",
+      "doc_id_ja": "140120260710590966",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260710590966.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710590966.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710590966.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710590966.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:4041:1401202607095906",
+      "code": "4041",
+      "company": "東証Ｐ",
+      "title": "韓国毒性研究機関KITより「共生協力賞」を受賞",
+      "title_en": "韓国毒性研究機関KITより「共生協力賞」を受賞",
+      "title_ja": "韓国毒性研究機関KITより「共生協力賞」を受賞",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095906",
+      "doc_id_ja": "140120260709590674",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590674.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260709590674.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590674.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590674.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3069:1401202607065885",
+      "code": "3069",
+      "company": "東証Ｓ",
+      "title": "とろけるクレープの MOMI&TOY'S は2026年７月17日（金）に、町田東急ツインズに新規店舗をオープン！",
+      "title_en": "とろけるクレープの MOMI&TOY'S は2026年７月17日（金）に、町田東急ツインズに新規店舗をオープン！",
+      "title_ja": "とろけるクレープの MOMI&TOY'S は2026年７月17日（金）に、町田東急ツインズに新規店舗をオープン！",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607065885",
+      "doc_id_ja": "140120260706588572",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260706588572.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260706588572.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260706588572.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260706588572.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3066:1401202607105908",
+      "code": "3066",
+      "company": "名証Ｍ",
+      "title": "『映画クレヨンしんちゃん 奇々怪々！オラの妖怪バケ～ション』７/31(金)公開記念キャンペーン開催決定！",
+      "title_en": "『映画クレヨンしんちゃん 奇々怪々！オラの妖怪バケ～ション』７/31(金)公開記念キャンペーン開催決定！",
+      "title_ja": "『映画クレヨンしんちゃん 奇々怪々！オラの妖怪バケ～ション』７/31(金)公開記念キャンペーン開催決定！",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607105908",
+      "doc_id_ja": "140120260710590892",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260710590892.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710590892.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710590892.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710590892.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:3032:1401202607095905",
+      "code": "3032",
+      "company": "名証Ｎ",
+      "title": "2026年6月度 ゴルフドゥ！店舗売上高前年対比に関するお知らせ",
+      "title_en": "2026年6月度 ゴルフドゥ！店舗売上高前年対比に関するお知らせ",
+      "title_ja": "2026年6月度 ゴルフドゥ！店舗売上高前年対比に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607095905",
+      "doc_id_ja": "140120260709590561",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260709590561.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260709590561.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260709590561.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260709590561.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2674:1401202607105909",
+      "code": "2674",
+      "company": "東証Ｐ",
+      "title": "[Summary]Monthly Sales Data and Number of stores",
+      "title_en": "[Summary]Monthly Sales Data and Number of stores",
+      "title_ja": "[Summary]Monthly Sales Data and Number of stores",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607105909",
+      "doc_id_ja": "140120260710590939",
+      "doc_id_en": "140120260710590943",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260710590939.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710590939.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710590939.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710590939.pdf",
+      "pdf_url_en": "https://tdnet-pdf.kabutan.jp/20260710/140120260710590943.pdf",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1671:1401202607105909",
+      "code": "1671",
+      "company": "東証Ｅ",
+      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_en": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "title_ja": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607105909",
+      "doc_id_ja": "140120260710590906",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260710590906.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710590906.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710590906.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710590906.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1329:1401202607105909",
+      "code": "1329",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T10:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607105909",
+      "doc_id_ja": "140120260710590947",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260710590947.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710590947.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710590947.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710590947.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:6200:1401202607095907",
       "code": "6200",
