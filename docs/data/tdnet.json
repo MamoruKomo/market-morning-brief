@@ -1,7 +1,29 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-12T06:01:40+09:00",
+  "last_checked_jst": "2026-07-12T08:32:53+09:00",
   "items": [
+    {
+      "id": "kabutan:599A:1401202607125917",
+      "code": "599A",
+      "company": "",
+      "title": "定款 2026/07/13",
+      "title_en": "定款 2026/07/13",
+      "title_ja": "定款 2026/07/13",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-12T07:42:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607125917",
+      "doc_id_ja": "140120260712591767",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260712591767.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260712/140120260712591767.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260712591767.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260712591767.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:7820:1401202605275512",
       "code": "7820",
@@ -135,28 +157,6 @@
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710591707.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710591707.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710591707.pdf",
-      "pdf_url_en": "",
-      "source_url": "https://kabutan.jp/disclosures/"
-    },
-    {
-      "id": "kabutan:2624:1401202607105917",
-      "code": "2624",
-      "company": "東証Ｅ",
-      "title": "iFreeETFの収益分配のお知らせ",
-      "title_en": "iFreeETFの収益分配のお知らせ",
-      "title_ja": "iFreeETFの収益分配のお知らせ",
-      "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
-      ],
-      "datetime_jst": "2026-07-10T18:45:00+09:00",
-      "tags": [],
-      "doc_id_family": "1401202607105917",
-      "doc_id_ja": "140120260710591700",
-      "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260710591700.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710591700.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710591700.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710591700.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
@@ -333,6 +333,28 @@
       "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710591692.pdf",
       "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710591692.pdf",
       "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710591692.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:2624:1401202607105917",
+      "code": "2624",
+      "company": "東証Ｅ",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "title_en": "iFreeETFの収益分配のお知らせ",
+      "title_ja": "iFreeETFの収益分配のお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-10T18:45:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607105917",
+      "doc_id_ja": "140120260710591700",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260710591700.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260710/140120260710591700.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710591700.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710591700.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
