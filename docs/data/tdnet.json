@@ -1,26 +1,118 @@
 {
   "version": 1,
-  "last_checked_jst": "2026-07-13T02:12:31+09:00",
+  "last_checked_jst": "2026-07-13T08:36:40+09:00",
   "items": [
+    {
+      "id": "kabutan:5341:1401202607115913",
+      "code": "5341",
+      "company": "東証Ｓ",
+      "title": "新しい挑戦「希ガス」事業に関するお知らせ",
+      "title_en": "新しい挑戦「希ガス」事業に関するお知らせ",
+      "title_ja": "新しい挑戦「希ガス」事業に関するお知らせ",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-13T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607115913",
+      "doc_id_ja": "140120260711591315",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260711591315.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260713/140120260711591315.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260711591315.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260711591315.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:1672:1401202607135917",
+      "code": "1672",
+      "company": "東証Ｅ",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_en": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "title_ja": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-13T08:30:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607135917",
+      "doc_id_ja": "140120260713591756",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260713591756.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260713/140120260713591756.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260713591756.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260713591756.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7611:1401202607105916",
+      "code": "7611",
+      "company": "東証Ｐ",
+      "title": "招集通知記載事項の一部訂正について",
+      "title_en": "招集通知記載事項の一部訂正について",
+      "title_ja": "（訂正）招集通知記載事項の一部訂正について",
+      "points_ja": [
+        "訂正開示（差分）を確認"
+      ],
+      "datetime_jst": "2026-07-13T08:00:00+09:00",
+      "tags": [
+        "訂正"
+      ],
+      "doc_id_family": "1401202607105916",
+      "doc_id_ja": "140120260710591616",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260710591616.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260713/140120260710591616.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260710591616.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260710591616.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
+    {
+      "id": "kabutan:7066:1401202607015863",
+      "code": "7066",
+      "company": "東証Ｇ",
+      "title": "臨時株主総会招集ご通知",
+      "title_en": "臨時株主総会招集ご通知",
+      "title_ja": "臨時株主総会招集ご通知",
+      "points_ja": [
+        "PDFで重要点（数字/条件）を確認"
+      ],
+      "datetime_jst": "2026-07-13T08:00:00+09:00",
+      "tags": [],
+      "doc_id_family": "1401202607015863",
+      "doc_id_ja": "140120260701586394",
+      "doc_id_en": "",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260701586394.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260713/140120260701586394.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260701586394.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260701586394.pdf",
+      "pdf_url_en": "",
+      "source_url": "https://kabutan.jp/disclosures/"
+    },
     {
       "id": "kabutan:599A:1401202607125917",
       "code": "599A",
       "company": "",
-      "title": "定款 2026/07/13",
-      "title_en": "定款 2026/07/13",
-      "title_ja": "定款 2026/07/13",
+      "title": "東京証券取引所TOKYO PRO Market及び札幌証券取引所Sapporo PRO Frontier Market上場に伴う当社決算情報等のお知らせ",
+      "title_en": "東京証券取引所TOKYO PRO Market及び札幌証券取引所Sapporo PRO Frontier Market上場に伴う当社決算情報等のお知らせ",
+      "title_ja": "東京証券取引所TOKYO PRO Market及び札幌証券取引所Sapporo PRO Frontier Market上場に伴う当社決算情報等のお知らせ",
       "points_ja": [
-        "PDFで重要点（数字/条件）を確認"
+        "決算関連（決算短信/説明資料）を確認"
       ],
-      "datetime_jst": "2026-07-12T07:42:00+09:00",
-      "tags": [],
+      "datetime_jst": "2026-07-13T08:00:00+09:00",
+      "tags": [
+        "決算"
+      ],
       "doc_id_family": "1401202607125917",
-      "doc_id_ja": "140120260712591767",
+      "doc_id_ja": "140120260712591762",
       "doc_id_en": "",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260712591767.pdf",
-      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260712/140120260712591767.pdf",
-      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260712591767.pdf",
-      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260712591767.pdf",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260712591762.pdf",
+      "pdf_url_kabutan": "https://tdnet-pdf.kabutan.jp/20260713/140120260712591762.pdf",
+      "pdf_url_tdnet": "https://www.release.tdnet.info/inbs/140120260712591762.pdf",
+      "pdf_url_ja": "https://www.release.tdnet.info/inbs/140120260712591762.pdf",
       "pdf_url_en": "",
       "source_url": "https://kabutan.jp/disclosures/"
     },
